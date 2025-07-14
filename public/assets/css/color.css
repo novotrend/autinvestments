@@ -1,0 +1,274 @@
+
+
+.main-menu .navigation > li.current > a,
+.main-menu .navigation > li:hover > a,
+.main-menu .navigation > li > ul > li > a:hover,
+.main-menu .navigation > li > .megamenu li > a:hover,
+.main-menu .navigation > li > ul > li > ul > li > a:hover,
+.scroll-to-top .scroll-bar-text,
+.main-header .search-btn .search-toggler:hover,
+.sec-title .sub-title,
+.account-block-one .inner-box h3 a:hover,
+.video_block_one .video-box .video-content a,
+.funfact-block-one .inner-box .count-outer,
+.trading-block-one .inner-box h3 a:hover,
+.trading-block-two .inner-box .btn-box a,
+.award-section .award-table tr td h3 a:hover,
+.news-block-one .inner-box .post-date,
+.news-block-one .inner-box h3 a:hover,
+.news-block-one .inner-box .link a:hover,
+.main-footer .links-widget .links-list li a:hover,
+.footer-bottom .bottom-inner p a,
+.header-top .top-inner .support-box .icon-box,
+.trading-block-three .inner-box .icon-box,
+.trading-style-four .tab-btns li.active-btn .icon-box,
+.trading-style-four .tab-btns li:hover .icon-box,
+.trading-style-four .tab-btns li.active-btn h4,
+.trading-style-four .tab-btns li:hover h4,
+.account-block-two .inner-box:hover .icon-box,
+.news-block-two .inner-box .lower-content h3 a:hover,
+.header-style-three .header-top .top-inner .support-box a:hover,
+.content_block_six .content-box h2 span,
+.content_block_seven .content-box .accordion-box .accordion .acc-content a,
+.sec-title h2 span,
+.trading-style-five .tab-btns li.active-btn,
+.trading-style-five .tab-btns li:hover,
+.trading-style-five .inner-container .lower-content p a:hover,
+.content_block_eight .content-box .text-box .list-style-one li:before,
+.image_block_one .image-box .content-one span,
+.trading-style-six .table-outer .table-content li.table-data .progress-box .text-box span,
+.trading-style-six .table-outer .table-content li.table-data .btn-box a,
+.page-title .bread-crumb li a:hover,
+.feature-account .single-item h6 a:hover,
+.feature-account .single-item .list-style-one li:before,
+.feature-account .single-item .icon-box,
+.markets-block-one .inner-box .lower-content h3 a:hover,
+.pricing-block-one .inner-box .lower-content h3 a:hover,
+.pricing-block-one .inner-box .lower-content .link a,
+.pricing-section .tab-btns li.active-btn,
+.pricing-section .tab-btns li:hover,
+.education-sidebar h4,
+.education-sidebar .share-option li a:hover,
+.team-block-one .inner-box .content-box h3 a:hover,
+.team-details .content-box .social-links li a:hover,
+.team-details .image-box .info-list li i,
+.blog-sidebar .search-widget .search-form .form-group input:focus + button,
+.blog-sidebar .search-widget .search-form .form-group button:hover,
+.blog-sidebar .category-widget .category-list li a:hover,
+.blog-sidebar .post-widget .post h6 a:hover,
+.blog-sidebar .archives-widget .archives-list li a:hover,
+.news-block-two .inner-box h2 a:hover,
+.blog-details-content blockquote .icon-box,
+.blog-details-content .comment-box .form-inner .form-group label span,
+.contact-section .single-info p a:hover,
+.contact-section .form-inner .form-group label span
+
+{
+  color: var(--theme-color);
+}
+
+
+/** background **/
+
+button.rtl,
+button.ltr,
+.theme-btn.btn-one,
+.theme-btn.btn-two:before,
+.theme-btn.btn-two:after,
+.sec-title .sub-title:before,
+.account-block-one .inner-box .icon-box,
+.content_block_one .content-box .accordion-box .accordion .acc-btn.active .icon-box,
+.trading-block-one .inner-box:before,
+.trading-block-two .inner-box .btn-box a:hover,
+.project-tab .tab-btns li.active-btn,
+.project-tab .tab-btns li:hover,
+.process-block-one .inner-box:before,
+.process-block-one .inner-box:hover,
+.content_block_two .content-box .download-list li a:hover,
+.subscribe-section .inner-container,
+.main-footer .download-list li a:hover,
+.main-footer .social-links li a:hover,
+.about-style-two .tab-btns li.active-btn,
+.about-style-two .tab-btns li:hover,
+.trading-block-three .inner-box .icon-box:before,
+.trading-style-four .tab-btns li,
+.account-block-two .inner-box .icon-box,
+.account-block-two .inner-box:before,
+.apps-style-two,
+.cta-section .inner-container,
+.trading-style-five .tab-btns li:before,
+.list-style-one li:before,
+.testimonial-section .dots-style-one .owl-dots button.active,
+.testimonial-section .dots-style-one .owl-dots button:hover,
+.main-header.header-style-five .header-top,
+.progress-box .bar,
+.trading-style-six .table-outer .table-content li.table-data .btn-box a:hover,
+.trading-style-six .tab-btns li.active-btn,
+.trading-style-six .tab-btns li:hover,
+.account-details .account-info .list-item li:before,
+.pricing-section .tab-btns,
+.education-details-content .text-box .list-item li:before,
+.team-block-one .inner-box .content-box .social-links li a:hover,
+.team-details .progress-box .bar-inner,
+.team-details .image-box .info-list,
+.faq-section .accordion-box .accordion .acc-btn.active,
+.pagination li a.dot-link:hover,
+.pagination li a.dot-link.current,
+.pagination li a:hover,
+.pagination li a.current,
+.blog-sidebar .tags-widget .tags-list li a:hover,
+.blog-details-content blockquote h4:before,
+.blog-details-content .content-one .list-item li:before,
+.blog-details-content .post-share-option .tags-list li a:hover,
+.blog-details-content .post-share-option .social-links li a:hover,
+.check-box input:checked + label:before,
+.contact-section .single-info .icon-box
+
+{
+  background: var(--theme-color);
+}
+
+
+
+
+/** border-color **/
+
+.main-menu .navigation > li > ul,
+.main-menu .navigation > li > .megamenu,
+.main-menu .navigation > li > ul > li > ul,
+.theme-btn.btn-two:hover,
+.header-style-one .main-menu .navigation > li.current > a,
+.header-style-one .main-menu .navigation > li:hover > a,
+.sec-title .sub-title:after,
+.trading-block-two .inner-box .btn-box a,
+.process-block-one .inner-box:hover,
+.news-block-one .inner-box .link a:hover,
+.content_block_three .content-box .btn-box .theme-btn.btn-two,
+.funfact-block-two .inner-box:hover,
+.content_block_seven .content-box .accordion-box .accordion .acc-content a,
+.experience-section .inner-box .single-item,
+.trading-style-six .table-outer .table-content li.table-data .btn-box a,
+.experience-style-two .lower-box .single-item,
+.feature-account .single-item .list-style-one li:before,
+.markets-block-one .inner-box .lower-content .theme-btn,
+.pricing-block-one .inner-box .lower-content .link a,
+.team-block-one .inner-box .content-box .social-links li a:hover,
+.faq-section .accordion-box .accordion .acc-btn.active,
+.pagination li a.dot-link:hover:before,
+.pagination li a.dot-link.current:before,
+.pagination li a:hover,
+.pagination li a.current,
+.blog-sidebar .search-widget .search-form .form-group input:focus,
+.blog-sidebar .tags-widget .tags-list li a:hover,
+.blog-details-content blockquote,
+.blog-details-content .post-share-option .tags-list li a:hover,
+.blog-details-content .post-share-option .social-links li a:hover,
+.blog-details-content .comment-box .form-inner .form-group input:focus,
+.blog-details-content .comment-box .form-inner .form-group textarea:focus,
+.check-box input:checked + label:before,
+.contact-section .form-inner .form-group input:focus,
+.contact-section .form-inner .form-group textarea:focus
+
+{
+  border-color: var(--theme-color) !important;
+}
+
+
+
+
+
+
+/************ theme-color-2 ************/
+
+
+
+.banner-style-four .sub-title,
+.banner-style-four .content-box h2 span,
+.dark_home .search-popup .search-form fieldset button[type="submit"]:hover,
+.dark_home .search-popup .close-search:hover,
+.dark_home .scroll-to-top::after,
+.dark_home .sec-title .sub-title,
+.dark_home .process-block-one .inner-box:hover .count-text,
+.dark_home .image_block_one .image-box .content-one span,
+.dark_home .trading-block-two .inner-box .btn-box a,
+.dark_home .trading-style-four .tab-btns li.active-btn h4, 
+.dark_home .trading-style-four .tab-btns li:hover h4,
+.dark_home .trading-style-four .tab-btns li.active-btn .icon-box, 
+.dark_home .trading-style-four .tab-btns li:hover .icon-box,
+.dark_home .content_block_nine .content-box .inner-box .single-item h3 a:hover,
+.dark_home .news-block-one .inner-box .post-date,
+.dark_home .news-block-one .inner-box h3 a:hover,
+.dark_home .news-block-one .inner-box .link a:hover,
+.dark_home .main-footer .links-widget .links-list li a:hover,
+.dark_home .footer-bottom .bottom-inner p a
+
+{
+  color: var(--theme-color-2);
+}
+
+
+/** background **/
+
+.dark_home .theme-btn.btn-one,
+.banner-style-four .sub-title:before,
+.dark_home .theme-btn.btn-two:before,
+.dark_home .theme-btn.btn-two:after,
+.dark_home button.rtl,
+.dark_home button.ltr,
+.dark_home .menu-area .mobile-nav-toggler,
+.dark_home .sec-title .sub-title:before,
+.dark_home .process-block-one .inner-box:before,
+.dark_home .project-tab .tab-btns li.active-btn, 
+.dark_home .project-tab .tab-btns li:hover,
+.dark_home .trading-block-two .inner-box .btn-box a:hover,
+.dark_home .list-style-one li:before,
+.dark_home .trading-style-four .tab-btns li,
+.dark_home .content_block_two .content-box .download-list li:first-child a:hover,
+.dark_home .content_block_nine .content-box .inner-box .single-item:hover .count-text,
+.dark_home .content_block_nine .content-box .inner-box .single-item:after,
+.dark_home .main-footer .download-list li:first-child a:hover,
+.dark_home .main-footer .social-links li a:hover
+
+{
+  background: var(--theme-color-2);
+}
+
+
+
+
+/** border-color **/
+
+.banner-style-four .sub-title:after,
+.dark_home .theme-btn.btn-two:hover,
+.dark_home .sec-title .sub-title:after,
+.dark_home .trading-block-two .inner-box .btn-box a,
+.dark_home .content_block_three .content-box .btn-box .theme-btn.btn-two,
+.dark_home .experience-section .inner-box .single-item,
+.dark_home .news-block-one .inner-box .link a:hover
+
+{
+  border-color: var(--theme-color-2) !important;
+}
+
+.dark_home .scroll-to-top .scroll-top-inner path{
+  stroke: var(--theme-color-2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

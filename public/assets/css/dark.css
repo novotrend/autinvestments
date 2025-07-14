@@ -1,0 +1,72 @@
+
+/** dark-home-css **/
+
+
+.dark_home .theme-btn.btn-one:hover{
+  color: #E4753D !important;
+}
+
+.dark_home .theme-btn.btn-one:before,
+.dark_home .theme-btn.btn-one:after{
+  background: #fff;
+}
+
+.dark_home .theme-btn.btn-two{
+  color: #fff !important;
+  border-color: #fff !important;
+}
+
+.dark_home .search-popup .popup-inner{
+  background: rgba(0, 0, 0, 0.95);
+}
+
+.dark_home .search-popup .close-search{
+  color: #fff;
+}
+
+.dark_home .search-popup .search-form fieldset input[type="search"]{
+  background: transparent;
+  color: rgba(255, 255, 255, 0.50);
+  border-color: rgba(255, 255, 255, 0.50);
+}
+
+.dark_home .search-popup .search-form fieldset button[type="submit"]{
+  color: #fff;
+}
+
+.dark_home .sec-title .sub-title:before{
+  opacity: 0.1;
+}
+
+.dark_home .list-style-one li{
+  color: rgba(255, 255, 255, 0.80);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

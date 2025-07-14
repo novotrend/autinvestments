@@ -1,0 +1,187 @@
+
+/** account-details **/
+
+.account-details{
+  position: relative;
+}
+
+.account-details .image-box{
+  position: relative;
+  display: block;
+  border-radius: 10px;
+}
+
+.account-details .image-box img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.account-details .account-info h2{
+  position: relative;
+  display: block;
+  font-size: 42px;
+  line-height: 49px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.account-details .account-info p{
+  line-height: 28px;
+  margin-bottom: 42px;
+}
+
+.account-details .account-info .info-inner{
+  position: relative;
+  display: block;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  margin-bottom: 43px;
+}
+
+.account-details .account-info .info-inner .info-list:first-child{
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.account-details .account-info .info-inner .info-list li{
+  position: relative;
+  float: left;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  color: var(--title-color);
+  padding: 22px 30px;
+  border-right: 1px solid #e5e5e5;
+}
+
+.account-details .account-info .info-inner .info-list li:last-child{
+  border: none !important;
+}
+
+.account-details .account-info h3{
+  display: block;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.account-details .account-info .list-item li{
+  position: relative;
+  display: block;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--title-color);
+  padding-left: 28px;
+  margin-bottom: 8px;
+}
+
+.account-details .account-info .list-item li:last-child{
+  margin-bottom: 0px;
+}
+
+.account-details .account-info .list-item li:before{
+  position: absolute;
+  content: '';
+  width: 12px;
+  height: 12px;
+  left: 0px;
+  top: 8px;
+  border-radius: 50%;
+}
+
+
+/** rtl-css **/
+
+.rtl .account-style-two .upper-box .text-box{
+  text-align: right;
+}
+
+.rtl .account-details .account-info .list-item li{
+  padding-left: 0px;
+  padding-right: 28px;
+}
+
+.rtl .account-details .account-info .list-item li:before{
+  left: inherit;
+  right: 0px;
+}
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+  .account-details .account-info .info-inner .info-list li{
+    width: 50%;
+  }
+
+  .account-details .account-info .info-inner .info-list:first-child{
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .account-details{
+    padding: 70px 0px !important;
+  }
+}
+
+@media only screen and (max-width: 599px){
+  .account-details .account-info .info-inner .info-list li{
+    width: 100%;
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

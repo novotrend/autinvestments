@@ -1,0 +1,342 @@
+
+/** blog-details-content **/
+
+.blog-details-content{
+  position: relative;
+}
+
+.blog-details-content blockquote{
+  position: relative;
+  display: block;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 33px 0px;
+  border-bottom: solid;
+  border-width: 1px;
+}
+
+.blog-details-content .news-block-two .inner-box .lower-content p{
+  margin-bottom: 30px;
+}
+
+.blog-details-content .news-block-two .inner-box .lower-content{
+  padding: 0px;
+  border: none;
+  margin-top: 28px;
+}
+
+.blog-details-content blockquote .icon-box{
+  position: absolute;
+  right: 0px;
+  bottom: 30px;
+  font-size: 70px;
+  line-height: 60px;
+  opacity: 0.3;
+}
+
+.blog-details-content blockquote p{
+  font-size: 20px;
+  line-height: 30px;
+  font-style: italic;
+  margin-bottom: 14px;
+  color: var(--title-color);
+  font-family: "IBM Plex Sans", serif;
+}
+
+.blog-details-content blockquote h4{
+  display: block;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  padding-left: 42px;
+}
+
+.blog-details-content blockquote h4:before{
+  position: absolute;
+  content: '';
+  width: 30px;
+  height: 2px;
+  left: 0px;
+  top: 14px;
+  border-radius: 30px;
+}
+
+.blog-details-content .video_block_one .video-inner{
+  padding: 123px 0px;
+}
+
+.blog-details-content .content-one h2{
+  position: relative;
+  display: block;
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.blog-details-content .content-one p{
+  margin-bottom: 28px;
+}
+
+.blog-details-content .content-one h3{
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
+  margin-bottom: 13px;
+}
+
+.blog-details-content .content-one .list-item li{
+  position: relative;
+  display: block;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 8px;
+  padding-left: 28px;
+}
+
+.blog-details-content .content-one .list-item li:last-child{
+  margin-bottom: 0px;
+}
+
+.blog-details-content .content-one .list-item li:before{
+  position: absolute;
+  content: '';
+  width: 12px;
+  height: 12px;
+  left: 0px;
+  top: 8px;
+  border-radius: 50%;
+}
+
+.blog-details-content .post-share-option{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 30px;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+}
+
+.blog-details-content .post-share-option ul{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.blog-details-content .post-share-option ul li{
+  position: relative;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.blog-details-content .post-share-option ul li h4{
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.blog-details-content .post-share-option ul li:last-child{
+  margin: 0px !important;
+}
+
+.blog-details-content .post-share-option .tags-list li a{
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--title-color);
+  border: 1px solid #e5e5e5;
+  border-radius: 40px;
+  padding: 2px 15px;
+}
+
+.blog-details-content .post-share-option .tags-list li a:hover{
+  color: #fff;
+}
+
+.blog-details-content .post-share-option .social-links li a{
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  line-height: 46px;
+  font-size: 20px;
+  color: var(--title-color);
+  border: 1px solid #e5e5e5;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.blog-details-content .post-share-option .social-links li a:hover{
+  color: #fff;
+}
+
+.blog-details-content .group-title{
+  position: relative;
+  display: block;
+}
+
+.blog-details-content .group-title h3{
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.blog-details-content .comment-box .form-inner .form-group{
+  position: relative;
+  display: block;
+  margin-bottom: 22px;
+}
+
+.blog-details-content .comment-box .form-inner .form-group label{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--title-color);
+  margin-bottom: 8px;
+}
+
+.blog-details-content .comment-box .form-inner .form-group label span{
+  
+}
+
+.blog-details-content .comment-box .form-inner .form-group input[type='text'],
+.blog-details-content .comment-box .form-inner .form-group input[type='email'],
+.blog-details-content .comment-box .form-inner .form-group textarea{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 50px;
+  border: 1px solid rgba(229, 229, 229, 1);
+  border-radius: 50px;
+  font-size: 16px;
+  color: var(--title-color);
+  padding: 10px 20px;
+  transition: all 500ms ease;
+}
+
+.blog-details-content .comment-box .form-inner .form-group input:focus,
+.blog-details-content .comment-box .form-inner .form-group textarea:focus{
+
+}
+
+.blog-details-content .comment-box .form-inner .form-group textarea{
+  height: 195px;
+  resize: none;
+  border-radius: 20px;
+}
+
+.blog-details-content .comment-box .form-inner .theme-btn{
+  border-radius: 40px;
+}
+
+
+
+/** rtl-css **/
+
+.rtl .blog-details-content .post-share-option ul li{
+  margin-right: 0px;
+  margin-left: 12px;
+}
+
+.rtl .blog-details-content blockquote h4{
+  padding-left: 0px;
+  padding-right: 42px;
+}
+
+.rtl .blog-details-content blockquote h4:before{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .blog-details-content blockquote .icon-box{
+  right: inherit;
+  left: 0px;
+}
+
+.rtl .blog-details-content .content-one .list-item li{
+  padding-left: 0px;
+  padding-right: 28px;
+}
+
+.rtl .blog-details-content .content-one .list-item li:before{
+  left: inherit;
+  right: 0px;
+}
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .blog-details-content .post-share-option{
+    display: block;
+  }
+
+  .blog-details-content .post-share-option .tags-list{
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+  .blog-details-content .post-share-option .social-links{
+    display: block;
+  }
+
+  .blog-details-content .post-share-option ul li{
+    margin-bottom: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

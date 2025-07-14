@@ -1,0 +1,159 @@
+
+/** markets-section **/
+
+.markets-section{
+  position: relative;
+}
+
+.markets-block-one .inner-box{
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.markets-block-one .inner-box .image-box{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.markets-block-one .inner-box .image-box img{
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.markets-block-one .inner-box .image-box .overlay-image{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: translatey(-50%) scaleY(1.5);
+  opacity: 0;
+  filter: blur(10px);
+  transition: opacity 0.5s ease;
+  transition: background-color 0.5s ease;
+  transition: all 0.5s ease;
+  z-index: 1;
+}
+
+.markets-block-one .inner-box:hover .image-box .overlay-image{
+  transform: translatey(0) scaleY(1);
+  opacity: 1;
+  filter: blur(0);
+}
+
+.markets-block-one .inner-box .lower-content{
+  position: relative;
+  display: block;
+  padding-top: 17px;
+}
+
+.markets-block-one .inner-box .lower-content h3{
+  display: block;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.markets-block-one .inner-box .lower-content h3 a{
+  position: relative;
+  display: inline-block;
+  color: var(--title-color);
+}
+
+.markets-block-one .inner-box .lower-content h3 a:hover{
+
+}
+
+.markets-block-one .inner-box .lower-content p{
+  margin-bottom: 20px;
+}
+
+.markets-block-one .inner-box .lower-content .theme-btn{
+  color: var(--theme-color) !important;
+  border-radius: 100px;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.markets-block-one .inner-box .lower-content .theme-btn:hover{
+  color: #fff !important;
+}
+
+
+/** rtl-css **/
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .markets-section{
+    padding: 70px 0px 40px 0px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+  
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
