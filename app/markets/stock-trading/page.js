@@ -67,8 +67,8 @@ export default function StockTrading() {
                   </div>
                 </section>
               </div>
-               <div className="col-md-4">
-                <img src="../assets/images/resource/stocktrading-1.jpg" alt="" className="rounded" />
+              <div className="col-md-4">
+                <img src="/assets/images/resource/stocktrading-1.jpg" alt="" className="rounded" />
               </div>
             </div>
           </div>

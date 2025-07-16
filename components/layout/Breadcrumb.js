@@ -5,7 +5,7 @@ export default function Breadcrumb({ breadcrumbTitle }) {
         <>
 
             <section className="page-title centred pt_90 pb_0">
-                <div className="pattern-layer rotate-me" style={{ backgroundImage: 'url(assets/images/shape/shape-34.png)' }}></div>
+                <div className="pattern-layer rotate-me" style={{ backgroundImage: 'url(/assets/images/shape/shape-34.png)' }}></div>
                 <div className="auto-container">
                     <div className="content-box">
                         <h1>{breadcrumbTitle}</h1>
