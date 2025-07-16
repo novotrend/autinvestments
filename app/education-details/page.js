@@ -17,18 +17,18 @@ export default function Education_details() {
                                 <div className="education-details-content">
                                     <div className="inner-box mb_70">
                                         <div className="author-box">
-                                            <figure className="thumb-box"><img src="assets/images/resource/author-1.png" alt="" /></figure>
+                                            <figure className="thumb-box"><img src="/assets/images/resource/author-1.png" alt="" /></figure>
                                             <h5>Liam Benjamin</h5>
                                             <span className="designation">Manager</span>
                                         </div>
                                         <ul className="info-list mb_45">
                                             <li><span>Beguiled demo going to Learn</span></li>
-                                            <li><img src="assets/images/icons/icon-16.png" alt="" />5 Lectures _ 2hr 25mins</li>
+                                            <li><img src="/assets/images/icons/icon-16.png" alt="" />5 Lectures _ 2hr 25mins</li>
                                         </ul>
                                         <ul className="accordion-box">
                                             <li className="accordion block active-block">
                                                 <div className="acc-btn active">
-                                                    <div className="icon-box"><img src="assets/images/icons/icon-17.png" alt="" /></div>
+                                                    <div className="icon-box"><img src="/assets/images/icons/icon-17.png" alt="" /></div>
                                                     What is Fortradex?
                                                 </div>
                                                 <div className="acc-content current">
@@ -39,7 +39,7 @@ export default function Education_details() {
                                             </li>
                                             <li className="accordion block">
                                                 <div className="acc-btn">
-                                                    <div className="icon-box"><img src="assets/images/icons/icon-17.png" alt="" /></div>
+                                                    <div className="icon-box"><img src="/assets/images/icons/icon-17.png" alt="" /></div>
                                                     How it’s Work?
                                                 </div>
                                                 <div className="acc-content">
@@ -50,7 +50,7 @@ export default function Education_details() {
                                             </li>
                                             <li className="accordion block">
                                                 <div className="acc-btn">
-                                                    <div className="icon-box"><img src="assets/images/icons/icon-17.png" alt="" /></div>
+                                                    <div className="icon-box"><img src="/assets/images/icons/icon-17.png" alt="" /></div>
                                                     How to Start Fortradex Trading?
                                                 </div>
                                                 <div className="acc-content">
@@ -104,7 +104,7 @@ export default function Education_details() {
                             <div className="video_block_one">
                                 <div className="video-box z_1 p_relative centred">
                                     <div className="video-inner">
-                                        <div className="bg-layer" style={{ backgroundImage: "url(assets/images/resource/video-3.jpg)" }}></div>
+                                        <div className="bg-layer" style={{ backgroundImage: "url(/assets/images/resource/video-3.jpg)" }}></div>
                                         <div className="video-content">
                                             <VideoPopup />
                                         </div>

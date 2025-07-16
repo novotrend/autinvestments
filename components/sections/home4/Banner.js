@@ -4,10 +4,10 @@ export default function Banner() {
     return (
         <>
             <section className="banner-style-four pt_160 pb_100">
-                <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-20.png)" }}></div>
+                <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-20.png)" }}></div>
                 <div className="shape">
-                    <div className="shape-1 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-21.png)" }}></div>
-                    <div className="shape-2 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-22.png)" }}></div>
+                    <div className="shape-1 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-21.png)" }}></div>
+                    <div className="shape-2 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-22.png)" }}></div>
                 </div>
                 <div className="auto-container">
                     <div className="row align-items-center">
@@ -26,7 +26,7 @@ export default function Banner() {
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                             <div className="image-box">
-                                <figure className="image float-bob-y"><img src="assets/images/banner/banner-img-7.png" alt="" /></figure>
+                                <figure className="image float-bob-y"><img src="/assets/images/banner/banner-img-7.png" alt="" /></figure>
                             </div>
                         </div>
                     </div>

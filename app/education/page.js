@@ -32,7 +32,7 @@ export default function Education() {
                                     <div className="col-lg-3 col-md-6 col-sm-12 pricing-block">
                                         <div className="pricing-block-one">
                                             <div className="inner-box">
-                                                <figure className="image-box"><Link href="/education-details"><img src="assets/images/resource/book-5.jpg" alt=""/></Link></figure>
+                                                <figure className="image-box"><Link href="/education-details"><img src="/assets/images/resource/book-5.jpg" alt=""/></Link></figure>
                                                 <div className="lower-content">
                                                     <h3><Link href="/education-details">Chart Patterns Every Trader Should Know</Link></h3>
                                                     <div className="link"><Link href="/education-details">Learn Now</Link></div>
@@ -43,7 +43,7 @@ export default function Education() {
                                     <div className="col-lg-3 col-md-6 col-sm-12 pricing-block">
                                         <div className="pricing-block-one">
                                             <div className="inner-box">
-                                                <figure className="image-box"><Link href="/education-details"><img src="assets/images/resource/book-1.jpg" alt=""/></Link></figure>
+                                                <figure className="image-box"><Link href="/education-details"><img src="/assets/images/resource/book-1.jpg" alt=""/></Link></figure>
                                                 <div className="lower-content">
                                                     <h3><Link href="/education-details">When is the Best Time to Trade ForTradex</Link></h3>
                                                     <div className="link"><Link href="/education-details">Learn Now</Link></div>
@@ -54,7 +54,7 @@ export default function Education() {
                                     <div className="col-lg-3 col-md-6 col-sm-12 pricing-block">
                                         <div className="pricing-block-one">
                                             <div className="inner-box">
-                                                <figure className="image-box"><Link href="/education-details"><img src="assets/images/resource/book-2.jpg" alt=""/></Link></figure>
+                                                <figure className="image-box"><Link href="/education-details"><img src="/assets/images/resource/book-2.jpg" alt=""/></Link></figure>
                                                 <div className="lower-content">
                                                     <h3><Link href="/education-details">Diving into Options, Futures, and Fortradex</Link></h3>
                                                     <div className="link"><Link href="/education-details">Learn Now</Link></div>
@@ -65,7 +65,7 @@ export default function Education() {
                                     <div className="col-lg-3 col-md-6 col-sm-12 pricing-block">
                                         <div className="pricing-block-one">
                                             <div className="inner-box">
-                                                <figure className="image-box"><Link href="/education-details"><img src="assets/images/resource/book-3.jpg" alt=""/></Link></figure>
+                                                <figure className="image-box"><Link href="/education-details"><img src="/assets/images/resource/book-3.jpg" alt=""/></Link></figure>
                                                 <div className="lower-content">
                                                     <h3><Link href="/education-details">Leveraging Dividends and Interest in Trading</Link></h3>
                                                     <div className="link"><Link href="/education-details">Learn Now</Link></div>
@@ -76,7 +76,7 @@ export default function Education() {
                                     <div className="col-lg-3 col-md-6 col-sm-12 pricing-block">
                                         <div className="pricing-block-one">
                                             <div className="inner-box">
-                                                <figure className="image-box"><Link href="/education-details"><img src="assets/images/resource/book-4.jpg" alt=""/></Link></figure>
+                                                <figure className="image-box"><Link href="/education-details"><img src="/assets/images/resource/book-4.jpg" alt=""/></Link></figure>
                                                 <div className="lower-content">
                                                     <h3><Link href="/education-details">Traders Make and How to Avoid Them</Link></h3>
                                                     <div className="link"><Link href="/education-details">Learn Now</Link></div>
@@ -87,7 +87,7 @@ export default function Education() {
                                     <div className="col-lg-3 col-md-6 col-sm-12 pricing-block">
                                         <div className="pricing-block-one">
                                             <div className="inner-box">
-                                                <figure className="image-box"><Link href="/education-details"><img src="assets/images/resource/book-6.jpg" alt=""/></Link></figure>
+                                                <figure className="image-box"><Link href="/education-details"><img src="/assets/images/resource/book-6.jpg" alt=""/></Link></figure>
                                                 <div className="lower-content">
                                                     <h3><Link href="/education-details">Finding Your Edge in the Market</Link></h3>
                                                     <div className="link"><Link href="/education-details">Learn Now</Link></div>
@@ -98,7 +98,7 @@ export default function Education() {
                                     <div className="col-lg-3 col-md-6 col-sm-12 pricing-block">
                                         <div className="pricing-block-one">
                                             <div className="inner-box">
-                                                <figure className="image-box"><Link href="/education-details"><img src="assets/images/resource/book-7.jpg" alt=""/></Link></figure>
+                                                <figure className="image-box"><Link href="/education-details"><img src="/assets/images/resource/book-7.jpg" alt=""/></Link></figure>
                                                 <div className="lower-content">
                                                     <h3><Link href="/education-details">Protecting Your Capital and Maximizing</Link></h3>
                                                     <div className="link"><Link href="/education-details">Learn Now</Link></div>
@@ -109,7 +109,7 @@ export default function Education() {
                                     <div className="col-lg-3 col-md-6 col-sm-12 pricing-block">
                                         <div className="pricing-block-one">
                                             <div className="inner-box">
-                                                <figure className="image-box"><Link href="/education-details"><img src="assets/images/resource/book-8.jpg" alt=""/></Link></figure>
+                                                <figure className="image-box"><Link href="/education-details"><img src="/assets/images/resource/book-8.jpg" alt=""/></Link></figure>
                                                 <div className="lower-content">
                                                     <h3><Link href="/education-details">Diving into Options, Futures, and Fortradex</Link></h3>
                                                     <div className="link"><Link href="/education-details">Learn Now</Link></div>
@@ -124,7 +124,7 @@ export default function Education() {
                                     <div className="col-lg-3 col-md-6 col-sm-12 pricing-block">
                                         <div className="pricing-block-one">
                                             <div className="inner-box">
-                                                <figure className="image-box"><Link href="/education-details"><img src="assets/images/resource/book-1.jpg" alt=""/></Link></figure>
+                                                <figure className="image-box"><Link href="/education-details"><img src="/assets/images/resource/book-1.jpg" alt=""/></Link></figure>
                                                 <div className="lower-content">
                                                     <h3><Link href="/education-details">When is the Best Time to Trade ForTradex</Link></h3>
                                                     <div className="link"><Link href="/education-details">Learn Now</Link></div>
@@ -135,7 +135,7 @@ export default function Education() {
                                     <div className="col-lg-3 col-md-6 col-sm-12 pricing-block">
                                         <div className="pricing-block-one">
                                             <div className="inner-box">
-                                                <figure className="image-box"><Link href="/education-details"><img src="assets/images/resource/book-2.jpg" alt=""/></Link></figure>
+                                                <figure className="image-box"><Link href="/education-details"><img src="/assets/images/resource/book-2.jpg" alt=""/></Link></figure>
                                                 <div className="lower-content">
                                                     <h3><Link href="/education-details">Diving into Options, Futures, and Fortradex</Link></h3>
                                                     <div className="link"><Link href="/education-details">Learn Now</Link></div>
@@ -146,7 +146,7 @@ export default function Education() {
                                     <div className="col-lg-3 col-md-6 col-sm-12 pricing-block">
                                         <div className="pricing-block-one">
                                             <div className="inner-box">
-                                                <figure className="image-box"><Link href="/education-details"><img src="assets/images/resource/book-3.jpg" alt=""/></Link></figure>
+                                                <figure className="image-box"><Link href="/education-details"><img src="/assets/images/resource/book-3.jpg" alt=""/></Link></figure>
                                                 <div className="lower-content">
                                                     <h3><Link href="/education-details">Leveraging Dividends and Interest in Trading</Link></h3>
                                                     <div className="link"><Link href="/education-details">Learn Now</Link></div>
@@ -157,7 +157,7 @@ export default function Education() {
                                     <div className="col-lg-3 col-md-6 col-sm-12 pricing-block">
                                         <div className="pricing-block-one">
                                             <div className="inner-box">
-                                                <figure className="image-box"><Link href="/education-details"><img src="assets/images/resource/book-4.jpg" alt=""/></Link></figure>
+                                                <figure className="image-box"><Link href="/education-details"><img src="/assets/images/resource/book-4.jpg" alt=""/></Link></figure>
                                                 <div className="lower-content">
                                                     <h3><Link href="/education-details">Traders Make and How to Avoid Them</Link></h3>
                                                     <div className="link"><Link href="/education-details">Learn Now</Link></div>
@@ -168,7 +168,7 @@ export default function Education() {
                                     <div className="col-lg-3 col-md-6 col-sm-12 pricing-block">
                                         <div className="pricing-block-one">
                                             <div className="inner-box">
-                                                <figure className="image-box"><Link href="/education-details"><img src="assets/images/resource/book-5.jpg" alt=""/></Link></figure>
+                                                <figure className="image-box"><Link href="/education-details"><img src="/assets/images/resource/book-5.jpg" alt=""/></Link></figure>
                                                 <div className="lower-content">
                                                     <h3><Link href="/education-details">Chart Patterns Every Trader Should Know</Link></h3>
                                                     <div className="link"><Link href="/education-details">Learn Now</Link></div>
@@ -179,7 +179,7 @@ export default function Education() {
                                     <div className="col-lg-3 col-md-6 col-sm-12 pricing-block">
                                         <div className="pricing-block-one">
                                             <div className="inner-box">
-                                                <figure className="image-box"><Link href="/education-details"><img src="assets/images/resource/book-6.jpg" alt=""/></Link></figure>
+                                                <figure className="image-box"><Link href="/education-details"><img src="/assets/images/resource/book-6.jpg" alt=""/></Link></figure>
                                                 <div className="lower-content">
                                                     <h3><Link href="/education-details">Finding Your Edge in the Market</Link></h3>
                                                     <div className="link"><Link href="/education-details">Learn Now</Link></div>
@@ -190,7 +190,7 @@ export default function Education() {
                                     <div className="col-lg-3 col-md-6 col-sm-12 pricing-block">
                                         <div className="pricing-block-one">
                                             <div className="inner-box">
-                                                <figure className="image-box"><Link href="/education-details"><img src="assets/images/resource/book-7.jpg" alt=""/></Link></figure>
+                                                <figure className="image-box"><Link href="/education-details"><img src="/assets/images/resource/book-7.jpg" alt=""/></Link></figure>
                                                 <div className="lower-content">
                                                     <h3><Link href="/education-details">Protecting Your Capital and Maximizing</Link></h3>
                                                     <div className="link"><Link href="/education-details">Learn Now</Link></div>
@@ -201,7 +201,7 @@ export default function Education() {
                                     <div className="col-lg-3 col-md-6 col-sm-12 pricing-block">
                                         <div className="pricing-block-one">
                                             <div className="inner-box">
-                                                <figure className="image-box"><Link href="/education-details"><img src="assets/images/resource/book-8.jpg" alt=""/></Link></figure>
+                                                <figure className="image-box"><Link href="/education-details"><img src="/assets/images/resource/book-8.jpg" alt=""/></Link></figure>
                                                 <div className="lower-content">
                                                     <h3><Link href="/education-details">Diving into Options, Futures, and Fortradex</Link></h3>
                                                     <div className="link"><Link href="/education-details">Learn Now</Link></div>
@@ -216,7 +216,7 @@ export default function Education() {
                                     <div className="col-lg-3 col-md-6 col-sm-12 pricing-block">
                                         <div className="pricing-block-one">
                                             <div className="inner-box">
-                                                <figure className="image-box"><Link href="/education-details"><img src="assets/images/resource/book-3.jpg" alt=""/></Link></figure>
+                                                <figure className="image-box"><Link href="/education-details"><img src="/assets/images/resource/book-3.jpg" alt=""/></Link></figure>
                                                 <div className="lower-content">
                                                     <h3><Link href="/education-details">Leveraging Dividends and Interest in Trading</Link></h3>
                                                     <div className="link"><Link href="/education-details">Learn Now</Link></div>
@@ -227,7 +227,7 @@ export default function Education() {
                                     <div className="col-lg-3 col-md-6 col-sm-12 pricing-block">
                                         <div className="pricing-block-one">
                                             <div className="inner-box">
-                                                <figure className="image-box"><Link href="/education-details"><img src="assets/images/resource/book-4.jpg" alt=""/></Link></figure>
+                                                <figure className="image-box"><Link href="/education-details"><img src="/assets/images/resource/book-4.jpg" alt=""/></Link></figure>
                                                 <div className="lower-content">
                                                     <h3><Link href="/education-details">Traders Make and How to Avoid Them</Link></h3>
                                                     <div className="link"><Link href="/education-details">Learn Now</Link></div>
@@ -238,7 +238,7 @@ export default function Education() {
                                     <div className="col-lg-3 col-md-6 col-sm-12 pricing-block">
                                         <div className="pricing-block-one">
                                             <div className="inner-box">
-                                                <figure className="image-box"><Link href="/education-details"><img src="assets/images/resource/book-5.jpg" alt=""/></Link></figure>
+                                                <figure className="image-box"><Link href="/education-details"><img src="/assets/images/resource/book-5.jpg" alt=""/></Link></figure>
                                                 <div className="lower-content">
                                                     <h3><Link href="/education-details">Chart Patterns Every Trader Should Know</Link></h3>
                                                     <div className="link"><Link href="/education-details">Learn Now</Link></div>
@@ -249,7 +249,7 @@ export default function Education() {
                                     <div className="col-lg-3 col-md-6 col-sm-12 pricing-block">
                                         <div className="pricing-block-one">
                                             <div className="inner-box">
-                                                <figure className="image-box"><Link href="/education-details"><img src="assets/images/resource/book-6.jpg" alt=""/></Link></figure>
+                                                <figure className="image-box"><Link href="/education-details"><img src="/assets/images/resource/book-6.jpg" alt=""/></Link></figure>
                                                 <div className="lower-content">
                                                     <h3><Link href="/education-details">Finding Your Edge in the Market</Link></h3>
                                                     <div className="link"><Link href="/education-details">Learn Now</Link></div>
@@ -260,7 +260,7 @@ export default function Education() {
                                     <div className="col-lg-3 col-md-6 col-sm-12 pricing-block">
                                         <div className="pricing-block-one">
                                             <div className="inner-box">
-                                                <figure className="image-box"><Link href="/education-details"><img src="assets/images/resource/book-7.jpg" alt=""/></Link></figure>
+                                                <figure className="image-box"><Link href="/education-details"><img src="/assets/images/resource/book-7.jpg" alt=""/></Link></figure>
                                                 <div className="lower-content">
                                                     <h3><Link href="/education-details">Protecting Your Capital and Maximizing</Link></h3>
                                                     <div className="link"><Link href="/education-details">Learn Now</Link></div>
@@ -271,7 +271,7 @@ export default function Education() {
                                     <div className="col-lg-3 col-md-6 col-sm-12 pricing-block">
                                         <div className="pricing-block-one">
                                             <div className="inner-box">
-                                                <figure className="image-box"><Link href="/education-details"><img src="assets/images/resource/book-8.jpg" alt=""/></Link></figure>
+                                                <figure className="image-box"><Link href="/education-details"><img src="/assets/images/resource/book-8.jpg" alt=""/></Link></figure>
                                                 <div className="lower-content">
                                                     <h3><Link href="/education-details">Diving into Options, Futures, and Fortradex</Link></h3>
                                                     <div className="link"><Link href="/education-details">Learn Now</Link></div>
@@ -282,7 +282,7 @@ export default function Education() {
                                     <div className="col-lg-3 col-md-6 col-sm-12 pricing-block">
                                         <div className="pricing-block-one">
                                             <div className="inner-box">
-                                                <figure className="image-box"><Link href="/education-details"><img src="assets/images/resource/book-1.jpg" alt=""/></Link></figure>
+                                                <figure className="image-box"><Link href="/education-details"><img src="/assets/images/resource/book-1.jpg" alt=""/></Link></figure>
                                                 <div className="lower-content">
                                                     <h3><Link href="/education-details">When is the Best Time to Trade ForTradex</Link></h3>
                                                     <div className="link"><Link href="/education-details">Learn Now</Link></div>
@@ -293,7 +293,7 @@ export default function Education() {
                                     <div className="col-lg-3 col-md-6 col-sm-12 pricing-block">
                                         <div className="pricing-block-one">
                                             <div className="inner-box">
-                                                <figure className="image-box"><Link href="/education-details"><img src="assets/images/resource/book-2.jpg" alt=""/></Link></figure>
+                                                <figure className="image-box"><Link href="/education-details"><img src="/assets/images/resource/book-2.jpg" alt=""/></Link></figure>
                                                 <div className="lower-content">
                                                     <h3><Link href="/education-details">Diving into Options, Futures, and Fortradex</Link></h3>
                                                     <div className="link"><Link href="/education-details">Learn Now</Link></div>

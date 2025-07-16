@@ -30,10 +30,10 @@ export default function Process() {
                         <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                             <div className="image_block_one">
                                 <div className="image-box pr_130 mr_40 pl_150">
-                                    <figure className="image image-1"><img src="assets/images/resource/mockup-4.png" alt="" /></figure>
-                                    <figure className="image image-2 p_absolute r_0 b_50"><img src="assets/images/resource/dashboard-4.png" alt="" /></figure>
+                                    <figure className="image image-1"><img src="/assets/images/resource/mockup-4.png" alt="" /></figure>
+                                    <figure className="image image-2 p_absolute r_0 b_50"><img src="/assets/images/resource/dashboard-4.png" alt="" /></figure>
                                     <div className="content-one">
-                                        <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-30.png)" }}></div>
+                                        <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-30.png)" }}></div>
                                         <span>Sales</span>
                                         <h3>1.25 kk</h3>
                                         <p>Washington, D.C.</p>

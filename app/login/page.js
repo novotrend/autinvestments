@@ -7,17 +7,17 @@ export default function login() {
         <div className="boxed_wrapper">
             <section className="banner-style-three pt_100 pb_150">
                 <div className="pattern-layer">
-                    <div className="pattern-1 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-13.png)" }}></div>
-                    <div className="pattern-2 float-bob-x" style={{ backgroundImage: "url(assets/images/shape/shape-14.png)" }}></div>
-                    <div className="pattern-3 float-bob-y" style={{ backgroundImage: "url(assets/images/shape/shape-15.png)" }}></div>
+                    <div className="pattern-1 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-13.png)" }}></div>
+                    <div className="pattern-2 float-bob-x" style={{ backgroundImage: "url(/assets/images/shape/shape-14.png)" }}></div>
+                    <div className="pattern-3 float-bob-y" style={{ backgroundImage: "url(/assets/images/shape/shape-15.png)" }}></div>
                 </div>
                 <div className="auto-container">
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-12 col-sm-12 form-column">
                             <div className="content_block_five">
                                 <div className="content-box mr_80">
-                                    <div className="shape-2" style={{ backgroundImage: "url(assets/images/shape/shape-12.png)" }}></div>
-                                    <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-11.png)" }}></div>
+                                    <div className="shape-2" style={{ backgroundImage: "url(/assets/images/shape/shape-12.png)" }}></div>
+                                    <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-11.png)" }}></div>
                                     <h3>Login</h3>
                                     <div className="form-inner">
                                         <form method="post" action="">

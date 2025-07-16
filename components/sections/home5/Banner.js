@@ -63,8 +63,8 @@ export default function Banner() {
             <div className="large-container">
                 <Swiper {...swiperOptions} className="theme_carousel owl-theme banner-carousel">
                     <SwiperSlide className="slide-item p_relative">
-                        <div className="bg-layer" style={{ backgroundImage: "url(assets/images/banner/banner-4.jpg)" }}></div>
-                        <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-29.png)" }}></div>
+                        <div className="bg-layer" style={{ backgroundImage: "url(/assets/images/banner/banner-4.jpg)" }}></div>
+                        <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-29.png)" }}></div>
                         <div className="inner-container">
                             <div className="row align-items-center">
                                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -79,15 +79,15 @@ export default function Banner() {
                                 </div>
                                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                     <div className="image-box ml_150">
-                                        <figure className="image"><img src="assets/images/banner/banner-img-8.png" alt=""/></figure>
+                                        <figure className="image"><img src="/assets/images/banner/banner-img-8.png" alt=""/></figure>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="slide-item p_relative">
-                        <div className="bg-layer" style={{ backgroundImage: "url(assets/images/banner/banner-5.jpg)" }}></div>
-                        <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-29.png)" }}></div>
+                        <div className="bg-layer" style={{ backgroundImage: "url(/assets/images/banner/banner-5.jpg)" }}></div>
+                        <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-29.png)" }}></div>
                         <div className="inner-container">
                             <div className="row align-items-center">
                                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -102,15 +102,15 @@ export default function Banner() {
                                 </div>
                                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                     <div className="image-box ml_150">
-                                        <figure className="image"><img src="assets/images/banner/banner-img-8.png" alt=""/></figure>
+                                        <figure className="image"><img src="/assets/images/banner/banner-img-8.png" alt=""/></figure>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="slide-item p_relative">
-                        <div className="bg-layer" style={{ backgroundImage: "url(assets/images/banner/banner-6.jpg)" }}></div>
-                        <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-29.png)" }}></div>
+                        <div className="bg-layer" style={{ backgroundImage: "url(/assets/images/banner/banner-6.jpg)" }}></div>
+                        <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-29.png)" }}></div>
                         <div className="inner-container">
                             <div className="row align-items-center">
                                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -125,7 +125,7 @@ export default function Banner() {
                                 </div>
                                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                     <div className="image-box ml_150">
-                                        <figure className="image"><img src="assets/images/banner/banner-img-8.png" alt=""/></figure>
+                                        <figure className="image"><img src="/assets/images/banner/banner-img-8.png" alt=""/></figure>
                                     </div>
                                 </div>
                             </div>

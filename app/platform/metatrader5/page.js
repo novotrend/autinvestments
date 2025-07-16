@@ -1,35 +1,49 @@
 "use client";
-import Link from "next/link"
-import { useState } from "react"
 import Layout from "@/components/layout/Layout";
-import VideoPopup from "@/components/elements/VideoPopup"
+import { useEffect } from "react";
 
 export default function MetaTrader5Page() {
+    useEffect(() => {
+        if (typeof window !== "undefined" && window.location.hash) {
+            const id = window.location.hash.replace('#', '');
+            const el = document.getElementById(id);
+            if (el) {
+                el.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    }, []);
     return (
         <div className="boxed_wrapper">
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="MetaTrader 4 (MT4)">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="MetaTrader 5 (MT5)">
                 <section className="platform-section alternat-2 pt_90 pb_60">
                     <div className="auto-container">
-                        <div className="row align-items-center">
-                            <div className="col-md-4">
-                                <img src="../assets/images/resource/affiliateprogram-1.jpg" alt="" className="rounded" />
-                            </div>
+                        <div className="row align-items-center g-3">
                             <div className="col-md-8">
                                 <div className="sec-title pb_20">
                                     <span className="sub-title mb_14">INFO</span>
-                                    <h2 className="mb-2">What is Affiliate Program</h2>
-                                    <p>Partner with AUT Investments LTD and earn by referring traders — simple, scalable, and performance-driven.</p>
+                                    <h2 className="mb-2">An Advanced Trading Platform for Modern Traders</h2>
+                                    <p>Trade smarter with next-generation features, deeper insights, and multi-asset capabilities.</p>
                                 </div>
-                                <section className="funfact-section">
+
+                                <section className="feature-account">
                                     <div className="auto-container px-0">
-                                        <div className="inner-container d-flex flex-column p-5 aligh-items-start justify-content-start">
-                                            <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-16.png)" }}></div>
-                                            <h4 className="text-dark fw-semibold mb-3">Grow with One of the Fastest-Rising Trading Brands</h4>
-                                            <p>The AUT Investments LTD Affiliate Program is designed for individuals, influencers, financial educators, website owners, content creators, IBs (Introducing Brokers), and digital marketers who want to monetize their traffic or network by promoting a trusted forex and CFD trading brand.</p>
-                                            <p className="mt-3">Our affiliate model combines transparent commissions, real-time tracking, and dedicated partner support — enabling you to build a stable income stream by introducing new clients to our world-class trading platform.</p>
+                                        <div className="inner-container d-flex flex-column p-4 aligh-items-start justify-content-start shadow-sm">
+                                            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-35.png)" }}></div>
+                                            <p>
+                                                MetaTrader 5 (MT5) is the upgraded, multi-asset trading platform designed for traders who
+                                                demand speed, flexibility, and analytical depth. Whether you're trading forex, stocks,
+                                                commodities, indices, or cryptocurrencies, MT5 delivers a seamless trading experience
+                                                backed by superior execution and institutional-grade infrastructure</p>
+                                            <p className="mt-3">
+                                                At AUT Investments LTD, we empower you to trade on MT5 across desktop, web, and mobile,
+                                                supported by real-time data, advanced charting tools, and integrated algorithmic trading features.
+                                            </p>
                                         </div>
                                     </div>
                                 </section>
+                            </div>
+                            <div className="col-md-4">
+                                <img src="/assets/images/resource/metatrader_5-info.jpg" alt="Trade with Confidence Using MetaTrader 4" className="rounded" />
                             </div>
                         </div>
                     </div>
@@ -37,197 +51,29 @@ export default function MetaTrader5Page() {
 
                 <section className="markets-section pt_60 pb_70">
                     <div className="auto-container">
-                        <div className="row align-items-center">
-                            <div className="col-md-8">
-                                <div className="sec-title pb_30">
-                                    <span className="sub-title mb_14">Features of AUT</span>
-                                    <h2>Why Join the AUT Investments LTD Affiliate Program?</h2>
-                                </div>
-                                <div className="row clearfix education-details-content shadow-sm py-5 px-4 rounded-4" >
-                                    <div className="col-12 content-column ">
+                        <div className="row align-items-center g-3">
+                            <div className="sec-title pb_30">
+                                <span className="sub-title mb_14">Why MetaTrader 5 With AUT</span>
+                                <h2>Why Trade on MetaTrader 5 with AUT Investments LTD?</h2>
+                            </div>
+                            <div className="col-md-4">
+                                <img src="/assets/images/resource/metatrader_5-why.jpg" alt="" className="rounded" />
+                            </div>
+                            <div className="col-md-8 feature-account">
+                                <div className="row clearfix education-details-content inner-container py-5 px-4 rounded-4 shadow-sm">
+                                    <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-35.png)", backgroundAttachment: "fixed" }}></div>
+                                    <div className="col-12 content-column">
                                         <div className="text-box">
                                             <ul className="list-item clearfix">
-                                                <li className="lh-lg"><b className="fs-6 text-dark"> Attractive CPA & Revenue Share Models:</b> <br />Choose between high one-time payouts per qualified client (CPA) or earn ongoing commissions based on client activity (Revenue Share).</li>
-                                                <li className="lh-lg"><b className="fs-6 text-dark">No Setup or Joining Fee:</b> <br />It’s completely free to join and start earning — no hidden fees, no long-term lock-ins.</li>
-                                                <li className="lh-lg"><b className="fs-6 text-dark">Real-Time Dashboard & Analytics:</b> <br />Track referrals, commissions, and conversions live with a dedicated partner dashboard.</li>
-                                                <li className="lh-lg"><b className="fs-6 text-dark">High Conversion Funnel:</b> <br />Promote a platform backed by strong brand trust, multilingual support, and high client retention.</li>
-                                                <li className="lh-lg"><b className="fs-6 text-dark">Global Reach:</b> <br />Our platform supports traders from multiple regions with multilingual capabilities and local payment methods.</li>
-                                                <li className="lh-lg"><b className="fs-6 text-dark">Marketing Support Provided:</b> <br />Get access to banners, landing pages, promo videos, content templates, and branded creatives.</li>
-                                                <li className="lh-lg"><b className="fs-6 text-dark">Dedicated Affiliate Manager:</b> <br />Get personalized support to help you scale your performance and increase your earnings.</li>
+                                                <li className="lh-lg"><b className="fs-6 text-dark">Multi-Asset Trading:</b> <br />Trade multiple asset classes - forex, CFDs on stocks, indices, commodities, and crypto - from a single platform</li>
+                                                <li className="lh-lg"><b className="fs-6 text-dark">Faster Execution Engine:</b> <br />Enhanced order-matching technology and multi-threaded processing deliver lightning-fast trade execution with minimal latency.</li>
+                                                <li className="lh-lg"><b className="fs-6 text-dark">38+ Built-In Indicators & 21 Timeframes:</b> <br />MT5 gives you more analytical options with higher precision for technical analysis and trend tracking.</li>
+                                                <li className="lh-lg"><b className="fs-6 text-dark">Integrated Economic Calendar:</b> <br />Stay informed with real-time macroeconomic events and market-moving data directly inside your terminal.</li>
+                                                <li className="lh-lg"><b className="fs-6 text-dark">Advanced Order Types & Depth of Market (DOM):</b> <br />Access market depth, partial order filling, and six pending order types for increased control and execution flexibility. </li>
+                                                <li className="lh-lg"><b className="fs-6 text-dark">Support for Expert Advisors (EAs):</b> <br />Automate your strategies using custom or pre-built Expert Advisors (EAs) with MQL5 — more powerful and flexible than MT4’s scripting environment.</li>
                                             </ul>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div className="col-md-4">
-                                <img src="../assets/images/resource/affiliate-feature.jpg" alt="" className="rounded" />
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section className="news-section pt_100 pb_70">
-                    <div className="auto-container">
-                        <div className="sec-title pb_60">
-                            <span className="sub-title mb_14">Overview</span>
-                            <h2>Join Our Affiliate Network</h2>
-                        </div>
-                        <div className="row clearfix row-deck">
-                            <div className="col-lg-6 col-md-12 news-block d-flex flex-column">
-                                <div className="news-block-one w-100 d-flex flex-column h-100 wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <h2>Who Can Join?</h2>
-                                        <p>Whether you’re an individual or a large affiliate network, our partnership structure can be customized to match your goals.</p>
-                                        <ul className="list-style-one mt_40 clearfix">
-                                            <li>Forex and crypto bloggers</li>
-                                            <li>Financial influencers and YouTubers</li>
-                                            <li>Digital marketers running ad campaigns</li>
-                                            <li>Website/app owners with finance traffic</li>
-                                            <li>IBs and community leaders</li>
-                                            <li>Affiliate marketers with forex or fintech experience</li>
-                                            <li>Educators and trading mentors</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 col-md-12 news-block d-flex flex-column">
-                                <div className="news-block-one w-100 d-flex flex-column h-100 wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <h2>Affiliate Dashboard Features</h2>
-                                        <ul className="list-style-one mt_40 clearfix">
-                                            <li>Real-time referral and earnings tracking</li>
-                                            <li>Custom promo links and banners</li>
-                                            <li>Conversion rate metrics</li>
-                                            <li>Geo-based traffic insights</li>
-                                            <li>Automated commission calculation</li>
-                                            <li>Secure payout options</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 col-md-12 news-block d-flex flex-column">
-                                <div className="news-block-one w-100 d-flex flex-column h-100 wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <h2>Payout Methods & Frequency</h2>
-                                        <ul className="list-style-one mt_40 clearfix">
-                                            <li>Bank Transfer</li>
-                                            <li>E-wallets (Skrill, Neteller, etc.)</li>
-                                            <li>Crypto (USDT/BTC)</li>
-                                            <li>Monthly or biweekly payouts (based on plan)</li>
-                                            <li>Transparent withdrawal process with no hidden charges</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 col-md-12 news-block d-flex flex-column">
-                                <div className="news-block-one w-100 d-flex flex-column h-100 wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <h2>Support & Resources</h2>
-                                        <ul className="list-style-one mt_40 clearfix">
-                                            <li>Personalized strategy sessions</li>
-                                            <li>Performance optimization tips</li>
-                                            <li>Educational webinars and tutorials</li>
-                                            <li>Regular updates on platform promotions and events</li>
-                                            <li>Custom creatives on request</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section className="working-section apps-section alternat-2 pt_120 pb_120 pt_100 pb_100">
-                    <div className="auto-container">
-                        <div class="shape" style={{ backgroundImage: "url(../assets/images/shape/shape-4.png)" }}></div>
-                        <div className="row align-items-center">
-                            <div className="col-lg-6 col-md-12 col-sm-12 video-column">
-                                <div className="video_block_one">
-                                    <div className="video-box z_1 p_relative pl_50 pt_50 pb_30 centred">
-                                        <div className="video-inner">
-                                            <div className="bg-layer" style={{ backgroundImage: "url(../assets/images/resource/video-2.jpg)" }}></div>
-                                            <div className="video-content">
-                                                <VideoPopup />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                                <div className="content_block_nine">
-                                    <div className="content-box ml_70">
-                                        <div className="sec-title light pb_35">
-                                            <span className="sub-title mb_10">Easy Steps</span>
-                                            <h2>How to Join Our Affiliate Program</h2>
-                                        </div>
-                                        <div className="inner-box">
-                                            <div className="single-item">
-                                                <span className="count-text bg-light text-dark">1</span>
-                                                <h3>Register as an Affiliate</h3>
-                                                <p>Fill out the simple application form and get approved within 24 hours.</p>
-                                            </div>
-                                            <div className="single-item">
-                                                <span className="count-text bg-light text-dark">2</span>
-                                                <h3>Get Your Unique Tracking Links</h3>
-                                                <p>Access the affiliate dashboard and generate custom links and creatives. valid identification and proof of residence to comply with regulatory standards.</p>
-                                            </div>
-                                            <div className="single-item">
-                                                <span className="count-text bg-light text-dark">3</span>
-                                                <h3>Start Promoting AUT Investments LTD</h3>
-                                                <p>Share your links across your blog, social media, website, email list, or ad campaigns.</p>
-                                            </div>
-                                            <div className="single-item">
-                                                <span className="count-text bg-light text-dark">4</span>
-                                                <h3>Track Referrals and Earnings</h3>
-                                                <p>Use your dashboard to monitor conversions, trading activity, and payouts in real time</p>
-                                            </div>
-                                            <div className="single-item">
-                                                <span className="count-text bg-light text-dark">5</span>
-                                                <h3> Receive Timely Payouts</h3>
-                                                <p>Get paid via your preferred method once you meet the payout threshold — quickly and securely.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section className="working-section pt_100 pb_100">
-                    <div className="auto-container">
-                        <div className="row align-items-center clearfix">
-                            <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                                <div className="content-box">
-                                    <div className="process-block-one">
-                                        <div className="inner-box">
-                                            <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
-                                            <span className="count-text">1</span>
-                                            <h3>CPA (Cost Per Acquisition)</h3>
-                                            <p className="mb-0">Earn a fixed payout for every referred client who completes account verification and makes a qualifying deposit. Ideal for affiliates focused on volume.</p>
-                                        </div>
-                                    </div>
-                                    <div className="process-block-one">
-                                        <div className="inner-box">
-                                            <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
-                                            <span className="count-text">2</span>
-                                            <h3>Revenue Share</h3>
-                                            <p className="mb-0">Earn a percentage of the spread or commission generated by your referred clients. The more they trade, the more you earn recurring passive income.</p>
-                                        </div>
-                                    </div>
-                                    <div className="process-block-one">
-                                        <div className="inner-box">
-                                            <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
-                                            <span className="count-text">3</span>
-                                            <h3>Hybrid Plan</h3>
-                                            <p className="mb-0">Combine CPA and revenue share for a balanced approach. Contact our team to tailor your plan.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                                <div class="image-box">
-                                    <img class="image image-hov-two rounded" src="assets/images/resource/process-1.jpg" alt=""></img>
                                 </div>
                             </div>
                         </div>
@@ -237,41 +83,163 @@ export default function MetaTrader5Page() {
                 <section className="award-section pt_60 pb_70">
                     <div className="auto-container">
                         <div className="sec-title pb_60">
-                            <span className="sub-title mb_14">Support </span>
-                            <h2>Affiliate Program Benefits at a Glance</h2>
+                            <span className="sub-title mb_14">Features</span>
+                            <h2>Key Features of MetaTrader 5</h2>
                         </div>
                         <div className="table-outer">
                             <table className="award-table">
                                 <thead>
                                     <tr>
-                                        <th>Feature</th>
-                                        <th>Value</th>
+                                        <th className="text-muted">Feature</th>
+                                        <th className="text-muted">Description</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>Commission Type</td>
-                                        <td>CPA / Rev Share / Hybrid</td>
+                                        <th>Asset Coverage</th>
+                                        <td>Forex, Indices, Stocks, Crypto, Commodities</td>
                                     </tr>
                                     <tr>
-                                        <td>Real-Time Tracking</td>
+                                        <th>Charting & Indicators</th>
+                                        <td>38+ indicators, 44 graphic tools, 21 timeframes</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Order Types</th>
+                                        <td>6 types (including Buy/Sell Stop Limit)</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Time & Sales (T&S)</th>
+                                        <td>Track real-time trade volumes</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Strategy Tester</th>
+                                        <td>Backtest multi-currency EAs with tick data</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Built-in Economic Calendar</th>
+                                        <td>Analyze market impact events in real time</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Multi-Threaded Execution</th>
+                                        <td>Enables faster and more reliable performance</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Depth of Market (DOM)</th>
+                                        <td>Visual order book for accurate liquidity view</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="news-section pt_100 pb_70">
+                    <div className="auto-container">
+                        <div className="sec-title pb_60">
+                            <span className="sub-title mb_14">Info & Steps</span>
+                            <h2>Information With Steps</h2>
+                        </div>
+                        <div className="row clearfix row-deck">
+                            <div className="col-lg-6 col-md-12 news-block d-flex flex-column">
+                                <div className="news-block-one w-100 d-flex flex-column h-100 wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                    <div className="inner-box">
+                                        <h2>Platform Compatibility</h2>
+                                        <ul className="list-item mt_40 clearfix">
+                                            <li className="mb-3"><b className="fs-6 text-dark">Desktop (Windows & macOS):</b> <br />Full-featured terminal with advanced tools and multi-monitor support.</li>
+                                            <li className="mb-3"><b className="fs-6 text-dark">WebTrader:</b> <br />Secure, browser-based version with all core functions — no download required.</li>
+                                            <li className="mb-3"><b className="fs-6 text-dark">Mobile (iOS & Android):</b> <br />Trade, monitor, and analyze markets with the full power of MT5 in your pocket.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-6 col-md-12 news-block d-flex flex-column">
+                                <div className="news-block-one w-100 d-flex flex-column h-100 wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                    <div className="inner-box">
+                                        <h2>How to Get Started with MT5</h2>
+                                        <ul className="list-item mt_40 clearfix">
+                                            <li className="mb-3"><b className="fs-6 text-dark">Open a Live or Demo Account:</b> <br />Register online and select MetaTrader 5 as your preferred platform.</li>
+                                            <li className="mb-3"><b className="fs-6 text-dark">Download MT5 Terminal or Use WebTrader:</b> <br />Access MT5 on desktop or directly in your browser — fast and secure.</li>
+                                            <li className="mb-3"><b className="fs-6 text-dark">Log In with Your AUT Credentials:</b> <br />Connect to the AUT Investments LTD trading server using your unique login.</li>
+                                            <li className="mb-3"><b className="fs-6 text-dark">Customize Your Workspace:</b> <br />Add charts, tools, and indicators tailored to your trading strategy.</li>
+                                            <li className="mb-3"><b className="fs-6 text-dark">Begin Trading:</b> <br />Analyze markets, place orders, monitor performance, and manage risk in real-time.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-12 education-details-content feature-account">
+                                <div className="w-100 d-flex flex-column h-100 wow fadeInUp animated text-box inner-container" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                    <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-35.png)", backgroundAttachment: "fixed" }}></div>
+                                    <div className="inner-box bg-transparent">
+                                        <h2>Who Should Use MT5?</h2>
+                                        <ul className="list-item mt_40 clearfix" style={{ listStyle: "disc" }}>
+                                            <li className="mb-0 mt-2 pt-1 fs-6"><b className="fs-5 text-dark">Multi-Asset Traders</b> seeking access to broader markets.</li>
+                                            <li className="mb-0 mt-2 pt-1 fs-6"><b className="fs-5 text-dark">Algorithmic Traders</b> running advanced or multi-currency EAs.</li>
+                                            <li className="mb-0 mt-2 pt-1 fs-6"><b className="fs-5 text-dark">Day Traders and Scalpers</b> requiring ultra-fast order execution.</li>
+                                            <li className="mb-0 mt-2 pt-1 fs-6"><b className="fs-5 text-dark">Technical Analysts</b> relying on detailed charting and data insights.</li>
+                                            <li className="mb-0 mt-2 pt-1 fs-6"><b className="fs-5 text-dark">Long-Term Investors</b> trading across instruments from a single platform.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="award-section pt_60 pb_70" id="compare-section">
+                    <div className="auto-container">
+                        <div className="sec-title pb_60">
+                            <span className="sub-title mb_14">Compare</span>
+                            <h2>MT5 vs MT4 - What’s New in MT5?</h2>
+                        </div>
+                        <div className="table-outer">
+                            <table className="award-table">
+                                <thead>
+                                    <tr>
+                                        <th className="text-muted">Feature</th>
+                                        <th className="text-muted">MetaTrader 4 (MT4)</th>
+                                        <th className="text-muted">MetaTrader 5 (MT5)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>Asset Classes</th>
+                                        <td>Forex, CFDs</td>
+                                        <td>21</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Timeframes</th>
+                                        <td>9</td>
+                                        <td>21</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Built-in Indicators</th>
+                                        <td>30+</td>
+                                        <td>38+</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Economic Calendar</th>
+                                        <td>No</td>
                                         <td>Yes</td>
                                     </tr>
                                     <tr>
-                                        <td>Minimum Payout Threshold</td>
-                                        <td>$100 (varies by method)</td>
+                                        <th>Strategy Testing</th>
+                                        <td>Single-threaded</td>
+                                        <td>Multi-threaded</td>
                                     </tr>
                                     <tr>
-                                        <td>Access to Creatives</td>
-                                        <td>Banners, landing pages, videos</td>
+                                        <th>Order Types</th>
+                                        <td>4</td>
+                                        <td>6</td>
                                     </tr>
                                     <tr>
-                                        <td>Referral Cookie Duration</td>
-                                        <td>60 days</td>
+                                        <th>Depth of Market (DOM)</th>
+                                        <td>No</td>
+                                        <td>Yes</td>
                                     </tr>
                                     <tr>
-                                        <td>Dedicated Support</td>
-                                        <td>1-on-1 Affiliate Manager</td>
+                                        <th>Programming Language</th>
+                                        <td>MQL4</td>
+                                        <td>MQL5 (more powerful)</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -283,13 +251,16 @@ export default function MetaTrader5Page() {
                     <div className="bg-color"></div>
                     <div className="auto-container">
                         <div className="inner-container">
-                            <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-5.png)" }}></div>
+                            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
                             <div className="row">
                                 <div className="col-md-12 col-sm-12 text-column">
                                     <div className="text-box">
-                                        <h3 className="text-dark fw-semibold mb-3">Start Earning Today</h3>
-                                        <p className="text-light">Join the AUT Investments LTD Affiliate Program and turn your audience, content, or network into a revenue source. Whether you’re scaling or just starting out, we’ll provide the tools, support, and structure to help you grow.</p>
-                                        <a class="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Us</a>
+                                        <h3 className="fw-semibold mb-3">Unlock Next-Level Trading with MetaTrader 5</h3>
+                                        <p className="text-light">
+                                            Join AUT Investments LTD on MetaTrader 5 and take full control of your trading with superior
+                                            technology, greater market access, and deeper insight. Whether you're scaling up or starting
+                                            out, MT5 is your platform for intelligent, professional-grade trading.
+                                        </p>
                                     </div>
                                 </div>
                             </div>

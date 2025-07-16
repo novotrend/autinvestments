@@ -19,7 +19,7 @@ export default function News() {
                                 <div className="link"><Link href="/blog-details">Read More</Link></div>
                             </div>
                             <div className="author-box">
-                                <figure className="author-thumb"><img src="assets/images/resource/testimonial-1.png" alt=""/></figure>
+                                <figure className="author-thumb"><img src="/assets/images/resource/testimonial-1.png" alt=""/></figure>
                                 <span>Daniel Marcon</span>
                             </div>
                         </div>
@@ -33,7 +33,7 @@ export default function News() {
                                 <div className="link"><Link href="/blog-details">Read More</Link></div>
                             </div>
                             <div className="author-box">
-                                <figure className="author-thumb"><img src="assets/images/resource/testimonial-2.png" alt=""/></figure>
+                                <figure className="author-thumb"><img src="/assets/images/resource/testimonial-2.png" alt=""/></figure>
                                 <span>Robert Henry</span>
                             </div>
                         </div>
@@ -47,7 +47,7 @@ export default function News() {
                                 <div className="link"><Link href="/blog-details">Read More</Link></div>
                             </div>
                             <div className="author-box">
-                                <figure className="author-thumb"><img src="assets/images/resource/testimonial-3.png" alt=""/></figure>
+                                <figure className="author-thumb"><img src="/assets/images/resource/testimonial-3.png" alt=""/></figure>
                                 <span>Victor classNameic</span>
                             </div>
                         </div>

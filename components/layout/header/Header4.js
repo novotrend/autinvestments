@@ -14,7 +14,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isSide
                         <div className="outer-box">
                             <figure className="logo-box">
                                 <Link href="/index-4">
-                                <img src="assets/images/logo-4.png" alt="/" />
+                                <img src="/assets/images/logo-4.png" alt="/" />
                                 </Link>
                             </figure>
                             <div className="menu-area clearfix">
@@ -44,7 +44,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isSide
                         <div className="outer-box">
                             <figure className="logo-box">
                                 <Link href="/index-4">
-                                <img src="assets/images/logo-4.png" alt="/" />
+                                <img src="/assets/images/logo-4.png" alt="/" />
                                 </Link>
                             </figure>
                             <div className="menu-area clearfix">

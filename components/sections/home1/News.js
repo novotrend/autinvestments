@@ -58,7 +58,7 @@ export default function News() {
                                     </ul>
                                 </div>
                                 <div className="author-box mt-auto">
-                                    <Link href='/promotions' className="theme-btn btn-one">Join Affiliate Program</Link>
+                                    <Link href='/affiliate-program' className="theme-btn btn-one">Join Affiliate Program</Link>
                                 </div>
                             </div>
                         </div>

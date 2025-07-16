@@ -46,7 +46,7 @@ export default function DepositWithdraw() {
                 <section className="funfact-section">
                   <div className="auto-container px-0">
                     <div className="inner-container d-flex flex-column p-5 aligh-items-start justify-content-start">
-                      <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-16.png)" }}></div>
+                      <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
                       <h4 className="text-dark fw-semibold mb-3">Seamless Transactions for Traders Worldwide</h4>
                       <p>At AUT Investments LTD, we understand that easy deposits and reliable withdrawals are
                         essential for your trading experience. That’s why we offer a streamlined funding process
@@ -244,7 +244,7 @@ export default function DepositWithdraw() {
                   </div>
                 </div>
                 <div className="col-xl-4 col-lg-12 col-md-12 btn-column">
-                  <ul className="tab-btns tab-buttons shop-tab-btn clearfix">
+                  <ul className="three tab-btns tab-buttons shop-tab-btn clearfix">
                     <li onClick={() => handleOnClick(1)} className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>How to Deposit Funds</li>
                     <li onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>How to Withdraw Funds</li>
                     <li onClick={() => handleOnClick(3)} className={activeIndex === 3 ? "tab-btn active-btn" : "tab-btn"}>Important Notes</li>
@@ -258,7 +258,7 @@ export default function DepositWithdraw() {
         <section className="about-section pt_60 pb_70">
           <div className="auto-container">
             <div className="row align-items-center">
-              <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+              <div className="col-lg-8 col-md-12 col-sm-12 content-column">
                 <div className="content_block_one">
                   <div className="content-box mr_80">
                     <div className="sec-title pb_30">
@@ -322,17 +322,8 @@ export default function DepositWithdraw() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6 col-md-12 col-sm-12 video-column">
-                <div className="video_block_one">
-                  <div className="video-box z_1 p_relative ml_70 centred">
-                    <div className="video-inner">
-                      <div className="bg-layer" style={{ backgroundImage: "url(assets/images/resource/video-1.jpg)" }}></div>
-                      <div className="video-content">
-                        <VideoPopup />
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div className="col-lg-4 col-md-12 col-sm-12 video-column">
+                <img src="/assets/images/resource/faq.jpg" alt="" className="rounded" />
               </div>
             </div>
           </div>
@@ -342,7 +333,7 @@ export default function DepositWithdraw() {
           <div className="bg-color"></div>
           <div className="auto-container">
             <div className="inner-container">
-              <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-5.png)" }}></div>
+              <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
               <div className="row align-items-center">
                 <div className="col-12 text-column">
                   <div className="text-box">

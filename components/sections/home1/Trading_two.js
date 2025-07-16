@@ -20,7 +20,7 @@ export default function Trading_two() {
                                 <h2>Explore Our Markets</h2>
                                 <p>Trade a wide range of global instruments with one account</p>
                             </div>
-                            <Link href="/forex-trading" className="theme-btn btn-one">Explore All Markets</Link>
+                            <Link href="/markets/forex-trading" className="theme-btn btn-one">Explore All Markets</Link>
                         </div>
                     </div>
                     <div className="tabs-box">
@@ -44,7 +44,7 @@ export default function Trading_two() {
                                                 <br />
                                                 High liquidity, 24/5 access
                                             </p>
-                                            <figure className="image-box"><Link href="assets/images/resource/explore-1.png" className="lightbox-image" data-fancybox='gallery'><img className="rounded-3" src="assets/images/resource/explore-1.png" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="/assets/images/resource/explore-1.png" className="lightbox-image" data-fancybox='gallery'><img className="rounded-3" src="/assets/images/resource/explore-1.png" alt="" /></Link></figure>
                                         </div>
                                     </div>
                                     <div className={activeIndex === 2 ? "tab active-tab" : "tab"} id="trader">
@@ -55,7 +55,7 @@ export default function Trading_two() {
                                                 <br />
                                                 Track economies, trade trends
                                             </p>
-                                            <figure className="image-box"><Link href="assets/images/resource/explore-2.png" className="lightbox-image" data-fancybox='gallery'><img className="rounded-3" src="assets/images/resource/explore-2.png" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="/assets/images/resource/explore-2.png" className="lightbox-image" data-fancybox='gallery'><img className="rounded-3" src="/assets/images/resource/explore-2.png" alt="" /></Link></figure>
                                         </div>
                                     </div>
                                     <div className={activeIndex === 3 ? "tab active-tab" : "tab"} id="personal">
@@ -66,7 +66,7 @@ export default function Trading_two() {
                                                 <br />
                                                 React to earnings and business news
                                             </p>
-                                            <figure className="image-box"><Link href="assets/images/resource/explore-3.png" className="lightbox-image" data-fancybox='gallery'><img className="rounded-3" src="assets/images/resource/explore-3.png" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="/assets/images/resource/explore-3.png" className="lightbox-image" data-fancybox='gallery'><img className="rounded-3" src="/assets/images/resource/explore-3.png" alt="" /></Link></figure>
                                         </div>
                                     </div>
                                     <div className={activeIndex === 4 ? "tab active-tab" : "tab"} id="meta">
@@ -77,7 +77,7 @@ export default function Trading_two() {
                                                 <br />
                                                 Hedge inflation, trade volatility
                                             </p>
-                                            <figure className="image-box"><Link href="assets/images/resource/explore-4.png" className="lightbox-image" data-fancybox='gallery'><img className="rounded-3" src="assets/images/resource/explore-4.png" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="/assets/images/resource/explore-4.png" className="lightbox-image" data-fancybox='gallery'><img className="rounded-3" src="/assets/images/resource/explore-4.png" alt="" /></Link></figure>
                                         </div>
                                     </div>
                                     <div className={activeIndex === 5 ? "tab active-tab" : "tab"} id="meta">
@@ -88,7 +88,7 @@ export default function Trading_two() {
                                                 <br />
                                                 Safe-haven trading opportunities
                                             </p>
-                                            <figure className="image-box"><Link href="assets/images/resource/explore-5.png" className="lightbox-image" data-fancybox='gallery'><img className="rounded-3" src="assets/images/resource/explore-5.png" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="/assets/images/resource/explore-5.png" className="lightbox-image" data-fancybox='gallery'><img className="rounded-3" src="/assets/images/resource/explore-5.png" alt="" /></Link></figure>
                                         </div>
                                     </div>
                                     <div className={activeIndex === 6 ? "tab active-tab" : "tab"} id="meta">
@@ -99,7 +99,7 @@ export default function Trading_two() {
                                                 <br />
                                                 24/7 market access with full control
                                             </p>
-                                            <figure className="image-box"><Link href="assets/images/resource/explore-6.png" className="lightbox-image" data-fancybox='gallery'><img className="rounded-3" src="assets/images/resource/explore-6.png" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="/assets/images/resource/explore-6.png" className="lightbox-image" data-fancybox='gallery'><img className="rounded-3" src="/assets/images/resource/explore-6.png" alt="" /></Link></figure>
                                         </div>
                                     </div>
                                 </div>

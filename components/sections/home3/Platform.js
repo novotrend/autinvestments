@@ -12,7 +12,7 @@ export default function Platform() {
   return (
     <>
         <section className="platform-section pt_100 pb_100">
-            <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-17.png)" }}></div>
+            <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-17.png)" }}></div>
             <div className="auto-container">
                 <div className="sec-title light centred pb_60">
                     <span className="sub-title mb_14">Platforms</span>
@@ -24,7 +24,7 @@ export default function Platform() {
                             <div className="tabs-content">
                                 <div className={activeIndex === 1 ? "tab active-tab" : "tab"}>
                                     <div className="content-box">
-                                        <figure className="image-box"><img src="assets/images/resource/platform-1.png" alt=""/></figure>
+                                        <figure className="image-box"><img src="/assets/images/resource/platform-1.png" alt=""/></figure>
                                         <h2>FXT App</h2>
                                         <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionality with user-friendly design, enabling traders of all levels to seize market opportunities anytime, anywhere.</p>
                                         <ul className="list-style-one clearfix">
@@ -37,7 +37,7 @@ export default function Platform() {
                                 </div>
                                 <div className={activeIndex === 2 ? "tab active-tab" : "tab"} id="mt">
                                     <div className="content-box">
-                                        <figure className="image-box"><img src="assets/images/resource/platform-1.png" alt=""/></figure>
+                                        <figure className="image-box"><img src="/assets/images/resource/platform-1.png" alt=""/></figure>
                                         <h2>MT4/MT</h2>
                                         <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionality with user-friendly design, enabling traders of all levels to seize market opportunities anytime, anywhere.</p>
                                         <ul className="list-style-one clearfix">
@@ -50,7 +50,7 @@ export default function Platform() {
                                 </div>
                                 <div className={activeIndex === 3 ? "tab active-tab" : "tab"} id="fxt">
                                     <div className="content-box">
-                                        <figure className="image-box"><img src="assets/images/resource/platform-1.png" alt=""/></figure>
+                                        <figure className="image-box"><img src="/assets/images/resource/platform-1.png" alt=""/></figure>
                                         <h2>FXT Cpoy</h2>
                                         <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionality with user-friendly design, enabling traders of all levels to seize market opportunities anytime, anywhere.</p>
                                         <ul className="list-style-one clearfix">

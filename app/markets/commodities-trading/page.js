@@ -31,24 +31,23 @@ export default function CommoditiesTrading() {
                     <div className="inner-container d-flex flex-column p-5 aligh-items-start justify-content-start">
                       <div className="shape" style={{ backgroundImage: "url(../assets/images/shape/shape-16.png)" }}></div>
                       <h4 className="mb-3">Overview of Commodities Trading</h4>
-                     
-                        <p className="mb-3">
-                          Commodities are raw materials or primary agricultural products that are traded globally. These
-                          include physical goods like crude oil, natural gas, gold, silver, and wheat. Commodities
-                          trading offers investors and traders a way to hedge against inflation, speculate on price
-                          movements, or diversify their asset exposure beyond traditional financial markets.
-                        </p>
-                        <p>
-                          At AUT Investments LTD, we provide access to a wide range of commodity CFDs, giving you
-                          the ability to trade on price fluctuations without owning the physical assets. Our platform offers
-                          real-time data, fast execution, and low spreads across major global commodities.
-                        </p>
+                      <p className="mb-3">
+                        Commodities are raw materials or primary agricultural products that are traded globally. These
+                        include physical goods like crude oil, natural gas, gold, silver, and wheat. Commodities
+                        trading offers investors and traders a way to hedge against inflation, speculate on price
+                        movements, or diversify their asset exposure beyond traditional financial markets.
+                      </p>
+                      <p>
+                        At AUT Investments LTD, we provide access to a wide range of commodity CFDs, giving you
+                        the ability to trade on price fluctuations without owning the physical assets. Our platform offers
+                        real-time data, fast execution, and low spreads across major global commodities.
+                      </p>
                     </div>
                   </div>
                 </section>
               </div>
               <div className="col-md-4">
-                  <img src="../assets/images/resource/commodities-1.jpg" alt="" className="rounded" />
+                <img src="../assets/images/resource/commodities-1.jpg" alt="" className="rounded" />
               </div>
             </div>
           </div>
@@ -222,7 +221,7 @@ export default function CommoditiesTrading() {
         </section>
 
         <section className="account-section mt_60 pt_60 pb_70">
-          <div className="pattern-layer" style={{ backgroundImage: "url(../assets/images/shape/shape-1.png)" }}></div>
+          <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-1.png)" }}></div>
           <div className="auto-container">
             <div className="sec-title pb_60">
               <span className="sub-title mb_14">features</span>
@@ -305,6 +304,60 @@ export default function CommoditiesTrading() {
           </div>
         </section>
 
+        <section className="working-section apps-section alternat-2 pt_120 pb_120 pt_100 pb_100">
+          <div className="auto-container">
+            <div class="shape" style={{ backgroundImage: "url(assets/images/shape/shape-4.png)" }}></div>
+            <div className="row align-items-center">
+              <div className="col-lg-4 col-md-12 col-sm-12">
+                <img src="/assets/images/resource/how-to-start-commodities-trading.jpg" alt="" className="rounded" />
+              </div>
+              <div className="col-lg-8 col-md-12 col-sm-12 content-column">
+                <div className="content_block_nine">
+                  <div className="content-box ml_70">
+                    <div className="sec-title light pb_35">
+                      <span className="sub-title mb_10">Onboard</span>
+                      <h2>How to Start Trading Commodities</h2>
+                    </div>
+                    <div className="inner-box">
+                      <div className="single-item">
+                        <span className="count-text bg-light text-dark">1</span>
+                        <h3>Register Your Account</h3>
+                        <p>Quick setup with live and demo options.</p>
+                      </div>
+                      <div className="single-item">
+                        <span className="count-text bg-light text-dark">2</span>
+                        <h3>Complete Verification</h3>
+                        <p>Simple and secure KYC process.</p>
+                      </div>
+                      <div className="single-item">
+                        <span className="count-text bg-light text-dark">3</span>
+                        <h3>Deposit Funds</h3>
+                        <p> Choose from a range of convenient funding options.</p>
+                      </div>
+                      <div className="single-item">
+                        <span className="count-text bg-light text-dark">4</span>
+                        <h3>Select Your Instruments</h3>
+                        <p>Pick from metals, energies, or agriculture.</p>
+                      </div>
+                      <div className="single-item">
+                        <span className="count-text bg-light text-dark">5</span>
+                        <h3>Apply Your Strategy</h3>
+                        <p>Use professional-grade charts and indicators.</p>
+                      </div>
+                      <div className="single-item">
+                        <span className="count-text bg-light text-dark">6</span>
+                        <h3>Manage and Monitor</h3>
+                        <p> Use alerts, news, and stop-loss features for precision control.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
         <section className="platform-section alternat-2 pt_90 pb_130">
           <div className="auto-container">
             <div className="sec-title pb_60">
@@ -318,7 +371,6 @@ export default function CommoditiesTrading() {
                     <div className={activeIndex === 1 ? "tab active-tab" : "tab"}>
                       <div className="content-box">
                         <h2>Commodity Market Drivers</h2>
-                        <p></p>
                         <ul className="list-style-one clearfix ">
                           <li><b>Supply and Demand Dynamics</b> Influenced by global production trends, natural disasters, and consumer demand.</li>
                           <li><b>Geopolitical Events</b> Wars, trade sanctions, and diplomatic conflicts can directly affect oil and agricultural commodities.</li>
@@ -355,28 +407,13 @@ export default function CommoditiesTrading() {
                         </ul>
                       </div>
                     </div>
-                    <div className={activeIndex === 4 ? "tab active-tab" : "tab"} id="cpoy">
-                      <div className="content-box">
-                        <h2>How to Start Trading Commodities</h2>
-                        <p></p>
-                        <ul className="list-style-one clearfix">
-                          <li><b>Register Your Account</b> Quick setup with live and demo options.</li>
-                          <li><b>Complete Verification</b> Simple and secure KYC process.</li>
-                          <li><b>Deposit Funds</b> Choose from a range of convenient funding options.</li>
-                          <li><b>Select Your Instruments</b> Pick from metals, energies, or agriculture.</li>
-                          <li><b>Apply Your Strategy</b> Use professional-grade charts and indicators.</li>
-                          <li><b>Manage and Monitor</b> Use alerts, news, and stop-loss features for precision control.</li>
-                        </ul>
-                      </div>
-                    </div>
                   </div>
                 </div>
                 <div className="col-xl-4 col-lg-12 col-md-12 btn-column">
-                  <ul className="tab-btns tab-buttons shop-tab-btn clearfix">
+                  <ul className="three tab-btns tab-buttons shop-tab-btn clearfix">
                     <li onClick={() => handleOnClick(1)} className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>Commodity Market Drivers</li>
                     <li onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>Benefits of Commodity Trading</li>
                     <li onClick={() => handleOnClick(3)} className={activeIndex === 3 ? "tab-btn active-btn" : "tab-btn"}>Common Trading Strategies</li>
-                    <li onClick={() => handleOnClick(4)} className={activeIndex === 4 ? "tab-btn active-btn" : "tab-btn"}>How to Start Trading Commodities</li>
                   </ul>
                 </div>
               </div>
@@ -388,7 +425,7 @@ export default function CommoditiesTrading() {
           <div className="bg-color"></div>
           <div className="auto-container">
             <div className="inner-container">
-              <div className="shape" style={{ backgroundImage: "url(../assets/images/shape/shape-5.png)" }}></div>
+              <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
               <div className="row align-items-center">
                 <div className="col-12 text-column">
                   <div className="text-box">
@@ -398,7 +435,7 @@ export default function CommoditiesTrading() {
                       control. Whether you're hedging risk, managing inflation exposure, or speculating on price
                       action, commodity trading opens the door to new possibilities.
                     </p>
-                     <Link href="/contact" className="theme-btn btn-one bg-dark mt-4">
+                    <Link href="/contact" className="theme-btn btn-one bg-dark mt-4">
                       Contact Us
                     </Link>
                   </div>

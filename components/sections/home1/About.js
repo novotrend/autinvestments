@@ -75,7 +75,7 @@ export default function About() {
                             <div className="video_block_one">
                                 <div className="video-box z_1 p_relative ml_70 centred">
                                     <div className="video-inner">
-                                        <div className="bg-layer" style={{ backgroundImage: "url(assets/images/resource/video-1.jpg)" }}></div>
+                                        <div className="bg-layer" style={{ backgroundImage: "url(/assets/images/resource/video-1.jpg)" }}></div>
                                         <div className="video-content">
                                             <VideoPopup />
                                         </div>

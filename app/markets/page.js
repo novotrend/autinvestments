@@ -28,7 +28,7 @@ export default function Markets() {
                                     <div className="tabs-content">
                                         <div className={activeIndex === 1 ? "tab active-tab" : "tab"}>
                                             <div className="content-box">
-                                                <figure className="image-box"><img src="assets/images/resource/platform-1.png" alt="" /></figure>
+                                                <figure className="image-box"><img src="/assets/images/resource/platform-1.png" alt="" /></figure>
                                                 <h2>FXT App</h2>
                                                 <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionality with user-friendly design, enabling traders of all levels to seize market opportunities anytime, anywhere.</p>
                                                 <ul className="list-style-one clearfix">
@@ -41,7 +41,7 @@ export default function Markets() {
                                         </div>
                                         <div className={activeIndex === 2 ? "tab active-tab" : "tab"} id="forex">
                                             <div className="content-box">
-                                                <figure className="image-box"><img src="assets/images/resource/platform-1.png" alt="" /></figure>
+                                                <figure className="image-box"><img src="/assets/images/resource/platform-1.png" alt="" /></figure>
                                                 <h2>MT4/MT</h2>
                                                 <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionality with user-friendly design, enabling traders of all levels to seize market opportunities anytime, anywhere.</p>
                                                 <ul className="list-style-one clearfix">
@@ -54,7 +54,7 @@ export default function Markets() {
                                         </div>
                                         <div className={activeIndex === 3 ? "tab active-tab" : "tab"} id="cpoy">
                                             <div className="content-box">
-                                                <figure className="image-box"><img src="assets/images/resource/platform-1.png" alt="" /></figure>
+                                                <figure className="image-box"><img src="/assets/images/resource/platform-1.png" alt="" /></figure>
                                                 <h2>FXT Cpoy</h2>
                                                 <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionality with user-friendly design, enabling traders of all levels to seize market opportunities anytime, anywhere.</p>
                                                 <ul className="list-style-one clearfix">
@@ -92,8 +92,8 @@ export default function Markets() {
                                 <div className="markets-block-one">
                                     <div className="inner-box">
                                         <div className="image-box">
-                                            <figure className="image"><Link href="/markets-details"><img src="assets/images/resource/markets-1.jpg" alt="" /></Link></figure>
-                                            <figure className="overlay-image"><Link href="/markets-details"><img src="assets/images/resource/markets-1.jpg" alt="" /></Link></figure>
+                                            <figure className="image"><Link href="/markets-details"><img src="/assets/images/resource/markets-1.jpg" alt="" /></Link></figure>
+                                            <figure className="overlay-image"><Link href="/markets-details"><img src="/assets/images/resource/markets-1.jpg" alt="" /></Link></figure>
                                         </div>
                                         <div className="lower-content">
                                             <h3><a href="markets-details.html">Trade Forex</a></h3>
@@ -109,8 +109,8 @@ export default function Markets() {
                                 <div className="markets-block-one">
                                     <div className="inner-box">
                                         <div className="image-box">
-                                            <figure className="image"><a href="markets-details.html"><img src="assets/images/resource/markets-2.jpg" alt="" /></a></figure>
-                                            <figure className="overlay-image"><a href="markets-details.html"><img src="assets/images/resource/markets-2.jpg" alt="" /></a></figure>
+                                            <figure className="image"><a href="markets-details.html"><img src="/assets/images/resource/markets-2.jpg" alt="" /></a></figure>
+                                            <figure className="overlay-image"><a href="markets-details.html"><img src="/assets/images/resource/markets-2.jpg" alt="" /></a></figure>
                                         </div>
                                         <div className="lower-content">
                                             <h3><a href="markets-details.html">Indices</a></h3>
@@ -126,8 +126,8 @@ export default function Markets() {
                                 <div className="markets-block-one">
                                     <div className="inner-box">
                                         <div className="image-box">
-                                            <figure className="image"><a href="markets-details.html"><img src="assets/images/resource/markets-3.jpg" alt="" /></a></figure>
-                                            <figure className="overlay-image"><a href="markets-details.html"><img src="assets/images/resource/markets-3.jpg" alt="" /></a></figure>
+                                            <figure className="image"><a href="markets-details.html"><img src="/assets/images/resource/markets-3.jpg" alt="" /></a></figure>
+                                            <figure className="overlay-image"><a href="markets-details.html"><img src="/assets/images/resource/markets-3.jpg" alt="" /></a></figure>
                                         </div>
                                         <div className="lower-content">
                                             <h3><a href="markets-details.html">Cryptocurrenciesices</a></h3>
@@ -143,8 +143,8 @@ export default function Markets() {
                                 <div className="markets-block-one">
                                     <div className="inner-box">
                                         <div className="image-box">
-                                            <figure className="image"><a href="markets-details.html"><img src="assets/images/resource/markets-4.jpg" alt="" /></a></figure>
-                                            <figure className="overlay-image"><a href="markets-details.html"><img src="assets/images/resource/markets-4.jpg" alt="" /></a></figure>
+                                            <figure className="image"><a href="markets-details.html"><img src="/assets/images/resource/markets-4.jpg" alt="" /></a></figure>
+                                            <figure className="overlay-image"><a href="markets-details.html"><img src="/assets/images/resource/markets-4.jpg" alt="" /></a></figure>
                                         </div>
                                         <div className="lower-content">
                                             <h3><a href="markets-details.html">Commodities</a></h3>
@@ -161,8 +161,8 @@ export default function Markets() {
                 </section>
 
                 <section className="apps-section alternat-2 pt_120 pb_120">
-                    <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-4.png)" }}></div>
-                    <figure className="image-layer"><img src="assets/images/resource/mockup-1.png" alt="" /></figure>
+                    <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-4.png)" }}></div>
+                    <figure className="image-layer"><img src="/assets/images/resource/mockup-1.png" alt="" /></figure>
                     <div className="auto-container">
                         <div className="content_block_two">
                             <div className="content-box">
@@ -173,9 +173,9 @@ export default function Markets() {
                                 </div>
                                 <ul className="download-list clearfix">
                                     <li><Link href="/markets"><i className="fab fa-apple"></i></Link></li>
-                                    <li><Link href="/markets"><img src="assets/images/icons/icon-2.png" alt="" /></Link></li>
+                                    <li><Link href="/markets"><img src="/assets/images/icons/icon-2.png" alt="" /></Link></li>
                                     <li><Link href="/markets"><i className="fab fa-android"></i></Link></li>
-                                    <li><Link href="/markets"><img src="assets/images/icons/icon-6.png" alt="" /></Link></li>
+                                    <li><Link href="/markets"><img src="/assets/images/icons/icon-6.png" alt="" /></Link></li>
                                 </ul>
                             </div>
                         </div>

@@ -52,7 +52,7 @@ export default function Account_details() {
                                 <p>Trading accounts can vary widely based on the investor's needs and preferences. Common types include cash accounts, margin accounts, retirement accounts and specialty accounts for options or futures trading. Each trading account is assigned a unique identification number by the brokerage firm or financial institution. This number serves as a reference for all transactions and communications related to the account.</p>
                             </div>
                         </div>
-                        <figure className="image-box mb_60"><img src="assets/images/resource/account-1.jpg" alt="" /></figure>
+                        <figure className="image-box mb_60"><img src="/assets/images/resource/account-1.jpg" alt="" /></figure>
                         <div className="account-info">
                             <h2>Professional Account Info</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a lobortis tortor, sit amet congue purus. Maecenas pharetra lacus quis nisi porta facilisis. Morbi fermentum bibendum arcu, a porttitor eros volutpat et. Praesent nec magna tincidunt, placerat justo non, egestas quam.</p>

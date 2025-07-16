@@ -74,7 +74,7 @@ export default function Footer1() {
                                 </div>
                             </div>
                             <div className="footer-lower">
-                                <figure className="footer-logo"><Link href="/"><img src="assets/images/logo-3.png" alt=""/></Link></figure>
+                                <figure className="footer-logo"><Link href="/"><img src="/assets/images/logo-3.png" alt=""/></Link></figure>
                                 <ul className="footer-card clearfix">
                                     <li><h4>We Accept:</h4></li>
                                     <li><Link href="/"><img src="/assets/images/icons/card-1.png" alt=""/></Link></li>

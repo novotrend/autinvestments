@@ -9,7 +9,7 @@ export default function History() {
                         <div className="col-lg-6 col-md-12 col-sm-12 history-block">
                             <div className="history-block-one">
                                 <div className="inner-box clearfix">
-                                    <figure className="image-box"><img src="assets/images/resource/history-1.png" alt="" /></figure>
+                                    <figure className="image-box"><img src="/assets/images/resource/history-1.png" alt="" /></figure>
                                     <div className="text-box">
                                         <h3>25 Years Experience</h3>
                                         <p>Traders with 25 years of experience often develop refined trading</p>
@@ -21,7 +21,7 @@ export default function History() {
                         <div className="col-lg-6 col-md-12 col-sm-12 history-block">
                             <div className="history-block-one">
                                 <div className="inner-box clearfix">
-                                    <figure className="image-box"><img src="assets/images/resource/history-2.png" alt="" /></figure>
+                                    <figure className="image-box"><img src="/assets/images/resource/history-2.png" alt="" /></figure>
                                     <div className="text-box">
                                         <h3>Fast & Reliable</h3>
                                         <p>Reliability is another crucial aspect of trading. Modern trading platforms</p>

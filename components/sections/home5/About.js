@@ -12,8 +12,8 @@ export default function About() {
         <>
             <section className="about-style-two dark-section pt_140 pb_140">
                 <div className="pattern-layer">
-                    <div className="pattern-1" style={{ backgroundImage: "url(assets/images/shape/shape-31.png)" }}></div>
-                    <div className="pattern-2" style={{ backgroundImage: "url(assets/images/shape/shape-32.png)" }}></div>
+                    <div className="pattern-1" style={{ backgroundImage: "url(/assets/images/shape/shape-31.png)" }}></div>
+                    <div className="pattern-2" style={{ backgroundImage: "url(/assets/images/shape/shape-32.png)" }}></div>
                 </div>
                 <div className="auto-container">
                     <div className="sec-title pb_60 light centred">
@@ -36,28 +36,28 @@ export default function About() {
                                         <div className="content-box">
                                             <h2>FXT App</h2>
                                             <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm.</p>
-                                            <figure className="image-box"><a href="assets/images/resource/dashboard-1.png" className="lightbox-image" data-fancybox="gallery"><img src="assets/images/resource/dashboard-1.png" alt="" /></a></figure>
+                                            <figure className="image-box"><a href="/assets/images/resource/dashboard-1.png" className="lightbox-image" data-fancybox="gallery"><img src="/assets/images/resource/dashboard-1.png" alt="" /></a></figure>
                                         </div>
                                     </div>
                                     <div className={activeIndex === 2 ? "tab active-tab" : "tab"} id="trader">
                                         <div className="content-box">
                                             <h2>Meta Trader 4</h2>
                                             <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm.</p>
-                                            <figure className="image-box"><a href="assets/images/resource/dashboard-1.png" className="lightbox-image" data-fancybox="gallery"><img src="assets/images/resource/dashboard-1.png" alt="" /></a></figure>
+                                            <figure className="image-box"><a href="/assets/images/resource/dashboard-1.png" className="lightbox-image" data-fancybox="gallery"><img src="/assets/images/resource/dashboard-1.png" alt="" /></a></figure>
                                         </div>
                                     </div>
                                     <div className={activeIndex === 3 ? "tab active-tab" : "tab"} id="personal">
                                         <div className="content-box">
                                             <h2>FBS Personal Area</h2>
                                             <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm.</p>
-                                            <figure className="image-box"><a href="assets/images/resource/dashboard-1.png" className="lightbox-image" data-fancybox="gallery"><img src="assets/images/resource/dashboard-1.png" alt="" /></a></figure>
+                                            <figure className="image-box"><a href="/assets/images/resource/dashboard-1.png" className="lightbox-image" data-fancybox="gallery"><img src="/assets/images/resource/dashboard-1.png" alt="" /></a></figure>
                                         </div>
                                     </div>
                                     <div className={activeIndex === 4 ? "tab active-tab" : "tab"} id="meta">
                                         <div className="content-box">
                                             <h2>Meta Trader 5</h2>
                                             <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm.</p>
-                                            <figure className="image-box"><a href="assets/images/resource/dashboard-1.png" className="lightbox-image" data-fancybox="gallery"><img src="assets/images/resource/dashboard-1.png" alt="" /></a></figure>
+                                            <figure className="image-box"><a href="/assets/images/resource/dashboard-1.png" className="lightbox-image" data-fancybox="gallery"><img src="/assets/images/resource/dashboard-1.png" alt="" /></a></figure>
                                         </div>
                                     </div>
                                 </div>

@@ -15,15 +15,15 @@ export default function Blog_two() {
                             <div className="news-block-two wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="image-box">
-                                        <figure className="image"><Link href="/blog-details"><img src="assets/images/news/news-7.jpg" alt=""/></Link></figure>
-                                        <figure className="overlay-image"><Link href="/blog-details"><img src="assets/images/news/news-7.jpg" alt=""/></Link></figure>
+                                        <figure className="image"><Link href="/blog-details"><img src="/assets/images/news/news-7.jpg" alt=""/></Link></figure>
+                                        <figure className="overlay-image"><Link href="/blog-details"><img src="/assets/images/news/news-7.jpg" alt=""/></Link></figure>
                                     </div>
                                     <div className="lower-content">
                                         <span className="category">JPY</span>
                                         <h2><Link href="/blog-details">Traders capitalize on market Protecting Your Capital and Maximizing Returns</Link></h2>
                                         <p>We closed out what was a strong week for equity indices large number of trades within a short timeframe, aiming to profit from small price movements</p>
                                         <div className="author-box">
-                                            <figure className="author-thumb"><img src="assets/images/resource/testimonial-1.png" alt=""/></figure>
+                                            <figure className="author-thumb"><img src="/assets/images/resource/testimonial-1.png" alt=""/></figure>
                                             <span>Robert Henry &nbsp; &nbsp;10 May 2024</span>
                                         </div>
                                     </div>
@@ -32,15 +32,15 @@ export default function Blog_two() {
                             <div className="news-block-two wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="image-box">
-                                        <figure className="image"><Link href="/blog-details"><img src="assets/images/news/news-8.jpg" alt=""/></Link></figure>
-                                        <figure className="overlay-image"><Link href="/blog-details"><img src="assets/images/news/news-8.jpg" alt=""/></Link></figure>
+                                        <figure className="image"><Link href="/blog-details"><img src="/assets/images/news/news-8.jpg" alt=""/></Link></figure>
+                                        <figure className="overlay-image"><Link href="/blog-details"><img src="/assets/images/news/news-8.jpg" alt=""/></Link></figure>
                                     </div>
                                     <div className="lower-content">
                                         <span className="category">GPD</span>
                                         <h2><Link href="/blog-details">Strategies for Trading During Uncertain Times movements triggered by specific</Link></h2>
                                         <p>We closed out what was a strong week for equity indices large number of trades within a short timeframe, aiming to profit from small price movements</p>
                                         <div className="author-box">
-                                            <figure className="author-thumb"><img src="assets/images/resource/testimonial-2.png" alt=""/></figure>
+                                            <figure className="author-thumb"><img src="/assets/images/resource/testimonial-2.png" alt=""/></figure>
                                             <span>Nicol Kas &nbsp; &nbsp;09 May 2024</span>
                                         </div>
                                     </div>
@@ -49,15 +49,15 @@ export default function Blog_two() {
                             <div className="news-block-two wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="image-box">
-                                        <figure className="image"><Link href="/blog-details"><img src="assets/images/news/news-9.jpg" alt=""/></Link></figure>
-                                        <figure className="overlay-image"><Link href="/blog-details"><img src="assets/images/news/news-9.jpg" alt=""/></Link></figure>
+                                        <figure className="image"><Link href="/blog-details"><img src="/assets/images/news/news-9.jpg" alt=""/></Link></figure>
+                                        <figure className="overlay-image"><Link href="/blog-details"><img src="/assets/images/news/news-9.jpg" alt=""/></Link></figure>
                                     </div>
                                     <div className="lower-content">
                                         <span className="category">GSP</span>
                                         <h2><Link href="/blog-details">Emerging Trends and Technologies Shaping the Industry</Link></h2>
                                         <p>We closed out what was a strong week for equity indices large number of trades within a short timeframe, aiming to profit from small price movements</p>
                                         <div className="author-box">
-                                            <figure className="author-thumb"><img src="assets/images/resource/testimonial-3.png" alt=""/></figure>
+                                            <figure className="author-thumb"><img src="/assets/images/resource/testimonial-3.png" alt=""/></figure>
                                             <span>Albat Heo &nbsp; &nbsp;08 May 2024</span>
                                         </div>
                                     </div>
@@ -66,15 +66,15 @@ export default function Blog_two() {
                             <div className="news-block-two wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="image-box">
-                                        <figure className="image"><Link href="/blog-details"><img src="assets/images/news/news-10.jpg" alt=""/></Link></figure>
-                                        <figure className="overlay-image"><Link href="/blog-details"><img src="assets/images/news/news-10.jpg" alt=""/></Link></figure>
+                                        <figure className="image"><Link href="/blog-details"><img src="/assets/images/news/news-10.jpg" alt=""/></Link></figure>
+                                        <figure className="overlay-image"><Link href="/blog-details"><img src="/assets/images/news/news-10.jpg" alt=""/></Link></figure>
                                     </div>
                                     <div className="lower-content">
                                         <span className="category">GPS</span>
                                         <h2><Link href="/blog-details">Protecting Your Capital and Maximizing Returns specific events</Link></h2>
                                         <p>We closed out what was a strong week for equity indices large number of trades within a short timeframe, aiming to profit from small price movements</p>
                                         <div className="author-box">
-                                            <figure className="author-thumb"><img src="assets/images/resource/testimonial-1.png" alt=""/></figure>
+                                            <figure className="author-thumb"><img src="/assets/images/resource/testimonial-1.png" alt=""/></figure>
                                             <span>Chris Weston &nbsp; &nbsp;07 May 2024</span>
                                         </div>
                                     </div>
@@ -127,17 +127,17 @@ export default function Blog_two() {
                                 </div>
                                 <div className="post-inner">
                                     <div className="post">
-                                        <figure className="post-thumb"><Link href="/blog-details"><img src="assets/images/news/post-1.jpg" alt=""/></Link></figure>
+                                        <figure className="post-thumb"><Link href="/blog-details"><img src="/assets/images/news/post-1.jpg" alt=""/></Link></figure>
                                         <h6><Link href="/blog-details">Traders open and close positions</Link></h6>
                                         <span className="post-date">1 May 2024</span>
                                     </div>
                                     <div className="post">
-                                        <figure className="post-thumb"><Link href="/blog-details"><img src="assets/images/news/post-2.jpg" alt=""/></Link></figure>
+                                        <figure className="post-thumb"><Link href="/blog-details"><img src="/assets/images/news/post-2.jpg" alt=""/></Link></figure>
                                         <h6><Link href="/blog-details">Traders execute a large number of</Link></h6>
                                         <span className="post-date">1 May 2024</span>
                                     </div>
                                     <div className="post">
-                                        <figure className="post-thumb"><Link href="/blog-details"><img src="assets/images/news/post-3.jpg" alt=""/></Link></figure>
+                                        <figure className="post-thumb"><Link href="/blog-details"><img src="/assets/images/news/post-3.jpg" alt=""/></Link></figure>
                                         <h6><Link href="/blog-details">Futures trading can involve various</Link></h6>
                                         <span className="post-date">1 May 2024</span>
                                     </div>

@@ -29,7 +29,7 @@ export default function OpenTradingAccount() {
                 <section className="funfact-section">
                   <div className="auto-container px-0">
                     <div className="inner-container d-flex flex-column p-5 aligh-items-start justify-content-start">
-                      <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-16.png)" }}></div>
+                      <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
                       <h4 className="text-dark fw-semibold mb-3">Your Gateway to Real-Time Global Trading</h4>
                       <p>Opening a trading account with AUT Investments LTD gives you access to powerful tools, competitive pricing, and a seamless experience across forex, stocks, indices, metals, commodities, and cryptocurrencies. Designed for beginners, active traders, and professionals alike, our platform offers flexible conditions and a secure environment to help you trade confidently.</p>
                     </div>
@@ -64,7 +64,7 @@ export default function OpenTradingAccount() {
                   </div>
                 </div>
               </div>
-               <div className="col-md-4">
+              <div className="col-md-4">
                 <img src="/assets/images/resource/opentrading-feature.jpg" alt="" className="rounded" />
               </div>
             </div>
@@ -157,19 +157,10 @@ export default function OpenTradingAccount() {
 
         <section className="working-section apps-section alternat-2 pt_120 pb_120 pt_100 pb_100">
           <div className="auto-container">
-            <div class="shape" style={{ backgroundImage: "url(../assets/images/shape/shape-4.png)" }}></div>
+            <div class="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-4.png)" }}></div>
             <div className="row align-items-center">
-              <div className="col-lg-6 col-md-12 col-sm-12 video-column">
-                <div className="video_block_one">
-                  <div className="video-box z_1 p_relative pl_50 pt_50 pb_30 centred">
-                    <div className="video-inner">
-                      <div className="bg-layer" style={{ backgroundImage: "url(../assets/images/resource/video-2.jpg)" }}></div>
-                      <div className="video-content">
-                        <VideoPopup />
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div className="col-lg-6 col-md-12 col-sm-12">
+                <img src="/assets/images/resource/easy-steps.jpg" alt="" className="rounded" />
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                 <div className="content_block_nine">
@@ -293,13 +284,13 @@ export default function OpenTradingAccount() {
           <div className="bg-color"></div>
           <div className="auto-container">
             <div className="inner-container">
-              <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-5.png)" }}></div>
+              <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
               <div className="row align-items-center">
                 <div className="col-12 text-column">
                   <div className="text-box">
                     <h2 className="text-dark fw-bold">Take Control of Your Financial Future</h2>
                     <p className="text-light fs-5 mt_30">Open your live trading account today and gain direct access to global markets with a broker built for performance, transparency, and support.</p>
-                    <a class="theme-btn btn-one bg-dark me-3 mt-3" href="/index-2">Contact</a>
+                    <a class="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Us</a>
                   </div>
                 </div>
               </div>

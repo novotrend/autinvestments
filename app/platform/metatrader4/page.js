@@ -1,42 +1,13 @@
 'use client'
-import Link from "next/link"
-import { useState } from "react"
 import Layout from "@/components/layout/Layout";
-import VideoPopup from "@/components/elements/VideoPopup"
 
 export default function MetaTrader4Page() {
-    const [activeIndex, setActiveIndex] = useState(1)
-    const handleOnClick = (index) => {
-        setActiveIndex(index)
-    }
-
-    const [isActive, setIsActive] = useState({
-        status: false,
-        key: 1,
-    })
-
-    const handleToggle = (key) => {
-        if (isActive.key === key) {
-            setIsActive({
-                status: false,
-            })
-        } else {
-            setIsActive({
-                status: true,
-                key,
-            })
-        }
-    }
-    
     return (
         <div className="boxed_wrapper">
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="MetaTrader 4 (MT4)">
                 <section className="platform-section alternat-2 pt_90 pb_60">
                     <div className="auto-container">
-                        <div className="row align-items-center">
-                            <div className="col-md-4">
-                                <img src="/assets/images/resource/metatrader_4-info.jpg" alt="Trade with Confidence Using MetaTrader 4" className="rounded" />
-                            </div>
+                        <div className="row align-items-center g-3">
                             <div className="col-md-8">
                                 <div className="sec-title pb_20">
                                     <span className="sub-title mb_14">INFO</span>
@@ -46,7 +17,7 @@ export default function MetaTrader4Page() {
                                 <section className="funfact-section">
                                     <div className="auto-container px-0">
                                         <div className="inner-container d-flex flex-column p-5 aligh-items-start justify-content-start">
-                                            <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-16.png)" }}></div>
+                                            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
                                             <h4 className="text-dark fw-semibold mb-3">Powerful, user-friendly, and built for serious traders</h4>
                                             <p>MetaTrader 4 (MT4) is the industry-standard platform for forex and CFD trading, trusted by
                                                 millions of traders around the world. Known for its speed, reliability, and robust feature set, MT4
@@ -58,18 +29,24 @@ export default function MetaTrader4Page() {
                                     </div>
                                 </section>
                             </div>
+                            <div className="col-md-4">
+                                <img src="/assets/images/resource/metatrader_4-info.jpg" alt="Trade with Confidence Using MetaTrader 4" className="rounded" />
+                            </div>
                         </div>
                     </div>
                 </section>
 
                 <section className="markets-section pt_60 pb_70">
                     <div className="auto-container">
-                        <div className="row align-items-center">
+                        <div className="row align-items-center g-3">
+                            <div className="sec-title pb_30">
+                                <span className="sub-title mb_14">Why MetaTrader 4 With AUT</span>
+                                <h2>Why Trade on MetaTrader 4 with AUT Investments LTD?</h2>
+                            </div>
+                            <div className="col-md-4">
+                                <img src="/assets/images/resource/metatrader_4-why.jpg" alt="" className="rounded" />
+                            </div>
                             <div className="col-md-8">
-                                <div className="sec-title pb_30">
-                                    <span className="sub-title mb_14">Why MetaTrader 4 With AUT</span>
-                                    <h2>Why Trade on MetaTrader 4 with AUT Investments LTD?</h2>
-                                </div>
                                 <div className="row clearfix education-details-content shadow-sm py-5 px-4 rounded-4" >
                                     <div className="col-12 content-column ">
                                         <div className="text-box">
@@ -86,177 +63,6 @@ export default function MetaTrader4Page() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-4">
-                                <img src="../assets/images/resource/affiliate-feature.jpg" alt="" className="rounded" />
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section className="news-section pt_100 pb_70">
-                    <div className="auto-container">
-                        <div className="sec-title pb_60">
-                            <span className="sub-title mb_14">Overview</span>
-                            <h2>Join Our Affiliate Network</h2>
-                        </div>
-                        <div className="row clearfix row-deck">
-                            <div className="col-lg-6 col-md-12 news-block d-flex flex-column">
-                                <div className="news-block-one w-100 d-flex flex-column h-100 wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <h2>Who Can Join?</h2>
-                                        <p>Whether you’re an individual or a large affiliate network, our partnership structure can be customized to match your goals.</p>
-                                        <ul className="list-style-one mt_40 clearfix">
-                                            <li>Forex and crypto bloggers</li>
-                                            <li>Financial influencers and YouTubers</li>
-                                            <li>Digital marketers running ad campaigns</li>
-                                            <li>Website/app owners with finance traffic</li>
-                                            <li>IBs and community leaders</li>
-                                            <li>Affiliate marketers with forex or fintech experience</li>
-                                            <li>Educators and trading mentors</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 col-md-12 news-block d-flex flex-column">
-                                <div className="news-block-one w-100 d-flex flex-column h-100 wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <h2>Affiliate Dashboard Features</h2>
-                                        <ul className="list-style-one mt_40 clearfix">
-                                            <li>Real-time referral and earnings tracking</li>
-                                            <li>Custom promo links and banners</li>
-                                            <li>Conversion rate metrics</li>
-                                            <li>Geo-based traffic insights</li>
-                                            <li>Automated commission calculation</li>
-                                            <li>Secure payout options</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 col-md-12 news-block d-flex flex-column">
-                                <div className="news-block-one w-100 d-flex flex-column h-100 wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <h2>Payout Methods & Frequency</h2>
-                                        <ul className="list-style-one mt_40 clearfix">
-                                            <li>Bank Transfer</li>
-                                            <li>E-wallets (Skrill, Neteller, etc.)</li>
-                                            <li>Crypto (USDT/BTC)</li>
-                                            <li>Monthly or biweekly payouts (based on plan)</li>
-                                            <li>Transparent withdrawal process with no hidden charges</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 col-md-12 news-block d-flex flex-column">
-                                <div className="news-block-one w-100 d-flex flex-column h-100 wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <h2>Support & Resources</h2>
-                                        <ul className="list-style-one mt_40 clearfix">
-                                            <li>Personalized strategy sessions</li>
-                                            <li>Performance optimization tips</li>
-                                            <li>Educational webinars and tutorials</li>
-                                            <li>Regular updates on platform promotions and events</li>
-                                            <li>Custom creatives on request</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section className="working-section apps-section alternat-2 pt_120 pb_120 pt_100 pb_100">
-                    <div className="auto-container">
-                        <div class="shape" style={{ backgroundImage: "url(../assets/images/shape/shape-4.png)" }}></div>
-                        <div className="row align-items-center">
-                            <div className="col-lg-6 col-md-12 col-sm-12 video-column">
-                                <div className="video_block_one">
-                                    <div className="video-box z_1 p_relative pl_50 pt_50 pb_30 centred">
-                                        <div className="video-inner">
-                                            <div className="bg-layer" style={{ backgroundImage: "url(../assets/images/resource/video-2.jpg)" }}></div>
-                                            <div className="video-content">
-                                                <VideoPopup />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                                <div className="content_block_nine">
-                                    <div className="content-box ml_70">
-                                        <div className="sec-title light pb_35">
-                                            <span className="sub-title mb_10">Easy Steps</span>
-                                            <h2>How to Join Our Affiliate Program</h2>
-                                        </div>
-                                        <div className="inner-box">
-                                            <div className="single-item">
-                                                <span className="count-text bg-light text-dark">1</span>
-                                                <h3>Register as an Affiliate</h3>
-                                                <p>Fill out the simple application form and get approved within 24 hours.</p>
-                                            </div>
-                                            <div className="single-item">
-                                                <span className="count-text bg-light text-dark">2</span>
-                                                <h3>Get Your Unique Tracking Links</h3>
-                                                <p>Access the affiliate dashboard and generate custom links and creatives. valid identification and proof of residence to comply with regulatory standards.</p>
-                                            </div>
-                                            <div className="single-item">
-                                                <span className="count-text bg-light text-dark">3</span>
-                                                <h3>Start Promoting AUT Investments LTD</h3>
-                                                <p>Share your links across your blog, social media, website, email list, or ad campaigns.</p>
-                                            </div>
-                                            <div className="single-item">
-                                                <span className="count-text bg-light text-dark">4</span>
-                                                <h3>Track Referrals and Earnings</h3>
-                                                <p>Use your dashboard to monitor conversions, trading activity, and payouts in real time</p>
-                                            </div>
-                                            <div className="single-item">
-                                                <span className="count-text bg-light text-dark">5</span>
-                                                <h3> Receive Timely Payouts</h3>
-                                                <p>Get paid via your preferred method once you meet the payout threshold — quickly and securely.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section className="working-section pt_100 pb_100">
-                    <div className="auto-container">
-                        <div className="row align-items-center clearfix">
-                            <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                                <div className="content-box">
-                                    <div className="process-block-one">
-                                        <div className="inner-box">
-                                            <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
-                                            <span className="count-text">1</span>
-                                            <h3>CPA (Cost Per Acquisition)</h3>
-                                            <p className="mb-0">Earn a fixed payout for every referred client who completes account verification and makes a qualifying deposit. Ideal for affiliates focused on volume.</p>
-                                        </div>
-                                    </div>
-                                    <div className="process-block-one">
-                                        <div className="inner-box">
-                                            <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
-                                            <span className="count-text">2</span>
-                                            <h3>Revenue Share</h3>
-                                            <p className="mb-0">Earn a percentage of the spread or commission generated by your referred clients. The more they trade, the more you earn recurring passive income.</p>
-                                        </div>
-                                    </div>
-                                    <div className="process-block-one">
-                                        <div className="inner-box">
-                                            <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
-                                            <span className="count-text">3</span>
-                                            <h3>Hybrid Plan</h3>
-                                            <p className="mb-0">Combine CPA and revenue share for a balanced approach. Contact our team to tailor your plan.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                                <div class="image-box">
-                                    <img class="image image-hov-two rounded" src="assets/images/resource/process-1.jpg" alt=""></img>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </section>
@@ -264,44 +70,98 @@ export default function MetaTrader4Page() {
                 <section className="award-section pt_60 pb_70">
                     <div className="auto-container">
                         <div className="sec-title pb_60">
-                            <span className="sub-title mb_14">Support </span>
-                            <h2>Affiliate Program Benefits at a Glance</h2>
+                            <span className="sub-title mb_14">Features</span>
+                            <h2>Key Features of MetaTrader 4</h2>
                         </div>
                         <div className="table-outer">
                             <table className="award-table">
                                 <thead>
                                     <tr>
-                                        <th>Feature</th>
-                                        <th>Value</th>
+                                        <th className="text-muted">Feature</th>
+                                        <th className="text-muted">Description</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>Commission Type</td>
-                                        <td>CPA / Rev Share / Hybrid</td>
+                                        <th>One-Click Trading</th>
+                                        <td>Place, modify, or close orders instantly</td>
                                     </tr>
                                     <tr>
-                                        <td>Real-Time Tracking</td>
-                                        <td>Yes</td>
+                                        <th>Multiple Chart Windows</th>
+                                        <td>Track multiple instruments in real-time</td>
                                     </tr>
                                     <tr>
-                                        <td>Minimum Payout Threshold</td>
-                                        <td>$100 (varies by method)</td>
+                                        <th>Technical Indicators</th>
+                                        <td>30+ preloaded indicators + custom options</td>
                                     </tr>
                                     <tr>
-                                        <td>Access to Creatives</td>
-                                        <td>Banners, landing pages, videos</td>
+                                        <th>Timeframes</th>
+                                        <td>9 timeframes from 1 minute to 1 month</td>
                                     </tr>
                                     <tr>
-                                        <td>Referral Cookie Duration</td>
-                                        <td>60 days</td>
+                                        <th>Automated Trading (EAs)</th>
+                                        <td>Build, test, and deploy automated strategies</td>
                                     </tr>
                                     <tr>
-                                        <td>Dedicated Support</td>
-                                        <td>1-on-1 Affiliate Manager</td>
+                                        <th>Custom Alerts</th>
+                                        <td>Set price alerts and strategy triggers</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Trade History Tracking</th>
+                                        <td>Review past performance for deeper insights</td>
                                     </tr>
                                 </tbody>
                             </table>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="news-section pt_100 pb_70">
+                    <div className="auto-container">
+                        <div className="sec-title pb_60">
+                            <span className="sub-title mb_14">Info & Steps</span>
+                            <h2>Information With Steps</h2>
+                        </div>
+                        <div className="row clearfix row-deck">
+                            <div className="col-lg-6 col-md-12 news-block d-flex flex-column">
+                                <div className="news-block-one w-100 d-flex flex-column h-100 wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                    <div className="inner-box">
+                                        <h2>Platform Compatibility</h2>
+                                        <ul className="list-item mt_40 clearfix">
+                                            <li className="mb-3"><b className="fs-6 text-dark">Desktop (Windows):</b> <br />Full-featured version with maximum performance and customization.</li>
+                                            <li className="mb-3"><b className="fs-6 text-dark">WebTrader:</b> <br />Browser-based access — no installation required. Secure and responsive.</li>
+                                            <li className="mb-3"><b className="fs-6 text-dark">Mobile (iOS & Android):</b> <br />Trade on the go with full access to charts, order types, and account monitoring.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-6 col-md-12 news-block d-flex flex-column">
+                                <div className="news-block-one w-100 d-flex flex-column h-100 wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                    <div className="inner-box">
+                                        <h2>Why MT4 Remains the Platform of Choice</h2>
+                                        <ul className="list-item mt_40 clearfix">
+                                            <li className="mb-3"><b className="fs-6 text-dark">Stability & Speed:</b> <br />Proven architecture for consistent performance in live market conditions.</li>
+                                            <li className="mb-3"><b className="fs-6 text-dark">Community & Resources:</b> <br />Thousands of free indicators, strategies, and tutorials available globally.</li>
+                                            <li className="mb-3"><b className="fs-6 text-dark">Low System Requirements:</b> <br />Runs efficiently on most devices, making it accessible for all traders.</li>
+                                            <li className="mb-3"><b className="fs-6 text-dark">Multi-Language Support:</b> <br />Available in dozens of languages to cater to international users.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-12 news-block d-flex flex-column">
+                                <div className="news-block-one w-100 d-flex flex-column h-100 wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                    <div className="inner-box">
+                                        <h2>How to Get Started with MT4</h2>
+                                        <ul className="list-item mt_40 clearfix">
+                                            <li className="mb-3"><b className="fs-6 text-dark">Open a Live or Demo Account:</b> <br />Choose an account type and complete the quick signup process.</li>
+                                            <li className="mb-3"><b className="fs-6 text-dark">Download MT4:</b> <br />Access MT4 for Windows or use WebTrader for instant access via browser.</li>
+                                            <li className="mb-3"><b className="fs-6 text-dark">Log In with AUT Credentials:</b> <br />Use the login details sent via email to connect to our trading server.</li>
+                                            <li className="mb-3"><b className="fs-6 text-dark">Configure Platform Settings:</b> <br />Set up charts, indicators, and your preferred layout.</li>
+                                            <li className="mb-3"><b className="fs-6 text-dark">Start Trading:</b> <br />Analyze the markets, place trades, and manage positions in real time.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -310,20 +170,20 @@ export default function MetaTrader4Page() {
                     <div className="bg-color"></div>
                     <div className="auto-container">
                         <div className="inner-container">
-                            <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-5.png)" }}></div>
+                            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
                             <div className="row">
                                 <div className="col-md-12 col-sm-12 text-column">
                                     <div className="text-box">
-                                        <h3 className="text-dark fw-semibold mb-3">Start Earning Today</h3>
-                                        <p className="text-light">Join the AUT Investments LTD Affiliate Program and turn your audience, content, or network into a revenue source. Whether you’re scaling or just starting out, we’ll provide the tools, support, and structure to help you grow.</p>
-                                        <a class="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Us</a>
+                                        <h3 className="fw-semibold mb-3">Download MetaTrader 4 and Start Trading</h3>
+                                        <p className="text-light">Experience the full power of professional trading with MT4 on AUT Investments LTD. Whether
+                                            you're charting trends, automating strategies, or managing positions — MT4 gives you the tools
+                                            and speed you need to succeed.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-
             </Layout>
         </div>
     );

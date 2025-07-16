@@ -33,7 +33,6 @@ export default function StockTrading() {
     <div className="boxed_wrapper">
       <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Stock Trading">
 
-
         <section className="platform-section alternat-2 pt_90 pb_60">
           <div className="auto-container">
             <div className="row align-items-center">
@@ -49,20 +48,20 @@ export default function StockTrading() {
                   <div className="auto-container px-0">
                     <div className="inner-container d-flex flex-column p-5 aligh-items-start justify-content-start">
                       <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-16.png)" }}></div>
-                        <h4 className="mb-3">Overview of Stock Trading</h4>
-                        <p className="mb-3">
-                          Stock trading involves buying and selling shares of publicly listed companies across global
-                          exchanges such as NYSE, NASDAQ, LSE, and more. Whether you're interested in growth
-                          stocks, dividend stocks, or blue‑chip stocks, AUT Investments provides access to a wide
-                          range of equity instruments to suit varied trader goals.
-                        </p>
-                        <p>
-                          The stock market is an accessible way to build wealth, offering investors and traders
-                          opportunities through price appreciation, dividends, and portfolio diversification. With shifts in
-                          earnings, market sentiment, and macroeconomic indicators, stock trading presents both
-                          short‑term and long‑term potential.
-                        </p>
-                  
+                      <h4 className="mb-3">Overview of Stock Trading</h4>
+                      <p className="mb-3">
+                        Stock trading involves buying and selling shares of publicly listed companies across global
+                        exchanges such as NYSE, NASDAQ, LSE, and more. Whether you're interested in growth
+                        stocks, dividend stocks, or blue‑chip stocks, AUT Investments provides access to a wide
+                        range of equity instruments to suit varied trader goals.
+                      </p>
+                      <p>
+                        The stock market is an accessible way to build wealth, offering investors and traders
+                        opportunities through price appreciation, dividends, and portfolio diversification. With shifts in
+                        earnings, market sentiment, and macroeconomic indicators, stock trading presents both
+                        short‑term and long‑term potential.
+                      </p>
+
                     </div>
                   </div>
                 </section>
@@ -73,8 +72,6 @@ export default function StockTrading() {
             </div>
           </div>
         </section>
-
-
 
         <section className="process-section">
           <div className="auto-container">
@@ -161,7 +158,6 @@ export default function StockTrading() {
             </div>
           </div>
         </section>
-
 
         <section className="platform-section alternat-2 pt_90 pb_130">
           <div className="auto-container">
@@ -259,7 +255,7 @@ export default function StockTrading() {
                   </div>
                 </div>
                 <div className="col-xl-4 col-lg-12 col-md-12 btn-column">
-                  <ul className="tab-btns tab-buttons shop-tab-btn clearfix">
+                  <ul className="three tab-btns tab-buttons shop-tab-btn clearfix">
                     <li onClick={() => handleOnClick(1)} className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>Key Stock Trading Features</li>
                     <li onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>Popular Stock Market Strategies</li>
                     <li onClick={() => handleOnClick(3)} className={activeIndex === 3 ? "tab-btn active-btn" : "tab-btn"}>Why Trade Stocks...</li>
@@ -270,24 +266,14 @@ export default function StockTrading() {
           </div>
         </section>
 
-
         <section className="working-section apps-section alternat-2 pt_120 pb_120 pt_100 pb_100">
           <div className="auto-container">
             <div class="shape" style={{ backgroundImage: "url(assets/images/shape/shape-4.png)" }}></div>
             <div className="row align-items-center">
-              <div className="col-lg-6 col-md-12 col-sm-12 video-column">
-                <div className="video_block_one">
-                  <div className="video-box z_1 p_relative pl_50 pt_50 pb_30 centred">
-                    <div className="video-inner">
-                      <div className="bg-layer" style={{ backgroundImage: "url(assets/images/resource/video-2.jpg)" }}></div>
-                      <div className="video-content">
-                        <VideoPopup />
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div className="col-lg-4 col-md-12 col-sm-12">
+                <img src="/assets/images/resource/how-to-start-stock-trading.jpg" alt="" className="rounded" />
               </div>
-              <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+              <div className="col-lg-8 col-md-12 col-sm-12 content-column">
                 <div className="content_block_nine">
                   <div className="content-box ml_70">
                     <div className="sec-title light pb_35">
@@ -332,7 +318,6 @@ export default function StockTrading() {
             </div>
           </div>
         </section>
-
 
         <section className="about-section pt_100 pb_100">
           <div className="auto-container">
@@ -405,29 +390,19 @@ export default function StockTrading() {
                 </div>
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12 video-column">
-                <div className="video_block_one">
-                  <div className="video-box z_1 p_relative ml_70 centred">
-                    <div className="video-inner">
-                      <div className="bg-layer" style={{ backgroundImage: "url(assets/images/resource/video-1.jpg)" }}></div>
-                      <div className="video-content">
-                        <VideoPopup />
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <img src="/assets/images/resource/faq.jpg" alt="" className="rounded" />
               </div>
             </div>
           </div>
         </section>
 
-
         <section className="apps-style-two pt_80 pb_80">
-          <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-10.png)" }}></div>
+          <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-10.png)" }}></div>
           <div className="auto-container">
             <div className="row align-items-center">
               <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                 <div className="image-box">
-                  <figure className="image"><img src="assets/images/resource/apps-1.png" alt="" /></figure>
+                  <figure className="image"><img src="/assets/images/resource/apps-1.png" alt="" /></figure>
                 </div>
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -444,7 +419,7 @@ export default function StockTrading() {
                     <Link href="/open-account" className="theme-btn btn-one bg-dark me-3">
                       Open Live Account
                     </Link>
-                    <Link href="/login" className="theme-btn btn-one bg-dark me-3">
+                    <Link href="/trading/open-demo-account" className="theme-btn btn-one bg-dark me-3">
                       Try a Demo
                     </Link>
                     <Link href="/contact" className="theme-btn btn-one bg-dark">

@@ -1,11 +1,14 @@
 'use client'
 import Link from "next/link"
 import { useState } from "react"
+import { usePathname } from "next/navigation"
+
 export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar }) {
     const [isActive, setIsActive] = useState({
         status: false,
         key: "",
     })
+    const pathname = usePathname();
 
     const handleToggle = (key) => {
         if (isActive.key === key) {
@@ -19,6 +22,9 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
             })
         }
     }
+    const isActiveLink = (href) => pathname === href;
+    const isGroupActive = (hrefs) => hrefs.some(href => pathname.startsWith(href));
+
     return (
         <>
             <div className="mobile-menu">
@@ -29,55 +35,48 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                     <div className="menu-outer">
                         <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul className="navigation clearfix">
-                                <li className={isActive.key == 1 ? "dropdown current" : "dropdown"}><Link href="/">Home</Link>
+                                <li className={isActiveLink("/") ? "dropdown current" : "dropdown"}><Link href="/">Home</Link></li>
+                                <li className={isGroupActive(["/trading/"]) ? "dropdown current" : "dropdown"}>
+                                    <div className="dropdown-btn" onClick={() => handleToggle(1)}><span className="fa fa-angle-right" /></div>
+                                    <a href="#">Trading</a>
                                     <ul style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
-                                    <li><Link href="/">Home Page One</Link></li>
-                                    <li><Link href="/index-2">Home Page Two</Link></li>
-                                    <li><Link href="/index-3">Home Page Three</Link></li>
-                                    <li><Link href="/index-4">Home Page Four</Link></li>
-                                    <li><Link href="/index-5">Home Page Five</Link></li>
+                                        <li className={isActiveLink("/trading/open-trading-account") ? "current" : ""}><Link href="/trading/open-trading-account">Open Trading Account</Link></li>
+                                        <li className={isActiveLink("/trading/deposit-withdraw") ? "current" : ""}><Link href="/trading/deposit-withdraw">Deposit &amp; Withdraw</Link></li>
+                                        <li className={isActiveLink("/trading/open-demo-account") ? "current" : ""}><Link href="/trading/open-demo-account">Open Demo Account</Link></li>
                                     </ul>
-                                    <div className={isActive.key == 1 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(1)}><span className="fa fa-angle-right" /></div>
                                 </li>
-                                <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link href="/#">Trading</Link>
+                                <li className={isGroupActive(["/markets/"]) ? "dropdown current" : "dropdown"}>
+                                    <div className="dropdown-btn" onClick={() => handleToggle(2)}><span className="fa fa-angle-right" /></div>
+                                    <a href="#">Market</a>
                                     <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
-                                    <li><Link href="/platform">Platform</Link></li>
-                                    <li><Link href="/account">Account</Link></li>
-                                    <li><Link href="/account-details">Account Deatils</Link></li>
+                                        <li className={isActiveLink("/markets/forex-trading") ? "current" : ""}><Link href="/markets/forex-trading">Forex Trading</Link></li>
+                                        <li className={isActiveLink("/markets/stock-trading") ? "current" : ""}><Link href="/markets/stock-trading">Stock Trading</Link></li>
+                                        <li className={isActiveLink("/markets/metals-trading") ? "current" : ""}><Link href="/markets/metals-trading">Metals Trading</Link></li>
+                                        <li className={isActiveLink("/markets/indices-trading") ? "current" : ""}><Link href="/markets/indices-trading">Indices Trading</Link></li>
+                                        <li className={isActiveLink("/markets/commodities-trading") ? "current" : ""}><Link href="/markets/commodities-trading">Commodities Trading</Link></li>
+                                        <li className={isActiveLink("/markets/crypto-trading") ? "current" : ""}><Link href="/markets/crypto-trading">Crypto Trading</Link></li>
                                     </ul>
-                                    <div className={isActive.key == 2 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(2)}><span className="fa fa-angle-right" /></div>
                                 </li>
-                                <li className={isActive.key == 3 ? "dropdown current" : "dropdown"}><Link href="/#">Market</Link>
+                                <li className={isGroupActive(["/platform/"]) ? "dropdown current" : "dropdown"}>
+                                    <div className="dropdown-btn" onClick={() => handleToggle(3)}><span className="fa fa-angle-right" /></div>
+                                    <a href="#">Platform</a>
                                     <ul style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
-                                        <li><Link href="/markets">Markets Place</Link></li>
-                                        <li><Link href="/markets-details">Markets Details</Link></li>
+                                        <li className={isActiveLink("/platform/metatrader4") ? "current" : ""}><Link href="/platform/metatrader4">MetaTrader 4 (MT4)</Link></li>
+                                        <li className={isActiveLink("/platform/metatrader5") ? "current" : ""}><Link href="/platform/metatrader5">MetaTrader 5 (MT5)</Link></li>
                                     </ul>
-                                    <div className={isActive.key == 3 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(3)}><span className="fa fa-angle-right" /></div>
                                 </li>
-                                <li className={isActive.key == 4 ? "dropdown current" : "dropdown"}><Link href="/#">Pages</Link>
+                                <li className={isGroupActive(["/products/"]) ? "dropdown current" : "dropdown"}>
+                                    <div className="dropdown-btn" onClick={() => handleToggle(4)}><span className="fa fa-angle-right" /></div>
+                                    <a href="#">Products</a>
                                     <ul style={{ display: `${isActive.key == 4 ? "block" : "none"}` }}>
-                                        <li><Link href="/education">Education</Link></li>
-                                        <li><Link href="/education-details">Book Details</Link></li>
-                                        <li><Link href="/team">Our Expert Team</Link></li>
-                                        <li><Link href="/team-details">Team Deatils</Link></li>
-                                        <li><Link href="/about">About Us</Link></li>
-                                        <li><Link href="/faq">FAQ's</Link></li>
-                                        <li><Link href="/error">404</Link></li>
+                                        <li className={isActiveLink("/products/copy-trading") ? "current" : ""}><Link href="/products/copy-trading">Copy Trading</Link></li>
+                                        <li className={isActiveLink("/products/social-trading") ? "current" : ""}><Link href="/products/social-trading">Social Trading</Link></li>
+                                        <li className={isActiveLink("/products/algo-trading") ? "current" : ""}><Link href="/products/algo-trading">Algo Trading</Link></li>
                                     </ul>
-                                    <div className={isActive.key == 4 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(4)}><span className="fa fa-angle-right" /></div>
                                 </li>
-                                <li className={isActive.key == 5 ? "dropdown current" : "dropdown"}><Link href="/#">Blog</Link>
-                                    <ul style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}>
-                                    <li><Link href="/blog">Blog Grid</Link></li>
-                                    <li><Link href="/blog-2">Blog Standard</Link></li>
-                                    <li><Link href="/blog-details">Blog Details</Link></li>
-                                    </ul>
-                                    <div className={isActive.key == 5 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(5)}><span className="fa fa-angle-right" /></div>
-                                </li>
-                                <li><Link href="/contact">Contact</Link></li>
+                                <li className={isActiveLink("/contact") ? "current" : ""}><Link href="/contact">Contact</Link></li>
                             </ul>
                         </div>
-
                     </div>
                     {/*Social Links*/}
                     <div className="social-links">
@@ -92,9 +91,6 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                 </nav>
             </div>{/* End Mobile Menu */}
             <div className="nav-overlay" style={{ display: `${isSidebar ? "block" : "none"}` }} onClick={handleSidebar} />
-
-          
-
         </>
     )
 }
