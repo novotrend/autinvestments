@@ -64,9 +64,10 @@ export default function Footer1() {
                                             <ul class="links-list clearfix">
                                                 <li><a href="/document/risk-disclosure">Risk Disclosure</a></li>
                                                 <li><a href="/document/privacy-policy">Privacy Policy</a></li>
+                                                <li><a href="/document/services-regulations">Services Regulations</a></li>
                                                 <li><a href="/document/client-agreement">Client Agreement</a></li>
                                                 <li><a href="/document/anti-money">Anti-Money Laundering (AML) Policy</a></li>
-                                                <li><a href="/document/contact">Support and Contact</a></li>
+                                                <li><a href="/document/support-contact">Support and Contact</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -95,8 +96,8 @@ export default function Footer1() {
                         <ul className="social-links">
                             <li><h5>Follow Us On:</h5></li>
                             <li><Link href="/"><i className="icon-12"></i></Link></li>
-                            <li><Link href="/"><i className="icon-13"></i></Link></li>
-                            <li><Link href="/"><i className="icon-14"></i></Link></li>
+                            {/* <li><Link href="/"><i className="icon-13"></i></Link></li> */}
+                            <li><Link href="/"><i className="fab fa-instagram"></i></Link></li>
                             <li><Link href="/"><i className="icon-15"></i></Link></li>
                         </ul>
                     </div>
