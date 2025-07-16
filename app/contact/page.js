@@ -6,7 +6,7 @@ export default function Contact() {
 
     return (
         <div className="boxed_wrapper">
-        <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Contact Us">
+        <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Contact Us">
 
         <section className="contact-section pt_90 pb_100">
             <div className="auto-container">

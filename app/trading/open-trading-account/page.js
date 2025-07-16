@@ -65,7 +65,7 @@ export default function OpenTradingAccount() {
                 </div>
               </div>
                <div className="col-md-4">
-                <img src="../assets/images/resource/opentrading-feature.jpg" alt="" className="rounded" />
+                <img src="/assets/images/resource/opentrading-feature.jpg" alt="" className="rounded" />
               </div>
             </div>
           </div>
