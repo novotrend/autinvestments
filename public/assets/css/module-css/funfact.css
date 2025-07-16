@@ -1,0 +1,226 @@
+
+/** funfact-section **/
+
+.funfact-section{
+  position: relative;
+}
+
+.funfact-section .inner-container{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  background: #F5FFF9;
+  border: 1px solid #BDE7C3;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.funfact-block-one .inner-box{
+  position: relative;
+  display: block;
+  padding: 47px 20px 60px 50px;
+}
+
+.funfact-block-one .inner-box:before{
+  position: absolute;
+  content: '';
+  background: #BDE7C3;
+  width: 1px;
+  height: 100%;
+  top: 0px;
+  right: -15px;
+}
+
+.funfact-block:last-child .funfact-block-one .inner-box:before{
+  display: none;
+}
+
+.funfact-block-one .inner-box .count-outer{
+  position: relative;
+  display: inline-block;
+  font-size: 64px;
+  line-height: 70px;
+  font-family: var(--title-font);
+  font-weight: 700;
+  margin-bottom: 9px;
+}
+
+.funfact-block-one .inner-box .count-outer .text{
+  position: relative;
+  display: inline-block;
+  font-size: 24px;
+  margin-left: 10px;
+  top: -6px;
+}
+
+.funfact-block-one .inner-box p{
+  font-size: 18px;
+  line-height: 30px;
+}
+
+
+/** funfact-style-two **/
+
+.funfact-style-two{
+  position: relative;
+}
+
+.funfact-block-two{
+  position: relative;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.funfact-block-two .shape{
+  position: absolute;
+  left: 0px;
+  top: 15px;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.funfact-block-two .inner-box{
+  position: relative;
+  display: block;
+  border: 1px solid #E7E7E7;
+  border-radius: 10px;
+  padding: 30px 30px;
+  background: #fff;
+  transition: all 500ms ease;
+}
+
+.funfact-block-two .inner-box:hover{
+  
+}
+
+.funfact-block-two .inner-box .count-outer{
+  position: relative;
+  display: block;
+  font-size: 48px;
+  line-height: 52px;
+  font-family: var(--title-font);
+  color: var(--title-color);
+  margin-bottom: 0px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.funfact-block-two .inner-box p{
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--title-color);
+}
+
+.dark_home .funfact-block-two{
+  padding-bottom: 0px;
+}
+
+.dark_home .funfact-block-two .inner-box{
+  border: none;
+  background: transparent;
+  background: linear-gradient(110.34deg, rgba(255, 255, 255, 0.175) 0%, rgba(255, 255, 255, 0.03) 100%);
+}
+
+.dark_home .funfact-block-two .inner-box .count-outer{
+  color: #fff;
+}
+
+.dark_home .funfact-block-two .inner-box p{
+  color: #fff;
+}
+
+
+/** rtl-css **/
+
+.rtl .funfact-block-one .inner-box:before{
+  right: inherit;
+  left: -15px;
+}
+
+.rtl .funfact-block-one .inner-box .count-outer .text{
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+  .funfact-block-one .inner-box:before{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .funfact-block-one .inner-box{
+    padding-left: 30px;
+  }
+
+  .funfact-block-one .inner-box{
+    padding-bottom: 0px;
+  }
+
+  .funfact-section .inner-container{
+    padding-bottom: 60px;
+  }
+
+  .funfact-style-two{
+    padding-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+  
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

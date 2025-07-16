@@ -1,0 +1,189 @@
+
+/** team-section **/
+
+.team-section{
+  position: relative;
+}
+
+.team-block-one{
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+  border: 1px solid #E5E5E5;
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  transition: all 500ms ease;
+}
+
+.team-block-one:hover{
+  background: #fff;
+  border-color: #fff;
+  box-shadow: 0px 4px 50px 10px rgba(0, 0, 0, 0.04);
+}
+
+.team-block-one .inner-box{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.team-block-one .inner-box .image-box{
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.team-block-one .inner-box .image-box img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.team-block-one .inner-box .content-box{
+  position: relative;
+  display: block;
+}
+
+.team-block-one .inner-box .content-box h3{
+  font-size: 24px;
+  line-height: 27px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.team-block-one .inner-box .content-box h3 a{
+  display: inline-block;
+  color: var(--title-color);
+}
+
+.team-block-one .inner-box .content-box h3 a:hover{
+
+}
+
+.team-block-one .inner-box .content-box .designation{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 27px;
+}
+
+.team-block-one .inner-box .content-box .social-links{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.team-block-one .inner-box .content-box .social-links li{
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.team-block-one .inner-box .content-box .social-links li:last-child{
+  margin: 0px !important;
+}
+
+.team-block-one .inner-box .content-box .social-links li a{
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  border: 1px solid #e5e5e5;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 20px;
+  color: var(--title-color);
+}
+
+.team-block-one .inner-box .content-box .social-links li a:hover{
+  color: #fff;
+}
+
+
+/** rtl-css **/
+
+.rtl .team-block-one .inner-box .image-box{
+  margin-right: 0px;
+  margin-left: 30px;
+}
+
+.rtl .team-block-one .inner-box .content-box .social-links li{
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .team-section{
+    padding: 65px 0px 40px 0px;
+  }
+
+  .team-section.pt_0{
+    padding-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

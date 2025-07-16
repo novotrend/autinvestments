@@ -1,0 +1,195 @@
+
+/** clients-section **/
+
+.clients-section{
+  position: relative;
+}
+
+.clients-section .clients-list{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clients-section .clients-list li{
+  position: relative;
+  display: inline-block;
+}
+
+.clients-section .clients-list li img{
+  position: relative;
+  display: inline-block;
+  filter: grayscale(100%);
+  transition: all 500ms ease;
+}
+
+.clients-section .clients-list li img:hover{
+  filter: grayscale(0%);
+}
+
+
+/** clients-style-two **/
+
+.clients-style-two{
+  position: relative;
+}
+
+.clients-style-two .inner-container{
+  position: relative;
+  display: block;
+  background: linear-gradient(110.34deg, rgba(255, 255, 255, 0.175) 0%, rgba(255, 255, 255, 0.03) 100%);
+  border-radius: 10px;
+  padding: 50px;
+  z-index: 1;
+}
+
+.clients-style-two .inner-container .clients-list{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clients-style-two .inner-container .clients-list li{
+  position: relative;
+  display: inline-block;
+}
+
+.clients-style-two .inner-container .clients-list li img{
+  position: relative;
+  display: inline-block;
+  transition: all 500ms ease;
+}
+
+.clients-style-two .inner-container .clients-list li img:hover{
+  transform: scale(1.1);
+}
+
+
+/** rtl-css **/
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+  .clients-section .clients-list{
+    display: block;
+    text-align: center;
+  }
+
+  .clients-section .clients-list li{
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+
+  .clients-section .clients-list li:last-child{
+    margin-right: 0px;
+  }
+
+  .rtl .clients-section .clients-list li{
+    margin-right: 0px;
+    margin-left: 30px;
+  }
+
+  .rtl .clients-section .clients-list li:last-child{
+    margin-left: 0px;
+  }
+
+  .clients-section{
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 991px){
+  .clients-style-two .inner-container .clients-list{
+    display: block;
+  }
+
+  .clients-style-two .inner-container .clients-list li{
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+
+  .clients-style-two .inner-container .clients-list li:last-child{
+    margin-right: 0px;
+  }
+
+  .rtl .clients-style-two .inner-container .clients-list li{
+    margin-right: 0px;
+    margin-left: 30px;
+  }
+
+  .rtl .clients-style-two .inner-container .clients-list li:last-child{
+    margin-left: 0px;
+  }
+
+  .clients-style-two .inner-container{
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+
+}
+
+@media only screen and (max-width: 599px){
+  
+}
+
+@media only screen and (max-width: 499px){
+  .clients-section .clients-list li{
+    display: block;
+    margin: 0px 0px 30px 0px !important;
+  }
+
+  .clients-style-two .inner-container .clients-list li{
+    display: block;
+    margin: 0px 0px 30px 0px !important;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

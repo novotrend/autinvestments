@@ -1,0 +1,129 @@
+
+/** history-section **/
+
+.history-section{
+  position: relative;
+}
+
+.history-block-one .inner-box{
+  position: relative;
+  display: block;
+  background: #F7F7F7;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  padding: 35px 50px 40px 50px;
+  transition: all 500ms ease;
+}
+
+.history-block-one .inner-box:hover{
+  background: #fff;
+  box-shadow: 0px 10px 70px 0px rgba(0, 0, 0, 0.08);
+}
+
+.history-block-one .inner-box h3{
+  display: block;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.history-block-one .inner-box p{
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 45px;
+}
+
+.history-block-one .inner-box .text-box{
+  max-width: 310px;
+  float: left;
+}
+
+.history-block-one .inner-box .btn-box .theme-btn{
+  border-color: var(--secondary-color);
+  color: var(--title-color) !important;
+  padding: 9px 30px;
+}
+
+.history-block-one .inner-box .image-box{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+
+/** rtl-css **/
+
+.rtl .history-block-one .inner-box{
+  text-align: right;
+}
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+ 
+}
+
+@media only screen and (max-width: 767px){
+  .history-section{
+    padding-top: 70px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+  .history-block-one .inner-box .image-box{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
