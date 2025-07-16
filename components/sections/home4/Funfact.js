@@ -9,7 +9,7 @@ export default function Funfact() {
                     <div className="row clearfix">
                         <div className="col-lg-3 col-md-6 col-sm-12 funfact-block">
                             <div className="funfact-block-two">
-                                <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-8.png)" }}></div>
+                                <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-8.png)" }}></div>
                                 <div className="inner-box">
                                     <div className="count-outer">
                                         <CounterUp end={10} /><span>k</span>
@@ -20,7 +20,7 @@ export default function Funfact() {
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-12 funfact-block">
                             <div className="funfact-block-two">
-                                <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-8.png)" }}></div>
+                                <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-8.png)" }}></div>
                                 <div className="inner-box">
                                     <div className="count-outer">
                                         <CounterUp end={99} /><span>%</span>
@@ -31,7 +31,7 @@ export default function Funfact() {
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-12 funfact-block">
                             <div className="funfact-block-two">
-                                <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-8.png)" }}></div>
+                                <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-8.png)" }}></div>
                                 <div className="inner-box">
                                     <div className="count-outer">
                                         <CounterUp end={15} /><span>m+</span>
@@ -42,7 +42,7 @@ export default function Funfact() {
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-12 funfact-block">
                             <div className="funfact-block-two">
-                                <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-8.png)" }}></div>
+                                <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-8.png)" }}></div>
                                 <div className="inner-box">
                                     <div className="count-outer">
                                         <CounterUp end={800} /><span>+</span>

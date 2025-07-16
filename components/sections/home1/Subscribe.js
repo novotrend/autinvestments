@@ -7,7 +7,7 @@ export default function Subscribe() {
                 <div className="bg-color"></div>
                 <div className="auto-container">
                     <div className="inner-container">
-                        <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-5.png)" }}></div>
+                        <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12 col-sm-12 text-column">
                                 <div className="text-box">

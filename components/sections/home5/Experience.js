@@ -6,7 +6,7 @@ export default function Experience() {
         <section className="experience-style-two">
             <div className="auto-container">
                 <div className="inner-container">
-                    <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-33.png)" }}></div>
+                    <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-33.png)" }}></div>
                     <div className="upper-box p_relative mb_55">
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12 col-sm-12 title-column">

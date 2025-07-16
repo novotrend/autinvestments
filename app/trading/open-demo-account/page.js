@@ -79,7 +79,7 @@ export default function OpenDemoAccount() {
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <img src="assets/images/resource/opendemoacc-feature.jpg" alt="" className="rounded" />
+                                <img src="/assets/images/resource/opendemoacc-feature.jpg" alt="" className="rounded" />
                             </div>
                         </div>
                     </div>
@@ -92,7 +92,7 @@ export default function OpenDemoAccount() {
                             <h2>Benefits of Using a Demo Account</h2>
                         </div>
                         <div className="inner-container clearfix">
-                            <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-35.png)" }}></div>
+                            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-35.png)" }}></div>
                             <div className="single-item">
                                 <div className="icon-box"><i className="fa fa-thumbs-up fw-lighter"></i></div>
                                 <h6>Build Trading Confidence</h6>
@@ -124,21 +124,12 @@ export default function OpenDemoAccount() {
 
                 <section className="working-section apps-section alternat-2 mb_90 pt_100 pb_100">F
                     <div className="auto-container">
-                        <div class="shape" style={{ backgroundImage: "url(assets/images/shape/shape-4.png)" }}></div>
+                        <div class="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-4.png)" }}></div>
                         <div className="row align-items-center">
-                            <div className="col-lg-6 col-md-12 col-sm-12 video-column">
-                                <div className="video_block_one">
-                                    <div className="video-box z_1 p_relative pl_50 pt_50 pb_30 centred">
-                                        <div className="video-inner">
-                                            <div className="bg-layer" style={{ backgroundImage: "url(assets/images/resource/video-2.jpg)" }}></div>
-                                            <div className="video-content">
-                                                <VideoPopup />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div className="col-lg-4 col-md-12 col-sm-12">
+                                <img src="/assets/images/resource/demo-account-steps.jpg" alt="" className="rounded" />
                             </div>
-                            <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                            <div className="col-lg-8 col-md-12 col-sm-12 content-column">
                                 <div className="content_block_nine">
                                     <div className="content-box ml_70">
                                         <div className="sec-title light pb_35">
@@ -226,7 +217,7 @@ export default function OpenDemoAccount() {
                     <div className="bg-color"></div>
                     <div className="auto-container">
                         <div className="inner-container">
-                            <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-5.png)" }}></div>
+                            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
                             <div className="row align-items-center">
                                 <div className="col-12 text-column">
                                     <div className="text-box">

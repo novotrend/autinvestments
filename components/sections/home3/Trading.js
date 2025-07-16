@@ -43,14 +43,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-9.png" alt=""/><span>BTCUSDT</span>
+                                                        <img src="/assets/images/icons/icon-9.png" alt=""/><span>BTCUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>63,996.20</td>
                                                 <td>64,996.20</td>
                                                 <td className="upper">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-1.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-1.png" alt=""/>
                                                         <i className="icon-08"></i>
                                                     </div>
                                                 </td>
@@ -59,14 +59,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-10.png" alt=""/><span>ETHUSDT</span>
+                                                        <img src="/assets/images/icons/icon-10.png" alt=""/><span>ETHUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>3,320.27</td>
                                                 <td>3,520.27</td>
                                                 <td className="upper">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-1.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-1.png" alt=""/>
                                                         <i className="icon-08"></i>
                                                     </div>
                                                 </td>
@@ -75,14 +75,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-11.png" alt=""/><span>SOLUSDT</span>
+                                                        <img src="/assets/images/icons/icon-11.png" alt=""/><span>SOLUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>143.930</td>
                                                 <td>153.930</td>
                                                 <td className="lower">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-2.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-2.png" alt=""/>
                                                         <i className="icon-09"></i>
                                                     </div>
                                                 </td>
@@ -91,14 +91,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-12.png" alt=""/><span>GLMUSDT</span>
+                                                        <img src="/assets/images/icons/icon-12.png" alt=""/><span>GLMUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>0.47080</td>
                                                 <td>0.57080</td>
                                                 <td className="upper">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-1.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-1.png" alt=""/>
                                                         <i className="icon-08"></i>
                                                     </div>
                                                 </td>
@@ -107,14 +107,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-13.png" alt=""/><span>1000PEREUSDT</span>
+                                                        <img src="/assets/images/icons/icon-13.png" alt=""/><span>1000PEREUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>0.0076125</td>
                                                 <td>0.1076125</td>
                                                 <td className="upper">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-1.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-1.png" alt=""/>
                                                         <i className="icon-08"></i>
                                                     </div>
                                                 </td>
@@ -123,14 +123,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-14.png" alt=""/><span>NEARUSDT</span>
+                                                        <img src="/assets/images/icons/icon-14.png" alt=""/><span>NEARUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>0.0076125</td>
                                                 <td>0.2076125</td>
                                                 <td className="lower">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-2.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-2.png" alt=""/>
                                                         <i className="icon-09"></i>
                                                     </div>
                                                 </td>
@@ -156,14 +156,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-9.png" alt=""/><span>BTCUSDT</span>
+                                                        <img src="/assets/images/icons/icon-9.png" alt=""/><span>BTCUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>63,996.20</td>
                                                 <td>64,996.20</td>
                                                 <td className="upper">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-1.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-1.png" alt=""/>
                                                         <i className="icon-08"></i>
                                                     </div>
                                                 </td>
@@ -172,14 +172,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-13.png" alt=""/><span>1000PEREUSDT</span>
+                                                        <img src="/assets/images/icons/icon-13.png" alt=""/><span>1000PEREUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>0.0076125</td>
                                                 <td>0.1076125</td>
                                                 <td className="upper">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-1.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-1.png" alt=""/>
                                                         <i className="icon-08"></i>
                                                     </div>
                                                 </td>
@@ -188,14 +188,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-14.png" alt=""/><span>NEARUSDT</span>
+                                                        <img src="/assets/images/icons/icon-14.png" alt=""/><span>NEARUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>0.0076125</td>
                                                 <td>0.2076125</td>
                                                 <td className="lower">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-2.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-2.png" alt=""/>
                                                         <i className="icon-09"></i>
                                                     </div>
                                                 </td>
@@ -204,14 +204,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-10.png" alt=""/><span>ETHUSDT</span>
+                                                        <img src="/assets/images/icons/icon-10.png" alt=""/><span>ETHUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>3,320.27</td>
                                                 <td>3,520.27</td>
                                                 <td className="upper">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-1.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-1.png" alt=""/>
                                                         <i className="icon-08"></i>
                                                     </div>
                                                 </td>
@@ -220,14 +220,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-11.png" alt=""/><span>SOLUSDT</span>
+                                                        <img src="/assets/images/icons/icon-11.png" alt=""/><span>SOLUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>143.930</td>
                                                 <td>153.930</td>
                                                 <td className="lower">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-2.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-2.png" alt=""/>
                                                         <i className="icon-09"></i>
                                                     </div>
                                                 </td>
@@ -236,14 +236,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-12.png" alt=""/><span>GLMUSDT</span>
+                                                        <img src="/assets/images/icons/icon-12.png" alt=""/><span>GLMUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>0.47080</td>
                                                 <td>0.57080</td>
                                                 <td className="upper">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-1.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-1.png" alt=""/>
                                                         <i className="icon-08"></i>
                                                     </div>
                                                 </td>
@@ -269,14 +269,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-12.png" alt=""/><span>GLMUSDT</span>
+                                                        <img src="/assets/images/icons/icon-12.png" alt=""/><span>GLMUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>0.47080</td>
                                                 <td>0.57080</td>
                                                 <td className="upper">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-1.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-1.png" alt=""/>
                                                         <i className="icon-08"></i>
                                                     </div>
                                                 </td>
@@ -285,14 +285,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-13.png" alt=""/><span>1000PEREUSDT</span>
+                                                        <img src="/assets/images/icons/icon-13.png" alt=""/><span>1000PEREUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>0.0076125</td>
                                                 <td>0.1076125</td>
                                                 <td className="upper">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-1.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-1.png" alt=""/>
                                                         <i className="icon-08"></i>
                                                     </div>
                                                 </td>
@@ -301,14 +301,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-9.png" alt=""/><span>BTCUSDT</span>
+                                                        <img src="/assets/images/icons/icon-9.png" alt=""/><span>BTCUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>63,996.20</td>
                                                 <td>64,996.20</td>
                                                 <td className="upper">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-1.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-1.png" alt=""/>
                                                         <i className="icon-08"></i>
                                                     </div>
                                                 </td>
@@ -317,14 +317,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-10.png" alt=""/><span>ETHUSDT</span>
+                                                        <img src="/assets/images/icons/icon-10.png" alt=""/><span>ETHUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>3,320.27</td>
                                                 <td>3,520.27</td>
                                                 <td className="upper">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-1.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-1.png" alt=""/>
                                                         <i className="icon-08"></i>
                                                     </div>
                                                 </td>
@@ -333,14 +333,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-11.png" alt=""/><span>SOLUSDT</span>
+                                                        <img src="/assets/images/icons/icon-11.png" alt=""/><span>SOLUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>143.930</td>
                                                 <td>153.930</td>
                                                 <td className="lower">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-2.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-2.png" alt=""/>
                                                         <i className="icon-09"></i>
                                                     </div>
                                                 </td>
@@ -349,14 +349,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-14.png" alt=""/><span>NEARUSDT</span>
+                                                        <img src="/assets/images/icons/icon-14.png" alt=""/><span>NEARUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>0.0076125</td>
                                                 <td>0.2076125</td>
                                                 <td className="lower">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-2.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-2.png" alt=""/>
                                                         <i className="icon-09"></i>
                                                     </div>
                                                 </td>
@@ -382,14 +382,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-9.png" alt=""/><span>BTCUSDT</span>
+                                                        <img src="/assets/images/icons/icon-9.png" alt=""/><span>BTCUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>63,996.20</td>
                                                 <td>64,996.20</td>
                                                 <td className="upper">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-1.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-1.png" alt=""/>
                                                         <i className="icon-08"></i>
                                                     </div>
                                                 </td>
@@ -398,14 +398,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-11.png" alt=""/><span>SOLUSDT</span>
+                                                        <img src="/assets/images/icons/icon-11.png" alt=""/><span>SOLUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>143.930</td>
                                                 <td>153.930</td>
                                                 <td className="lower">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-2.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-2.png" alt=""/>
                                                         <i className="icon-09"></i>
                                                     </div>
                                                 </td>
@@ -414,14 +414,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-12.png" alt=""/><span>GLMUSDT</span>
+                                                        <img src="/assets/images/icons/icon-12.png" alt=""/><span>GLMUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>0.47080</td>
                                                 <td>0.57080</td>
                                                 <td className="upper">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-1.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-1.png" alt=""/>
                                                         <i className="icon-08"></i>
                                                     </div>
                                                 </td>
@@ -430,14 +430,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-13.png" alt=""/><span>1000PEREUSDT</span>
+                                                        <img src="/assets/images/icons/icon-13.png" alt=""/><span>1000PEREUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>0.0076125</td>
                                                 <td>0.1076125</td>
                                                 <td className="upper">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-1.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-1.png" alt=""/>
                                                         <i className="icon-08"></i>
                                                     </div>
                                                 </td>
@@ -446,14 +446,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-10.png" alt=""/><span>ETHUSDT</span>
+                                                        <img src="/assets/images/icons/icon-10.png" alt=""/><span>ETHUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>3,320.27</td>
                                                 <td>3,520.27</td>
                                                 <td className="upper">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-1.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-1.png" alt=""/>
                                                         <i className="icon-08"></i>
                                                     </div>
                                                 </td>
@@ -462,14 +462,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-14.png" alt=""/><span>NEARUSDT</span>
+                                                        <img src="/assets/images/icons/icon-14.png" alt=""/><span>NEARUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>0.0076125</td>
                                                 <td>0.2076125</td>
                                                 <td className="lower">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-2.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-2.png" alt=""/>
                                                         <i className="icon-09"></i>
                                                     </div>
                                                 </td>
@@ -495,14 +495,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-11.png" alt=""/><span>SOLUSDT</span>
+                                                        <img src="/assets/images/icons/icon-11.png" alt=""/><span>SOLUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>143.930</td>
                                                 <td>153.930</td>
                                                 <td className="lower">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-2.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-2.png" alt=""/>
                                                         <i className="icon-09"></i>
                                                     </div>
                                                 </td>
@@ -511,14 +511,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-12.png" alt=""/><span>GLMUSDT</span>
+                                                        <img src="/assets/images/icons/icon-12.png" alt=""/><span>GLMUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>0.47080</td>
                                                 <td>0.57080</td>
                                                 <td className="upper">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-1.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-1.png" alt=""/>
                                                         <i className="icon-08"></i>
                                                     </div>
                                                 </td>
@@ -527,14 +527,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-9.png" alt=""/><span>BTCUSDT</span>
+                                                        <img src="/assets/images/icons/icon-9.png" alt=""/><span>BTCUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>63,996.20</td>
                                                 <td>64,996.20</td>
                                                 <td className="upper">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-1.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-1.png" alt=""/>
                                                         <i className="icon-08"></i>
                                                     </div>
                                                 </td>
@@ -543,14 +543,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-10.png" alt=""/><span>ETHUSDT</span>
+                                                        <img src="/assets/images/icons/icon-10.png" alt=""/><span>ETHUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>3,320.27</td>
                                                 <td>3,520.27</td>
                                                 <td className="upper">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-1.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-1.png" alt=""/>
                                                         <i className="icon-08"></i>
                                                     </div>
                                                 </td>
@@ -559,14 +559,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-13.png" alt=""/><span>1000PEREUSDT</span>
+                                                        <img src="/assets/images/icons/icon-13.png" alt=""/><span>1000PEREUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>0.0076125</td>
                                                 <td>0.1076125</td>
                                                 <td className="upper">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-1.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-1.png" alt=""/>
                                                         <i className="icon-08"></i>
                                                     </div>
                                                 </td>
@@ -575,14 +575,14 @@ export default function Trading() {
                                             <tr>
                                                 <td>
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/icon-14.png" alt=""/><span>NEARUSDT</span>
+                                                        <img src="/assets/images/icons/icon-14.png" alt=""/><span>NEARUSDT</span>
                                                     </div>
                                                 </td>
                                                 <td>0.0076125</td>
                                                 <td>0.2076125</td>
                                                 <td className="lower">
                                                     <div className="single-item">
-                                                        <img src="assets/images/icons/chart-2.png" alt=""/>
+                                                        <img src="/assets/images/icons/chart-2.png" alt=""/>
                                                         <i className="icon-09"></i>
                                                     </div>
                                                 </td>

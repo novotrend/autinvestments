@@ -5,17 +5,17 @@ export default function Banner() {
     <>
         <section className="banner-style-three pt_100 pb_150">
             <div className="pattern-layer">
-                <div className="pattern-1 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-13.png)" }}></div>
-                <div className="pattern-2 float-bob-x" style={{ backgroundImage: "url(assets/images/shape/shape-14.png)" }}></div>
-                <div className="pattern-3 float-bob-y" style={{ backgroundImage: "url(assets/images/shape/shape-15.png)" }}></div>
+                <div className="pattern-1 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-13.png)" }}></div>
+                <div className="pattern-2 float-bob-x" style={{ backgroundImage: "url(/assets/images/shape/shape-14.png)" }}></div>
+                <div className="pattern-3 float-bob-y" style={{ backgroundImage: "url(/assets/images/shape/shape-15.png)" }}></div>
             </div>
             <div className="auto-container">
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-12 col-sm-12 form-column">
                         <div className="content_block_five">
                             <div className="content-box mr_80">
-                                <div className="shape-2" style={{ backgroundImage: "url(assets/images/shape/shape-12.png)" }}></div>
-                                <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-11.png)" }}></div>
+                                <div className="shape-2" style={{ backgroundImage: "url(/assets/images/shape/shape-12.png)" }}></div>
+                                <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-11.png)" }}></div>
                                 <h3>Create Account</h3>
                                 <div className="form-inner">
                                     <form method="post" action="index-3.html">
@@ -35,7 +35,7 @@ export default function Banner() {
                                           <ul className="default_option">
                                               <li>
                                                   <div className="option">
-                                                    <div className="icon"><img src="assets/images/icons/flag-english.png" alt=""/></div>
+                                                    <div className="icon"><img src="/assets/images/icons/flag-english.png" alt=""/></div>
                                                     <p>United Kingdom</p>
                                                   </div>
                                               </li>
@@ -43,25 +43,25 @@ export default function Banner() {
                                           <ul className="select_ul">
                                             <li>
                                                   <div className="option">
-                                                    <div className="icon"><img src="assets/images/icons/flag-english.png" alt=""/></div>
+                                                    <div className="icon"><img src="/assets/images/icons/flag-english.png" alt=""/></div>
                                                     <p>United Kingdom</p>
                                                   </div>
                                               </li>
                                               <li>
                                                   <div className="option">
-                                                    <div className="icon"><img src="assets/images/icons/flag-deutsch.png" alt=""/></div>
+                                                    <div className="icon"><img src="/assets/images/icons/flag-deutsch.png" alt=""/></div>
                                                     <p>Deutsch</p>
                                                   </div>
                                               </li>
                                               <li>
                                                   <div className="option">
-                                                    <div className="icon"><img src="assets/images/icons/flag-francais.png" alt=""/></div>
+                                                    <div className="icon"><img src="/assets/images/icons/flag-francais.png" alt=""/></div>
                                                     <p>Francais</p>
                                                   </div>  
                                               </li>
                                               <li>
                                                   <div className="option">
-                                                    <div className="icon"><img src="assets/images/icons/flag-italiano.png" alt=""/></div>
+                                                    <div className="icon"><img src="/assets/images/icons/flag-italiano.png" alt=""/></div>
                                                     <p>Italiano</p>
                                                   </div>  
                                               </li>

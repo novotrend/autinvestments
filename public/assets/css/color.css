@@ -137,8 +137,6 @@ button.ltr,
 .main-menu .navigation > li > .megamenu,
 .main-menu .navigation > li > ul > li > ul,
 .theme-btn.btn-two:hover,
-.header-style-one .main-menu .navigation > li.current > a,
-.header-style-one .main-menu .navigation > li:hover > a,
 .sec-title .sub-title:after,
 .trading-block-two .inner-box .btn-box a,
 .process-block-one .inner-box:hover,
@@ -173,7 +171,11 @@ button.ltr,
   border-color: var(--theme-color) !important;
 }
 
-
+.header-style-one .main-menu .navigation>li.current>a,
+.header-style-one .main-menu .navigation>li:hover>a {
+  box-shadow: 0px 0px 3px 0px inset;
+  border-color: var(--theme-color);
+}
 
 
 

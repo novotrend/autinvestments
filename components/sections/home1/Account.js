@@ -3,7 +3,7 @@ export default function Account() {
     return (
         <>
             <section className="account-section mt_100 pt_100 pb_70">
-                <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-1.png)" }}></div>
+                <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-1.png)" }}></div>
                 <div className="auto-container">
                     <div className="sec-title pb_60">
                         <span className="sub-title mb_14">Why Us ?</span>

@@ -19,7 +19,7 @@ export default function Team() {
                     <div className="col-lg-4 col-md-6 col-sm-12 team-block">
                         <div className="team-block-one">
                             <div className="inner-box">
-                                <figure className="image-box"><img src="assets/images/team/team-1.jpg" alt=""/></figure>
+                                <figure className="image-box"><img src="/assets/images/team/team-1.jpg" alt=""/></figure>
                                 <div className="content-box">
                                     <h3><Link href="/team-details">Olivia Quinn</Link></h3>
                                     <span className="designation">Forex Trader</span>
@@ -35,7 +35,7 @@ export default function Team() {
                     <div className="col-lg-4 col-md-6 col-sm-12 team-block">
                         <div className="team-block-one">
                             <div className="inner-box">
-                                <figure className="image-box"><img src="assets/images/team/team-2.jpg" alt=""/></figure>
+                                <figure className="image-box"><img src="/assets/images/team/team-2.jpg" alt=""/></figure>
                                 <div className="content-box">
                                     <h3><Link href="/team-details">Nathan Hayes</Link></h3>
                                     <span className="designation">Consultant</span>
@@ -51,7 +51,7 @@ export default function Team() {
                     <div className="col-lg-4 col-md-6 col-sm-12 team-block">
                         <div className="team-block-one">
                             <div className="inner-box">
-                                <figure className="image-box"><img src="assets/images/team/team-3.jpg" alt=""/></figure>
+                                <figure className="image-box"><img src="/assets/images/team/team-3.jpg" alt=""/></figure>
                                 <div className="content-box">
                                     <h3><Link href="/team-details">Ava Jensen</Link></h3>
                                     <span className="designation">Trading Assistant</span>
@@ -67,7 +67,7 @@ export default function Team() {
                     <div className="col-lg-4 col-md-6 col-sm-12 team-block">
                         <div className="team-block-one">
                             <div className="inner-box">
-                                <figure className="image-box"><img src="assets/images/team/team-4.jpg" alt=""/></figure>
+                                <figure className="image-box"><img src="/assets/images/team/team-4.jpg" alt=""/></figure>
                                 <div className="content-box">
                                     <h3><Link href="/team-details">Sophia Knight</Link></h3>
                                     <span className="designation">President of Trade</span>
@@ -83,7 +83,7 @@ export default function Team() {
                     <div className="col-lg-4 col-md-6 col-sm-12 team-block">
                         <div className="team-block-one">
                             <div className="inner-box">
-                                <figure className="image-box"><img src="assets/images/team/team-5.jpg" alt=""/></figure>
+                                <figure className="image-box"><img src="/assets/images/team/team-5.jpg" alt=""/></figure>
                                 <div className="content-box">
                                     <h3><Link href="/team-details">Ethan brooks</Link></h3>
                                     <span className="designation">Marketing Coordinator</span>
@@ -99,7 +99,7 @@ export default function Team() {
                     <div className="col-lg-4 col-md-6 col-sm-12 team-block">
                         <div className="team-block-one">
                             <div className="inner-box">
-                                <figure className="image-box"><img src="assets/images/team/team-6.jpg" alt=""/></figure>
+                                <figure className="image-box"><img src="/assets/images/team/team-6.jpg" alt=""/></figure>
                                 <div className="content-box">
                                     <h3><Link href="/team-details">Aronic kehan</Link></h3>
                                     <span className="designation">Business Assistant</span>
@@ -117,8 +117,8 @@ export default function Team() {
         </section>
 
         <section className="apps-section alternat-2 pt_120 pb_120">
-                <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-4.png)" }}></div>
-                <figure className="image-layer"><img src="assets/images/resource/mockup-1.png" alt=""/></figure>
+                <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-4.png)" }}></div>
+                <figure className="image-layer"><img src="/assets/images/resource/mockup-1.png" alt=""/></figure>
                 <div className="auto-container">
                     <div className="content_block_two">
                         <div className="content-box">
@@ -129,9 +129,9 @@ export default function Team() {
                             </div>
                             <ul className="download-list clearfix">
                                 <li><Link href="/markets"><i className="fab fa-apple"></i></Link></li>
-                                <li><Link href="/markets"><img src="assets/images/icons/icon-2.png" alt=""/></Link></li>
+                                <li><Link href="/markets"><img src="/assets/images/icons/icon-2.png" alt=""/></Link></li>
                                 <li><Link href="/markets"><i className="fab fa-android"></i></Link></li>
-                                <li><Link href="/markets"><img src="assets/images/icons/icon-6.png" alt=""/></Link></li>
+                                <li><Link href="/markets"><img src="/assets/images/icons/icon-6.png" alt=""/></Link></li>
                             </ul>
                         </div>
                     </div>

@@ -6,7 +6,7 @@ export default function Experience() {
             <section className="experience-section pt_60 pb_100">
                 <div className="auto-container">
                     <div className="inner-container">
-                        <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-19.png)" }}></div>
+                        <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-19.png)" }}></div>
                         <div className="row clearfix">
                             <div className="col-md-12 col-sm-12 content-column">
                                 <div className="content-box">
@@ -16,8 +16,8 @@ export default function Experience() {
                                     </div>
                                     <div className="text-box">
                                         <p>Trade on the world’s most trusted platforms with seamless integration:</p>
-                                        <Link href="/index-3" className="theme-btn btn-one me-3">Download Platform</Link>
-                                        <Link href="/metatrader4" className="theme-btn btn-one">Compare MT4 vs MT5</Link>
+                                        <Link href="https://www.metatrader4.com/en" target="_blank" className="theme-btn btn-one me-3">Download Platform</Link>
+                                        <Link href="/platform/metatrader5#compare-section" className="theme-btn btn-one">Compare MT4 vs MT5</Link>
                                     </div>
                                 </div>
                             </div>

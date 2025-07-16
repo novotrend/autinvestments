@@ -1,6 +1,5 @@
 'use client'
 import Layout from "@/components/layout/Layout";
-import VideoPopup from "@/components/elements/VideoPopup"
 import Link from "next/link"
 import { useState } from "react"
 
@@ -138,7 +137,6 @@ export default function CryptoTrading() {
           </div>
         </section>
 
-
         <section className="award-section pt_60 pb_100">
           <div className="auto-container">
             <div className="sec-title pb_60">
@@ -195,19 +193,10 @@ export default function CryptoTrading() {
           <div className="auto-container">
             <div class="shape" style={{ backgroundImage: "url(../assets/images/shape/shape-4.png)" }}></div>
             <div className="row align-items-center">
-              <div className="col-lg-6 col-md-12 col-sm-12 video-column">
-                <div className="video_block_one">
-                  <div className="video-box z_1 p_relative pl_50 pt_50 pb_30 centred">
-                    <div className="video-inner">
-                      <div className="bg-layer" style={{ backgroundImage: "url(../assets/images/resource/video-2.jpg)" }}></div>
-                      <div className="video-content">
-                        <VideoPopup />
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div className="col-lg-4 col-md-12 col-sm-12 video-column">
+                <img src="/assets/images/resource/how-to-start-crypto-trading.jpg" alt="" className="rounded" />
               </div>
-              <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+              <div className="col-lg-8 col-md-12 col-sm-12 content-column">
                 <div className="content_block_nine">
                   <div className="content-box ml_70">
                     <div className="sec-title light pb_35">
@@ -410,7 +399,7 @@ export default function CryptoTrading() {
                       With round-the-clock access, high volatility, and institutional-grade tools, cryptocurrency trading
                       at AUT Investments LTD opens new dimensions for active traders and long-term investors.
                     </p>
-                     <Link href="/contact" className="theme-btn btn-one bg-dark mt-4">
+                    <Link href="/contact" className="theme-btn btn-one bg-dark mt-4">
                       Contact Us
                     </Link>
                   </div>
@@ -419,8 +408,6 @@ export default function CryptoTrading() {
             </div>
           </div>
         </section>
-
-
 
       </Layout>
     </div>

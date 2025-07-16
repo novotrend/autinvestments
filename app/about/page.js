@@ -87,7 +87,7 @@ export default function About() {
                             <div className="col-lg-6 col-md-12 col-sm-12 video-column">
                                 <div className="video_block_one">
                                     <div className="video-box z_1 p_relative ml_50 centred">
-                                        <figure className="image-box"><img src="assets/images/resource/video-1.png" alt="" /></figure>
+                                        <figure className="image-box"><img src="/assets/images/resource/video-1.png" alt="" /></figure>
                                         <div className="video-content">
                                             <VideoPopup />
                                         </div>
@@ -112,7 +112,7 @@ export default function About() {
                             <div className="col-lg-4 col-md-6 col-sm-12 team-block">
                                 <div className="team-block-one">
                                     <div className="inner-box">
-                                        <figure className="image-box"><img src="assets/images/team/team-1.jpg" alt="" /></figure>
+                                        <figure className="image-box"><img src="/assets/images/team/team-1.jpg" alt="" /></figure>
                                         <div className="content-box">
                                             <h3><Link href="/team-details">Olivia Quinn</Link></h3>
                                             <span className="designation">Forex Trader</span>
@@ -128,7 +128,7 @@ export default function About() {
                             <div className="col-lg-4 col-md-6 col-sm-12 team-block">
                                 <div className="team-block-one">
                                     <div className="inner-box">
-                                        <figure className="image-box"><img src="assets/images/team/team-2.jpg" alt="" /></figure>
+                                        <figure className="image-box"><img src="/assets/images/team/team-2.jpg" alt="" /></figure>
                                         <div className="content-box">
                                             <h3><Link href="/team-details">Nathan Hayes</Link></h3>
                                             <span className="designation">Consultant</span>
@@ -144,7 +144,7 @@ export default function About() {
                             <div className="col-lg-4 col-md-6 col-sm-12 team-block">
                                 <div className="team-block-one">
                                     <div className="inner-box">
-                                        <figure className="image-box"><img src="assets/images/team/team-3.jpg" alt="" /></figure>
+                                        <figure className="image-box"><img src="/assets/images/team/team-3.jpg" alt="" /></figure>
                                         <div className="content-box">
                                             <h3><Link href="/team-details">Ava Jensen</Link></h3>
                                             <span className="designation">Trading Assistant</span>
@@ -160,7 +160,7 @@ export default function About() {
                             <div className="col-lg-4 col-md-6 col-sm-12 team-block">
                                 <div className="team-block-one">
                                     <div className="inner-box">
-                                        <figure className="image-box"><img src="assets/images/team/team-4.jpg" alt="" /></figure>
+                                        <figure className="image-box"><img src="/assets/images/team/team-4.jpg" alt="" /></figure>
                                         <div className="content-box">
                                             <h3><Link href="/team-details">Sophia Knight</Link></h3>
                                             <span className="designation">President of Trade</span>
@@ -176,7 +176,7 @@ export default function About() {
                             <div className="col-lg-4 col-md-6 col-sm-12 team-block">
                                 <div className="team-block-one">
                                     <div className="inner-box">
-                                        <figure className="image-box"><img src="assets/images/team/team-5.jpg" alt="" /></figure>
+                                        <figure className="image-box"><img src="/assets/images/team/team-5.jpg" alt="" /></figure>
                                         <div className="content-box">
                                             <h3><Link href="/team-details">Ethan brooks</Link></h3>
                                             <span className="designation">Marketing Coordinator</span>
@@ -192,7 +192,7 @@ export default function About() {
                             <div className="col-lg-4 col-md-6 col-sm-12 team-block">
                                 <div className="team-block-one">
                                     <div className="inner-box">
-                                        <figure className="image-box"><img src="assets/images/team/team-6.jpg" alt="" /></figure>
+                                        <figure className="image-box"><img src="/assets/images/team/team-6.jpg" alt="" /></figure>
                                         <div className="content-box">
                                             <h3><Link href="/team-details">Aronic kehan</Link></h3>
                                             <span className="designation">Business Assistant</span>
@@ -228,7 +228,7 @@ export default function About() {
                                         <div className="link"><Link href="/blog-details">Read More</Link></div>
                                     </div>
                                     <div className="author-box">
-                                        <figure className="author-thumb"><img src="assets/images/resource/testimonial-1.png" alt="" /></figure>
+                                        <figure className="author-thumb"><img src="/assets/images/resource/testimonial-1.png" alt="" /></figure>
                                         <span>Daniel Marcon</span>
                                     </div>
                                 </div>
@@ -242,7 +242,7 @@ export default function About() {
                                         <div className="link"><Link href="/blog-details">Read More</Link></div>
                                     </div>
                                     <div className="author-box">
-                                        <figure className="author-thumb"><img src="assets/images/resource/testimonial-2.png" alt="" /></figure>
+                                        <figure className="author-thumb"><img src="/assets/images/resource/testimonial-2.png" alt="" /></figure>
                                         <span>Robert Henry</span>
                                     </div>
                                 </div>
@@ -256,7 +256,7 @@ export default function About() {
                                         <div className="link"><Link href="/blog-details">Read More</Link></div>
                                     </div>
                                     <div className="author-box">
-                                        <figure className="author-thumb"><img src="assets/images/resource/testimonial-3.png" alt="" /></figure>
+                                        <figure className="author-thumb"><img src="/assets/images/resource/testimonial-3.png" alt="" /></figure>
                                         <span>Victor classNameic</span>
                                     </div>
                                 </div>

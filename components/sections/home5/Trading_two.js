@@ -38,7 +38,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-3.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-3.png" alt=""/></div>
                                             <h6>Euro</h6>
                                             <span>Adyen: xams . EUR</span>
                                         </div>
@@ -57,7 +57,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-5.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-5.png" alt=""/></div>
                                             <h6>Pound</h6>
                                             <span>Adyen: xams . GBP</span>
                                         </div>
@@ -76,7 +76,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-9.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-9.png" alt=""/></div>
                                             <h6>Riyal</h6>
                                             <span>Adyen: xams . RYL</span>
                                         </div>
@@ -95,7 +95,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-7.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-7.png" alt=""/></div>
                                             <h6>CAD</h6>
                                             <span>Adyen: xams . CAD</span>
                                         </div>
@@ -114,7 +114,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-1.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-1.png" alt=""/></div>
                                             <h6>Aud</h6>
                                             <span>Adyen: xams . Aud</span>
                                         </div>
@@ -144,7 +144,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-3.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-3.png" alt=""/></div>
                                             <h6>Euro</h6>
                                             <span>Adyen: xams . EUR</span>
                                         </div>
@@ -163,7 +163,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-5.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-5.png" alt=""/></div>
                                             <h6>Pound</h6>
                                             <span>Adyen: xams . GBP</span>
                                         </div>
@@ -182,7 +182,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-7.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-7.png" alt=""/></div>
                                             <h6>CAD</h6>
                                             <span>Adyen: xams . CAD</span>
                                         </div>
@@ -201,7 +201,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-9.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-9.png" alt=""/></div>
                                             <h6>Riyal</h6>
                                             <span>Adyen: xams . RYL</span>
                                         </div>
@@ -220,7 +220,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-1.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-1.png" alt=""/></div>
                                             <h6>Aud</h6>
                                             <span>Adyen: xams . Aud</span>
                                         </div>
@@ -250,7 +250,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-3.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-3.png" alt=""/></div>
                                             <h6>Euro</h6>
                                             <span>Adyen: xams . EUR</span>
                                         </div>
@@ -269,7 +269,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-7.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-7.png" alt=""/></div>
                                             <h6>CAD</h6>
                                             <span>Adyen: xams . CAD</span>
                                         </div>
@@ -288,7 +288,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-5.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-5.png" alt=""/></div>
                                             <h6>Pound</h6>
                                             <span>Adyen: xams . GBP</span>
                                         </div>
@@ -307,7 +307,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-9.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-9.png" alt=""/></div>
                                             <h6>Riyal</h6>
                                             <span>Adyen: xams . RYL</span>
                                         </div>
@@ -326,7 +326,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-1.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-1.png" alt=""/></div>
                                             <h6>Aud</h6>
                                             <span>Adyen: xams . Aud</span>
                                         </div>
@@ -356,7 +356,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-3.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-3.png" alt=""/></div>
                                             <h6>Euro</h6>
                                             <span>Adyen: xams . EUR</span>
                                         </div>
@@ -375,7 +375,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-5.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-5.png" alt=""/></div>
                                             <h6>Pound</h6>
                                             <span>Adyen: xams . GBP</span>
                                         </div>
@@ -394,7 +394,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-1.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-1.png" alt=""/></div>
                                             <h6>Aud</h6>
                                             <span>Adyen: xams . Aud</span>
                                         </div>
@@ -413,7 +413,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-9.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-9.png" alt=""/></div>
                                             <h6>Riyal</h6>
                                             <span>Adyen: xams . RYL</span>
                                         </div>
@@ -432,7 +432,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-7.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-7.png" alt=""/></div>
                                             <h6>CAD</h6>
                                             <span>Adyen: xams . CAD</span>
                                         </div>
@@ -462,7 +462,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-3.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-3.png" alt=""/></div>
                                             <h6>Euro</h6>
                                             <span>Adyen: xams . EUR</span>
                                         </div>
@@ -481,7 +481,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-9.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-9.png" alt=""/></div>
                                             <h6>Riyal</h6>
                                             <span>Adyen: xams . RYL</span>
                                         </div>
@@ -500,7 +500,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-5.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-5.png" alt=""/></div>
                                             <h6>Pound</h6>
                                             <span>Adyen: xams . GBP</span>
                                         </div>
@@ -519,7 +519,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-7.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-7.png" alt=""/></div>
                                             <h6>CAD</h6>
                                             <span>Adyen: xams . CAD</span>
                                         </div>
@@ -538,7 +538,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-1.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-1.png" alt=""/></div>
                                             <h6>Aud</h6>
                                             <span>Adyen: xams . Aud</span>
                                         </div>
@@ -568,7 +568,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-3.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-3.png" alt=""/></div>
                                             <h6>Euro</h6>
                                             <span>Adyen: xams . EUR</span>
                                         </div>
@@ -587,7 +587,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-5.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-5.png" alt=""/></div>
                                             <h6>Pound</h6>
                                             <span>Adyen: xams . GBP</span>
                                         </div>
@@ -606,7 +606,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-9.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-9.png" alt=""/></div>
                                             <h6>Riyal</h6>
                                             <span>Adyen: xams . RYL</span>
                                         </div>
@@ -625,7 +625,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-1.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-1.png" alt=""/></div>
                                             <h6>Aud</h6>
                                             <span>Adyen: xams . Aud</span>
                                         </div>
@@ -644,7 +644,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-7.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-7.png" alt=""/></div>
                                             <h6>CAD</h6>
                                             <span>Adyen: xams . CAD</span>
                                         </div>
@@ -674,7 +674,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-3.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-3.png" alt=""/></div>
                                             <h6>Euro</h6>
                                             <span>Adyen: xams . EUR</span>
                                         </div>
@@ -693,7 +693,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-5.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-5.png" alt=""/></div>
                                             <h6>Pound</h6>
                                             <span>Adyen: xams . GBP</span>
                                         </div>
@@ -712,7 +712,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-7.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-7.png" alt=""/></div>
                                             <h6>CAD</h6>
                                             <span>Adyen: xams . CAD</span>
                                         </div>
@@ -731,7 +731,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-9.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-9.png" alt=""/></div>
                                             <h6>Riyal</h6>
                                             <span>Adyen: xams . RYL</span>
                                         </div>
@@ -750,7 +750,7 @@ export default function Trading_two() {
                                     </li>
                                     <li className="table-data">
                                         <div className="single-item">
-                                            <div className="flag"><img src="assets/images/icons/flag-1.png" alt=""/></div>
+                                            <div className="flag"><img src="/assets/images/icons/flag-1.png" alt=""/></div>
                                             <h6>Aud</h6>
                                             <span>Adyen: xams . Aud</span>
                                         </div>

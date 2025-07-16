@@ -16,12 +16,12 @@ export default function Blog_details() {
                             <div className="news-block-two pb_20">
                                 <div className="inner-box">
                                     <div className="image-box">
-                                        <figure className="image"><img src="assets/images/news/news-11.jpg" alt=""/></figure>
+                                        <figure className="image"><img src="/assets/images/news/news-11.jpg" alt=""/></figure>
                                     </div>
                                     <div className="lower-content">
                                         <div className="author-box mb_15">
                                             <span className="category">JPY</span>
-                                            <figure className="author-thumb"><img src="assets/images/resource/testimonial-1.png" alt=""/></figure>
+                                            <figure className="author-thumb"><img src="/assets/images/resource/testimonial-1.png" alt=""/></figure>
                                             <span>Robert Henry &nbsp; &nbsp;10 May 2024</span>
                                         </div>
                                         <h2>Traders capitalize on market movements triggered by specific events</h2>
@@ -41,7 +41,7 @@ export default function Blog_details() {
                             <div className="video_block_one">
                                 <div className="video-box z_1 p_relative centred">
                                     <div className="video-inner">
-                                        <div className="bg-layer" style={{ backgroundImage: "url(assets/images/resource/video-3.jpg)" }}></div>
+                                        <div className="bg-layer" style={{ backgroundImage: "url(/assets/images/resource/video-3.jpg)" }}></div>
                                         <div className="video-content">
                                             <VideoPopup />
                                         </div>
@@ -146,17 +146,17 @@ export default function Blog_details() {
                                 </div>
                                 <div className="post-inner">
                                     <div className="post">
-                                        <figure className="post-thumb"><Link href="/blog-details"><img src="assets/images/news/post-1.jpg" alt=""/></Link></figure>
+                                        <figure className="post-thumb"><Link href="/blog-details"><img src="/assets/images/news/post-1.jpg" alt=""/></Link></figure>
                                         <h6><Link href="/blog-details">Traders open and close positions</Link></h6>
                                         <span className="post-date">1 May 2024</span>
                                     </div>
                                     <div className="post">
-                                        <figure className="post-thumb"><Link href="/blog-details"><img src="assets/images/news/post-2.jpg" alt=""/></Link></figure>
+                                        <figure className="post-thumb"><Link href="/blog-details"><img src="/assets/images/news/post-2.jpg" alt=""/></Link></figure>
                                         <h6><Link href="/blog-details">Traders execute a large number of</Link></h6>
                                         <span className="post-date">1 May 2024</span>
                                     </div>
                                     <div className="post">
-                                        <figure className="post-thumb"><Link href="/blog-details"><img src="assets/images/news/post-3.jpg" alt=""/></Link></figure>
+                                        <figure className="post-thumb"><Link href="/blog-details"><img src="/assets/images/news/post-3.jpg" alt=""/></Link></figure>
                                         <h6><Link href="/blog-details">Futures trading can involve various</Link></h6>
                                         <span className="post-date">1 May 2024</span>
                                     </div>

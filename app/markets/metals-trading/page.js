@@ -56,120 +56,124 @@ export default function MetalsTrading() {
             </div>
             <div className="row clearfix">
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
-                <div className="account-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="icon-16"></i></div>
+                    <div className="icon-box"><i className="fas fw-normal fa-coins"></i></div>
                     <h3>Gold, Silver, Platinum, and More</h3>
-                    <p>Gain access to major precious metals like XAU/USD (Gold), XAG/USD (Silver),
-                      XPT/USD (Platinum), and other globally traded pairs.
-                    </p>
+                    <p>Gain access to major precious metals like XAU/USD (Gold), XAG/USD (Silver), XPT/USD (Platinum), and other globally traded pairs.</p>
                   </div>
                 </div>
               </div>
+
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
-                <div className="account-block-two wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="icon-17"></i></div>
+                    <div className="icon-box"><i className="fas fw-normal fa-shield-halved"></i></div>
                     <h3>Safe Haven Assets</h3>
-                    <p>Metals like gold are considered safe-haven investments, typically holding value during
-                      market downturns and periods of economic uncertainty.
-                    </p>
+                    <p>Metals like gold are considered safe-haven investments, typically holding value during market downturns and periods of economic uncertainty.</p>
                   </div>
                 </div>
               </div>
+
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
-                <div className="account-block-two wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
+                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="icon-18"></i></div>
-                    <h3>Low Spreads, High Liquidity
-                    </h3>
-                    <p>Benefit from competitive pricing and institutional liquidity to ensure efficient trade
-                      execution, even in fast-moving markets.
-                    </p>
+                    <div className="icon-box"><i className="fas fw-normal fa-chart-line"></i></div>
+                    <h3>Low Spreads, High Liquidity</h3>
+                    <p>Benefit from competitive pricing and institutional liquidity to ensure efficient trade execution, even in fas fw-normalt-moving markets.</p>
                   </div>
                 </div>
               </div>
+
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
-                <div className="account-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="icon-19"></i></div>
+                    <div className="icon-box"><i className="fas fw-normal fa-chart-bar"></i></div>
                     <h3>Trade with Leverage</h3>
-                    <p>Take larger market positions with controlled margin requirements, allowing flexible
-                      exposure to key commodities.
-                    </p>
+                    <p>Take larger market positions with controlled margin requirements, allowing flexible exposure to key commodities.</p>
                   </div>
                 </div>
               </div>
+
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
-                <div className="account-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="icon-19"></i></div>
-                    <h3> Hedge Against Inflation and Currency Risk</h3>
-                    <p>Use metals as a strategic shield during inflationary cycles or periods of currency devaluation.
-                    </p>
+                    <div className="icon-box"><i className="fas fw-normal fa-scale-balanced"></i></div>
+                    <h3>Hedge Against Inflation and Currency Risk</h3>
+                    <p>Use metals as a strategic shield during inflationary cycles or periods of currency devaluation.</p>
                   </div>
                 </div>
               </div>
+
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
-                <div className="account-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="icon-19"></i></div>
+                    <div className="icon-box"><i className="fas fw-normal fa-chart-area"></i></div>
                     <h3>Advanced Charting and Market Analysis</h3>
-                    <p>Spot trends and execute trades with confidence using professional-grade charting tools,
-                      technical indicators, and real-time data feeds.
-                    </p>
+                    <p>Spot trends and execute trades with confidence using professional-grade charting tools, technical indicators, and real-time data feeds.</p>
                   </div>
                 </div>
               </div>
             </div>
+
           </div>
         </section>
-        <section className="about-style-two pt_60 pb_100">
+        <section className="funfact-section pt_120 pb_70">
           <div className="auto-container">
-            <div className="sec-title pb_60 centred">
-              <span className="sub-title mb_14">Platforms</span>
-              <h2>Trading Platforms</h2>
-            </div>
-            <div className="tabs-box">
-              <div className="row clearfix">
-                <div className="col-lg-5 col-md-12 col-sm-12 btn-column">
-                  <ul className="tab-btns tab-buttons clearfix">
-                    <li onClick={() => handleOnClick(1)} className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>1. Gold (XAU/USD) <i className="icon-26"></i></li>
-                    <li onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>2. Silver (XAG/USD) <i className="icon-26"></i></li>
-                    <li onClick={() => handleOnClick(3)} className={activeIndex === 3 ? "tab-btn active-btn" : "tab-btn"}>3. Platinum (XPT/USD) <i className="icon-26"></i></li>
-                  </ul>
+            <div className="row">
+              <div className="col-md-12">
+                <div className="sec-title pb_20 text-center">
+                  <span className="sub-title mb_14">PLATFORM</span>
+                  <h2 className="mb-2">Trading Platform</h2>
                 </div>
-                <div className="col-lg-7 col-md-12 col-sm-12 content-column">
-                  <div className="tabs-content">
-                    <div className={activeIndex === 1 ? "tab active-tab" : "tab"}>
-                      <div className="content-box">
-                        <h2>Gold (XAU/USD)</h2>
-                        <p>
-                          Gold is one of the most actively traded and watched commodities in the world. It's used as a
-                          store of value, a hedge, and a strategic reserve by institutions and governments. Gold trading
-                          offers consistent demand, lower volatility compared to other assets, and macroeconomic
-                          sensitivity that creates reliable trading opportunities.
-                        </p>
+              </div>
+            </div>
+            <div className="inner-container">
+              <div className="row clearfix row-deck">
+                <div className="col-lg-4 col-md-6 col-sm-12 funfact-block">
+                  <div className="funfact-block-one">
+                    <div className="inner-box h-100">
+                      <h3 className="mb-3">Gold (XAU/USD)</h3>
+                      <div className="education-details-content">
+                        <div className="text-box">
+                          <ul className="list-item clearfix">
+                            <li className="lh-lg">Gold is one of the most actively traded and watched commodities in the world.</li>
+                            <li className="lh-lg">Used as a store of value, a hedge, and a strategic reserve by institutions and governments.</li>
+                            <li className="lh-lg">Offers consistent demand, lower volatility, and macroeconomic sensitivity that creates reliable trading opportunities.</li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
-                    <div className={activeIndex === 2 ? "tab active-tab" : "tab"} id="trader">
-                      <div className="content-box">
-                        <h2>Silver (XAG/USD)</h2>
-                        <p>
-                          Silver combines safe-haven and industrial properties, making it more volatile than gold and
-                          appealing to traders seeking sharper movements. It is heavily influenced by demand in
-                          electronics, solar energy, and medical sectors.
-                        </p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12 funfact-block">
+                  <div className="funfact-block-one">
+                    <div className="inner-box h-100">
+                      <h3 className="mb-3">Silver (XAG/USD)</h3>
+                      <div className="education-details-content">
+                        <div className="text-box">
+                          <ul className="list-item clearfix">
+                            <li className="lh-lg">Combines safe-haven and industrial properties.</li>
+                            <li className="lh-lg">More volatile than gold, appealing to traders seeking sharper movements.</li>
+                            <li className="lh-lg">Heavily influenced by demand in electronics, solar energy, and medical sectors.</li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
-                    <div className={activeIndex === 3 ? "tab active-tab" : "tab"} id="personal">
-                      <div className="content-box">
-                        <h2>Platinum (XPT/USD)</h2>
-                        <p>
-                          A rarer metal than gold or silver, platinum’s value is closely tied to industrial output, particularly
-                          in the automotive sector. It offers higher volatility and speculative potential, especially during
-                          economic expansions.
-                        </p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12 funfact-block">
+                  <div className="funfact-block-one">
+                    <div className="inner-box h-100">
+                      <h3 className="mb-3">Platinum (XPT/USD)</h3>
+                      <div className="education-details-content">
+                        <div className="text-box">
+                          <ul className="list-item clearfix">
+                            <li className="lh-lg">Rarer metal than gold or silver.</li>
+                            <li className="lh-lg">Value closely tied to industrial output, especially in the automotive sector.</li>
+                            <li className="lh-lg">Offers higher volatility and speculative potential, especially during economic expansions.</li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -178,36 +182,38 @@ export default function MetalsTrading() {
             </div>
           </div>
         </section>
+
         <section className="markets-section pt_60 pb_70">
           <div className="auto-container">
             <div className="row align-items-center">
               <div className="col-md-8">
-                  <div className="sec-title pb_30">
-                    <span className="sub-title mb_14">Features of AUT</span>
-                    <h2>Advantages of Trading Metal CFDs</h2>
-                  </div>
-                  <div className="row clearfix education-details-content shadow-sm py-5 px-4 rounded-4" >
-                    <div className="col-12 content-column ">
-                      <div className="text-box">
-                        <ul className="list-item clearfix">
-                          <li className="lh-lg"><b className="fs-6 text-dark">No Physical Ownership Required:</b> <br />Trade on price movements without handling physical delivery, storage, or logistics.</li>
-                          <li className="lh-lg"><b className="fs-6 text-dark">Go Long or Short:</b> <br />Capitalize on both rising and falling metal prices through CFDs.</li>
-                          <li className="lh-lg"><b className="fs-6 text-dark">Low Entry Barriers:</b> <br />Begin trading with micro-lot sizes and low minimum deposit requirements.</li>
-                          <li className="lh-lg"><b className="fs-6 text-dark">Fast Execution and Minimal Slippage:</b> <br />Our infrastructure ensures trades are placed swiftly, reducing missed opportunities
-                            during market spikes. </li>
-                          <li className="lh-lg"><b className="fs-6 text-dark">Risk Management Tools:</b> <br />Apply stop-loss, take-profit, and trailing stop orders to lock in profits and protect your capital </li>
-                        </ul>
-                      </div>
+                <div className="sec-title pb_30">
+                  <span className="sub-title mb_14">Features of AUT</span>
+                  <h2>Advantages of Trading Metal CFDs</h2>
+                </div>
+                <div className="row clearfix education-details-content shadow-sm py-5 px-4 rounded-4" >
+                  <div className="col-12 content-column ">
+                    <div className="text-box">
+                      <ul className="list-item clearfix">
+                        <li className="lh-lg"><b className="fs-6 text-dark">No Physical Ownership Required:</b> <br />Trade on price movements without handling physical delivery, storage, or logistics.</li>
+                        <li className="lh-lg"><b className="fs-6 text-dark">Go Long or Short:</b> <br />Capitalize on both rising and falling metal prices through CFDs.</li>
+                        <li className="lh-lg"><b className="fs-6 text-dark">Low Entry Barriers:</b> <br />Begin trading with micro-lot sizes and low minimum deposit requirements.</li>
+                        <li className="lh-lg"><b className="fs-6 text-dark">Fast Execution and Minimal Slippage:</b> <br />Our infrastructure ensures trades are placed swiftly, reducing missed opportunities
+                          during market spikes. </li>
+                        <li className="lh-lg"><b className="fs-6 text-dark">Risk Management Tools:</b> <br />Apply stop-loss, take-profit, and trailing stop orders to lock in profits and protect your capital </li>
+                      </ul>
                     </div>
                   </div>
+                </div>
               </div>
-               <div className="col-md-4">
+              <div className="col-md-4">
                 <img src="../assets/images/resource/tradingmetal-2.jpg" alt="" className="rounded" />
               </div>
 
             </div>
           </div>
         </section>
+
         <section className="account-section mt_60 pt_60 pb_70">
           <div className="pattern-layer" style={{ backgroundImage: "url(../assets/images/shape/shape-1.png)" }}></div>
           <div className="auto-container">
@@ -291,6 +297,55 @@ export default function MetalsTrading() {
             </div>
           </div>
         </section>
+
+        <section className="working-section apps-section alternat-2 pt_120 pb_120 pt_100 pb_100">
+          <div className="auto-container">
+            <div class="shape" style={{ backgroundImage: "url(assets/images/shape/shape-4.png)" }}></div>
+            <div className="row align-items-center">
+              <div className="col-lg-4 col-md-12 col-sm-12">
+                <img src="../assets/images/resource/how-to-start-metals-trading.jpg" alt="" className="rounded" />
+              </div>
+              <div className="col-lg-8 col-md-12 col-sm-12 content-column">
+                <div className="content_block_nine">
+                  <div className="content-box ml_70">
+                    <div className="sec-title light pb_35">
+                      <span className="sub-title mb_10">Onboard</span>
+                      <h2>How to Start Trading Metals</h2>
+                    </div>
+                    <div className="inner-box">
+                      <div className="single-item">
+                        <span className="count-text bg-light text-dark">1</span>
+                        <h3>Open an Account</h3>
+                        <p>Choose live or demo based on your experience level.</p>
+                      </div>
+                      <div className="single-item">
+                        <span className="count-text bg-light text-dark">2</span>
+                        <h3>Verify Your Identity</h3>
+                        <p>Fast and secure compliance process.</p>
+                      </div>
+                      <div className="single-item">
+                        <span className="count-text bg-light text-dark">3</span>
+                        <h3>Deposit Funds</h3>
+                        <p>Multiple trusted payment options available.</p>
+                      </div>
+                      <div className="single-item">
+                        <span className="count-text bg-light text-dark">4</span>
+                        <h3>Launch the Platform</h3>
+                        <p>Available across desktop, web, and mobile.</p>
+                      </div>
+                      <div className="single-item">
+                        <span className="count-text bg-light text-dark">5</span>
+                        <h3>Analyze and Trade</h3>
+                        <p>Use professional tools and market data to enter and exit trades.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="platform-section alternat-2 pt_90 pb_130">
           <div className="auto-container">
             <div className="sec-title pb_60">
@@ -341,33 +396,20 @@ export default function MetalsTrading() {
                         </ul>
                       </div>
                     </div>
-                    <div className={activeIndex === 4 ? "tab active-tab" : "tab"} id="cpoy">
-                      <div className="content-box">
-                        <h2>How to Start Trading Metals</h2>
-                        <p></p>
-                        <ul className="list-style-one clearfix">
-                          <li><b>Open an Account</b>Choose live or demo based on your experience level.</li>
-                          <li><b>Verify Your Identity</b>Fast and secure compliance process.</li>
-                          <li><b>Deposit Funds</b>  Multiple trusted payment options available.</li>
-                          <li><b> Launch the Platform</b> Available across desktop, web, and mobile.</li>
-                          <li><b>Analyze and Trade</b>Use professional tools and market data to enter and exit trades.</li>
-                        </ul>
-                      </div>
-                    </div>
                   </div>
                 </div>
                 <div className="col-xl-4 col-lg-12 col-md-12 btn-column">
-                  <ul className="tab-btns tab-buttons shop-tab-btn clearfix">
+                  <ul className="three tab-btns tab-buttons shop-tab-btn clearfix">
                     <li onClick={() => handleOnClick(1)} className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>Who Should Trade Metals?</li>
                     <li onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>Popular Metal Trading Strategies</li>
                     <li onClick={() => handleOnClick(3)} className={activeIndex === 3 ? "tab-btn active-btn" : "tab-btn"}>Metals Market Drivers</li>
-                    <li onClick={() => handleOnClick(4)} className={activeIndex === 4 ? "tab-btn active-btn" : "tab-btn"}>How to Start Trading Metals</li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
         </section>
+
         <section className="subscribe-section">
           <div className="bg-color"></div>
           <div className="auto-container">

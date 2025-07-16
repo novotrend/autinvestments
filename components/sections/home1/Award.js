@@ -11,7 +11,7 @@ export default function Award() {
                         <p>Choose an account that matches your trading style</p>
                         <div className="d-flex flex-sm-nowrap flex-wrap align-items-center gap-3 mt-3">
                             <Link href="/open-account" className="theme-btn btn-one">Open Live Account</Link>
-                            <Link href="/login" className="theme-btn btn-one">Try Demo Account</Link>
+                            <Link href="/trading/open-demo-account" className="theme-btn btn-one">Try Demo Account</Link>
                         </div>
                     </div>
                     <div className="table-outer">

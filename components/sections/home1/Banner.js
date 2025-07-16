@@ -63,7 +63,7 @@ export default function Banner() {
                 <div className="large-container">
                     <Swiper {...swiperOptions} className="theme_carousel owl-theme banner-carousel">
                         <SwiperSlide className="slide-item p_relative">
-                            <div className="bg-layer" style={{ backgroundImage: "url(assets/images/banner/banner-1.png)" }}></div>
+                            <div className="bg-layer" style={{ backgroundImage: "url(/assets/images/banner/banner-1.png)" }}></div>
                             <div className="content-box">
                                 <h2>Empowering Every Trader, Everywhere.</h2>
                                 <p>Whether beginner or pro – trade Forex, Stocks, Indices, and more on
@@ -74,7 +74,7 @@ export default function Banner() {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className="slide-item p_relative">
-                            <div className="bg-layer" style={{ backgroundImage: "url(assets/images/banner/banner-2.png)" }}></div>
+                            <div className="bg-layer" style={{ backgroundImage: "url(/assets/images/banner/banner-2.png)" }}></div>
                             <div className="content-box">
                                 <h2>Smarter Trading. Simpler Access.</h2>
                                 <p>Trade over 1000 Instruments. Forex, CFDs on Stock Indices, Commodities, Stocks, Metals and Energies.</p>
@@ -84,7 +84,7 @@ export default function Banner() {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className="slide-item p_relative">
-                            <div className="bg-layer" style={{ backgroundImage: "url(assets/images/banner/banner-3.png)" }}></div>
+                            <div className="bg-layer" style={{ backgroundImage: "url(/assets/images/banner/banner-3.png)" }}></div>
                             <div className="content-box">
                                 <h2>Global Markets. Local Expertise.</h2>
                                 <p>Trade across Forex, CFDs, Metals, Stocks & Energies – 24/7.
@@ -96,7 +96,7 @@ export default function Banner() {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className="slide-item p_relative">
-                            <div className="bg-layer" style={{ backgroundImage: "url(assets/images/banner/banner-4.png)" }}></div>
+                            <div className="bg-layer" style={{ backgroundImage: "url(/assets/images/banner/banner-4.png)" }}></div>
                             <div className="content-box">
                                 <h2>All Markets. <br /> One Platform.</h2>
                                 <p>From Forex to Energies – trade over 1000 global instruments with
@@ -109,7 +109,7 @@ export default function Banner() {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className="slide-item p_relative">
-                            <div className="bg-layer" style={{ backgroundImage: "url(assets/images/banner/banner-5.png)" }}></div>
+                            <div className="bg-layer" style={{ backgroundImage: "url(/assets/images/banner/banner-5.png)" }}></div>
                             <div className="content-box">
                                 <h2>Trade the World with Confidence</h2>
                                 <p>Access 1000+ instruments — Forex, Stocks, Indices, Commodities &

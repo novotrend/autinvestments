@@ -66,8 +66,8 @@ export default function Trading_two() {
     <>
       <section className="trading-style-two centred pt_100 pb_90">
             <div className="shape">
-                <div className="shape-1 float-bob-x" style={{ backgroundImage: "url(assets/images/shape/shape-25.png)" }}></div>
-                <div className="shape-2 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-26.png)" }}></div>
+                <div className="shape-1 float-bob-x" style={{ backgroundImage: "url(/assets/images/shape/shape-25.png)" }}></div>
+                <div className="shape-2 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-26.png)" }}></div>
             </div>
             <div className="auto-container">
                 <div className="sec-title light pb_60">
@@ -94,8 +94,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>AUD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-1.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-2.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-1.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-2.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64191</span></li>
@@ -111,8 +111,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>EUR-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-3.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-4.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-3.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-4.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64156</span></li>
@@ -128,8 +128,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>GBP-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-5.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-6.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-5.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-6.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64578</span></li>
@@ -145,8 +145,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>CAD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-7.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-8.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-7.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-8.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84535</span></li>
@@ -162,8 +162,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>RYL-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-9.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-10.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-9.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-10.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84346</span></li>
@@ -179,8 +179,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>AUD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-1.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-2.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-1.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-2.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64191</span></li>
@@ -196,8 +196,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>EUR-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-3.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-4.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-3.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-4.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64156</span></li>
@@ -213,8 +213,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>GBP-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-5.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-6.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-5.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-6.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64578</span></li>
@@ -230,8 +230,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>CAD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-7.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-8.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-7.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-8.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84535</span></li>
@@ -247,8 +247,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>RYL-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-9.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-10.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-9.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-10.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84346</span></li>
@@ -264,8 +264,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>AUD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-1.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-2.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-1.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-2.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64191</span></li>
@@ -281,8 +281,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>EUR-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-3.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-4.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-3.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-4.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64156</span></li>
@@ -298,8 +298,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>GBP-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-5.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-6.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-5.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-6.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64578</span></li>
@@ -315,8 +315,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>CAD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-7.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-8.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-7.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-8.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84535</span></li>
@@ -332,8 +332,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>RYL-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-9.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-10.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-9.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-10.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84346</span></li>
@@ -356,8 +356,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>AUD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-1.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-2.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-1.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-2.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64191</span></li>
@@ -373,8 +373,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>EUR-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-3.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-4.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-3.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-4.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64156</span></li>
@@ -390,8 +390,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>GBP-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-5.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-6.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-5.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-6.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64578</span></li>
@@ -407,8 +407,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>CAD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-7.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-8.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-7.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-8.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84535</span></li>
@@ -424,8 +424,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>RYL-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-9.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-10.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-9.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-10.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84346</span></li>
@@ -441,8 +441,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>AUD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-1.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-2.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-1.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-2.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64191</span></li>
@@ -458,8 +458,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>EUR-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-3.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-4.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-3.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-4.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64156</span></li>
@@ -475,8 +475,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>GBP-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-5.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-6.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-5.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-6.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64578</span></li>
@@ -492,8 +492,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>CAD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-7.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-8.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-7.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-8.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84535</span></li>
@@ -509,8 +509,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>RYL-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-9.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-10.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-9.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-10.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84346</span></li>
@@ -526,8 +526,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>AUD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-1.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-2.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-1.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-2.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64191</span></li>
@@ -543,8 +543,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>EUR-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-3.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-4.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-3.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-4.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64156</span></li>
@@ -560,8 +560,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>GBP-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-5.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-6.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-5.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-6.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64578</span></li>
@@ -577,8 +577,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>CAD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-7.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-8.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-7.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-8.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84535</span></li>
@@ -594,8 +594,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>RYL-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-9.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-10.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-9.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-10.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84346</span></li>
@@ -618,8 +618,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>AUD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-1.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-2.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-1.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-2.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64191</span></li>
@@ -635,8 +635,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>EUR-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-3.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-4.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-3.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-4.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64156</span></li>
@@ -652,8 +652,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>GBP-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-5.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-6.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-5.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-6.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64578</span></li>
@@ -669,8 +669,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>CAD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-7.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-8.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-7.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-8.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84535</span></li>
@@ -686,8 +686,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>RYL-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-9.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-10.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-9.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-10.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84346</span></li>
@@ -703,8 +703,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>AUD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-1.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-2.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-1.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-2.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64191</span></li>
@@ -720,8 +720,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>EUR-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-3.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-4.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-3.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-4.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64156</span></li>
@@ -737,8 +737,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>GBP-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-5.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-6.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-5.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-6.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64578</span></li>
@@ -754,8 +754,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>CAD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-7.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-8.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-7.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-8.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84535</span></li>
@@ -771,8 +771,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>RYL-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-9.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-10.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-9.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-10.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84346</span></li>
@@ -788,8 +788,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>AUD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-1.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-2.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-1.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-2.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64191</span></li>
@@ -805,8 +805,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>EUR-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-3.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-4.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-3.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-4.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64156</span></li>
@@ -822,8 +822,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>GBP-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-5.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-6.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-5.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-6.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64578</span></li>
@@ -839,8 +839,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>CAD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-7.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-8.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-7.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-8.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84535</span></li>
@@ -856,8 +856,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>RYL-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-9.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-10.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-9.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-10.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84346</span></li>
@@ -880,8 +880,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>AUD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-1.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-2.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-1.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-2.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64191</span></li>
@@ -897,8 +897,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>EUR-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-3.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-4.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-3.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-4.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64156</span></li>
@@ -914,8 +914,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>GBP-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-5.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-6.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-5.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-6.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64578</span></li>
@@ -931,8 +931,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>CAD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-7.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-8.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-7.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-8.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84535</span></li>
@@ -948,8 +948,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>RYL-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-9.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-10.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-9.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-10.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84346</span></li>
@@ -965,8 +965,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>AUD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-1.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-2.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-1.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-2.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64191</span></li>
@@ -982,8 +982,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>EUR-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-3.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-4.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-3.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-4.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64156</span></li>
@@ -999,8 +999,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>GBP-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-5.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-6.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-5.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-6.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64578</span></li>
@@ -1016,8 +1016,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>CAD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-7.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-8.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-7.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-8.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84535</span></li>
@@ -1033,8 +1033,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>RYL-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-9.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-10.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-9.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-10.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84346</span></li>
@@ -1050,8 +1050,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>AUD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-1.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-2.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-1.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-2.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64191</span></li>
@@ -1067,8 +1067,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>EUR-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-3.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-4.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-3.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-4.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64156</span></li>
@@ -1084,8 +1084,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>GBP-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-5.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-6.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-5.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-6.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64578</span></li>
@@ -1101,8 +1101,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>CAD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-7.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-8.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-7.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-8.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84535</span></li>
@@ -1118,8 +1118,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>RYL-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-9.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-10.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-9.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-10.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84346</span></li>
@@ -1142,8 +1142,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>AUD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-1.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-2.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-1.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-2.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64191</span></li>
@@ -1159,8 +1159,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>EUR-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-3.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-4.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-3.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-4.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64156</span></li>
@@ -1176,8 +1176,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>GBP-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-5.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-6.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-5.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-6.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64578</span></li>
@@ -1193,8 +1193,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>CAD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-7.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-8.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-7.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-8.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84535</span></li>
@@ -1210,8 +1210,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>RYL-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-9.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-10.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-9.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-10.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84346</span></li>
@@ -1227,8 +1227,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>AUD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-1.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-2.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-1.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-2.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64191</span></li>
@@ -1244,8 +1244,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>EUR-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-3.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-4.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-3.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-4.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64156</span></li>
@@ -1261,8 +1261,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>GBP-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-5.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-6.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-5.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-6.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64578</span></li>
@@ -1278,8 +1278,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>CAD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-7.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-8.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-7.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-8.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84535</span></li>
@@ -1295,8 +1295,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>RYL-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-9.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-10.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-9.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-10.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84346</span></li>
@@ -1312,8 +1312,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>AUD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-1.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-2.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-1.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-2.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64191</span></li>
@@ -1329,8 +1329,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>EUR-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-3.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-4.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-3.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-4.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64156</span></li>
@@ -1346,8 +1346,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>GBP-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-5.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-6.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-5.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-6.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64578</span></li>
@@ -1363,8 +1363,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>CAD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-7.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-8.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-7.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-8.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84535</span></li>
@@ -1380,8 +1380,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>RYL-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-9.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-10.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-9.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-10.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84346</span></li>
@@ -1404,8 +1404,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>AUD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-1.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-2.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-1.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-2.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64191</span></li>
@@ -1421,8 +1421,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>EUR-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-3.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-4.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-3.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-4.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64156</span></li>
@@ -1438,8 +1438,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>GBP-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-5.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-6.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-5.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-6.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64578</span></li>
@@ -1455,8 +1455,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>CAD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-7.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-8.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-7.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-8.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84535</span></li>
@@ -1472,8 +1472,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>RYL-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-9.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-10.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-9.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-10.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84346</span></li>
@@ -1489,8 +1489,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>AUD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-1.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-2.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-1.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-2.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64191</span></li>
@@ -1506,8 +1506,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>EUR-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-3.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-4.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-3.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-4.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64156</span></li>
@@ -1523,8 +1523,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>GBP-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-5.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-6.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-5.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-6.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64578</span></li>
@@ -1540,8 +1540,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>CAD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-7.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-8.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-7.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-8.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84535</span></li>
@@ -1557,8 +1557,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>RYL-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-9.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-10.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-9.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-10.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84346</span></li>
@@ -1574,8 +1574,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>AUD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-1.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-2.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-1.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-2.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64191</span></li>
@@ -1591,8 +1591,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>EUR-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-3.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-4.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-3.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-4.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64156</span></li>
@@ -1608,8 +1608,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>GBP-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-5.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-6.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-5.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-6.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64578</span></li>
@@ -1625,8 +1625,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>CAD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-7.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-8.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-7.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-8.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84535</span></li>
@@ -1642,8 +1642,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>RYL-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-9.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-10.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-9.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-10.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84346</span></li>
@@ -1666,8 +1666,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>AUD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-1.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-2.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-1.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-2.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64191</span></li>
@@ -1683,8 +1683,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>EUR-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-3.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-4.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-3.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-4.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64156</span></li>
@@ -1700,8 +1700,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>GBP-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-5.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-6.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-5.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-6.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64578</span></li>
@@ -1717,8 +1717,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>CAD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-7.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-8.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-7.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-8.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84535</span></li>
@@ -1734,8 +1734,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>RYL-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-9.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-10.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-9.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-10.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84346</span></li>
@@ -1751,8 +1751,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>AUD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-1.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-2.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-1.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-2.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64191</span></li>
@@ -1768,8 +1768,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>EUR-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-3.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-4.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-3.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-4.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64156</span></li>
@@ -1785,8 +1785,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>GBP-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-5.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-6.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-5.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-6.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64578</span></li>
@@ -1802,8 +1802,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>CAD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-7.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-8.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-7.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-8.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84535</span></li>
@@ -1819,8 +1819,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>RYL-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-9.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-10.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-9.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-10.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84346</span></li>
@@ -1836,8 +1836,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>AUD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-1.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-2.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-1.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-2.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64191</span></li>
@@ -1853,8 +1853,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>EUR-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-3.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-4.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-3.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-4.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64156</span></li>
@@ -1870,8 +1870,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>GBP-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-5.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-6.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-5.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-6.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.64578</span></li>
@@ -1887,8 +1887,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>CAD-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-7.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-8.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-7.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-8.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84535</span></li>
@@ -1904,8 +1904,8 @@ export default function Trading_two() {
                                         <div className="inner-box">
                                             <h5>RYL-USD</h5>
                                             <ul className="flag"> 
-                                                <li><img src="assets/images/icons/flag-9.png" alt=""/></li>
-                                                <li><img src="assets/images/icons/flag-10.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-9.png" alt=""/></li>
+                                                <li><img src="/assets/images/icons/flag-10.png" alt=""/></li>
                                             </ul>
                                             <ul className="text-list clearfix">
                                                 <li><h6>Ask</h6><span>0.84346</span></li>

@@ -57,7 +57,7 @@ export default function Team_details() {
                     </div>
                     <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                         <div className="image-box ml_40">
-                            <figure className="image"><img src="assets/images/team/team-7.jpg" alt=""/></figure>
+                            <figure className="image"><img src="/assets/images/team/team-7.jpg" alt=""/></figure>
                             <ul className="info-list">
                                 <li><i className="icon-47"></i><Link href="tel:91213-6660027">+91-213-666-0027</Link></li>
                                 <li><i className="icon-46"></i><Link href="mailto:hallo@hawkins.com">hallo@hawkins.com</Link></li>

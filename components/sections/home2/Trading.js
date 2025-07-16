@@ -4,7 +4,7 @@ export default function Trading() {
   return (
     <>
         <section className="trading-style-three pt_30 pb_30">
-            <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-7.png)" }}></div>
+            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-7.png)" }}></div>
             <div className="outer-container">
                 <ul className="trading-list">
                     <li className="upper">

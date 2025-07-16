@@ -63,14 +63,14 @@ export default function Testimonial() {
                 </div>
                 <div className="inner-container">
                     <div className="thumb-box">
-                        <div className="thumb thumb-1"><img src="assets/images/resource/thumb-1.png" alt=""/></div>
-                        <div className="thumb thumb-2"><img src="assets/images/resource/thumb-2.png" alt=""/></div>
-                        <div className="thumb thumb-3"><img src="assets/images/resource/thumb-3.png" alt=""/></div>
-                        <div className="thumb thumb-4"><img src="assets/images/resource/thumb-4.png" alt=""/></div>
-                        <div className="thumb thumb-5"><img src="assets/images/resource/thumb-5.png" alt=""/></div>
-                        <div className="thumb thumb-6"><img src="assets/images/resource/thumb-6.png" alt=""/></div>
-                        <div className="thumb thumb-7"><img src="assets/images/resource/thumb-7.png" alt=""/></div>
-                        <div className="thumb thumb-8"><img src="assets/images/resource/thumb-8.png" alt=""/></div>
+                        <div className="thumb thumb-1"><img src="/assets/images/resource/thumb-1.png" alt=""/></div>
+                        <div className="thumb thumb-2"><img src="/assets/images/resource/thumb-2.png" alt=""/></div>
+                        <div className="thumb thumb-3"><img src="/assets/images/resource/thumb-3.png" alt=""/></div>
+                        <div className="thumb thumb-4"><img src="/assets/images/resource/thumb-4.png" alt=""/></div>
+                        <div className="thumb thumb-5"><img src="/assets/images/resource/thumb-5.png" alt=""/></div>
+                        <div className="thumb thumb-6"><img src="/assets/images/resource/thumb-6.png" alt=""/></div>
+                        <div className="thumb thumb-7"><img src="/assets/images/resource/thumb-7.png" alt=""/></div>
+                        <div className="thumb thumb-8"><img src="/assets/images/resource/thumb-8.png" alt=""/></div>
                     </div>
                     <Swiper {...swiperOptions} className="theme_carousel testimonial-carousel">
                         <SwiperSlide className="slide-item p_relative">

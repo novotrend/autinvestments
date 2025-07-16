@@ -60,14 +60,14 @@ export default function Banner() {
 
 
             <section className="banner-section banner-style-two p_relative">
-                <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-6.png)" }}></div>
+                <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-6.png)" }}></div>
                 <Swiper {...swiperOptions} className="theme_carousel banner-carousel">
                     <SwiperSlide className="slide-item p_relative">
-                        <div className="bg-layer" style={{ backgroundImage: "url(assets/images/banner/banner-4.jpg)" }}></div>
+                        <div className="bg-layer" style={{ backgroundImage: "url(/assets/images/banner/banner-4.jpg)" }}></div>
                         <div className="image-box">
-                            <figure className="image image-1"><img src="assets/images/banner/banner-img-1.png" alt="" /></figure>
-                            <figure className="image image-2"><img src="assets/images/banner/banner-img-2.png" alt="" /></figure>
-                            <figure className="image image-3"><img src="assets/images/banner/banner-img-3.png" alt="" /></figure>
+                            <figure className="image image-1"><img src="/assets/images/banner/banner-img-1.png" alt="" /></figure>
+                            <figure className="image image-2"><img src="/assets/images/banner/banner-img-2.png" alt="" /></figure>
+                            <figure className="image image-3"><img src="/assets/images/banner/banner-img-3.png" alt="" /></figure>
                         </div>
                         <div className="auto-container">
                             <div className="content-box">
@@ -80,11 +80,11 @@ export default function Banner() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="slide-item p_relative">
-                        <div className="bg-layer" style={{ backgroundImage: "url(assets/images/banner/banner-5.jpg)" }}></div>
+                        <div className="bg-layer" style={{ backgroundImage: "url(/assets/images/banner/banner-5.jpg)" }}></div>
                         <div className="image-box">
-                            <figure className="image image-1"><img src="assets/images/banner/banner-img-4.png" alt="" /></figure>
-                            <figure className="image image-2"><img src="assets/images/banner/banner-img-5.png" alt="" /></figure>
-                            <figure className="image image-3"><img src="assets/images/banner/banner-img-6.png" alt="" /></figure>
+                            <figure className="image image-1"><img src="/assets/images/banner/banner-img-4.png" alt="" /></figure>
+                            <figure className="image image-2"><img src="/assets/images/banner/banner-img-5.png" alt="" /></figure>
+                            <figure className="image image-3"><img src="/assets/images/banner/banner-img-6.png" alt="" /></figure>
                         </div>
                         <div className="auto-container">
                             <div className="content-box">
@@ -97,11 +97,11 @@ export default function Banner() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="slide-item p_relative">
-                        <div className="bg-layer" style={{ backgroundImage: "url(assets/images/banner/banner-6.jpg)" }}></div>
+                        <div className="bg-layer" style={{ backgroundImage: "url(/assets/images/banner/banner-6.jpg)" }}></div>
                         <div className="image-box">
-                            <figure className="image image-1"><img src="assets/images/banner/banner-img-1.png" alt="" /></figure>
-                            <figure className="image image-2"><img src="assets/images/banner/banner-img-2.png" alt="" /></figure>
-                            <figure className="image image-3"><img src="assets/images/banner/banner-img-3.png" alt="" /></figure>
+                            <figure className="image image-1"><img src="/assets/images/banner/banner-img-1.png" alt="" /></figure>
+                            <figure className="image image-2"><img src="/assets/images/banner/banner-img-2.png" alt="" /></figure>
+                            <figure className="image image-3"><img src="/assets/images/banner/banner-img-3.png" alt="" /></figure>
                         </div>
                         <div className="auto-container">
                             <div className="content-box">
@@ -114,11 +114,11 @@ export default function Banner() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="slide-item p_relative">
-                        <div className="bg-layer" style={{ backgroundImage: "url(assets/images/banner/banner-5.jpg)" }}></div>
+                        <div className="bg-layer" style={{ backgroundImage: "url(/assets/images/banner/banner-5.jpg)" }}></div>
                         <div className="image-box">
-                            <figure className="image image-1"><img src="assets/images/banner/banner-img-4.png" alt="" /></figure>
-                            <figure className="image image-2"><img src="assets/images/banner/banner-img-5.png" alt="" /></figure>
-                            <figure className="image image-3"><img src="assets/images/banner/banner-img-6.png" alt="" /></figure>
+                            <figure className="image image-1"><img src="/assets/images/banner/banner-img-4.png" alt="" /></figure>
+                            <figure className="image image-2"><img src="/assets/images/banner/banner-img-5.png" alt="" /></figure>
+                            <figure className="image image-3"><img src="/assets/images/banner/banner-img-6.png" alt="" /></figure>
                         </div>
                         <div className="auto-container">
                             <div className="content-box">

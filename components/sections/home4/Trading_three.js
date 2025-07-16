@@ -54,7 +54,7 @@ export default function Trading_three() {
                                 </div>
                                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                     <div className="image-box ml_70">
-                                        <figure className="image"><img src="assets/images/resource/dashboard-2.png" alt=""/></figure>
+                                        <figure className="image"><img src="/assets/images/resource/dashboard-2.png" alt=""/></figure>
                                     </div>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@ export default function Trading_three() {
                                 </div>
                                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                     <div className="image-box ml_70">
-                                        <figure className="image"><img src="assets/images/resource/dashboard-2.png" alt=""/></figure>
+                                        <figure className="image"><img src="/assets/images/resource/dashboard-2.png" alt=""/></figure>
                                     </div>
                                 </div>
                             </div>
@@ -98,7 +98,7 @@ export default function Trading_three() {
                                 </div>
                                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                     <div className="image-box ml_70">
-                                        <figure className="image"><img src="assets/images/resource/dashboard-2.png" alt=""/></figure>
+                                        <figure className="image"><img src="/assets/images/resource/dashboard-2.png" alt=""/></figure>
                                     </div>
                                 </div>
                             </div>
@@ -120,7 +120,7 @@ export default function Trading_three() {
                                 </div>
                                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                     <div className="image-box ml_70">
-                                        <figure className="image"><img src="assets/images/resource/dashboard-2.png" alt=""/></figure>
+                                        <figure className="image"><img src="/assets/images/resource/dashboard-2.png" alt=""/></figure>
                                     </div>
                                 </div>
                             </div>

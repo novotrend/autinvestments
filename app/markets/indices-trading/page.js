@@ -28,7 +28,7 @@ export default function IndicesTrading() {
             <section className="funfact-section">
               <div className="auto-container px-0">
                 <div className="inner-container d-flex flex-column p-5 aligh-items-start justify-content-start">
-                  <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-16.png)" }}></div>
+                  <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
                   <h4 className="mb-3">What is Indices Trading?</h4>
                   <ul class="list-style-one clearfix">
                     <li>
@@ -416,7 +416,7 @@ export default function IndicesTrading() {
           <div className="bg-color"></div>
           <div className="auto-container">
             <div className="inner-container">
-              <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-5.png)" }}></div>
+              <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
               <div className="row align-items-center">
                 <div className="col-12 text-column">
                   <div className="text-box">
