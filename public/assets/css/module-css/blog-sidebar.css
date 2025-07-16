@@ -1,0 +1,311 @@
+
+
+/** blog-sidebar **/
+
+.blog-sidebar{
+  position: relative;
+  display: block;
+  padding: 40px 30px;
+  box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+}
+
+.blog-sidebar .search-widget .search-form .form-group{
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.blog-sidebar .search-widget .search-form .form-group input[type='search']{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 50px;
+  background: rgba(247, 247, 247, 1);
+  border: 1px solid rgba(247, 247, 247, 1);
+  border-radius: 100px;
+  font-size: 16px;
+  color: var(--title-color);
+  padding: 10px 60px 10px 30px;
+  transition: all 500ms ease;
+}
+
+.blog-sidebar .search-widget .search-form .form-group input:focus{
+
+}
+
+.blog-sidebar .search-widget .search-form .form-group button[type='submit']{
+  position: absolute;
+  top: 14px;
+  right: 20px;
+  font-size: 20px;
+  color: var(--title-color);
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+.blog-sidebar .search-widget .search-form .form-group input:focus + button,
+.blog-sidebar .search-widget .search-form .form-group button:hover{
+
+}
+
+.blog-sidebar .widget-title{
+  position: relative;
+  display: block;
+}
+
+.blog-sidebar .widget-title h3{
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.blog-sidebar .category-widget .category-list li{
+  position: relative;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.blog-sidebar .category-widget .category-list li:last-child{
+  margin-bottom: 0px;
+}
+
+.blog-sidebar .category-widget .category-list li a{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--title-color);
+}
+
+.blog-sidebar .category-widget .category-list li a:hover{
+
+}
+
+.blog-sidebar .category-widget .category-list li a span{
+  float: right;
+}
+
+.blog-sidebar .post-widget .post{
+  position: relative;
+  display: block;
+  padding: 2px 0px 2px 118px;
+  margin-bottom: 20px;
+  min-height: 77px;
+}
+
+.blog-sidebar .post-widget .post:last-child{
+  margin-bottom: 0px;
+}
+
+.blog-sidebar .post-widget .post .post-thumb{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 95px;
+  border-radius: 5px;
+}
+
+.blog-sidebar .post-widget .post .post-thumb img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.blog-sidebar .post-widget .post h6{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.blog-sidebar .post-widget .post h6 a{
+  display: inline-block;
+  color: var(--title-color);
+}
+
+.blog-sidebar .post-widget .post h6 a:hover{
+
+}
+
+.blog-sidebar .post-widget .post .post-date{
+  position: relative;
+  display: block;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.blog-sidebar .tags-widget .tags-list{
+  position: relative;
+  margin: 0px -7.5px;
+}
+
+.blog-sidebar .tags-widget .tags-list li{
+  position: relative;
+  display: inline-block;
+  float: left;
+  margin: 0px 7.5px 15px 7.5px;
+}
+
+.blog-sidebar .tags-widget .tags-list li a{
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--title-color);
+  border: 1px solid #e5e5e5;
+  border-radius: 40px;
+  padding: 2px 15px;
+}
+
+.blog-sidebar .tags-widget .tags-list li a:hover{
+  color: #fff;
+}
+
+.blog-sidebar .archives-widget .archives-list li{
+  position: relative;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.blog-sidebar .archives-widget .archives-list li:last-child{
+  margin-bottom: 0px;
+}
+
+.blog-sidebar .archives-widget .archives-list li a{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--title-color);
+}
+
+.blog-sidebar .archives-widget .archives-list li a:hover{
+  padding-left: 18px;
+}
+
+.blog-sidebar .archives-widget .archives-list li a span{
+  float: right;
+}
+
+.blog-sidebar .archives-widget .archives-list li a i{
+  position: absolute;
+  left: 0px;
+  top: 5px;
+  font-size: 20px;
+  opacity: 0;
+  transition: all 500ms ease;
+}
+
+.blog-sidebar .archives-widget .archives-list li a:hover i{
+  opacity: 1;
+}
+
+
+/** rtl-css **/
+
+.rtl .blog-sidebar .post-widget .post{
+  padding-left: 0px;
+  padding-right: 118px;
+}
+
+.rtl .blog-sidebar .post-widget .post .post-thumb{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .blog-sidebar .tags-widget .tags-list li{
+  float: right;
+}
+
+.rtl .blog-sidebar .category-widget .category-list li a span,
+.rtl .blog-sidebar .archives-widget .archives-list li a span{
+  float: left;
+}
+
+.rtl .blog-sidebar .archives-widget .archives-list li a:hover{
+  padding-left: 0px;
+  padding-right: 18px;
+}
+
+.rtl .blog-sidebar .archives-widget .archives-list li a i{
+  left: inherit;
+  right: 0px;
+  transform: rotate(180deg);
+}
+
+.rtl .blog-sidebar{
+  margin-left: 0px;
+  margin-right: 40px;
+}
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+  .rtl .blog-sidebar{
+    margin-right: 0px;
+  }
+
+  .blog-sidebar{
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+
+}
+
+@media only screen and (max-width: 599px){
+  
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

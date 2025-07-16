@@ -1,0 +1,177 @@
+
+/** pricing-section **/
+
+.pricing-section{
+  position: relative;
+}
+
+.pricing-block-one .inner-box{
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.pricing-block-one .inner-box .image-box{
+  position: relative;
+  display: block;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.pricing-block-one .inner-box .image-box img{
+  width: 100%;
+  border-radius: 10px;
+  transition: all 500ms ease;
+}
+
+.pricing-block-one .inner-box:hover .image-box img{
+  transform: scale(1.1);
+}
+
+.pricing-block-one .inner-box .lower-content{
+  position: relative;
+  display: block;
+  padding-top: 17px;
+}
+
+.pricing-block-one .inner-box .lower-content h3{
+  display: block;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.pricing-block-one .inner-box .lower-content h3 a{
+  display: inline-block;
+  color: var(--title-color);
+}
+
+.pricing-block-one .inner-box .lower-content h3 a:hover{
+
+}
+
+.pricing-block-one .inner-box .lower-content .link a{
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: var(--title-font);
+  font-weight: 500;
+  text-transform: capitalize;
+  border-bottom: solid;
+  border-width: 1px;
+}
+
+.pricing-section .tab-btns{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 490px;
+  padding: 5px;
+  border-radius: 70px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.pricing-section .tab-btns li{
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: var(--title-font);
+  font-weight: 500;
+  color: #fff;
+  border-radius: 100px;
+  padding: 12px 20px;
+  width: 160px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+.pricing-section .tab-btns li.active-btn,
+.pricing-section .tab-btns li:hover{
+  background: #fff;
+}
+
+
+/** rtl-css **/
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .pricing-section{
+    padding: 65px 0px 40px 0px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+  .pricing-section .tab-btns{
+    width: 100%;
+  }
+
+  .pricing-section .tab-btns li{
+    width: auto;
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
