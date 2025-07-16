@@ -66,7 +66,7 @@ export default function Footer1() {
                                                 <li><a href="/document/privacy-policy">Privacy Policy</a></li>
                                                 <li><a href="/document/client-agreement">Client Agreement</a></li>
                                                 <li><a href="/document/anti-money">Anti-Money Laundering (AML) Policy</a></li>
-                                                <li><a href="/document/contact">Support and Contact</a></li>
+                                                <li><a href="/document/support-contact">Support and Contact</a></li>
                                             </ul>
                                         </div>
                                     </div>
