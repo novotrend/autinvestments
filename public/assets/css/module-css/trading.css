@@ -114,7 +114,7 @@
 
 .trading-style-two {
   position: relative;
-  background: #191919;
+  background: var(--secondary-color);
 }
 
 .project-tab .tab {
@@ -992,7 +992,7 @@
 
 
 .trading-style-six.light-section {
-  background: linear-gradient(98.54deg, #191919 0%, #525252 100%);
+  background: linear-gradient(98.54deg, var(--secondary-color) 0%, #525252 100%);
 }
 
 .trading-style-six.light-section .pattern-layer {

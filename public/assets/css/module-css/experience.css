@@ -115,6 +115,10 @@
   max-width: 400px;
 }
 
+.experience-style-two .sec-title.audience{
+  max-width: 100% !important;
+}
+
 .experience-style-two .sec-title h2{
   font-size: 40px;
   line-height: 48px;

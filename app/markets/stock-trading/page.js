@@ -35,9 +35,9 @@ export default function StockTrading() {
 
         <section className="platform-section alternat-2 pt_90 pb_60">
           <div className="auto-container">
-            <div className="row align-items-center">
-              <div className="col-md-8">
-                <div className="sec-title pb_20">
+            <div className="row align-items-center g-3 flex-wrap-reverse">
+              <div className="col-lg-8">
+                <div className="sec-title pb_20 d-none d-lg-block">
                   <span className="sub-title mb_14">INFO</span>
                   <h2 className="mb-2">What is Stock Trading?</h2>
                   <p>
@@ -46,8 +46,8 @@ export default function StockTrading() {
                 </div>
                 <section className="funfact-section">
                   <div className="auto-container px-0">
-                    <div className="inner-container d-flex flex-column p-5 aligh-items-start justify-content-start">
-                      <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-16.png)" }}></div>
+                    <div className="inner-container d-flex flex-column p-sm-5 p-4 aligh-items-start justify-content-start">
+                      <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
                       <h4 className="mb-3">Overview of Stock Trading</h4>
                       <p className="mb-3">
                         Stock trading involves buying and selling shares of publicly listed companies across global
@@ -66,7 +66,14 @@ export default function StockTrading() {
                   </div>
                 </section>
               </div>
-              <div className="col-md-4">
+              <div className="col-lg-4">
+                <div className="sec-title pb_20 d-lg-none">
+                  <span className="sub-title mb_14">INFO</span>
+                  <h2 className="mb-2">What is Stock Trading?</h2>
+                  <p>
+                    Explore global equity markets with precision, performance, and powerful tools
+                  </p>
+                </div>
                 <img src="/assets/images/resource/stocktrading-1.jpg" alt="" className="rounded" />
               </div>
             </div>
@@ -85,7 +92,7 @@ export default function StockTrading() {
                   <div className="content-box row row-deck">
                     <div className="process-block-one col-md-6">
                       <div className="inner-box">
-                        <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
+                        <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
                         <span className="count-text">1</span>
                         <h3>Global Market Access</h3>
                         <p>
@@ -98,7 +105,7 @@ export default function StockTrading() {
                     </div>
                     <div className="process-block-one col-md-6">
                       <div className="inner-box">
-                        <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
+                        <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
                         <span className="count-text">2</span>
                         <h3>Commission‑Free Trading</h3>
                         <p>
@@ -109,7 +116,7 @@ export default function StockTrading() {
                     </div>
                     <div className="process-block-one col-md-6">
                       <div className="inner-box">
-                        <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
+                        <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
                         <span className="count-text">3</span>
                         <h3>Advanced Trading Software</h3>
                         <p>
@@ -120,7 +127,7 @@ export default function StockTrading() {
                     </div>
                     <div className="process-block-one col-md-6">
                       <div className="inner-box">
-                        <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
+                        <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
                         <span className="count-text">4</span>
                         <h3>Fractional & Micro‑Lot Shares</h3>
                         <p>
@@ -131,7 +138,7 @@ export default function StockTrading() {
                     </div>
                     <div className="process-block-one col-md-6">
                       <div className="inner-box">
-                        <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
+                        <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
                         <span className="count-text">5</span>
                         <h3>Pre‑Market & After‑Hours Trading</h3>
                         <p>
@@ -142,7 +149,7 @@ export default function StockTrading() {
                     </div>
                     <div className="process-block-one col-md-6">
                       <div className="inner-box">
-                        <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
+                        <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
                         <span className="count-text">6</span>
                         <h3>Educational & Research Tools</h3>
                         <p>
@@ -268,7 +275,7 @@ export default function StockTrading() {
 
         <section className="working-section apps-section alternat-2 pt_120 pb_120 pt_100 pb_100">
           <div className="auto-container">
-            <div class="shape" style={{ backgroundImage: "url(assets/images/shape/shape-4.png)" }}></div>
+            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-4.png)" }}></div>
             <div className="row align-items-center">
               <div className="col-lg-4 col-md-12 col-sm-12">
                 <img src="/assets/images/resource/how-to-start-stock-trading.jpg" alt="" className="rounded" />
@@ -321,11 +328,11 @@ export default function StockTrading() {
 
         <section className="about-section pt_100 pb_100">
           <div className="auto-container">
-            <div className="row align-items-center">
+            <div className="row align-items-center g-5 flex-wrap-reverse">
               <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                 <div className="content_block_one">
                   <div className="content-box mr_80">
-                    <div className="sec-title pb_30">
+                    <div className="sec-title pb_30 d-none d-lg-block">
                       <span className="sub-title mb_14">Help</span>
                       <h2>Frequently Asked Questions (FAQ)</h2>
                     </div>
@@ -390,6 +397,10 @@ export default function StockTrading() {
                 </div>
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12 video-column">
+                <div className="sec-title pb_30 d-lg-none">
+                  <span className="sub-title mb_14">Help</span>
+                  <h2>Frequently Asked Questions (FAQ)</h2>
+                </div>
                 <img src="/assets/images/resource/faq.jpg" alt="" className="rounded" />
               </div>
             </div>
@@ -416,13 +427,13 @@ export default function StockTrading() {
                         forex trading platform.
                       </p>
                     </div>
-                    <Link href="/open-account" className="theme-btn btn-one bg-dark me-3">
+                    <Link href="/open-account" className="theme-btn btn-one bg-dark mb-2 me-3">
                       Open Live Account
                     </Link>
-                    <Link href="/trading/open-demo-account" className="theme-btn btn-one bg-dark me-3">
+                    <Link href="/trading/open-demo-account" className="theme-btn btn-one bg-dark mb-2 me-3">
                       Try a Demo
                     </Link>
-                    <Link href="/contact" className="theme-btn btn-one bg-dark">
+                    <Link href="/contact" className="theme-btn btn-one bg-dark mb-2">
                       Contact Support
                     </Link>
                   </div>

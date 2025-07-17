@@ -57,9 +57,7 @@ const swiperOptions = {
 export default function Banner() {
     return (
         <>
-
-
-            <section className="banner-section p_relative">
+            <section className="banner-section p_relative mb_50">
                 <div className="large-container">
                     <Swiper {...swiperOptions} className="theme_carousel owl-theme banner-carousel">
                         <SwiperSlide className="slide-item p_relative">

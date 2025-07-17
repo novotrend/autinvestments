@@ -30,7 +30,7 @@ export default function IndicesTrading() {
                 <div className="inner-container d-flex flex-column p-5 aligh-items-start justify-content-start">
                   <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
                   <h4 className="mb-3">What is Indices Trading?</h4>
-                  <ul class="list-style-one clearfix">
+                  <ul className="list-style-one clearfix">
                     <li>
                       Indices represent the performance of a group of selected stocks from a particular market or
                       sector. Trading index CFDs allows you to speculate on the movement of entire markets like the
@@ -48,7 +48,7 @@ export default function IndicesTrading() {
           </div>
         </section>
 
-        <section className="markets-section centred pt_130 pb_70">
+        <section className="markets-section  pt_130 pb_70">
           <div className="auto-container">
             <div className="sec-title pb_60">
               <span className="sub-title mb_14">Edge</span>
@@ -59,8 +59,8 @@ export default function IndicesTrading() {
                 <div className="markets-block-one">
                   <div className="inner-box">
                     <div className="image-box">
-                      <figure className="image"><Link href="/markets-details"><img src="../assets/images/resource/markets-1.jpg" alt="" /></Link></figure>
-                      <figure className="overlay-image"><Link href="/markets-details"><img src="../assets/images/resource/markets-1.jpg" alt="" /></Link></figure>
+                      <figure className="image"><Link href="/markets-details"><img src="/assets/images/resource/markets-1.jpg" alt="" /></Link></figure>
+                      <figure className="overlay-image"><Link href="/markets-details"><img src="/assets/images/resource/markets-1.jpg" alt="" /></Link></figure>
                     </div>
                     <div className="lower-content">
                       <h3><a href="markets-details.html">Access to Major Global Indices</a></h3>
@@ -77,8 +77,8 @@ export default function IndicesTrading() {
                 <div className="markets-block-one">
                   <div className="inner-box">
                     <div className="image-box">
-                      <figure className="image"><a href="markets-details.html"><img src="../assets/images/resource/markets-2.jpg" alt="" /></a></figure>
-                      <figure className="overlay-image"><a href="markets-details.html"><img src="../assets/images/resource/markets-2.jpg" alt="" /></a></figure>
+                      <figure className="image"><a href="markets-details.html"><img src="/assets/images/resource/markets-2.jpg" alt="" /></a></figure>
+                      <figure className="overlay-image"><a href="markets-details.html"><img src="/assets/images/resource/markets-2.jpg" alt="" /></a></figure>
                     </div>
                     <div className="lower-content">
                       <h3><a href="markets-details.html">Diversified Exposure</a></h3>
@@ -94,8 +94,8 @@ export default function IndicesTrading() {
                 <div className="markets-block-one">
                   <div className="inner-box">
                     <div className="image-box">
-                      <figure className="image"><a href="markets-details.html"><img src="../assets/images/resource/markets-3.jpg" alt="" /></a></figure>
-                      <figure className="overlay-image"><a href="markets-details.html"><img src="../assets/images/resource/markets-3.jpg" alt="" /></a></figure>
+                      <figure className="image"><a href="markets-details.html"><img src="/assets/images/resource/markets-3.jpg" alt="" /></a></figure>
+                      <figure className="overlay-image"><a href="markets-details.html"><img src="/assets/images/resource/markets-3.jpg" alt="" /></a></figure>
                     </div>
                     <div className="lower-content">
                       <h3><a href="markets-details.html">Tight Spreads and Fast Execution</a></h3>
@@ -111,8 +111,8 @@ export default function IndicesTrading() {
                 <div className="markets-block-one">
                   <div className="inner-box">
                     <div className="image-box">
-                      <figure className="image"><a href="markets-details.html"><img src="../assets/images/resource/markets-4.jpg" alt="" /></a></figure>
-                      <figure className="overlay-image"><a href="markets-details.html"><img src="../assets/images/resource/markets-4.jpg" alt="" /></a></figure>
+                      <figure className="image"><a href="markets-details.html"><img src="/assets/images/resource/markets-4.jpg" alt="" /></a></figure>
+                      <figure className="overlay-image"><a href="markets-details.html"><img src="/assets/images/resource/markets-4.jpg" alt="" /></a></figure>
                     </div>
                     <div className="lower-content">
                       <h3><a href="markets-details.html">Trade Both Rising and Falling Markets</a></h3>
@@ -128,8 +128,8 @@ export default function IndicesTrading() {
                 <div className="markets-block-one">
                   <div className="inner-box">
                     <div className="image-box">
-                      <figure className="image"><a href="markets-details.html"><img src="../assets/images/resource/markets-5.jpg" alt="" /></a></figure>
-                      <figure className="overlay-image"><a href="markets-details.html"><img src="../assets/images/resource/markets-5.jpg" alt="" /></a></figure>
+                      <figure className="image"><a href="markets-details.html"><img src="/assets/images/resource/markets-5.jpg" alt="" /></a></figure>
+                      <figure className="overlay-image"><a href="markets-details.html"><img src="/assets/images/resource/markets-5.jpg" alt="" /></a></figure>
                     </div>
                     <div className="lower-content">
                       <h3><a href="markets-details.html">High Volatility = More Opportunities</a></h3>
@@ -145,8 +145,8 @@ export default function IndicesTrading() {
                 <div className="markets-block-one">
                   <div className="inner-box">
                     <div className="image-box">
-                      <figure className="image"><a href="markets-details.html"><img src="../assets/images/resource/markets-6.jpg" alt="" /></a></figure>
-                      <figure className="overlay-image"><a href="markets-details.html"><img src="../assets/images/resource/markets-6.jpg" alt="" /></a></figure>
+                      <figure className="image"><a href="markets-details.html"><img src="/assets/images/resource/markets-6.jpg" alt="" /></a></figure>
+                      <figure className="overlay-image"><a href="markets-details.html"><img src="/assets/images/resource/markets-6.jpg" alt="" /></a></figure>
                     </div>
                     <div className="lower-content">
                       <h3><a href="markets-details.html">No Overnight Swap on Select Accounts</a></h3>
@@ -165,7 +165,7 @@ export default function IndicesTrading() {
 
         <section className="trading-style-four pt_100 pb_100">
           <div className="auto-container">
-            <div className="sec-title centred pb_60">
+            <div className="sec-title  pb_60">
               <span className="sub-title mb_14">Learn More</span>
               <h2>What is Trading</h2>
             </div>
@@ -310,7 +310,7 @@ export default function IndicesTrading() {
 
         <section className="platform-section alternat-2 pt_90 pb_130">
           <div className="auto-container">
-            <div className="sec-title pb_60">
+            <div className="sec-title pb-sm-5">
               <span className="sub-title mb_14">trading</span>
               <h2>Trading Platforms</h2>
             </div>
@@ -390,7 +390,7 @@ export default function IndicesTrading() {
               <span className="sub-title mb_14">Setup</span>
               <h2>Getting Started with Indices Trading</h2>
             </div>
-            <div className="row clearfix education-details-content shadow-sm py-5 px-4 rounded-4" >
+            <div className="row clearfix education-details-content shadow-sm py-5 px-sm-4 px-2 rounded-4" >
               <div className="col-12 content-column ">
                 <div className="text-box">
                   <ul className="list-item clearfix">
@@ -420,13 +420,13 @@ export default function IndicesTrading() {
               <div className="row align-items-center">
                 <div className="col-12 text-column">
                   <div className="text-box">
-                    <h2 className="text-dark fw-bold">Explore the Power of Indices with AUT Investments LTD</h2>
-                    <p className="text-light fs-5 mt_30">
+                    <h2 className="fw-bold">Explore the Power of Indices with AUT Investments LTD</h2>
+                    <p className="text-light fs-6 mt_30">
                       Broaden your trading scope with one of the most efficient ways to capture global momentum.
                       Trade the world’s top indices with technology, transparency, and trust.
                     </p>
                     <Link href="/contact" className="theme-btn btn-one bg-dark mt-4">
-                      Contact Us
+                      Contact Support
                     </Link>
                   </div>
                 </div>

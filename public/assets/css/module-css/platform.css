@@ -2,7 +2,7 @@
 
 .platform-section {
   position: relative;
-  background: #191919;
+  background: var(--secondary-color);
 }
 
 .platform-section .content-box {
@@ -13,6 +13,10 @@
   padding: 51px 60px 50px 60px;
   overflow: hidden;
   min-height: 477px;
+}
+
+.platform-section .momentum .content-box {
+  min-height: 522px;
 }
 
 .platform-section .content-box h2 {
@@ -44,7 +48,7 @@
   z-index: 1;
 }
 
-.platform-section .three.tab-btns{
+.platform-section .three.tab-btns {
   top: 118px;
 }
 
@@ -64,6 +68,14 @@
   padding: 43.5px 30px;
   min-width: 477px;
   text-transform: uppercase;
+}
+
+.platform-section .momentum .tab-btns {
+  top: 102px;
+}
+
+.platform-section .momentum .tab-btns li {
+  min-width: 522px;
 }
 
 .platform-section .tab-btns li:last-child {
@@ -130,7 +142,9 @@
 /** responsive-css **/
 
 @media only screen and (max-width: 1200px) {
-  .platform-section .tab-btns {
+
+  .platform-section .tab-btns,
+  .platform-section .three.tab-btns {
     top: 0px;
     transform: rotate(0deg);
     margin-top: 30px;
@@ -167,7 +181,9 @@
 @media only screen and (max-width: 576px) {
   .platform-section .tab-btns li {
     text-align: start;
-    font-size: 11px;
+    font-size: 15px;
+    padding: 24.5px 30px;
+    line-height: inherit;
   }
 }
 

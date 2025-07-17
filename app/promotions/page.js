@@ -235,7 +235,7 @@ export default function Promotions() {
 
                 <section className="working-section apps-section alternat-2 mt_70 pt_100 pb_100">
                     <div className="auto-container">
-                        <div class="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-4.png)" }}></div>
+                        <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-4.png)" }}></div>
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12 col-sm-12 video-column">
                                 <div className="video_block_one">
@@ -331,7 +331,7 @@ export default function Promotions() {
                                     <div className="text-box">
                                         <h3 className="text-dark fw-semibold mb-3">Trade More. Earn More. Get Rewarded.</h3>
                                         <p className="text-light">Explore our active promotions and take advantage of added benefits on your trades. Whether you're growing your capital or sharing your experience with others, AUT Investments LTD is here to support and reward your every step in the markets.</p>
-                                        <a class="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Support</a>
+                                        <a className="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Support</a>
                                     </div>
                                 </div>
                             </div>

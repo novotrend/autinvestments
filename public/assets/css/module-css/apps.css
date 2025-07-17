@@ -8,7 +8,7 @@
 .apps-section .inner-container{
   position: relative;
   display: block;
-  background: linear-gradient(98.54deg, #191919 0%, #525252 100%);
+  background: linear-gradient(98.54deg, #231F20 0%, #525252 100%);
   border-radius: 10px;
   overflow: hidden;
   padding: 120px 80px;
@@ -204,7 +204,7 @@
 
 
 .apps-section.alternat-2{
-  background: linear-gradient(98.54deg, #191919 0%, #525252 100%);
+  background: linear-gradient(98.54deg, #231F20 0%, #525252 100%);
 }
 
 .apps-section.alternat-2 .image-layer{

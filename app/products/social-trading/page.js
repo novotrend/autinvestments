@@ -43,7 +43,7 @@ export default function SocialTrading() {
                 </div>
                 <section className="funfact-section">
                   <div className="auto-container px-0">
-                    <div className="inner-container d-flex flex-column p-5 aligh-items-start justify-content-start">
+                    <div className="inner-container d-flex flex-column p-sm-5 p-4 aligh-items-start justify-content-start">
                       <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
                       <h4 className="mb-3">What is Social Trading ?</h4>
 
@@ -67,15 +67,19 @@ export default function SocialTrading() {
 
         <section className="working-section apps-section alternat-2 pt_120 pb_120 pt_100 pb_100">
           <div className="auto-container">
-            <div class="shape" style={{ backgroundImage: "url(../assets/images/shape/shape-4.png)" }}></div>
-            <div className="row align-items-center">
-              <div className="col-lg-6 col-md-12 col-sm-12">
-                <img src="../assets/images/resource/socialtrading.jpg" alt="" className="rounded" />
+            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-4.png)" }}></div>
+            <div className="row align-items-center g-3">
+              <div className="col-lg-4 col-md-12 col-sm-12">
+                <div className="sec-title light pb_35 d-lg-none">
+                  <span className="sub-title mb_10">Guidance</span>
+                  <h2>How Social Trading Works</h2>
+                </div>
+                <img src="/assets/images/resource/socialtrading.jpg" alt="" className="rounded" />
               </div>
-              <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+              <div className="col-lg-8 col-md-12 col-sm-12 content-column">
                 <div className="content_block_nine">
                   <div className="content-box ml_70">
-                    <div className="sec-title light pb_35">
+                    <div className="sec-title light pb_35 d-none d-lg-block ">
                       <span className="sub-title mb_10">Guidance</span>
                       <h2>How Social Trading Works</h2>
                     </div>
@@ -111,9 +115,9 @@ export default function SocialTrading() {
 
         <section className="funfact-section pt_120 pb_70">
           <div className="auto-container">
-            <div className="row">
+            <div className="row align-items-center">
               <div className="col-md-12">
-                <div className="sec-title pb_20 text-center">
+                <div className="sec-title pb_20">
                   <span className="sub-title mb_14">BENEFITS</span>
                   <h2 className="mb-2">Benefits of Social Trading</h2>
                 </div>
@@ -122,8 +126,8 @@ export default function SocialTrading() {
             <div className="inner-container">
               <div className="row clearfix">
                 <div className="col-lg-4 col-md-6 col-sm-12 funfact-block">
-                  <div className="funfact-block-one">
-                    <div className="inner-box">
+                  <div className="funfact-block-one h-100">
+                    <div className="inner-box h-100">
                       <h3 className="mb-3">For New Traders</h3>
                       <div className="education-details-content">
                         <div className="text-box">
@@ -138,8 +142,8 @@ export default function SocialTrading() {
                   </div>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 funfact-block">
-                  <div className="funfact-block-one">
-                    <div className="inner-box">
+                  <div className="funfact-block-one h-100">
+                    <div className="inner-box h-100">
                       <h3 className="mb-3">For Intermediate Traders</h3>
                       <div className="education-details-content">
                         <div className="text-box">
@@ -154,8 +158,8 @@ export default function SocialTrading() {
                   </div>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 funfact-block">
-                  <div className="funfact-block-one">
-                    <div className="inner-box">
+                  <div className="funfact-block-one h-100">
+                    <div className="inner-box h-100">
                       <h3 className="mb-3">For Expert Traders</h3>
                       <div className="education-details-content">
                         <div className="text-box">
@@ -175,13 +179,13 @@ export default function SocialTrading() {
         </section>
 
         <section className="account-section mt_60 pt_60 pb_70">
-          <div className="pattern-layer" style={{ backgroundImage: "url(../assets/images/shape/shape-1.png)" }}></div>
+          <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-1.png)" }}></div>
           <div className="auto-container">
-            <div className="row align-items-center">
-              <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+            <div className="row align-items-center g-3 flex-wrap-reverse">
+              <div className="col-lg-8 col-md-12 col-sm-12 content-column">
                 <div className="content_block_nine">
                   <div className="content-box ml_70">
-                    <div className="sec-title light pb_35">
+                    <div className="sec-title light pb_35 d-none d-lg-block">
                       <span className="sub-title mb_10">Guidance</span>
                       <h2 className="text-dark">How to Start Social Trading</h2>
                     </div>
@@ -225,8 +229,12 @@ export default function SocialTrading() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6 col-md-12 col-sm-12">
-                <img src="../assets/images/resource/socialtrading-step.jpg" alt="" className="rounded" />
+              <div className="col-lg-4 col-md-12 col-sm-12">
+                <div className="sec-title light pb_35 d-lg-none">
+                  <span className="sub-title mb_10">Guidance</span>
+                  <h2 className="text-dark">How to Start Social Trading</h2>
+                </div>
+                <img src="/assets/images/resource/socialtrading-step.jpg" alt="" className="rounded" />
               </div>
             </div>
           </div>
@@ -234,22 +242,22 @@ export default function SocialTrading() {
 
         <section className="trading-style-four pt_100 pb_100">
           <div className="auto-container">
-            <div className="sec-title centred pb_60">
+            <div className="sec-title pb_60">
               <span className="sub-title mb_14">Community</span>
               <h2>Unlock the Power of Social Trading with AUT Investments LTD</h2>
             </div>
             <div className="tabs-box">
               <ul className="tab-btns tab-buttons clearfix border-bottom text-center">
                 <li onClick={() => handleOnClick(1)} className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>
-                  <div className="icon-box"><i className="icon-20"></i></div>
+                  <div className="icon-box"><i className="fa fa-sliders"></i></div>
                   <h4>Key Features</h4>
                 </li>
                 <li onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>
-                  <div className="icon-box"><i className="icon-21"></i></div>
+                  <div className="icon-box"><i className="fa fa-shield"></i></div>
                   <h4>Security & Privacy</h4>
                 </li>
                 <li onClick={() => handleOnClick(3)} className={activeIndex === 3 ? "tab-btn active-btn" : "tab-btn"}>
-                  <div className="icon-box"><i className="icon-21"></i></div>
+                  <div className="icon-box"><i className="fa fa-thumbs-up"></i></div>
                   <h4>Top Reasons</h4>
                 </li>
                 <li onClick={() => handleOnClick(4)} className={activeIndex === 4 ? "tab-btn active-btn" : "tab-btn"}>
@@ -320,12 +328,18 @@ export default function SocialTrading() {
                     <div className="col-md-12 col-sm-12 content-column">
                       <div className="content_block_three">
                         <div className="content-box">
-                          <h2>Security & Privacy</h2>
-                          <ul className="list-style-one clearfix">
-                            <li>Your funds and trade executions remain fully secure within your trading account</li>
-                            <li>Sharing trades is optional — you can choose to remain private or become a public trader</li>
-                            <li>Community rules and moderation ensure a respectful and trustworthy environment</li>
-                          </ul>
+                          <div className="award-section pt_60 pb_100">
+                            <div className="auto-container">
+                              <div className="sec-title pb_60">
+                                <h2>Security & Privacy</h2>
+                              </div>
+                              <ul className="list-style-one clearfix">
+                                <li>Your funds and trade executions remain fully secure within your trading account</li>
+                                <li>Sharing trades is optional — you can choose to remain private or become a public trader</li>
+                                <li>Community rules and moderation ensure a respectful and trustworthy environment</li>
+                              </ul>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -336,15 +350,21 @@ export default function SocialTrading() {
                     <div className="col-md-12 col-sm-12 content-column">
                       <div className="content_block_three">
                         <div className="content-box">
-                          <h2>Top Reasons to Use Social Trading at AUT Investments LTD</h2>
-                          <ul className="list-style-one clearfix">
-                            <li>Collaborative learning environment</li>
-                            <li>Smart trader discovery tools</li>
-                            <li>Transparent performance insights</li>
-                            <li>No coding or technical setup required</li>
-                            <li>Built-in risk indicators for informed following</li>
-                            <li>Access on desktop and mobile platforms</li>
-                          </ul>
+                          <div className="award-section pt_60 pb_100">
+                            <div className="auto-container">
+                              <div className="sec-title pb_60">
+                                <h2>Top Reasons to Use Social Trading at AUT Investments LTD</h2>
+                              </div>
+                              <ul className="list-style-one clearfix">
+                                <li>Collaborative learning environment</li>
+                                <li>Smart trader discovery tools</li>
+                                <li>Transparent performance insights</li>
+                                <li>No coding or technical setup required</li>
+                                <li>Built-in risk indicators for informed following</li>
+                                <li>Access on desktop and mobile platforms</li>
+                              </ul>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -418,18 +438,18 @@ export default function SocialTrading() {
           <div className="bg-color"></div>
           <div className="auto-container">
             <div className="inner-container">
-              <div className="shape" style={{ backgroundImage: "url(../assets/images/shape/shape-5.png)" }}></div>
+              <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
               <div className="row align-items-center">
                 <div className="col-12 text-column">
                   <div className="text-box">
-                    <h2 className="text-dark fw-bold">Trade Smarter Together</h2>
-                    <p className="text-light fs-5 mt_30">
+                    <h2 className="fw-bold">Trade Smarter Together</h2>
+                    <p className="text-light fs-6 mt_30">
                       Social Trading at AUT Investments LTD isn’t just about trades — it’s about community,
                       transparency, and growth. Whether you're here to learn, teach, follow, or lead — connect with a
                       global network of traders and make informed decisions together.
                     </p>
                     <Link href="/contact" className="theme-btn btn-one bg-dark mt-4">
-                      Contact Us
+                      Contact Support
                     </Link>
                   </div>
                 </div>

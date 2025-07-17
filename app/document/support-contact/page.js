@@ -1,26 +1,19 @@
 'use client'
 import Layout from "@/components/layout/Layout";
 import Link from "next/link"
-import { useState } from "react"
 
 export default function SupportContact() {
-
-    const [activeIndex, setActiveIndex] = useState(1)
-    const handleOnClick = (index) => {
-        setActiveIndex(index)
-    }
-
 
     return (
         <div className="boxed_wrapper">
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Support and Contact">
 
-                <section className="history-section pb_60">
+                <section className="history-section pt_60 pb_60">
                     <div className="auto-container">
                         <div className="row clearfix g-3">
                             <div className="col-md-10 col-sm-12">
                                 <div className="inner-box clearfix">
-                                    <ol>
+                                    <ol className="p-0">
                                         <li className="my-4">
                                             <b className="my-2 text-dark fs-5">1. General Support Overview</b>
                                             <p>We’re here to help you trade with confidence. </p>
@@ -212,14 +205,14 @@ export default function SupportContact() {
 
                                         <li className="my-4">
                                             <b className="my-2 text-dark fs-5">10. Office Information</b>
-                                                <h6 className="ms-2 mt-2"> <b> Head Office: </b></h6>
+                                            <h6 className="ms-2 mt-2"> <b> Head Office: </b></h6>
                                             <p className="mt-2 ms-3">
                                                 AUT Investments LTD<br />
                                                 6th Floor, Ken Lee Building,<br />
                                                 20 Edith Cavell Street,<br />
                                                 Port-Louis, 11302, Mauritius
                                             </p>
-                                                <h6 className="ms-2 mt-2"> <b>Operating Hours:</b> </h6>
+                                            <h6 className="ms-2 mt-2"> <b>Operating Hours:</b> </h6>
                                             <p className="mt-2 ms-3">
                                                 Monday to Friday
                                             </p>
@@ -248,15 +241,15 @@ export default function SupportContact() {
                     <div className="bg-color"></div>
                     <div className="auto-container">
                         <div className="inner-container">
-                            <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-5.png)" }}></div>
+                            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
                             <div className="row align-items-center">
                                 <div className="col-12 text-column">
                                     <div className="text-box">
-                                        <h2 className="text-dark fw-bold">Need Help Right Now?</h2>
-                                        <p className="text-light fs-5 mt_30">Click Live Chat or log in to your Client Area for instant assistance</p>
-                                        <a class="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Support</a>
-                                        <a class="theme-btn btn-one bg-dark me-3 mt-3" href="/login">Log In</a>
-                                        <a class="theme-btn btn-one bg-dark me-3 mt-3" href="/open-account">Submit a Ticket</a>
+                                        <h2 className="fw-bold">Need Help Right Now?</h2>
+                                        <p className="text-light fs-6 mt_30">Click Live Chat or log in to your Client Area for instant assistance</p>
+                                        <Link className="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Support</Link>
+                                        <Link className="theme-btn btn-one bg-dark me-3 mt-3" href="/login">Log In</Link>
+                                        <Link className="theme-btn btn-one bg-dark me-3 mt-3" href="/open-account">Submit a Ticket</Link>
                                     </div>
                                 </div>
                             </div>

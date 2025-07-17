@@ -13,6 +13,12 @@
   max-width: 600px;
   z-index: 5;
 }
+
+@media (max-width : 576px) {
+  .banner-carousel .slide-item .content-box{
+    display: none;
+  }
+}
   
 .banner-carousel .slide-item .bg-layer{
   position: absolute;
