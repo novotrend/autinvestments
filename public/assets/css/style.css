@@ -107,8 +107,8 @@
 
 
  :root {
-   --theme-color: #AAD338;
-   --secondary-color: #131615;
+   --theme-color: #CFA163;
+   --secondary-color: #231F20;
    --theme-color-2: #E4753D;
    --text-color: #666666;
    --title-color: #111111;
@@ -1785,8 +1785,10 @@
 
  @media only screen and (max-width: 767px) {
 
-   .sec-title h2 {
-     font-size: 36px !important;
+   .sec-title h2,
+   .text-box h2,
+   .content-box h2  {
+     font-size: 26px !important;
      line-height: 44px !important;
    }
 

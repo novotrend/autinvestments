@@ -17,9 +17,9 @@ export default function MetaTrader5Page() {
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="MetaTrader 5 (MT5)">
                 <section className="platform-section alternat-2 pt_90 pb_60">
                     <div className="auto-container">
-                        <div className="row align-items-center g-3">
-                            <div className="col-md-8">
-                                <div className="sec-title pb_20">
+                        <div className="row align-items-center g-3 flex-wrap-reverse">
+                            <div className="col-lg-8">
+                                <div className="sec-title pb_20 d-none d-lg-block">
                                     <span className="sub-title mb_14">INFO</span>
                                     <h2 className="mb-2">An Advanced Trading Platform for Modern Traders</h2>
                                     <p>Trade smarter with next-generation features, deeper insights, and multi-asset capabilities.</p>
@@ -42,7 +42,12 @@ export default function MetaTrader5Page() {
                                     </div>
                                 </section>
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-lg-4">
+                                <div className="sec-title pb_20 d-lg-none">
+                                    <span className="sub-title mb_14">INFO</span>
+                                    <h2 className="mb-2">An Advanced Trading Platform for Modern Traders</h2>
+                                    <p>Trade smarter with next-generation features, deeper insights, and multi-asset capabilities.</p>
+                                </div>
                                 <img src="/assets/images/resource/metatrader_5-info.jpg" alt="Trade with Confidence Using MetaTrader 4" className="rounded" />
                             </div>
                         </div>
@@ -56,10 +61,10 @@ export default function MetaTrader5Page() {
                                 <span className="sub-title mb_14">Why MetaTrader 5 With AUT</span>
                                 <h2>Why Trade on MetaTrader 5 with AUT Investments LTD?</h2>
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-lg-4">
                                 <img src="/assets/images/resource/metatrader_5-why.jpg" alt="" className="rounded" />
                             </div>
-                            <div className="col-md-8 feature-account">
+                            <div className="col-lg-8 feature-account">
                                 <div className="row clearfix education-details-content inner-container py-5 px-4 rounded-4 shadow-sm">
                                     <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-35.png)", backgroundAttachment: "fixed" }}></div>
                                     <div className="col-12 content-column">
@@ -144,7 +149,7 @@ export default function MetaTrader5Page() {
                                 <div className="news-block-one w-100 d-flex flex-column h-100 wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
                                         <h2>Platform Compatibility</h2>
-                                        <ul className="list-item mt_40 clearfix">
+                                        <ul className="list-style-one mt_40 clearfix">
                                             <li className="mb-3"><b className="fs-6 text-dark">Desktop (Windows & macOS):</b> <br />Full-featured terminal with advanced tools and multi-monitor support.</li>
                                             <li className="mb-3"><b className="fs-6 text-dark">WebTrader:</b> <br />Secure, browser-based version with all core functions — no download required.</li>
                                             <li className="mb-3"><b className="fs-6 text-dark">Mobile (iOS & Android):</b> <br />Trade, monitor, and analyze markets with the full power of MT5 in your pocket.</li>
@@ -156,7 +161,7 @@ export default function MetaTrader5Page() {
                                 <div className="news-block-one w-100 d-flex flex-column h-100 wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
                                         <h2>How to Get Started with MT5</h2>
-                                        <ul className="list-item mt_40 clearfix">
+                                        <ul className="list-style-one mt_40 clearfix">
                                             <li className="mb-3"><b className="fs-6 text-dark">Open a Live or Demo Account:</b> <br />Register online and select MetaTrader 5 as your preferred platform.</li>
                                             <li className="mb-3"><b className="fs-6 text-dark">Download MT5 Terminal or Use WebTrader:</b> <br />Access MT5 on desktop or directly in your browser — fast and secure.</li>
                                             <li className="mb-3"><b className="fs-6 text-dark">Log In with Your AUT Credentials:</b> <br />Connect to the AUT Investments LTD trading server using your unique login.</li>

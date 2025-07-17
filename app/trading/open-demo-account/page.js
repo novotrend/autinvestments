@@ -19,7 +19,7 @@ export default function OpenDemoAccount() {
                         <div className="row clearfix row-deck g-3">
                             <div className="col-lg-6 col-md-12 col-sm-12 history-block">
                                 <div className="history-block-one">
-                                    <div className="inner-box clearfix h-100">
+                                    <div className="inner-box p-sm-5 p-4 clearfix h-100">
                                         <div>
                                             <h3>Experience the Platform Before You Trade Live</h3>
                                             <p>Opening a demo account is the first step toward becoming a confident and informed trader.
@@ -35,7 +35,7 @@ export default function OpenDemoAccount() {
                             </div>
                             <div className="col-lg-6 col-md-12 col-sm-12 history-block">
                                 <div className="history-block-one">
-                                    <div className="inner-box clearfix h-100">
+                                    <div className="inner-box p-sm-5 p-4 clearfix h-100">
                                         <div>
                                             <h3>What is a Demo Trading Account?</h3>
                                             <p>A demo account is a simulated trading environment where you can place buy and sell orders
@@ -57,13 +57,13 @@ export default function OpenDemoAccount() {
 
                 <section className="markets-section pt_60 pb_70">
                     <div className="auto-container">
-                        <div className="row align-items-center">
-                            <div className="col-md-8">
-                                <div className="sec-title pb_30">
+                        <div className="row align-items-center g-3 flex-wrap-reverse">
+                            <div className="col-lg-8">
+                                <div className="sec-title pb_30 d-none d-lg-block">
                                     <span className="sub-title mb_14">Features of AUT</span>
                                     <h2>Key Features of AUT Investments LTD Demo Account</h2>
                                 </div>
-                                <div className="row clearfix education-details-content shadow-sm py-5 px-4 rounded-4" >
+                                <div className="row clearfix education-details-content shadow-sm py-5 px-sm-4 px-2 rounded-4" >
                                     <div className="col-12 content-column ">
                                         <div className="text-box">
                                             <ul className="list-item clearfix">
@@ -78,7 +78,11 @@ export default function OpenDemoAccount() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-lg-4">
+                                <div className="sec-title pb_30 d-lg-none">
+                                    <span className="sub-title mb_14">Features of AUT</span>
+                                    <h2>Key Features of AUT Investments LTD Demo Account</h2>
+                                </div>
                                 <img src="/assets/images/resource/opendemoacc-feature.jpg" alt="" className="rounded" />
                             </div>
                         </div>
@@ -122,9 +126,9 @@ export default function OpenDemoAccount() {
                     </div>
                 </section>
 
-                <section className="working-section apps-section alternat-2 mb_90 pt_100 pb_100">F
+                <section className="working-section apps-section alternat-2 mb_90 pt_100 pb_100">
                     <div className="auto-container">
-                        <div class="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-4.png)" }}></div>
+                        <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-4.png)" }}></div>
                         <div className="row align-items-center">
                             <div className="col-lg-4 col-md-12 col-sm-12">
                                 <img src="/assets/images/resource/demo-account-steps.jpg" alt="" className="rounded" />
@@ -221,9 +225,9 @@ export default function OpenDemoAccount() {
                             <div className="row align-items-center">
                                 <div className="col-12 text-column">
                                     <div className="text-box">
-                                        <h2 className="text-dark fw-bold">Begin Your Trading Journey Risk-Free</h2>
-                                        <p className="text-light fs-5 mt_30">Open your free demo account with AUT Investments LTD and discover the tools, speed, and reliability of our trading environment. Practice. Learn. Grow — all without financial pressure.</p>
-                                        <a class="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Us</a>
+                                        <h2 className="fw-bold">Begin Your Trading Journey Risk-Free</h2>
+                                        <p className="text-light fs-6 mt_30">Open your free demo account with AUT Investments LTD and discover the tools, speed, and reliability of our trading environment. Practice. Learn. Grow — all without financial pressure.</p>
+                                        <a className="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Support</a>
                                     </div>
                                 </div>
                             </div>

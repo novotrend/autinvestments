@@ -80,9 +80,9 @@
 }
 
 .header-style-one .main-menu .navigation > li > a{
-  border: 1px solid var(--secondary-color);
-  border-radius: 40px;
+  border: 1.7px solid var(--secondary-color);
   padding: 2px 20px;
+  border-radius: 4px;
 }
 
 .header-style-one .header-lower .logo-box{
@@ -115,6 +115,10 @@
 .header-bottom .bottom-inner .inner-box{
   position: relative;
   overflow: hidden;
+}
+
+.main-menu .dropdown li.current > a{
+  color: var(--theme-color) !important;
 }
 
 @-moz-keyframes scroll-left {

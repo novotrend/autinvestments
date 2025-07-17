@@ -11,7 +11,7 @@ export default function AffiliateProgram() {
           <div className="auto-container">
             <div className="row align-items-center">
               <div className="col-md-4">
-                <img src="../assets/images/resource/affiliateprogram-1.jpg" alt="" className="rounded" />
+                <img src="/assets/images/resource/affiliateprogram-1.jpg" alt="" className="rounded" />
               </div>
               <div className="col-md-8">
                 <div className="sec-title pb_20">
@@ -59,7 +59,7 @@ export default function AffiliateProgram() {
                 </div>
               </div>
               <div className="col-md-4">
-                <img src="../assets/images/resource/affiliate-feature.jpg" alt="" className="rounded" />
+                <img src="/assets/images/resource/affiliate-feature.jpg" alt="" className="rounded" />
               </div>
             </div>
           </div>
@@ -138,13 +138,13 @@ export default function AffiliateProgram() {
 
         <section className="working-section apps-section alternat-2 pt_120 pb_120 pt_100 pb_100">
           <div className="auto-container">
-            <div class="shape" style={{ backgroundImage: "url(../assets/images/shape/shape-4.png)" }}></div>
+            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-4.png)" }}></div>
             <div className="row align-items-center">
               <div className="col-lg-6 col-md-12 col-sm-12 video-column">
                 <div className="video_block_one">
                   <div className="video-box z_1 p_relative pl_50 pt_50 pb_30 centred">
                     <div className="video-inner">
-                      <div className="bg-layer" style={{ backgroundImage: "url(../assets/images/resource/video-2.jpg)" }}></div>
+                      <div className="bg-layer" style={{ backgroundImage: "url(/assets/images/resource/video-2.jpg)" }}></div>
                       <div className="video-content">
                         <VideoPopup />
                       </div>
@@ -224,9 +224,9 @@ export default function AffiliateProgram() {
                   </div>
                 </div>
               </div>
-              <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                <div class="image-box">
-                  <img class="image image-hov-two rounded" src="/assets/images/resource/process-1.jpg" alt=""></img>
+              <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                <div className="image-box">
+                  <img className="image image-hov-two rounded" src="/assets/images/resource/process-1.jpg" alt=""></img>
                 </div>
               </div>
             </div>
@@ -288,7 +288,7 @@ export default function AffiliateProgram() {
                   <div className="text-box">
                     <h3 className="text-dark fw-semibold mb-3">Start Earning Today</h3>
                     <p className="text-light">Join the AUT Investments LTD Affiliate Program and turn your audience, content, or network into a revenue source. Whether you’re scaling or just starting out, we’ll provide the tools, support, and structure to help you grow.</p>
-                    <a class="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Us</a>
+                    <a className="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Us</a>
                   </div>
                 </div>
               </div>

@@ -16,9 +16,9 @@ export default function CryptoTrading() {
 
         <section className="platform-section alternat-2 pt_90 pb_60">
           <div className="auto-container">
-            <div className="row align-items-center">
-              <div className="col-md-8">
-                <div className="sec-title pb_20">
+            <div className="row align-items-center g-3 flex-wrap-reverse">
+              <div className="col-lg-8">
+                <div className="sec-title pb_20 d-none d-lg-block">
                   <span className="sub-title mb_14">INFO</span>
                   <h2 className="mb-2">Crypto Trading</h2>
                   <p>
@@ -28,8 +28,8 @@ export default function CryptoTrading() {
                 </div>
                 <section className="funfact-section">
                   <div className="auto-container px-0">
-                    <div className="inner-container d-flex flex-column p-5 aligh-items-start justify-content-start">
-                      <div className="shape" style={{ backgroundImage: "url(../assets/images/shape/shape-16.png)" }}></div>
+                    <div className="inner-container d-flex flex-column p-sm-5 p-4 aligh-items-start justify-content-start">
+                      <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
                       <h4 className="mb-3">Overview of Crypto Trading</h4>
 
                       <p className="mb-3">
@@ -47,14 +47,22 @@ export default function CryptoTrading() {
                   </div>
                 </section>
               </div>
-              <div className="col-md-4">
-                <img src="../assets/images/resource/crypto-1.jpg" alt="" className="rounded" />
+              <div className="col-lg-4">
+                <div className="sec-title pb_20 d-lg-none">
+                  <span className="sub-title mb_14">INFO</span>
+                  <h2 className="mb-2">Crypto Trading</h2>
+                  <p>
+                    Step into the future of finance — trade the world’s most popular cryptocurrencies with advanced
+                    tools and institutional-grade reliability.
+                  </p>
+                </div>
+                <img src="/assets/images/resource/crypto-1.jpg" alt="" className="rounded" />
               </div>
             </div>
           </div>
         </section>
 
-        <section className="account-style-two clear-bg centred pt_80 pb_70">
+        <section className="account-style-two clear-bg  pt_80 pb_70">
           <div className="auto-container">
             <div className="sec-title pb_50">
               <span className="sub-title mb_14">Crypto</span>
@@ -191,15 +199,19 @@ export default function CryptoTrading() {
 
         <section className="working-section apps-section alternat-2 pt_120 pb_120 pt_100 pb_100">
           <div className="auto-container">
-            <div class="shape" style={{ backgroundImage: "url(../assets/images/shape/shape-4.png)" }}></div>
-            <div className="row align-items-center">
+            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-4.png)" }}></div>
+            <div className="row align-items-center g-3">
               <div className="col-lg-4 col-md-12 col-sm-12 video-column">
+                <div className="sec-title light pb_35 d-lg-none">
+                  <span className="sub-title mb_10">Onboard</span>
+                  <h2>How to Start Trading Crypto with AUT Investments LTD</h2>
+                </div>
                 <img src="/assets/images/resource/how-to-start-crypto-trading.jpg" alt="" className="rounded" />
               </div>
               <div className="col-lg-8 col-md-12 col-sm-12 content-column">
                 <div className="content_block_nine">
                   <div className="content-box ml_70">
-                    <div className="sec-title light pb_35">
+                    <div className="sec-title light pb_35 d-none d-lg-block">
                       <span className="sub-title mb_10">Onboard</span>
                       <h2>How to Start Trading Crypto with AUT Investments LTD</h2>
                     </div>
@@ -242,86 +254,8 @@ export default function CryptoTrading() {
           </div>
         </section>
 
-        <section className="platform-section alternat-2 pt_90 pb_130">
-          <div className="auto-container">
-            <div className="sec-title pb_60">
-              <span className="sub-title mb_14">Momentum</span>
-              <h2>Exploring Crypto CFD Trading with AUT Investments LTD</h2>
-            </div>
-            <div className="tabs-box">
-              <div className="row clearfix flex-wrap-reverse g-3">
-                <div className="col-xl-8 col-lg-12 col-md-12 content-column">
-                  <div className="tabs-content">
-                    <div className={activeIndex === 1 ? "tab active-tab" : "tab"}>
-                      <div className="content-box">
-                        <h2>Crypto CFD Trading Benefits</h2>
-                        <p></p>
-                        <ul className="list-style-one clearfix ">
-                          <li><b>No Ownership Required</b> Participate in the crypto market without holding or transferring digital coins.</li>
-                          <li><b>Profit in Any Market Direction</b> Whether prices rise or fall, use long or short strategies to trade momentum or reversals.</li>
-                          <li><b>Tight Spreads & Transparent Fees</b> Pay only the spread — no commissions on most account types.</li>
-                          <li><b>Seasonal Factors:</b> Particularly relevant for agricultural commodities, affected by harvest cycles and weather events.</li>
-                          <li><b>Micro-Lot Trading:</b> Trade with flexibility using small position sizes that suit your risk appetite.</li>
-                          <li><b>High Volatility:</b> Take advantage of significant daily price movements, ideal for day traders and swing traders.</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div className={activeIndex === 2 ? "tab active-tab" : "tab"} id="forex">
-                      <div className="content-box">
-                        <h2>Market Drivers for Cryptocurrencies</h2>
-                        <ul className="list-style-one clearfix">
-                          <li><b>Adoption and Regulatory Developments:</b > Global news about crypto regulation, exchange licenses, and ETF approvals can affect prices rapidly.</li>
-                          <li><b>Market Sentiment and Social Trends:</b> Influential social media activity, public figures, and community adoption often trigger major moves.</li>
-                          <li><b>Technology Upgrades and Blockchain Events:</b> Events like hard forks, staking updates, and blockchain scalability improvements can drive volatility.</li>
-                          <li><b>Institutional Participation:</b> Involvement of large funds and publicly listed companies adds momentum and credibility.</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div className={activeIndex === 3 ? "tab active-tab" : "tab"} id="cpoy">
-                      <div className="content-box">
-                        <h2>Who Trades Crypto CFDs?</h2>
-                        <p></p>
-                        <ul className="list-style-one clearfix">
-                          <li>
-                            <b>Day Traders</b>
-                            looking for short-term volatility opportunities
-                          </li>
-                          <li><b>Swing Traders</b> capturing multi-day trend cycles</li>
-                          <li><b>Hedgers</b> managing exposure against currency or equity holdings</li>
-                          <li><b>Traditional Traders</b> seeking diversification into alternative assets</li>
-                          <li><b>New Investors</b> exploring crypto without handling wallets or exchanges</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div className={activeIndex === 4 ? "tab active-tab" : "tab"} id="cpoy">
-                      <div className="content-box">
-                        <h2>Popular Crypto Trading Strategies</h2>
-                        <p></p>
-                        <ul className="list-style-one clearfix">
-                          <li><b>Trend Following - </b> Ride upward or downward momentum using moving averages and volume indicators.</li>
-                          <li><b>Breakout Trading - </b> – Enter positions during high-volume price spikes after support or resistance breaks.</li>
-                          <li><b>Scalping - </b> Execute frequent small trades during periods of high volatility.</li>
-                          <li><b>Range Trading – </b> Identify support/resistance zones and trade within established price ranges.</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-lg-12 col-md-12 btn-column">
-                  <ul className="tab-btns tab-buttons shop-tab-btn clearfix">
-                    <li onClick={() => handleOnClick(1)} className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>Crypto CFD Trading Benefits</li>
-                    <li onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>Market Drivers</li>
-                    <li onClick={() => handleOnClick(3)} className={activeIndex === 3 ? "tab-btn active-btn" : "tab-btn"}>Who Trades Crypto CFDs?</li>
-                    <li onClick={() => handleOnClick(4)} className={activeIndex === 4 ? "tab-btn active-btn" : "tab-btn"}>Popular Crypto Trading Strategies</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="account-section mt_60 pt_60 pb_70">
-          <div className="pattern-layer" style={{ backgroundImage: "url(../assets/images/shape/shape-1.png)" }}></div>
+        <section className="account-section pt_60 pb_70">
+          <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-1.png)" }}></div>
           <div className="auto-container">
             <div className="sec-title pb_60">
               <span className="sub-title mb_14">features</span>
@@ -386,21 +320,98 @@ export default function CryptoTrading() {
           </div>
         </section>
 
+        <section className="platform-section alternat-2 pt_90 pb_130">
+          <div className="auto-container">
+            <div className="sec-title pb_60">
+              <span className="sub-title mb_14">Momentum</span>
+              <h2>Exploring Crypto CFD Trading with AUT Investments LTD</h2>
+            </div>
+            <div className="tabs-box">
+              <div className="row clearfix flex-wrap-reverse g-3 momentum">
+                <div className="col-xl-8 col-lg-12 col-md-12 content-column">
+                  <div className="tabs-content">
+                    <div className={activeIndex === 1 ? "tab active-tab" : "tab"}>
+                      <div className="content-box">
+                        <h2>Crypto CFD Trading Benefits</h2>
+                        <ul className="list-style-one clearfix ">
+                          <li><b>No Ownership Required</b> Participate in the crypto market without holding or transferring digital coins.</li>
+                          <li><b>Profit in Any Market Direction</b> Whether prices rise or fall, use long or short strategies to trade momentum or reversals.</li>
+                          <li><b>Tight Spreads & Transparent Fees</b> Pay only the spread — no commissions on most account types.</li>
+                          <li><b>Seasonal Factors:</b> Particularly relevant for agricultural commodities, affected by harvest cycles and weather events.</li>
+                          <li><b>Micro-Lot Trading:</b> Trade with flexibility using small position sizes that suit your risk appetite.</li>
+                          <li><b>High Volatility:</b> Take advantage of significant daily price movements, ideal for day traders and swing traders.</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className={activeIndex === 2 ? "tab active-tab" : "tab"} id="forex">
+                      <div className="content-box">
+                        <h2>Market Drivers for Cryptocurrencies</h2>
+                        <ul className="list-style-one clearfix">
+                          <li><b>Adoption and Regulatory Developments:</b > Global news about crypto regulation, exchange licenses, and ETF approvals can affect prices rapidly.</li>
+                          <li><b>Market Sentiment and Social Trends:</b> Influential social media activity, public figures, and community adoption often trigger major moves.</li>
+                          <li><b>Technology Upgrades and Blockchain Events:</b> Events like hard forks, staking updates, and blockchain scalability improvements can drive volatility.</li>
+                          <li><b>Institutional Participation:</b> Involvement of large funds and publicly listed companies adds momentum and credibility.</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className={activeIndex === 3 ? "tab active-tab" : "tab"} id="cpoy">
+                      <div className="content-box">
+                        <h2>Who Trades Crypto CFDs?</h2>
+                        <p></p>
+                        <ul className="list-style-one clearfix">
+                          <li>
+                            <b>Day Traders</b>
+                            looking for short-term volatility opportunities
+                          </li>
+                          <li><b>Swing Traders</b> capturing multi-day trend cycles</li>
+                          <li><b>Hedgers</b> managing exposure against currency or equity holdings</li>
+                          <li><b>Traditional Traders</b> seeking diversification into alternative assets</li>
+                          <li><b>New Investors</b> exploring crypto without handling wallets or exchanges</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className={activeIndex === 4 ? "tab active-tab" : "tab"} id="cpoy">
+                      <div className="content-box">
+                        <h2>Popular Crypto Trading Strategies</h2>
+                        <p></p>
+                        <ul className="list-style-one clearfix">
+                          <li><b>Trend Following - </b> Ride upward or downward momentum using moving averages and volume indicators.</li>
+                          <li><b>Breakout Trading - </b> – Enter positions during high-volume price spikes after support or resistance breaks.</li>
+                          <li><b>Scalping - </b> Execute frequent small trades during periods of high volatility.</li>
+                          <li><b>Range Trading – </b> Identify support/resistance zones and trade within established price ranges.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xl-4 col-lg-12 col-md-12 btn-column">
+                  <ul className="tab-btns tab-buttons shop-tab-btn clearfix">
+                    <li onClick={() => handleOnClick(1)} className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>Crypto CFD Trading Benefits</li>
+                    <li onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>Market Drivers</li>
+                    <li onClick={() => handleOnClick(3)} className={activeIndex === 3 ? "tab-btn active-btn" : "tab-btn"}>Who Trades Crypto CFDs?</li>
+                    <li onClick={() => handleOnClick(4)} className={activeIndex === 4 ? "tab-btn active-btn" : "tab-btn"}>Popular Crypto Trading Strategies</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="subscribe-section">
           <div className="bg-color"></div>
           <div className="auto-container">
             <div className="inner-container">
-              <div className="shape" style={{ backgroundImage: "url(../assets/images/shape/shape-5.png)" }}></div>
+              <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
               <div className="row align-items-center">
                 <div className="col-12 text-column">
                   <div className="text-box">
-                    <h2 className="text-dark fw-bold">Seize Opportunities in the Crypto Market</h2>
-                    <p className="text-light fs-5 mt_30">
+                    <h2 className="fw-bold">Seize Opportunities in the Crypto Market</h2>
+                    <p className="text-light fs-6 mt_30">
                       With round-the-clock access, high volatility, and institutional-grade tools, cryptocurrency trading
                       at AUT Investments LTD opens new dimensions for active traders and long-term investors.
                     </p>
                     <Link href="/contact" className="theme-btn btn-one bg-dark mt-4">
-                      Contact Us
+                      Contact Support
                     </Link>
                   </div>
                 </div>

@@ -7,16 +7,16 @@ export default function MetaTrader4Page() {
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="MetaTrader 4 (MT4)">
                 <section className="platform-section alternat-2 pt_90 pb_60">
                     <div className="auto-container">
-                        <div className="row align-items-center g-3">
-                            <div className="col-md-8">
-                                <div className="sec-title pb_20">
+                        <div className="row align-items-center g-3 flex-wrap-reverse">
+                            <div className="col-lg-8">
+                                <div className="sec-title pb_20 d-none d-lg-block">
                                     <span className="sub-title mb_14">INFO</span>
                                     <h2 className="mb-2">Trade with Confidence Using MetaTrader 4</h2>
                                     <p>The world’s most trusted trading platform - optimized for speed, precision, and control.</p>
                                 </div>
                                 <section className="funfact-section">
                                     <div className="auto-container px-0">
-                                        <div className="inner-container d-flex flex-column p-5 aligh-items-start justify-content-start">
+                                        <div className="inner-container d-flex flex-column p-sm-5 p-4 aligh-items-start justify-content-start">
                                             <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
                                             <h4 className="text-dark fw-semibold mb-3">Powerful, user-friendly, and built for serious traders</h4>
                                             <p>MetaTrader 4 (MT4) is the industry-standard platform for forex and CFD trading, trusted by
@@ -29,7 +29,12 @@ export default function MetaTrader4Page() {
                                     </div>
                                 </section>
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-lg-4">
+                                <div className="sec-title pb_20 d-lg-none">
+                                    <span className="sub-title mb_14">INFO</span>
+                                    <h2 className="mb-2">Trade with Confidence Using MetaTrader 4</h2>
+                                    <p>The world’s most trusted trading platform - optimized for speed, precision, and control.</p>
+                                </div>
                                 <img src="/assets/images/resource/metatrader_4-info.jpg" alt="Trade with Confidence Using MetaTrader 4" className="rounded" />
                             </div>
                         </div>
@@ -43,11 +48,11 @@ export default function MetaTrader4Page() {
                                 <span className="sub-title mb_14">Why MetaTrader 4 With AUT</span>
                                 <h2>Why Trade on MetaTrader 4 with AUT Investments LTD?</h2>
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-lg-4">
                                 <img src="/assets/images/resource/metatrader_4-why.jpg" alt="" className="rounded" />
                             </div>
-                            <div className="col-md-8">
-                                <div className="row clearfix education-details-content shadow-sm py-5 px-4 rounded-4" >
+                            <div className="col-lg-8">
+                                <div className="row clearfix education-details-content shadow-sm py-5 px-sm-4 px-2 rounded-4" >
                                     <div className="col-12 content-column ">
                                         <div className="text-box">
                                             <ul className="list-item clearfix">
@@ -127,7 +132,7 @@ export default function MetaTrader4Page() {
                                 <div className="news-block-one w-100 d-flex flex-column h-100 wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
                                         <h2>Platform Compatibility</h2>
-                                        <ul className="list-item mt_40 clearfix">
+                                        <ul className="list-style-one mt_40 clearfix">
                                             <li className="mb-3"><b className="fs-6 text-dark">Desktop (Windows):</b> <br />Full-featured version with maximum performance and customization.</li>
                                             <li className="mb-3"><b className="fs-6 text-dark">WebTrader:</b> <br />Browser-based access — no installation required. Secure and responsive.</li>
                                             <li className="mb-3"><b className="fs-6 text-dark">Mobile (iOS & Android):</b> <br />Trade on the go with full access to charts, order types, and account monitoring.</li>
@@ -139,7 +144,7 @@ export default function MetaTrader4Page() {
                                 <div className="news-block-one w-100 d-flex flex-column h-100 wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
                                         <h2>Why MT4 Remains the Platform of Choice</h2>
-                                        <ul className="list-item mt_40 clearfix">
+                                        <ul className="list-style-one mt_40 clearfix">
                                             <li className="mb-3"><b className="fs-6 text-dark">Stability & Speed:</b> <br />Proven architecture for consistent performance in live market conditions.</li>
                                             <li className="mb-3"><b className="fs-6 text-dark">Community & Resources:</b> <br />Thousands of free indicators, strategies, and tutorials available globally.</li>
                                             <li className="mb-3"><b className="fs-6 text-dark">Low System Requirements:</b> <br />Runs efficiently on most devices, making it accessible for all traders.</li>
@@ -152,7 +157,7 @@ export default function MetaTrader4Page() {
                                 <div className="news-block-one w-100 d-flex flex-column h-100 wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
                                         <h2>How to Get Started with MT4</h2>
-                                        <ul className="list-item mt_40 clearfix">
+                                        <ul className="list-style-one mt_40 clearfix">
                                             <li className="mb-3"><b className="fs-6 text-dark">Open a Live or Demo Account:</b> <br />Choose an account type and complete the quick signup process.</li>
                                             <li className="mb-3"><b className="fs-6 text-dark">Download MT4:</b> <br />Access MT4 for Windows or use WebTrader for instant access via browser.</li>
                                             <li className="mb-3"><b className="fs-6 text-dark">Log In with AUT Credentials:</b> <br />Use the login details sent via email to connect to our trading server.</li>

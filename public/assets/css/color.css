@@ -1,10 +1,8 @@
-
-
-.main-menu .navigation > li.current > a,
-.main-menu .navigation > li:hover > a,
-.main-menu .navigation > li > ul > li > a:hover,
-.main-menu .navigation > li > .megamenu li > a:hover,
-.main-menu .navigation > li > ul > li > ul > li > a:hover,
+.main-menu .navigation>li.current>a,
+.main-menu .navigation>li:hover>a,
+.main-menu .navigation>li>ul>li>a:hover,
+.main-menu .navigation>li>.megamenu li>a:hover,
+.main-menu .navigation>li>ul>li>ul>li>a:hover,
 .scroll-to-top .scroll-bar-text,
 .main-header .search-btn .search-toggler:hover,
 .sec-title .sub-title,
@@ -52,7 +50,7 @@
 .team-block-one .inner-box .content-box h3 a:hover,
 .team-details .content-box .social-links li a:hover,
 .team-details .image-box .info-list li i,
-.blog-sidebar .search-widget .search-form .form-group input:focus + button,
+.blog-sidebar .search-widget .search-form .form-group input:focus+button,
 .blog-sidebar .search-widget .search-form .form-group button:hover,
 .blog-sidebar .category-widget .category-list li a:hover,
 .blog-sidebar .post-widget .post h6 a:hover,
@@ -61,9 +59,7 @@
 .blog-details-content blockquote .icon-box,
 .blog-details-content .comment-box .form-inner .form-group label span,
 .contact-section .single-info p a:hover,
-.contact-section .form-inner .form-group label span
-
-{
+.contact-section .form-inner .form-group label span {
   color: var(--theme-color);
 }
 
@@ -121,10 +117,8 @@ button.ltr,
 .blog-details-content .content-one .list-item li:before,
 .blog-details-content .post-share-option .tags-list li a:hover,
 .blog-details-content .post-share-option .social-links li a:hover,
-.check-box input:checked + label:before,
-.contact-section .single-info .icon-box
-
-{
+.check-box input:checked+label:before,
+.contact-section .single-info .icon-box {
   background: var(--theme-color);
 }
 
@@ -133,9 +127,9 @@ button.ltr,
 
 /** border-color **/
 
-.main-menu .navigation > li > ul,
-.main-menu .navigation > li > .megamenu,
-.main-menu .navigation > li > ul > li > ul,
+.main-menu .navigation>li>ul,
+.main-menu .navigation>li>.megamenu,
+.main-menu .navigation>li>ul>li>ul,
 .theme-btn.btn-two:hover,
 .sec-title .sub-title:after,
 .trading-block-two .inner-box .btn-box a,
@@ -163,18 +157,33 @@ button.ltr,
 .blog-details-content .post-share-option .social-links li a:hover,
 .blog-details-content .comment-box .form-inner .form-group input:focus,
 .blog-details-content .comment-box .form-inner .form-group textarea:focus,
-.check-box input:checked + label:before,
+.check-box input:checked+label:before,
 .contact-section .form-inner .form-group input:focus,
-.contact-section .form-inner .form-group textarea:focus
-
-{
+.contact-section .form-inner .form-group textarea:focus {
   border-color: var(--theme-color) !important;
+}
+
+.complete .process-block-one .inner-box li {
+  color: rgb(0, 0, 0) !important;
+}
+
+.complete .process-block-one .inner-box:hover li {
+  color: white !important;
+}
+
+.process-block-one .inner-box:hover li::before {
+  box-shadow: 0px 0px 3px 0px ;
+}
+
+.funfact-block-two .inner-box:hover .fa {
+  color: var(--theme-color);
 }
 
 .header-style-one .main-menu .navigation>li.current>a,
 .header-style-one .main-menu .navigation>li:hover>a {
-  box-shadow: 0px 0px 3px 0px inset;
-  border-color: var(--theme-color);
+  border-color: var(--theme-color) !important;
+  background-color: var(--theme-color) !important;
+  color: white;
 }
 
 
@@ -193,18 +202,16 @@ button.ltr,
 .dark_home .process-block-one .inner-box:hover .count-text,
 .dark_home .image_block_one .image-box .content-one span,
 .dark_home .trading-block-two .inner-box .btn-box a,
-.dark_home .trading-style-four .tab-btns li.active-btn h4, 
+.dark_home .trading-style-four .tab-btns li.active-btn h4,
 .dark_home .trading-style-four .tab-btns li:hover h4,
-.dark_home .trading-style-four .tab-btns li.active-btn .icon-box, 
+.dark_home .trading-style-four .tab-btns li.active-btn .icon-box,
 .dark_home .trading-style-four .tab-btns li:hover .icon-box,
 .dark_home .content_block_nine .content-box .inner-box .single-item h3 a:hover,
 .dark_home .news-block-one .inner-box .post-date,
 .dark_home .news-block-one .inner-box h3 a:hover,
 .dark_home .news-block-one .inner-box .link a:hover,
 .dark_home .main-footer .links-widget .links-list li a:hover,
-.dark_home .footer-bottom .bottom-inner p a
-
-{
+.dark_home .footer-bottom .bottom-inner p a {
   color: var(--theme-color-2);
 }
 
@@ -220,7 +227,7 @@ button.ltr,
 .dark_home .menu-area .mobile-nav-toggler,
 .dark_home .sec-title .sub-title:before,
 .dark_home .process-block-one .inner-box:before,
-.dark_home .project-tab .tab-btns li.active-btn, 
+.dark_home .project-tab .tab-btns li.active-btn,
 .dark_home .project-tab .tab-btns li:hover,
 .dark_home .trading-block-two .inner-box .btn-box a:hover,
 .dark_home .list-style-one li:before,
@@ -229,9 +236,7 @@ button.ltr,
 .dark_home .content_block_nine .content-box .inner-box .single-item:hover .count-text,
 .dark_home .content_block_nine .content-box .inner-box .single-item:after,
 .dark_home .main-footer .download-list li:first-child a:hover,
-.dark_home .main-footer .social-links li a:hover
-
-{
+.dark_home .main-footer .social-links li a:hover {
   background: var(--theme-color-2);
 }
 
@@ -246,31 +251,10 @@ button.ltr,
 .dark_home .trading-block-two .inner-box .btn-box a,
 .dark_home .content_block_three .content-box .btn-box .theme-btn.btn-two,
 .dark_home .experience-section .inner-box .single-item,
-.dark_home .news-block-one .inner-box .link a:hover
-
-{
+.dark_home .news-block-one .inner-box .link a:hover {
   border-color: var(--theme-color-2) !important;
 }
 
-.dark_home .scroll-to-top .scroll-top-inner path{
+.dark_home .scroll-to-top .scroll-top-inner path {
   stroke: var(--theme-color-2);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

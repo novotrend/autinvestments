@@ -49,7 +49,7 @@ export default function PrivacyPolicy() {
                                     AUT Investments LTD
                                 </p>
                             </div>
-                            <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-16.png)" }}></div>
+                            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
                             <h5 className="mb-3">Registered Address:</h5>
                             <p className="mb-2">
                                 6th Floor, Ken Lee Building, 20 Edith Cavell Street,<br></br>
@@ -70,12 +70,12 @@ export default function PrivacyPolicy() {
                                 <h2>What Information We Collect</h2>
                                 <p>We may collect and process the following categories of data:</p>
                             </div>
-                            <div className="row clearfix">
+                            <div className="row clearfix complete">
                                 <div className="col-12 content-column">
                                     <div className="content-box row row-deck">
                                         <div className="process-block-one col-md-6">
                                             <div className="inner-box w-100">
-                                                <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
+                                                <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
                                                 <span className="count-text">1</span>
                                                 <h3> Personal Identification Data</h3>
                                                 <ul className="list-style-one clearfix">
@@ -99,7 +99,7 @@ export default function PrivacyPolicy() {
                                         </div>
                                         <div className="process-block-one col-md-6">
                                             <div className="inner-box w-100">
-                                                <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
+                                                <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
                                                 <span className="count-text">2</span>
                                                 <h3>Contact Information</h3>
                                                 <ul className="list-style-one clearfix">
@@ -117,7 +117,7 @@ export default function PrivacyPolicy() {
                                         </div>
                                         <div className="process-block-one col-md-6">
                                             <div className="inner-box w-100">
-                                                <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
+                                                <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
                                                 <span className="count-text">3</span>
                                                 <h3>Financial & Trading Information</h3>
                                                 <ul className="list-style-one clearfix">
@@ -141,7 +141,7 @@ export default function PrivacyPolicy() {
                                         </div>
                                         <div className="process-block-one col-md-6">
                                             <div className="inner-box w-100">
-                                                <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
+                                                <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
                                                 <span className="count-text">4</span>
                                                 <h3>Technical Information</h3>
                                                 <ul className="list-style-one clearfix">
@@ -172,8 +172,8 @@ export default function PrivacyPolicy() {
 
                 <section className="history-section pt_60 pb_60">
                     <div className="auto-container">
-                        <div className="row clearfix g-3">
-                            <div className="col-md-8 col-sm-12">
+                        <div className="row clearfix g-3 flex-wrap-reverse">
+                            <div className="col-xl-8 col-sm-12">
                                 <div className="inner-box clearfix">
                                     <ul>
                                         <li className="my-4"><b className="my-2 text-dark fs-5">How We Use Your Information</b>
@@ -337,10 +337,10 @@ export default function PrivacyPolicy() {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-md-4 col-sm-12">
+                            <div className="col-xl-4 col-sm-12">
                                 <div className="funfact-section1 position-sticky z_99" style={{ top: "100px" }}>
-                                    <div className="inner-container d-flex flex-column p-5 align-items-start justify-content-start">
-                                        <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-16.png)" }}></div>
+                                    <div className="inner-container d-flex flex-column p-sm-5 p-4 align-items-start justify-content-start">
+                                        <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
                                         <h5 className="mb-3">Contact Us</h5>
                                         <p>
                                             For questions or concerns regarding this Privacy Policy or your personal data:
@@ -370,13 +370,13 @@ export default function PrivacyPolicy() {
                     <div className="bg-color"></div>
                     <div className="auto-container">
                         <div className="inner-container">
-                            <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-5.png)" }}></div>
+                            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
                             <div className="row align-items-center">
                                 <div className="col-12 text-column">
                                     <div className="text-box">
-                                        <h2 className="text-dark fw-bold">Last Revised: July 2025</h2>
-                                        <p className="text-light fs-5 mt_30">AUT Investments LTD — Your trust. Our priority.</p>
-                                        <a class="theme-btn btn-one bg-dark me-3 mt-3" href="/index-2">Contact</a>
+                                        <h2 className="fw-bold">Last Revised: July 2025</h2>
+                                        <p className="text-light fs-6 mt_30">AUT Investments LTD — Your trust. Our priority.</p>
+                                        <a className="theme-btn btn-one bg-dark me-3 mt-3" href="/index-2">Contact Support</a>
                                     </div>
                                 </div>
                             </div>

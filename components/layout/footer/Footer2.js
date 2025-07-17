@@ -21,7 +21,7 @@ export default function Footer2() {
                                                 <li><Link href="/">Awards</Link></li>
                                                 <li><Link href="/">Principals</Link></li>
                                                 <li><Link href="/">Partnership</Link></li>
-                                                <li><Link href="contact.html">Contact us</Link></li>
+                                                <li><Link href="contact.html">Contact Support</Link></li>
                                                 <li><Link href="/">Careers</Link></li>
                                                 <li><Link href="/">Management</Link></li>
                                             </ul>

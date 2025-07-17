@@ -45,7 +45,7 @@ export default function AlgoTrading() {
                                 </div>
                                 <section className="funfact-section">
                                     <div className="auto-container px-0">
-                                        <div className="inner-container d-flex flex-column p-5 aligh-items-start justify-content-start">
+                                        <div className="inner-container d-flex flex-column p-sm-5 p-4 aligh-items-start justify-content-start">
                                             <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
                                             <h4 className="mb-3">What is Algo Trading ?</h4>
 
@@ -69,7 +69,7 @@ export default function AlgoTrading() {
                     </div>
                 </section>
 
-                <section className="account-style-two clear-bg centred pt_80 pb_70">
+                <section className="account-style-two clear-bg pt_80 pb_70">
                     <div className="auto-container">
                         <div className="sec-title pb_50">
                             <span className="sub-title mb_14">Automation</span>
@@ -148,16 +148,20 @@ export default function AlgoTrading() {
 
                 <section className="working-section apps-section alternat-2 pt_120 pb_120 pt_100 pb_100">
                     <div className="auto-container">
-                        <div class="shape" style={{ backgroundImage: "url(../assets/images/shape/shape-4.png)" }}></div>
+                        <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-4.png)" }}></div>
                         <div className="row align-items-center">
-                            <div className="col-lg-6 col-md-12 col-sm-12">
-                                <img src="../assets/images/resource/socialtrading.jpg" alt="" className="rounded" />
+                            <div className="col-lg-4 col-md-12 col-sm-12">
+                                <div className="sec-title light pb_35 d-lg-none">
+                                    <span className="sub-title mb_10">Steps</span>
+                                    <h2>How to Get Started with Algo Trading at AUT Investments LTD</h2>
+                                </div>
+                                <img src="/assets/images/resource/socialtrading.jpg" alt="" className="rounded" />
                             </div>
-                            <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                            <div className="col-lg-8 col-md-12 col-sm-12 content-column">
                                 <div className="content_block_nine">
                                     <div className="content-box ml_70">
-                                        <div className="sec-title light pb_35">
-                                            <span className="sub-title mb_10">Launch</span>
+                                        <div className="sec-title light pb_35 d-none d-lg-block">
+                                            <span className="sub-title mb_10">Steps</span>
                                             <h2>How to Get Started with Algo Trading at AUT Investments LTD</h2>
                                         </div>
                                         <div className="inner-box">
@@ -206,12 +210,12 @@ export default function AlgoTrading() {
 
                 <section className="feature-account pt_80 pb_100">
                     <div className="auto-container">
-                        <div className="sec-title centred pb_60">
+                        <div className="sec-title pb_60">
                             <span className="sub-title mb_14">Toolkit</span>
                             <h2>Algo Trading Tools & Resources</h2>
                         </div>
                         <div className="inner-container clearfix">
-                            <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-35.png)" }}></div>
+                            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-35.png)" }}></div>
 
                             <div className="single-item">
                                 <div className="icon-box"><i className="fa-solid fw-normal fa-code"></i></div>
@@ -258,7 +262,7 @@ export default function AlgoTrading() {
 
                 <section className="trading-style-four pt_100 pb_100">
                     <div className="auto-container">
-                        <div className="sec-title centred pb_60">
+                        <div className="sec-title pb_60">
                             <span className="sub-title mb_14">Precision</span>
                             <h2>Automate Your Edge with Intelligent Algo Trading</h2>
                         </div>
@@ -435,18 +439,18 @@ export default function AlgoTrading() {
                     <div className="bg-color"></div>
                     <div className="auto-container">
                         <div className="inner-container">
-                            <div className="shape" style={{ backgroundImage: "url(../assets/images/shape/shape-5.png)" }}></div>
+                            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
                             <div className="row align-items-center">
                                 <div className="col-12 text-column">
                                     <div className="text-box">
-                                        <h2 className="text-dark fw-bold">Automate with Confidence. Trade with Intelligence.</h2>
-                                        <p className="text-light fs-5 mt_30">
+                                        <h2 className="fw-bold">Automate with Confidence. Trade with Intelligence.</h2>
+                                        <p className="text-light fs-6 mt_30">
                                             With AUT Investments LTD’s Algo Trading environment, you're not just keeping up with the
                                             market — you're staying ahead of it. Whether you're building from scratch or using a pre-built
                                             strategy, automate your edge and experience trading the smart way.
                                         </p>
                                         <Link href="/contact" className="theme-btn btn-one bg-dark mt-4">
-                                            Contact Us
+                                            Contact Support
                                         </Link>
                                     </div>
                                 </div>

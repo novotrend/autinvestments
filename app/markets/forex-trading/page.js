@@ -2,7 +2,6 @@
 import Link from "next/link"
 import { useState } from "react"
 import Layout from "@/components/layout/Layout"
-import VideoPopup from "@/components/elements/VideoPopup"
 
 export default function ForexTrading() {
 
@@ -16,9 +15,9 @@ export default function ForexTrading() {
 
         <section className="platform-section alternat-2 pt_90 pb_60">
           <div className="auto-container">
-            <div className="row align-items-center">
-              <div className="col-md-8">
-                <div className="sec-title pb_20">
+            <div className="row align-items-center g-3 flex-wrap-reverse">
+              <div className="col-lg-8">
+                <div className="sec-title pb_20 d-none d-lg-block">
                   <span className="sub-title mb_14">INFO</span>
                   <h2 className="mb-2">What is Forex?</h2>
                   <p>Unlock the potential of currency markets with AUT Investments LTD’s advanced forex trading
@@ -27,8 +26,8 @@ export default function ForexTrading() {
                 </div>
                 <section className="funfact-section">
                   <div className="auto-container px-0">
-                    <div className="inner-container d-flex flex-column p-5 aligh-items-start justify-content-start">
-                      <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-16.png)" }}></div>
+                    <div className="inner-container d-flex flex-column p-sm-5 p-4 aligh-items-start justify-content-start">
+                      <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
                       <h4 className="mb-3">Overview of Forex Trading</h4>
                       <p className="mb-3">
                         Forex (foreign exchange) is the world’s largest and most liquid financial market, enabling the
@@ -45,8 +44,15 @@ export default function ForexTrading() {
                   </div>
                 </section>
               </div>
-              <div className="col-md-4">
-                <img src="../assets/images/resource/forextrading-1.jpg" alt="" className="rounded" />
+              <div className="col-lg-4">
+                <div className="sec-title pb_20 d-lg-none">
+                  <span className="sub-title mb_14">INFO</span>
+                  <h2 className="mb-2">What is Forex?</h2>
+                  <p>Unlock the potential of currency markets with AUT Investments LTD’s advanced forex trading
+                    platform.
+                  </p>
+                </div>
+                <img src="/assets/images/resource/forextrading-1.jpg" alt="" className="rounded" />
               </div>
             </div>
           </div>
@@ -63,7 +69,7 @@ export default function ForexTrading() {
                 <div className="content-box row row-deck">
                   <div className="process-block-one col-md-6">
                     <div className="inner-box">
-                      <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
+                      <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
                       <span className="count-text">1</span>
                       <h3>Forex Trading Platforms (MT4 & MT5 Ready)</h3>
                       <p>Seamless integration with MetaTrader 4 and MetaTrader 5—globally recognized platforms featuring expert advisors, automated tools, and one-click trading</p>
@@ -71,7 +77,7 @@ export default function ForexTrading() {
                   </div>
                   <div className="process-block-one col-md-6">
                     <div className="inner-box">
-                      <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
+                      <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
                       <span className="count-text">2</span>
                       <h3>Competitive Forex Spreads</h3>
                       <p>Enjoy tight spreads starting at <b>0.0 pips on ECN accounts,</b> ideal for scalping and cost-sensitive strategies</p>
@@ -79,7 +85,7 @@ export default function ForexTrading() {
                   </div>
                   <div className="process-block-one col-md-6">
                     <div className="inner-box">
-                      <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
+                      <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
                       <span className="count-text">3</span>
                       <h3>High Leverage (Up to 1:500)</h3>
                       <p>Amplify your trading power responsibly with flexible leverage, tailored for advanced traders and varied jurisdictions </p>
@@ -87,7 +93,7 @@ export default function ForexTrading() {
                   </div>
                   <div className="process-block-one col-md-6">
                     <div className="inner-box">
-                      <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
+                      <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
                       <span className="count-text">4</span>
                       <h3>Real-Time Market Data</h3>
                       <p>Access live currency quotes, economic calendars, and daily market analysis powered by integrated charting and news feeds</p>
@@ -95,7 +101,7 @@ export default function ForexTrading() {
                   </div>
                   <div className="process-block-one col-md-6">
                     <div className="inner-box">
-                      <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
+                      <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
                       <span className="count-text">5</span>
                       <h3>24/5 Trading Access</h3>
                       <p>React to global market moves as the forex market remains open Monday through Friday (00:00–23:59 GMT).</p>
@@ -103,7 +109,7 @@ export default function ForexTrading() {
                   </div>
                   <div className="process-block-one col-md-6">
                     <div className="inner-box">
-                      <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
+                      <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
                       <span className="count-text">6</span>
                       <h3>Transparent Pricing & Zero Hidden Fees</h3>
                       <p>Benefit from full transparency in spreads, overnight swap rates, and account fees. All
@@ -117,44 +123,44 @@ export default function ForexTrading() {
           </div>
         </section>
 
-        <section className="funfact-style-two pb_30">
+        <section className="funfact-style-two pb_90">
           <div className="auto-container">
             <div className="sec-title pb_30">
               <span className="sub-title mb_14">Pairs</span>
               <h2>Currency Pairs Offered</h2>
             </div>
             <div className="inner-container">
-              <div className="row clearfix justify-content-center">
+              <div className="row clearfix justify-content-center g-sm-4 g-3 pairs">
                 <div className="col-lg-4 col-md-6 col-sm-12 funfact-block">
-                  <div className="funfact-block-two">
-                    <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-8.png)" }}></div>
+                  <div className="funfact-block-two mb-0 pb-0">
                     <div className="inner-box text-start shadow-sm">
                       <div className="count-outer mb-2">
-                        <p className="text-capitalize fs-3">Major Pairs</p>
+                        <i className="fa fa-line-chart"></i>
+                        <p className="text-capitalize fs-3 mt-4">Major Pairs</p>
                       </div>
                       <p className="fs-6">EUR/USD, GBP/USD, USD/JPY – highest liquidity, lowest spreads.</p>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 funfact-block">
-                  <div className="funfact-block-two">
-                    <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-8.png)" }}></div>
+                  <div className="funfact-block-two mb-0 pb-0">
                     <div className="inner-box text-start shadow-sm">
                       <div className="count-outer mb-2">
-                        <p className="text-capitalize fs-3">Minor Pairs (Crosses)</p>
+                        <i className="fa fa-random"></i>
+                        <p className="text-capitalize fs-3 mt-4">Minor Pairs (Crosses)</p>
                       </div>
                       <p className="fs-6">EUR/GBP, AUD/NZD – ideal for diversified strategies.</p>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 funfact-block">
-                  <div className="funfact-block-two">
-                    <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-8.png)" }}></div>
+                  <div className="funfact-block-two mb-0 pb-0">
                     <div className="inner-box text-start shadow-sm">
                       <div className="count-outer mb-2">
-                        <p className="text-capitalize fs-3">Exotic Pairs</p>
+                        <i className="fa fa-globe"></i>
+                        <p className="text-capitalize fs-3 mt-4">Exotic Pairs</p>
                       </div>
-                      <p className="fs-6">USD/TRY, USD/ZAR, EUR/SGD – higher volatility, higher opportunity.F</p>
+                      <p className="fs-6">USD/TRY, USD/ZAR, EUR/SGD – higher volatility, higher opportunity.</p>
                     </div>
                   </div>
                 </div>
@@ -165,7 +171,7 @@ export default function ForexTrading() {
 
         <section className="working-section apps-section alternat-2 pt_120 pb_120 pt_100 pb_100">
           <div className="auto-container">
-            <div class="shape" style={{ backgroundImage: "url(assets/images/shape/shape-4.png)" }}></div>
+            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-4.png)" }}></div>
             <div className="row align-items-center">
               <div className="col-lg-4 col-md-12 col-sm-12 video-column">
                 <img src="/assets/images/resource/how-to-start.jpg" alt="" className="rounded" />
@@ -305,13 +311,13 @@ export default function ForexTrading() {
                         forex trading platform.
                       </p>
                     </div>
-                    <Link href="/open-account" className="theme-btn btn-one bg-dark me-3">
+                    <Link href="/open-account" className="theme-btn btn-one bg-dark mb-2 me-3">
                       Open Live Account
                     </Link>
-                    <Link href="/trading/open-demo-account" className="theme-btn btn-one bg-dark me-3">
+                    <Link href="/trading/open-demo-account" className="theme-btn btn-one bg-dark mb-2 me-3">
                       Try a Demo
                     </Link>
-                    <Link href="/contact" className="theme-btn btn-one bg-dark">
+                    <Link href="/contact" className="theme-btn btn-one bg-dark mb-2">
                       Contact Support
                     </Link>
                   </div>

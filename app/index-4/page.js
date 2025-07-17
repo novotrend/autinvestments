@@ -9,11 +9,10 @@ import Trading_three from "@/components/sections/home4/Trading_three"
 import Funfact from "@/components/sections/home4/Funfact"
 import Apps from "@/components/sections/home4/Apps"
 import Working from "@/components/sections/home4/Working"
-import Experience from "@/components/sections/home3/Experience"
 import News from "@/components/sections/home4/News"
 import Subscribe from "@/components/sections/home4/Subscribe"
-export default function Home_4() {
 
+export default function Home_4() {
     return (
         <div className="boxed_wrapper dark_home">
             <Layout headerStyle={4} footerStyle={2}>
@@ -27,7 +26,6 @@ export default function Home_4() {
                 <Funfact />
                 <Apps />
                 <Working />
-                <Experience />
                 <News />
                 <Subscribe />
             </Layout>

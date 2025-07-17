@@ -16,9 +16,9 @@ export default function CommoditiesTrading() {
 
         <section className="platform-section alternat-2 pt_90 pb_60">
           <div className="auto-container">
-            <div className="row align-items-center">
-              <div className="col-md-8">
-                <div className="sec-title pb_20">
+            <div className="row align-items-center g-3 flex-wrap-reverse">
+              <div className="col-lg-8">
+                <div className="sec-title pb_20 d-none d-lg-block">
                   <span className="sub-title mb_14">INFO</span>
                   <h2 className="mb-2">Commodities Trading</h2>
                   <p>
@@ -28,8 +28,8 @@ export default function CommoditiesTrading() {
                 </div>
                 <section className="funfact-section">
                   <div className="auto-container px-0">
-                    <div className="inner-container d-flex flex-column p-5 aligh-items-start justify-content-start">
-                      <div className="shape" style={{ backgroundImage: "url(../assets/images/shape/shape-16.png)" }}></div>
+                    <div className="inner-container d-flex flex-column p-sm-5 p-4 aligh-items-start justify-content-start">
+                      <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
                       <h4 className="mb-3">Overview of Commodities Trading</h4>
                       <p className="mb-3">
                         Commodities are raw materials or primary agricultural products that are traded globally. These
@@ -46,14 +46,22 @@ export default function CommoditiesTrading() {
                   </div>
                 </section>
               </div>
-              <div className="col-md-4">
-                <img src="../assets/images/resource/commodities-1.jpg" alt="" className="rounded" />
+              <div className="col-lg-4">
+                <div className="sec-title pb_20 d-lg-none">
+                  <span className="sub-title mb_14">INFO</span>
+                  <h2 className="mb-2">Commodities Trading</h2>
+                  <p>
+                    Diversify your portfolio by trading some of the world's most essential resources — from energy
+                    to agriculture.
+                  </p>
+                </div>
+                <img src="/assets/images/resource/commodities-1.jpg" alt="" className="rounded" />
               </div>
             </div>
           </div>
         </section>
 
-        <section className="account-style-two clear-bg centred pt_80 pb_70">
+        <section className="account-style-two clear-bg  pt_80 pb_70">
           <div className="auto-container">
             <div className="sec-title pb_50">
               <span className="sub-title mb_14">Access</span>
@@ -136,81 +144,83 @@ export default function CommoditiesTrading() {
           </div>
         </section>
 
-        <section className="about-style-two pt_60 pb_100">
+        <section className="funfact-section pt_120 pb_70">
           <div className="auto-container">
-            <div className="sec-title pb_60 centred">
-              <span className="sub-title mb_14">Platforms</span>
-              <h2>Types of Commodities You Can Trade</h2>
-            </div>
-            <div className="tabs-box">
-              <div className="row clearfix">
-                <div className="col-lg-5 col-md-12 col-sm-12 btn-column">
-                  <ul className="tab-btns tab-buttons clearfix">
-                    <li onClick={() => handleOnClick(1)} className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>1. Energy Commodities <i className="icon-26"></i></li>
-                    <li onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>2. Precious Metals <i className="icon-26"></i></li>
-                    <li onClick={() => handleOnClick(3)} className={activeIndex === 3 ? "tab-btn active-btn" : "tab-btn"}>3.  Agricultural Commodities <i className="icon-26"></i></li>
-                  </ul>
+            <div className="row">
+              <div className="col-md-12">
+                <div className="sec-title pb_20">
+                  <span className="sub-title mb_14">PLATFORM</span>
+                  <h2 className="mb-2">Types of Commodities You Can Trade</h2>
                 </div>
-                <div className="col-lg-7 col-md-12 col-sm-12 content-column">
-                  <div className="tabs-content">
-                    <div className={activeIndex === 1 ? "tab active-tab" : "tab"}>
-                      <div className="content-box">
-                        <h2>Energy Commodities</h2>
-                        <p>
-                          These are among the most traded instruments globally due to their direct impact on economies
-                          and inflation rates
-                        </p>
-                        <ul class="list-style-one clearfix">
-                          <li>
-                            <b>Crude Oil (Brent & WTI): </b>
-                            Key driver of global energy markets.
-                          </li>
-                          <li>
-                            <b>Natural Gas :</b>
-                            Volatile commodity influenced by seasonal demand and geopolitical supply issues
-                          </li>
-                        </ul>
+              </div>
+            </div>
+            <div className="inner-container">
+              <div className="row clearfix row-deck">
+                <div className="col-lg-4 col-md-6 col-sm-12 funfact-block">
+                  <div className="funfact-block-one">
+                    <div className="inner-box h-100">
+                      <h3 className="mb-3 h4">1. Energy Commodities</h3>
+                      <div className="education-details-content">
+                        <div className="text-box">
+                          <p>Used as a store of value, a hedge, and a strategic reserve by institutions and governments.</p>
+                          <ul className="list-item clearfix mt-3">
+                            <li className="lh-lg"><b>Crude Oil (Brent & WTI): </b>
+                              Key driver of global energy markets.</li>
+                            <li className="lh-lg">
+                              <b>Natural Gas :</b>
+                              Volatile commodity influenced by seasonal demand and geopolitical supply issues
+                            </li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
-                    <div className={activeIndex === 2 ? "tab active-tab" : "tab"} id="trader">
-                      <div className="content-box">
-                        <h2>Precious Metals</h2>
-                        <p>
-                          Ideal for investors seeking long-term value preservation and economic hedge.
-                        </p>
-                        <ul class="list-style-one clearfix">
-                          <li>
-                            <b>Gold (XAU/USD)</b>
-                          </li>
-                          <li>
-                            <b>Silver (XAG/USD)</b>
-                          </li>
-                          <li>
-                            <b>Platinum (XPT/USD)</b>
-                          </li>
-                        </ul>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12 funfact-block">
+                  <div className="funfact-block-one">
+                    <div className="inner-box h-100">
+                      <h3 className="mb-3 h4">2. Precious Metals</h3>
+                      <div className="education-details-content">
+                        <div className="text-box">
+                          <p>Ideal for investors seeking long-term value preservation and economic hedge.</p>
+                          <ul className="list-item clearfix mt-3">
+                            <li className="lh-lg">
+                              <b>Gold (XAU/USD)</b>
+                            </li>
+                            <li className="lh-lg">
+                              <b>Silver (XAG/USD)</b>
+                            </li>
+                            <li className="lh-lg">
+                              <b>Platinum (XPT/USD)</b>
+                            </li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
-                    <div className={activeIndex === 3 ? "tab active-tab" : "tab"} id="personal">
-                      <div className="content-box">
-                        <h2>FBS Personal Area</h2>
-                        <p>
-                          Highly seasonal and responsive to global weather patterns, production cycles, and demand trends.
-                        </p>
-                        <ul class="list-style-one clearfix">
-                          <li>
-                            Coffee
-                          </li>
-                          <li>
-                            Sugar
-                          </li>
-                          <li>
-                            Corn
-                          </li>
-                          <li>
-                            Soybeans
-                          </li>
-                        </ul>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12 funfact-block">
+                  <div className="funfact-block-one">
+                    <div className="inner-box h-100">
+                      <h3 className="mb-3 h4">3. Agricultural Commodities</h3>
+                      <div className="education-details-content">
+                        <div className="text-box">
+                          <p>Highly seasonal and responsive to global weather patterns, production cycles, and demand trends.</p>
+                          <ul className="list-item clearfix mt-3">
+                            <li className="lh-lg">
+                              Coffee
+                            </li>
+                            <li className="lh-lg">
+                              Sugar
+                            </li>
+                            <li className="lh-lg">
+                              Corn
+                            </li>
+                            <li className="lh-lg">
+                              Soybeans
+                            </li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -306,15 +316,19 @@ export default function CommoditiesTrading() {
 
         <section className="working-section apps-section alternat-2 pt_120 pb_120 pt_100 pb_100">
           <div className="auto-container">
-            <div class="shape" style={{ backgroundImage: "url(assets/images/shape/shape-4.png)" }}></div>
-            <div className="row align-items-center">
+            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-4.png)" }}></div>
+            <div className="row align-items-center g-3">
               <div className="col-lg-4 col-md-12 col-sm-12">
+                <div className="sec-title light pb_35 d-lg-none">
+                  <span className="sub-title mb_10">Onboard</span>
+                  <h2>How to Start Trading Commodities</h2>
+                </div>
                 <img src="/assets/images/resource/how-to-start-commodities-trading.jpg" alt="" className="rounded" />
               </div>
               <div className="col-lg-8 col-md-12 col-sm-12 content-column">
                 <div className="content_block_nine">
                   <div className="content-box ml_70">
-                    <div className="sec-title light pb_35">
+                    <div className="sec-title light pb_35 d-none d-lg-block">
                       <span className="sub-title mb_10">Onboard</span>
                       <h2>How to Start Trading Commodities</h2>
                     </div>
@@ -357,10 +371,9 @@ export default function CommoditiesTrading() {
           </div>
         </section>
 
-
         <section className="platform-section alternat-2 pt_90 pb_130">
           <div className="auto-container">
-            <div className="sec-title pb_60">
+            <div className="sec-title pb-sm-5">
               <span className="sub-title mb_14">Depth</span>
               <h2>Mastering Commodity Trading with AUT Investments LTD</h2>
             </div>
@@ -429,14 +442,14 @@ export default function CommoditiesTrading() {
               <div className="row align-items-center">
                 <div className="col-12 text-column">
                   <div className="text-box">
-                    <h2 className="text-dark fw-bold">Trade Commodities with Confidence at AUT Investments LTD</h2>
-                    <p className="text-light fs-5 mt_30">
+                    <h2 className="fw-bold">Trade Commodities with Confidence at AUT Investments LTD</h2>
+                    <p className="text-light fs-6 mt_30">
                       Access diverse global markets with a platform designed for traders who value clarity, speed, and
                       control. Whether you're hedging risk, managing inflation exposure, or speculating on price
                       action, commodity trading opens the door to new possibilities.
                     </p>
                     <Link href="/contact" className="theme-btn btn-one bg-dark mt-4">
-                      Contact Us
+                      Contact Support
                     </Link>
                   </div>
                 </div>
@@ -444,9 +457,6 @@ export default function CommoditiesTrading() {
             </div>
           </div>
         </section>
-
-
-
       </Layout>
     </div>
   );

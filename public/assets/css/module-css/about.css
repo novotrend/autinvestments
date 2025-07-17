@@ -189,7 +189,7 @@
 .about-style-two .tabs-box:before {
   position: absolute;
   content: '';
-  background: #191919;
+  background: var(--secondary-color);
   width: 70%;
   height: 100%;
   left: 0px;
@@ -369,7 +369,7 @@
 
 
 .about-style-two.dark-section {
-  background: #191919;
+  background: var(--secondary-color);
 }
 
 .about-style-two .pattern-layer .pattern-1 {
@@ -467,7 +467,7 @@
   .about-style-two .tab-btns {
     padding: 60px;
     margin-bottom: 30px;
-    background: #191919;
+    background: var(--secondary-color);
     border-radius: 40px;
   }
 

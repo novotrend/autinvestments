@@ -89,7 +89,7 @@
 
 .account-style-two {
   position: relative;
-  background: #191919;
+  background: var(--secondary-color);
 }
 
 .account-block-two {

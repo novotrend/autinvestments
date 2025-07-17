@@ -4,24 +4,23 @@ export default function ClientAgreement() {
   return (
     <div className="boxed_wrapper">
       <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Client Agreement">
-
         <section className="history-section pt_100 pb_60">
           <div className="auto-container">
-            <div className="row clearfix g-3">
-              <div className="col-md-8 col-sm-12">
+            <div className="row clearfix g-3 flex-wrap-reverse">
+              <div className="col-xl-8 col-sm-12">
                 <div className="inner-box clearfix">
-                  <ol>
+                  <ol className="p-0">
                     <li className="my-4"><b className="my-2 text-dark fs-5">1. Introduction</b>
-                    <p className="mt-2">This agreement outlines the terms and conditions between you and AUT Investments LTD for the use of our trading services.</p>
-                        <p className="mt-2">This Client Agreement (“Agreement”) is a legally binding contract between <b>AUT Investments
-                            LTD</b>, a financial services company registered in Mauritius, and the client (“you” or “the client”).
-                            By opening a trading account, accessing our platform, or using any of our services, you
-                            acknowledge that you have read, understood, and agreed to the terms of this Agreement.
-                        </p>
-                        <p className="mt-3 ms-3"><b className="text-dark">Registered Address:</b><br />
-                            6th Floor, Ken Lee Building,<br />
-                            20 Edith Cavell Street,<br />
-                            Port-Louis, 11302, Mauritius</p>
+                      <p className="mt-2">This agreement outlines the terms and conditions between you and AUT Investments LTD for the use of our trading services.</p>
+                      <p className="mt-2">This Client Agreement (“Agreement”) is a legally binding contract between <b>AUT Investments
+                        LTD</b>, a financial services company registered in Mauritius, and the client (“you” or “the client”).
+                        By opening a trading account, accessing our platform, or using any of our services, you
+                        acknowledge that you have read, understood, and agreed to the terms of this Agreement.
+                      </p>
+                      <p className="mt-3 ms-3"><b className="text-dark">Registered Address:</b><br />
+                        6th Floor, Ken Lee Building,<br />
+                        20 Edith Cavell Street,<br />
+                        Port-Louis, 11302, Mauritius</p>
                     </li>
 
                     <li className="my-4"><b className="my-2 text-dark fs-5">2. Scope of Services</b>
@@ -221,51 +220,50 @@ export default function ClientAgreement() {
                 </div>
               </div>
 
-              <div className="col-md-4 col-sm-12">
+              <div className="col-xl-4 col-sm-12">
                 <div className="funfact-section1 position-sticky z_99" style={{ top: "100px" }}>
-                    <div className="inner-container d-flex flex-column p-5 align-items-start justify-content-start">
-                        <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-16.png)" }}></div>
-                        <h5 className="mb-3">Contact Information</h5>
-                        <div className="education-details-content">
-                        <div className="text-box">
-                            <ul className="list-item clearfix">
-                            <li className="lh-lg"><strong>Client Support:</strong></li>
-                            <li className="lh-lg"><strong>Compliance:</strong></li>
-                            <li className="lh-lg">
-                                <strong>Mailing Address:</strong><br />
-                                6th Floor, Ken Lee Building,<br />
-                                20 Edith Cavell Street,<br />
-                                Port-Louis, 11302, Mauritius
-                            </li>
-                            </ul>
-                        </div>
-                        </div>
+                  <div className="inner-container d-flex flex-column p-sm-5 p-4 align-items-start justify-content-start">
+                    <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
+                    <h5 className="mb-3">Contact Information</h5>
+                    <div className="education-details-content">
+                      <div className="text-box">
+                        <ul className="list-item clearfix">
+                          <li className="lh-lg"><strong>Client Support:</strong></li>
+                          <li className="lh-lg"><strong>Compliance:</strong></li>
+                          <li className="lh-lg">
+                            <strong>Mailing Address:</strong><br />
+                            6th Floor, Ken Lee Building,<br />
+                            20 Edith Cavell Street,<br />
+                            Port-Louis, 11302, Mauritius
+                          </li>
+                        </ul>
+                      </div>
                     </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-
         <section className="subscribe-section">
-            <div className="bg-color"></div>
-            <div className="auto-container">
-                <div className="inner-container">
-                    <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-5.png)" }}></div>
-                    <div className="row align-items-center">
-                        <div className="col-12 text-column">
-                        <div className="text-box">
-                            <h2 className="text-dark fw-bold">Last Updated: July 2025</h2>
-                            <p className="text-light fs-5 mt_30">This Client Agreement is effective as of the above date and remains in force until replaced or amended.</p>
-                            <a class="theme-btn btn-one bg-dark me-3 mt-3" href="/index-2">Contact</a>
-                        </div>
-                        </div>
-                    </div>
+          <div className="bg-color"></div>
+          <div className="auto-container">
+            <div className="inner-container">
+              <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
+              <div className="row align-items-center">
+                <div className="col-12 text-column">
+                  <div className="text-box">
+                    <h2 className="fw-bold">Last Updated: July 2025</h2>
+                    <p className="text-light fs-6 mt_30">This Client Agreement is effective as of the above date and remains in force until replaced or amended.</p>
+                    <a className="theme-btn btn-one bg-dark me-3 mt-3" href="/index-2">Contact</a>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </section>
-      </Layout>  
+      </Layout>
     </div>
   );
 }

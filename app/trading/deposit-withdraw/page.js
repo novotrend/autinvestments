@@ -33,19 +33,24 @@ export default function DepositWithdraw() {
       <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Deposit & Withdraw">
         <section className="platform-section alternat-2 pt_90 pb_60">
           <div className="auto-container">
-            <div className="row align-items-center">
-              <div className="col-md-4">
-                <img src="../assets/images/resource/depositwithdraw-1.jpg" alt="" className="rounded" />
+            <div className="row align-items-center g-3">
+              <div className="col-lg-4">
+                <div className="sec-title pb_20 d-lg-none">
+                  <span className="sub-title mb_14">INFO</span>
+                  <h2 className="mb-2">What is Open Deposit & Withdraw?</h2>
+                  <p>Fund your trading journey with fast, secure, and transparent payment methods.</p>
+                </div>
+                <img src="/assets/images/resource/depositwithdraw-1.jpg" alt="" className="rounded" />
               </div>
-              <div className="col-md-8">
-                <div className="sec-title pb_20">
+              <div className="col-lg-8">
+                <div className="sec-title pb_20 d-lg-block d-none">
                   <span className="sub-title mb_14">INFO</span>
                   <h2 className="mb-2">What is Open Deposit & Withdraw?</h2>
                   <p>Fund your trading journey with fast, secure, and transparent payment methods.</p>
                 </div>
                 <section className="funfact-section">
                   <div className="auto-container px-0">
-                    <div className="inner-container d-flex flex-column p-5 aligh-items-start justify-content-start">
+                    <div className="inner-container d-flex flex-column p-sm-5 p-4 aligh-items-start justify-content-start">
                       <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
                       <h4 className="text-dark fw-semibold mb-3">Seamless Transactions for Traders Worldwide</h4>
                       <p>At AUT Investments LTD, we understand that easy deposits and reliable withdrawals are
@@ -60,15 +65,15 @@ export default function DepositWithdraw() {
           </div>
         </section>
 
-        <section className="markets-section pt_60 pb_70">
+        <section className="markets-section pt_70 pb_70">
           <div className="auto-container">
-            <div className="row align-items-center">
-              <div className="col-md-8">
-                <div className="sec-title pb_30">
+            <div className="row align-items-center g-3 flex-wrap-reverse">
+              <div className="col-lg-8">
+                <div className="sec-title d-lg-block d-none">
                   <span className="sub-title mb_14">Features of AUT</span>
                   <h2>Why Deposit & Withdraw with AUT <span className="d-block text-dark"> Investments LTD?</span></h2>
                 </div>
-                <div className="row clearfix education-details-content shadow-sm py-5 px-4 rounded-4" >
+                <div className="row clearfix education-details-content shadow-sm py-5 px-sm-4 px-2 rounded-4" >
                   <div className="col-12 content-column ">
                     <div className="text-box">
                       <ul className="list-item clearfix">
@@ -83,8 +88,12 @@ export default function DepositWithdraw() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4">
-                <img src="../assets/images/resource/deposit-feature.jpg" alt="" className="rounded" />
+              <div className="col-lg-4">
+                <div className="sec-title d-lg-none pb_30">
+                  <span className="sub-title mb_14">Features of AUT</span>
+                  <h2>Why Deposit & Withdraw with AUT <span className="d-block text-dark"> Investments LTD?</span></h2>
+                </div>
+                <img src="/assets/images/resource/deposit-feature.jpg" alt="" className="rounded" />
               </div>
             </div>
           </div>
@@ -194,7 +203,7 @@ export default function DepositWithdraw() {
 
         <section className="platform-section alternat-2 pt_90 pb_130">
           <div className="auto-container">
-            <div className="sec-title pb_60">
+            <div className="sec-title mb-sm-5">
               <span className="sub-title mb_14">trading</span>
               <h2>Trading Platforms</h2>
             </div>
@@ -257,11 +266,11 @@ export default function DepositWithdraw() {
 
         <section className="about-section pt_60 pb_70">
           <div className="auto-container">
-            <div className="row align-items-center">
-              <div className="col-lg-8 col-md-12 col-sm-12 content-column">
+            <div className="row align-items-center g-5 flex-wrap-reverse">
+              <div className="col-lg-8 col-md-12 col-sm-12">
                 <div className="content_block_one">
                   <div className="content-box mr_80">
-                    <div className="sec-title pb_30">
+                    <div className="sec-title pb_30 d-none d-lg-block">
                       <span className="sub-title mb_14">Help</span>
                       <h2>Frequently Asked Questions (FAQ)</h2>
                     </div>
@@ -322,7 +331,11 @@ export default function DepositWithdraw() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-12 col-sm-12 video-column">
+              <div className="col-lg-4 col-md-12 col-sm-12">
+                <div className="sec-title pb_30 d-lg-none">
+                  <span className="sub-title mb_14">Help</span>
+                  <h2>Frequently Asked Questions (FAQ)</h2>
+                </div>
                 <img src="/assets/images/resource/faq.jpg" alt="" className="rounded" />
               </div>
             </div>
@@ -337,9 +350,9 @@ export default function DepositWithdraw() {
               <div className="row align-items-center">
                 <div className="col-12 text-column">
                   <div className="text-box">
-                    <h2 className="text-dark fw-bold">Begin Your Trading Journey Risk-Free</h2>
-                    <p className="text-light fs-5 mt_30">Open your free demo account with AUT Investments LTD and discover the tools, speed, and reliability of our trading environment. Practice. Learn. Grow — all without financial pressure.</p>
-                    <a class="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Us</a>
+                    <h2 className="fw-bold">Begin Your Trading Journey Risk-Free</h2>
+                    <p className="text-light fs-6 mt_30">Open your free demo account with AUT Investments LTD and discover the tools, speed, and reliability of our trading environment. Practice. Learn. Grow — all without financial pressure.</p>
+                    <a className="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Support</a>
                   </div>
                 </div>
               </div>
