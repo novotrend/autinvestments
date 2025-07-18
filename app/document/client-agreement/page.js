@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout";
+import Link from "next/link";
 
 export default function ClientAgreement() {
   return (
@@ -256,7 +257,7 @@ export default function ClientAgreement() {
                   <div className="text-box">
                     <h2 className="fw-bold">Last Updated: July 2025</h2>
                     <p className="text-light fs-6 mt_30">This Client Agreement is effective as of the above date and remains in force until replaced or amended.</p>
-                    <a className="theme-btn btn-one bg-dark me-3 mt-3" href="/index-2">Contact</a>
+                    <Link className="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Support</Link>
                   </div>
                 </div>
               </div>

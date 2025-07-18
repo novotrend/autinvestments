@@ -294,7 +294,7 @@ export default function OpenTradingAccount() {
                   <div className="text-box">
                     <h2 className="fw-bold">Take Control of Your Financial Future</h2>
                     <p className="text-light fs-6 mt_30">Open your live trading account today and gain direct access to global markets with a broker built for performance, transparency, and support.</p>
-                    <a className="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Support</a>
+                    <Link className="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Support</Link>
                   </div>
                 </div>
               </div>

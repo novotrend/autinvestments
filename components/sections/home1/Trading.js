@@ -1,6 +1,4 @@
 'use client'
-import { useState } from "react"
-import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 
 export default function Trading() {
@@ -21,7 +19,7 @@ export default function Trading() {
                         <div className="trading-block-one">
                             <div className="inner-box">
                                 <figure className="image-box"><img src="/assets/images/resource/trading-1.png" alt="" /></figure>
-                                <h3><a href="copy-trading">Copy Trading</a></h3>
+                                <h3><Link href="/products/copy-trading">Copy Trading</Link></h3>
                                 <p>Mirror top-performing traders in real time</p>
                                 <div className="btn-box"><Link href="/products/copy-trading" className="theme-btn btn-one">Start Trading Now</Link></div>
                             </div>
@@ -29,7 +27,7 @@ export default function Trading() {
                         <div className="trading-block-one">
                             <div className="inner-box">
                                 <figure className="image-box"><img src="/assets/images/resource/trading-2.png" alt="" /></figure>
-                                <h3><a href="social-trading">Social Trading</a></h3>
+                                <h3><Link href="/products/social-trading">Social Trading</Link></h3>
                                 <p> Learn, share, and follow strategies globally</p>
                                 <div className="btn-box"><Link href="/products/social-trading" className="theme-btn btn-one">Start Trading Now</Link></div>
                             </div>
@@ -37,7 +35,7 @@ export default function Trading() {
                         <div className="trading-block-one">
                             <div className="inner-box">
                                 <figure className="image-box"><img src="/assets/images/resource/trading-3.png" alt="" /></figure>
-                                <h3><a href="algo-trading">Algo Trading</a></h3>
+                                <h3><Link href="/products/algo-trading">Algo Trading</Link></h3>
                                 <p>Automate trades with custom or prebuilt expert advisors</p>
                                 <div className="btn-box"><Link href="/products/algo-trading" className="theme-btn btn-one">Start Trading Now</Link></div>
                             </div>

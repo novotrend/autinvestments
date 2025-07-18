@@ -12,32 +12,27 @@ export default function Contact() {
                     <div className="auto-container">
                         <div className="info-inner pb_25">
                             <div className="row g-3">
-                                <div className="col-lg-3 col-md-6 col-sm-12 info-column p-2">
+                                <div className="col-lg-4 col-md-6 col-sm-12 info-column p-2">
                                     <div className="single-info mb-0">
                                         <div className="icon-box"><i className="icon-45"></i></div>
                                         <h4>Corporate Office</h4>
-                                        <p>0233 Brisbane Cir. Shiloh,Australia 81063</p>
+                                        <p>6th Floor, Ken Lee Building,
+                                            20 Edith Cavell Street,
+                                            Port-Louis, 11302, Mauritius</p>
                                     </div>
                                 </div>
-                                <div className="col-lg-3 col-md-6 col-sm-12 info-column p-2">
-                                    <div className="single-info mb-0">
-                                        <div className="icon-box"><i className="icon-45"></i></div>
-                                        <h4>Main Warehouse</h4>
-                                        <p>10445 Brisbane Cir. Shiloh, Australia</p>
-                                    </div>
-                                </div>
-                                <div className="col-lg-3 col-md-6 col-sm-12 info-column p-2">
+                                <div className="col-lg-4 col-md-6 col-sm-12 info-column p-2">
                                     <div className="single-info mb-0">
                                         <div className="icon-box"><i className="icon-46"></i></div>
                                         <h4>Email Address</h4>
-                                        <p><Link href="mailto:support@example.com">support@example.com</Link><Link href="mailto:contact@example.com">contact@example.com</Link></p>
+                                        <p><Link href="mailto:privacy@autinvestments.com">privacy@autinvestments.com</Link> <br /> <Link href="mailto:support@autinvestments.com">support@autinvestments.com</Link></p>
                                     </div>
                                 </div>
-                                <div className="col-lg-3 col-md-6 col-sm-12 info-column p-2">
+                                <div className="col-lg-4 col-md-6 col-sm-12 info-column p-2">
                                     <div className="single-info mb-0">
                                         <div className="icon-box"><i className="icon-47"></i></div>
                                         <h4>Phone Number</h4>
-                                        <p><Link href="tel:+2085440141">+(208) 544 -0141</Link><Link href="tel:+2085440142">+(208) 544 -0142</Link></p>
+                                        <p><Link href="tel:++230-XXXX-XXXX">+230-XXXX-XXXX</Link></p>
                                     </div>
                                 </div>
                             </div>
@@ -72,7 +67,7 @@ export default function Contact() {
                             </form>
                         </div>
                         <div className="map-inner">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.6895046810805!2d-122.52642526124438!3d38.00014098339506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085976736097a2f%3A0xbe014d20e6e22654!2sSan Rafael%2C California%2C Hoa Kỳ!5e0!3m2!1svi!2s!4v1678975266976!5m2!1svi!2s" height={570} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3745.256270715028!2d57.49871807602274!3d-20.16505254567252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x217c5053940a9b1f%3A0x321465e8be8002d1!2sKen%20Lee%20Building%2C%20Brown%20Sequard%2C%20Port%20Louis%2C%20Mauritius!5e0!3m2!1sen!2sin!4v1752818631733!5m2!1sen!2sin" height={570} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
                         </div>
                     </div>
                 </section>

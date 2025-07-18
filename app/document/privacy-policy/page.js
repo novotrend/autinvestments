@@ -233,7 +233,7 @@ export default function PrivacyPolicy() {
                                                     </ul>
                                                     <p className="mt-3">
                                                         To exercise any of these rights, you can contact our Data Protection Officer (DPO) at<br />
-                                                        <a href="mailto:privacy@autinvestments.com">privacy@autinvestments.com</a>.
+                                                        <Link href="mailto:privacy@autinvestments.com">privacy@autinvestments.com</Link>.
                                                     </p>
                                                 </div>
                                             </div>
@@ -376,7 +376,7 @@ export default function PrivacyPolicy() {
                                     <div className="text-box">
                                         <h2 className="fw-bold">Last Revised: July 2025</h2>
                                         <p className="text-light fs-6 mt_30">AUT Investments LTD — Your trust. Our priority.</p>
-                                        <a className="theme-btn btn-one bg-dark me-3 mt-3" href="/index-2">Contact Support</a>
+                                        <Link className="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Support</Link>
                                     </div>
                                 </div>
                             </div>

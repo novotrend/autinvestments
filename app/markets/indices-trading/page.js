@@ -59,11 +59,11 @@ export default function IndicesTrading() {
                 <div className="markets-block-one">
                   <div className="inner-box">
                     <div className="image-box">
-                      <figure className="image"><Link href="/markets-details"><img src="/assets/images/resource/markets-1.jpg" alt="" /></Link></figure>
-                      <figure className="overlay-image"><Link href="/markets-details"><img src="/assets/images/resource/markets-1.jpg" alt="" /></Link></figure>
+                      <figure className="image"><img src="/assets/images/resource/markets-1.jpg" alt="" /></figure>
+                      <figure className="overlay-image"><img src="/assets/images/resource/markets-1.jpg" alt="" /></figure>
                     </div>
                     <div className="lower-content">
-                      <h3><a href="markets-details.html">Access to Major Global Indices</a></h3>
+                      <h3>Access to Major Global Indices</h3>
                       <p>
                         Trade top-performing indices including S&P 500, NASDAQ 100, Dow Jones (US 30),
                         DAX 40, FTSE 100, CAC 40, and Nikkei 225 across American, European, and Asian
@@ -77,11 +77,11 @@ export default function IndicesTrading() {
                 <div className="markets-block-one">
                   <div className="inner-box">
                     <div className="image-box">
-                      <figure className="image"><a href="markets-details.html"><img src="/assets/images/resource/markets-2.jpg" alt="" /></a></figure>
-                      <figure className="overlay-image"><a href="markets-details.html"><img src="/assets/images/resource/markets-2.jpg" alt="" /></a></figure>
+                      <figure className="image"><img src="/assets/images/resource/markets-2.jpg" alt="" /></figure>
+                      <figure className="overlay-image"><img src="/assets/images/resource/markets-2.jpg" alt="" /></figure>
                     </div>
                     <div className="lower-content">
-                      <h3><a href="markets-details.html">Diversified Exposure</a></h3>
+                      <h3>Diversified Exposure</h3>
                       <p>
                         With a single trade, gain exposure to a broad range of companies across sectors —
                         from tech and finance to energy and consumer goods.
@@ -94,11 +94,11 @@ export default function IndicesTrading() {
                 <div className="markets-block-one">
                   <div className="inner-box">
                     <div className="image-box">
-                      <figure className="image"><a href="markets-details.html"><img src="/assets/images/resource/markets-3.jpg" alt="" /></a></figure>
-                      <figure className="overlay-image"><a href="markets-details.html"><img src="/assets/images/resource/markets-3.jpg" alt="" /></a></figure>
+                      <figure className="image"><img src="/assets/images/resource/markets-3.jpg" alt="" /></figure>
+                      <figure className="overlay-image"><img src="/assets/images/resource/markets-3.jpg" alt="" /></figure>
                     </div>
                     <div className="lower-content">
-                      <h3><a href="markets-details.html">Tight Spreads and Fast Execution</a></h3>
+                      <h3>Tight Spreads and Fast Execution</h3>
                       <p>
                         Benefit from low spreads, high liquidity, and rapid execution even during peak market
                         hours.
@@ -111,11 +111,11 @@ export default function IndicesTrading() {
                 <div className="markets-block-one">
                   <div className="inner-box">
                     <div className="image-box">
-                      <figure className="image"><a href="markets-details.html"><img src="/assets/images/resource/markets-4.jpg" alt="" /></a></figure>
-                      <figure className="overlay-image"><a href="markets-details.html"><img src="/assets/images/resource/markets-4.jpg" alt="" /></a></figure>
+                      <figure className="image"><img src="/assets/images/resource/markets-4.jpg" alt="" /></figure>
+                      <figure className="overlay-image"><img src="/assets/images/resource/markets-4.jpg" alt="" /></figure>
                     </div>
                     <div className="lower-content">
-                      <h3><a href="markets-details.html">Trade Both Rising and Falling Markets</a></h3>
+                      <h3>Trade Both Rising and Falling Markets</h3>
                       <p>
                         Go long or short with ease using index CFDs, taking advantage of bullish or bearish
                         trends.
@@ -128,11 +128,11 @@ export default function IndicesTrading() {
                 <div className="markets-block-one">
                   <div className="inner-box">
                     <div className="image-box">
-                      <figure className="image"><a href="markets-details.html"><img src="/assets/images/resource/markets-5.jpg" alt="" /></a></figure>
-                      <figure className="overlay-image"><a href="markets-details.html"><img src="/assets/images/resource/markets-5.jpg" alt="" /></a></figure>
+                      <figure className="image"><img src="/assets/images/resource/markets-5.jpg" alt="" /></figure>
+                      <figure className="overlay-image"><img src="/assets/images/resource/markets-5.jpg" alt="" /></figure>
                     </div>
                     <div className="lower-content">
-                      <h3><a href="markets-details.html">High Volatility = More Opportunities</a></h3>
+                      <h3>High Volatility = More Opportunities</h3>
                       <p>
                         Indices often respond sharply to economic data, earnings seasons, and geopolitical
                         events, creating opportunities for short-term and swing trading.
@@ -145,11 +145,11 @@ export default function IndicesTrading() {
                 <div className="markets-block-one">
                   <div className="inner-box">
                     <div className="image-box">
-                      <figure className="image"><a href="markets-details.html"><img src="/assets/images/resource/markets-6.jpg" alt="" /></a></figure>
-                      <figure className="overlay-image"><a href="markets-details.html"><img src="/assets/images/resource/markets-6.jpg" alt="" /></a></figure>
+                      <figure className="image"><img src="/assets/images/resource/markets-6.jpg" alt="" /></figure>
+                      <figure className="overlay-image"><img src="/assets/images/resource/markets-6.jpg" alt="" /></figure>
                     </div>
                     <div className="lower-content">
-                      <h3><a href="markets-details.html">No Overnight Swap on Select Accounts</a></h3>
+                      <h3>No Overnight Swap on Select Accounts</h3>
                       <p>
                         Hold positions overnight without paying fees on eligible accounts, helping manage
                         long-term strategies more efficiently.

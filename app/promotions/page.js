@@ -15,7 +15,7 @@ export default function Promotions() {
                         </div>
                         <section className="funfact-section">
                             <div className="auto-container px-0">
-                                <div className="inner-container d-flex flex-column p-5 aligh-items-start justify-content-start">
+                                <div className="inner-container d-flex flex-column p-sm-5 p-4 aligh-items-start justify-content-start">
                                     <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
                                     <h4 className="text-dark fw-semibold mb-3">Maximize Every Trade with Special Offers</h4>
                                     <p>At AUT Investments LTD, we believe in rewarding our traders at every stage of their journey. Whether you're just starting out or already an active trader, our promotions are designed to give you more value, more flexibility, and more opportunities to grow your account. From generous welcome bonuses to trading contests and loyalty rewards, our promotional campaigns are tailored to enhance your trading experience — without hidden conditions.</p>
@@ -37,8 +37,8 @@ export default function Promotions() {
                                 <div className="row align-items-center clearfix g-md-5 g-3">
                                     <div className="col-md-12 col-sm-12 content-column">
                                         <div className="card border-0 shadow-sm rounded-3 p-4">
-                                            <div className="row align-items-center">
-                                                <div className="col-md-7">
+                                            <div className="row align-items-center flex-wrap-reverse g-3">
+                                                <div className="col-lg-7">
                                                     <div className="inner-box p-4">
                                                         <h3 className="mb-3">Welcome Bonus – Get Up to $500</h3>
                                                         <p className="mb-2">
@@ -64,7 +64,7 @@ export default function Promotions() {
                                                 </div>
                                                 <div className="col-md-5">
                                                     <div className="promotion-img">
-                                                        <img className="rounded ms-auto" src="assets/images/resource/welcome-bonus.jpg" alt="Welcome Bonus Promotion"/>
+                                                        <img className="rounded ms-auto" src="/assets/images/resource/welcome-bonus.jpg" alt="Welcome Bonus Promotion" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -73,11 +73,11 @@ export default function Promotions() {
 
                                     <div className="col-md-12 col-sm-12 content-column">
                                         <div className="card border-0 shadow-sm rounded-3 p-4">
-                                            <div className="row align-items-center">
+                                            <div className="row align-items-center g-3">
                                                 <div className="col-md-5">
                                                     <img className="img-fluid rounded image image-hov-two ms-auto" src="/assets/images/resource/refer-earn.jpg" alt="Refer & Earn Promotion" />
                                                 </div>
-                                                <div className="col-md-7">
+                                                <div className="col-lg-7">
                                                     <div className="inner-box">
                                                         <h3 className="mb-3">Refer & Earn – Invite Friends, Get Paid</h3>
                                                         <p className="mb-2">
@@ -108,23 +108,23 @@ export default function Promotions() {
 
                                     <div className="col-md-12 col-sm-12 content-column">
                                         <div className="card border-0 shadow-sm rounded-4">
-                                            <div className="row align-items-center">
-                                                <div className="col-md-7">
+                                            <div className="row align-items-center flex-wrap-reverse g-3">
+                                                <div className="col-lg-7">
                                                     <div className="inner-box p-4">
-                                                    <h3 className="mb-3">Zero Commission Trading (Limited Time)</h3>
-                                                    <p className="mb-2">
-                                                        Enjoy zero commissions on all forex and metals trading for your first 30 days.
-                                                    </p>
-                                                    
-                                                    <div className="education-details-content">
-                                                        <div className="text-box">
-                                                        <ul className="list-item clearfix">
-                                                            <li className="lh-lg">Perfect for scalpers and active traders</li>
-                                                            <li className="lh-lg">Available on standard accounts</li>
-                                                            <li className="lh-lg">Spreads remain competitive with no hidden markups</li>
-                                                        </ul>
+                                                        <h3 className="mb-3">Zero Commission Trading (Limited Time)</h3>
+                                                        <p className="mb-2">
+                                                            Enjoy zero commissions on all forex and metals trading for your first 30 days.
+                                                        </p>
+
+                                                        <div className="education-details-content">
+                                                            <div className="text-box">
+                                                                <ul className="list-item clearfix">
+                                                                    <li className="lh-lg">Perfect for scalpers and active traders</li>
+                                                                    <li className="lh-lg">Available on standard accounts</li>
+                                                                    <li className="lh-lg">Spreads remain competitive with no hidden markups</li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
-                                                    </div>
 
                                                         <div className="education-details-content">
                                                             <div className="text-box">
@@ -155,13 +155,13 @@ export default function Promotions() {
 
                                     <div className="col-md-12 col-sm-12 content-column">
                                         <div className="card border-0 shadow-sm rounded-4">
-                                            <div className="row align-items-center">
-                                                <div className="col-md-7 order-md-2">
+                                            <div className="row align-items-center g-3">
+                                                <div className="col-lg-7 order-md-2">
                                                     <div className="inner-box p-4">
-                                                    <h3 className="mb-3">Seasonal & Festival Bonuses</h3>
-                                                    <p className="mb-2">
-                                                        Celebrate key global events and holidays with limited-time bonus offers and cashbacks.
-                                                    </p>
+                                                        <h3 className="mb-3">Seasonal & Festival Bonuses</h3>
+                                                        <p className="mb-2">
+                                                            Celebrate key global events and holidays with limited-time bonus offers and cashbacks.
+                                                        </p>
 
                                                         <div className="education-details-content">
                                                             <div className="text-box">
@@ -182,7 +182,7 @@ export default function Promotions() {
                                                 </div>
                                                 <div className="col-md-5 order-md-1">
                                                     <div className="promotion-img">
-                                                        <img className="rounded me-auto" src="assets/images/resource/seasonal-bonus.jpg" alt="Seasonal & Festival Bonuses"/>
+                                                        <img className="rounded me-auto" src="assets/images/resource/seasonal-bonus.jpg" alt="Seasonal & Festival Bonuses" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -191,8 +191,8 @@ export default function Promotions() {
 
                                     <div className="col-md-12 col-sm-12 content-column">
                                         <div className="card border-0 shadow-sm rounded-4">
-                                            <div className="row align-items-center">
-                                                <div className="col-md-7">
+                                            <div className="row align-items-center flex-wrap-reverse g-3">
+                                                <div className="col-lg-7">
                                                     <div className="inner-box p-4">
                                                         <h3 className="mb-3">Loyalty Program (Coming Soon)</h3>
                                                         <p className="mb-2">
@@ -220,7 +220,7 @@ export default function Promotions() {
                                                 </div>
                                                 <div className="col-md-5">
                                                     <div className="promotion-img">
-                                                        <img className="rounded ms-auto" src="assets/images/resource/loyalty-program.jpg" alt="Loyalty Program Preview"/>
+                                                        <img className="rounded ms-auto" src="assets/images/resource/loyalty-program.jpg" alt="Loyalty Program Preview" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -237,16 +237,16 @@ export default function Promotions() {
                     <div className="auto-container">
                         <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-4.png)" }}></div>
                         <div className="row align-items-center">
-                            <div className="col-lg-6 col-md-12 col-sm-12 video-column">
+                            <div className="col-lg-4 col-sm-12 video-column">
                                 <div className="video_block_one">
-                                    <div className="video-box z_1 p_relative pl_50 pt_50 pb_30 centred">
+                                    <div className="video-box z_1 p_relative pt_50 pb_30 centred">
                                         <div className="video-inner">
                                             <div className="bg-layer" style={{ backgroundImage: "url(assets/images/resource/video-2.jpg)" }}></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-8 col-md-12 col-sm-12 content-column">
+                            <div className="col-lg-8 col-sm-12 content-column">
                                 <div className="content_block_nine">
                                     <div className="content-box ml_70">
                                         <div className="sec-title light pb_35">
@@ -331,7 +331,7 @@ export default function Promotions() {
                                     <div className="text-box">
                                         <h3 className="text-dark fw-semibold mb-3">Trade More. Earn More. Get Rewarded.</h3>
                                         <p className="text-light">Explore our active promotions and take advantage of added benefits on your trades. Whether you're growing your capital or sharing your experience with others, AUT Investments LTD is here to support and reward your every step in the markets.</p>
-                                        <a className="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Support</a>
+                                        <Link className="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Support</Link>
                                     </div>
                                 </div>
                             </div>

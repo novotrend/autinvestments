@@ -29,7 +29,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSide
                         <div className="outer-box">
                             <figure className="logo-box">
                                 <Link href="/index-3">
-                                <img src="/assets/images/logo.png" alt="/" />
+                                <img src="/assets/images/logo.svg" alt="/" />
                                 </Link>
                             </figure>
                             <div className="menu-area clearfix">
@@ -59,7 +59,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSide
                         <div className="outer-box">
                             <figure className="logo-box">
                                 <Link href="/index-2">
-                                <img src="/assets/images/logo.png" alt="/" />
+                                <img src="/assets/images/logo.svg" alt="/" />
                                 </Link>
                             </figure>
                             <div className="menu-area clearfix">

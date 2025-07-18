@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout";
+import Link from "next/link";
 
 export default function ServicesRegulations() {
     return (
@@ -329,7 +330,7 @@ export default function ServicesRegulations() {
                                     <div className="text-box">
                                         <h2 className="fw-bold">Last Updated: July 2025</h2>
                                         <p className="text-light fs-6 mt_30">This Services Regulations document is binding from the date above and applies to all clients using the <br></ br> services of AUT Investments LTD.</p>
-                                        <a className="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Support</a>
+                                        <Link className="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Support</Link>
                                     </div>
                                 </div>
                             </div>

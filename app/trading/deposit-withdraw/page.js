@@ -352,7 +352,7 @@ export default function DepositWithdraw() {
                   <div className="text-box">
                     <h2 className="fw-bold">Begin Your Trading Journey Risk-Free</h2>
                     <p className="text-light fs-6 mt_30">Open your free demo account with AUT Investments LTD and discover the tools, speed, and reliability of our trading environment. Practice. Learn. Grow — all without financial pressure.</p>
-                    <a className="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Support</a>
+                    <Link className="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Support</Link>
                   </div>
                 </div>
               </div>

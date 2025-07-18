@@ -330,7 +330,7 @@ export default function RiskDisclosure() {
                         <div className="row align-items-center">
                             <div className="col-lg-4 col-md-12 col-sm-12 video-column">
                                 <div className="video_block_one">
-                                    <div className="video-box z_1 p_relative pl_50 pt_50 pb_30 centred">
+                                    <div className="video-box z_1 p_relative pt_50 pb_30 centred">
                                         <div className="video-inner">
                                             <div className="bg-layer" style={{ backgroundImage: "url(/assets/images/resource/video-2.jpg)" }}></div>
                                         </div>
@@ -417,7 +417,7 @@ export default function RiskDisclosure() {
                                     <div className="text-box">
                                         <h2 className="fw-bold">Trade Responsibly. Stay Informed.</h2>
                                         <p className="text-light fs-6 mt_30">Understanding risk is the first step toward successful trading. At AUT Investments LTD, we’re committed to transparency, control, and equipping you with everything you need to navigate the markets responsibly.</p>
-                                        <a className="theme-btn btn-one bg-dark me-3 mt-3" href="/index-2">Contact</a>
+                                        <Link className="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Support</Link>
                                     </div>
                                 </div>
                             </div>

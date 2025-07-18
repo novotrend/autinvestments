@@ -12,7 +12,7 @@ export default function Menu() {
             <ul className="navigation clearfix">
                 <li className={`dropdown${isActive("/") ? " current" : ""}`}><Link href="/">Home</Link></li>
                 <li className={`dropdown${isGroupActive(["/trading/"]) ? " current" : ""}`}>
-                    <a href="#">Trading</a>
+                    <Link href='/trading/open-trading-account'>Trading</Link>
                     <ul>
                         <li className={isActive("/trading/open-trading-account") ? "current" : ""}><Link href="/trading/open-trading-account">Open Trading Account</Link></li>
                         <li className={isActive("/trading/deposit-withdraw") ? "current" : ""}><Link href="/trading/deposit-withdraw">Deposit &amp; Withdraw</Link></li>
@@ -20,7 +20,7 @@ export default function Menu() {
                     </ul>
                 </li>
                 <li className={`dropdown${isGroupActive(["/markets/"]) ? " current" : ""}`}>
-                    <a href="#">Market</a>
+                    <Link href='/markets/forex-trading'>Market</Link>
                     <ul>
                         <li className={isActive("/markets/forex-trading") ? "current" : ""}><Link href="/markets/forex-trading">Forex Trading</Link></li>
                         <li className={isActive("/markets/stock-trading") ? "current" : ""}><Link href="/markets/stock-trading">Stock Trading</Link></li>
@@ -31,14 +31,14 @@ export default function Menu() {
                     </ul>
                 </li>
                 <li className={`dropdown${isGroupActive(["/platform/"]) ? " current" : ""}`}>
-                    <a href="#">Platform</a>
+                    <Link href='/platform/metatrader4'>Platform</Link>
                     <ul>
                         <li className={isActive("/platform/metatrader4") ? "current" : ""}><Link href="/platform/metatrader4">MetaTrader 4 (MT4)</Link></li>
                         <li className={isActive("/platform/metatrader5") ? "current" : ""}><Link href="/platform/metatrader5">MetaTrader 5 (MT5) </Link></li>
                     </ul>
                 </li>
                 <li className={`dropdown${isGroupActive(["/products/"]) ? " current" : ""}`}>
-                    <a href="#">Products</a>
+                    <Link href='/products/copy-trading'>Products</Link>
                     <ul>
                         <li className={isActive("/products/copy-trading") ? "current" : ""}><Link href="/products/copy-trading">Copy Trading</Link></li>
                         <li className={isActive("/products/social-trading") ? "current" : ""}><Link href="/products/social-trading">Social Trading</Link></li>

@@ -31,14 +31,14 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                 <div className="menu-backdrop" onClick={handleMobileMenu} />
                 <div className="close-btn" onClick={handleMobileMenu}><span className="far fa-times" /></div>
                 <nav className="menu-box">
-                    <div className="nav-logo"><Link href="/"><img src="/assets/images/logo-2.png" alt="" /></Link></div>
+                    <div className="nav-logo"><Link href="/"><img src="/assets/images/logo.svg" alt="" /></Link></div>
                     <div className="menu-outer">
                         <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul className="navigation clearfix">
                                 <li className={isActiveLink("/") ? "dropdown current" : "dropdown"}><Link href="/">Home</Link></li>
                                 <li className={isGroupActive(["/trading/"]) ? "dropdown current" : "dropdown"}>
                                     <div className="dropdown-btn" onClick={() => handleToggle(1)}><span className="fa fa-angle-right" /></div>
-                                    <a href="#">Trading</a>
+                                    <Link href="/trading/open-trading-account">Trading</Link>
                                     <ul style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
                                         <li className={isActiveLink("/trading/open-trading-account") ? "current" : ""}><Link href="/trading/open-trading-account">Open Trading Account</Link></li>
                                         <li className={isActiveLink("/trading/deposit-withdraw") ? "current" : ""}><Link href="/trading/deposit-withdraw">Deposit &amp; Withdraw</Link></li>
@@ -47,7 +47,7 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                                 </li>
                                 <li className={isGroupActive(["/markets/"]) ? "dropdown current" : "dropdown"}>
                                     <div className="dropdown-btn" onClick={() => handleToggle(2)}><span className="fa fa-angle-right" /></div>
-                                    <a href="#">Market</a>
+                                    <Link href="/markets/forex-trading">Market</Link>
                                     <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
                                         <li className={isActiveLink("/markets/forex-trading") ? "current" : ""}><Link href="/markets/forex-trading">Forex Trading</Link></li>
                                         <li className={isActiveLink("/markets/stock-trading") ? "current" : ""}><Link href="/markets/stock-trading">Stock Trading</Link></li>
@@ -59,7 +59,7 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                                 </li>
                                 <li className={isGroupActive(["/platform/"]) ? "dropdown current" : "dropdown"}>
                                     <div className="dropdown-btn" onClick={() => handleToggle(3)}><span className="fa fa-angle-right" /></div>
-                                    <a href="#">Platform</a>
+                                    <Link href="/platform/metatrader4">Platform</Link>
                                     <ul style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
                                         <li className={isActiveLink("/platform/metatrader4") ? "current" : ""}><Link href="/platform/metatrader4">MetaTrader 4 (MT4)</Link></li>
                                         <li className={isActiveLink("/platform/metatrader5") ? "current" : ""}><Link href="/platform/metatrader5">MetaTrader 5 (MT5)</Link></li>
@@ -67,7 +67,7 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                                 </li>
                                 <li className={isGroupActive(["/products/"]) ? "dropdown current" : "dropdown"}>
                                     <div className="dropdown-btn" onClick={() => handleToggle(4)}><span className="fa fa-angle-right" /></div>
-                                    <a href="#">Products</a>
+                                    <Link href="/products/copy-trading">Products</Link>
                                     <ul style={{ display: `${isActive.key == 4 ? "block" : "none"}` }}>
                                         <li className={isActiveLink("/products/copy-trading") ? "current" : ""}><Link href="/products/copy-trading">Copy Trading</Link></li>
                                         <li className={isActiveLink("/products/social-trading") ? "current" : ""}><Link href="/products/social-trading">Social Trading</Link></li>

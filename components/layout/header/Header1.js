@@ -15,7 +15,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                         <div className="top-inner">
                             <div className="support-box">
                                 <div className="icon-box"><i className="icon-07"></i></div>
-                                <a href="tel:912345678">91 2345 678</a>
+                                <Link href="tel:+230-XXXX-XXXX">+230-XXXX-XXXX</Link>
                             </div>
                             <div className="option-block">
                                 <Link href="/open-account" className="theme-btn btn-one mr_10">Open Account</Link>
@@ -56,7 +56,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                 <div className={`sticky-header ${scroll ? "animated slideInDown" : ""}`}>
                     <div className="large-container">
                         <div className="outer-box">
-                            <figure className="logo-box"><Link href="/"><img src="/assets/images/logo.png" alt="" /></Link></figure>
+                            <figure className="logo-box"><Link href="/"><img src="/assets/images/logo.svg" alt="" /></Link></figure>
                             <div className="menu-area clearfix">
                                 <nav className="main-menu clearfix">
                                     <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
