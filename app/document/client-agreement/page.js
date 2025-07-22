@@ -12,9 +12,9 @@ export default function ClientAgreement() {
                 <div className="inner-box clearfix">
                   <ol className="p-0">
                     <li className="my-4"><b className="my-2 text-dark fs-5">1. Introduction</b>
-                      <p className="mt-2">This agreement outlines the terms and conditions between you and AUT Investments LTD for the use of our trading services.</p>
+                      <p className="mt-2">This agreement outlines the terms and conditions between you and AUT Investments Limited for the use of our trading services.</p>
                       <p className="mt-2">This Client Agreement (“Agreement”) is a legally binding contract between <b>AUT Investments
-                        LTD</b>, a financial services company registered in Mauritius, and the client (“you” or “the client”).
+                        Limited</b>, a financial services company registered in Mauritius, and the client (“you” or “the client”).
                         By opening a trading account, accessing our platform, or using any of our services, you
                         acknowledge that you have read, understood, and agreed to the terms of this Agreement.
                       </p>
@@ -25,19 +25,19 @@ export default function ClientAgreement() {
                     </li>
 
                     <li className="my-4"><b className="my-2 text-dark fs-5">2. Scope of Services</b>
-                      <p className="mt-2">AUT Investments LTD provides access to trading in a wide range of financial instruments including but not limited to:</p>
+                      <p className="mt-2">AUT Investments Limited provides access to trading in a wide range of financial instruments including but not limited to:</p>
                       <div className="education-details-content ms-3">
                         <div className="text-box">
                           <ul className="list-item clearfix">
                             <li className="lh-lg">Forex</li>
-                            <li className="lh-lg">Contracts for Difference (CFDs) on Stocks, Indices, Commodities, Metals, Energies, and Cryptocurrencies</li>
+                            <li className="lh-lg">Contracts for Difference (CFDs) on Stocks, Indices, Commodities, Metals, Energies.</li>
                             <li className="lh-lg">Copy Trading & Social Trading</li>
                             <li className="lh-lg">Trading via MetaTrader 4 (MT4) and MetaTrader 5 (MT5) platforms</li>
                             <li className="lh-lg">Account management tools and support services</li>
                           </ul>
                         </div>
                       </div>
-                      <p className="mt-2">AUT Investments LTD acts as a counterparty in all trading transactions and may provide execution-only services, without offering portfolio or investment advice.</p>
+                      <p className="mt-2">AUT Investments Limited acts as a counterparty in all trading transactions and may provide execution-only services, without offering portfolio or investment advice.</p>
                     </li>
 
                     <li className="my-4"><b className="my-2 text-dark fs-5">3. Client Eligibility</b>
@@ -76,7 +76,7 @@ export default function ClientAgreement() {
                             <li className="lh-lg">Trading leveraged instruments involves significant risk</li>
                             <li className="lh-lg">You may sustain losses greater than your initial investment</li>
                             <li className="lh-lg">Market conditions may affect order execution and slippage</li>
-                            <li className="lh-lg">AUT Investments LTD does not guarantee profits or returns</li>
+                            <li className="lh-lg">AUT Investments Limited does not guarantee profits or returns</li>
                             <li className="lh-lg">You are solely responsible for understanding trading risks and maintaining your account</li>
                           </ul>
                         </div>
@@ -90,7 +90,7 @@ export default function ClientAgreement() {
                           <ul className="list-item clearfix">
                             <li className="lh-lg">All deposits and withdrawals must be made using methods listed in your client portal</li>
                             <li className="lh-lg">Funds must be sent from/to accounts in your name</li>
-                            <li className="lh-lg">AUT Investments LTD reserves the right to request verification for any transaction</li>
+                            <li className="lh-lg">AUT Investments Limited reserves the right to request verification for any transaction</li>
                             <li className="lh-lg">Withdrawal requests are typically processed within 24–48 business hours, subject to banking procedures and verification</li>
                           </ul>
                         </div>
@@ -131,7 +131,7 @@ export default function ClientAgreement() {
                           <ul className="list-item clearfix">
                             <li className="lh-lg">Use the software in compliance with all applicable laws and regulations</li>
                             <li className="lh-lg">Keep your credentials secure and confidential</li>
-                            <li className="lh-lg">Accept that AUT Investments LTD is not liable for technical issues, outages, or data loss caused by third parties, devices, or internet providers</li>
+                            <li className="lh-lg">Accept that AUT Investments Limited is not liable for technical issues, outages, or data loss caused by third parties, devices, or internet providers</li>
                           </ul>
                         </div>
                       </div>
@@ -143,7 +143,7 @@ export default function ClientAgreement() {
                           <ul className="list-item clearfix">
                             <li className="lh-lg">All communications (email, chat, phone, platform messaging) may be recorded or monitored</li>
                             <li className="lh-lg">It is your responsibility to keep contact details updated</li>
-                            <li className="lh-lg">AUT Investments LTD is not liable for any delays or miscommunications resulting from incorrect information</li>
+                            <li className="lh-lg">AUT Investments Limited is not liable for any delays or miscommunications resulting from incorrect information</li>
                           </ul>
                         </div>
                       </div>
@@ -162,7 +162,7 @@ export default function ClientAgreement() {
                     </li>
 
                     <li className="my-4"><b className="my-2 text-dark fs-5">12. Conflicts of Interest</b>
-                      <p className="mt-2">AUT Investments LTD may act as principal or agent in transactions.</p>
+                      <p className="mt-2">AUT Investments Limited may act as principal or agent in transactions.</p>
                       <p className="mt-2">We aim to manage all potential conflicts of interest fairly and disclose any material impact to the client in accordance with our Conflicts of Interest Policy.</p>
                     </li>
 
@@ -171,7 +171,7 @@ export default function ClientAgreement() {
                         <div className="text-box">
                           <ul className="list-item clearfix">
                             <li className="lh-lg">By the client, with written notice and withdrawal of funds (subject to obligations)</li>
-                            <li className="lh-lg">By AUT Investments LTD, with or without notice, in cases of violation, fraud, abuse, or legal/regulatory reasons</li>
+                            <li className="lh-lg">By AUT Investments Limited, with or without notice, in cases of violation, fraud, abuse, or legal/regulatory reasons</li>
                           </ul>
                         </div>
                       </div>
@@ -191,7 +191,7 @@ export default function ClientAgreement() {
                     </li>
 
                     <li className="my-4"><b className="my-2 text-dark fs-5">15. Data Protection</b>
-                      <p className="mt-2">AUT Investments LTD collects and processes your personal data in accordance with our Privacy Policy. We implement reasonable security measures to protect your data, but clients are responsible for safeguarding access credentials.</p>
+                      <p className="mt-2">AUT Investments Limited collects and processes your personal data in accordance with our Privacy Policy. We implement reasonable security measures to protect your data, but clients are responsible for safeguarding access credentials.</p>
                     </li>
 
                     <li className="my-4"><b className="my-2 text-dark fs-5">16. Amendments</b>
@@ -215,7 +215,7 @@ export default function ClientAgreement() {
                     </li>
 
                     <li className="my-4"><b className="my-2 text-dark fs-5">19. Entire Agreement</b>
-                      <p className="mt-2">This Client Agreement, along with associated policies and disclosures, constitutes the full legal agreement between the client and AUT Investments LTD. No oral or written statements outside of this document shall be considered binding.</p>
+                      <p className="mt-2">This Client Agreement, along with associated policies and disclosures, constitutes the full legal agreement between the client and AUT Investments Limited. No oral or written statements outside of this document shall be considered binding.</p>
                     </li>
                   </ol>
                 </div>

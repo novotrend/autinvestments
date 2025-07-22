@@ -16,7 +16,7 @@ export default function AMLPolicy() {
                                             <b className="my-2 text-dark fs-5">1. Purpose of This Policy</b>
                                             <p className="mt-2">Ensuring secure, transparent, and compliant trading for all clients.</p>
                                             <p className="mt-2">
-                                                The Anti-Money Laundering (AML) Policy of AUT Investments LTD outlines the company’s commitment to prevent money laundering, terrorist financing, and other financial crimes.
+                                                The Anti-Money Laundering (AML) Policy of AUT Investments Limited outlines the company’s commitment to prevent money laundering, terrorist financing, and other financial crimes.
                                                 This policy ensures that our operations are in line with international AML standards and regulations applicable in Mauritius and other relevant jurisdictions.
                                             </p>
                                         </li>
@@ -36,7 +36,7 @@ export default function AMLPolicy() {
                                                 </div>
                                             </div>
                                             <p>
-                                                AUT Investments LTD actively works to identify and block such activities at every stage.
+                                                AUT Investments Limited actively works to identify and block such activities at every stage.
                                             </p>
                                         </li>
                                         <li className="my-4">
@@ -61,7 +61,7 @@ export default function AMLPolicy() {
                                         <li className="my-4">
                                             <b className="my-2 text-dark fs-5">4. Know Your Customer (KYC) Policy</b>
                                             <p className="mt-2">
-                                                Before onboarding any client, AUT Investments LTD follows a strict KYC verification process:
+                                                Before onboarding any client, AUT Investments Limited follows a strict KYC verification process:
                                             </p>
                                             <div className="education-details-content ms-3">
                                                 <div className="text-box">
@@ -103,13 +103,13 @@ export default function AMLPolicy() {
                                                 <div className="text-box">
                                                     <ul className="list-item clearfix">
                                                         <li className="lh-lg">We do not accept clients from sanctioned countries or jurisdictions identified as high risk by FATF or similar authorities</li>
-                                                        <li className="lh-lg">We prohibit the use of AUT Investments LTD services for:
+                                                        <li className="lh-lg">We prohibit the use of AUT Investments Limited services for:
                                                             <ul className="list-style-one clearfix ms-2">
                                                                 <li className="lh-lg">Laundering criminal proceeds</li>
                                                                 <li className="lh-lg">Financing terrorism</li>
                                                                 <li className="lh-lg">Trading on behalf of third parties without approval</li>
                                                                 <li className="lh-lg">Using false or stolen identities or documents</li>
-                                                                <li className="lh-lg">Depositing/withdrawing via anonymous payment channels (e.g., crypto mixing services)</li>
+                                                                <li className="lh-lg">Depositing/withdrawing via anonymous payment channels</li>
                                                             </ul>
                                                         </li>
                                                     </ul>
@@ -135,7 +135,7 @@ export default function AMLPolicy() {
                                         <li className="my-4">
                                             <b className="my-2 text-dark fs-5">8. Reporting Suspicious Activity</b>
                                             <p className="mt-2">
-                                                AUT Investments LTD is obligated to report any suspicious activity or transactions to the appropriate financial intelligence authority in Mauritius, even without prior notice to the client.
+                                                AUT Investments Limited is obligated to report any suspicious activity or transactions to the appropriate financial intelligence authority in Mauritius, even without prior notice to the client.
                                             </p>
                                             <p>Examples of suspicious activity include:</p>
                                             <div className="education-details-content ms-3">
@@ -247,7 +247,7 @@ export default function AMLPolicy() {
                                 <div className="col-12 text-column">
                                     <div className="text-box">
                                         <h2 className="fw-bold">Last Updated: July 2025</h2>
-                                        <p className="text-light fs-6 mt_30">AUT Investments LTD is committed to creating a secure, transparent, and compliant trading environment for all users.</p>
+                                        <p className="text-light fs-6 mt_30">AUT Investments Limited is committed to creating a secure, transparent, and compliant trading environment for all users.</p>
                                         <Link className="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Support</Link>
                                     </div>
                                 </div>

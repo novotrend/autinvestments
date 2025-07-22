@@ -1,4 +1,13 @@
 
+'use client'
+
+import { HiOutlineGlobeAlt } from 'react-icons/hi'
+import { BiExpandAlt } from 'react-icons/bi'
+import { HiOutlineChartBar } from 'react-icons/hi'
+import { HiOutlineCurrencyDollar } from 'react-icons/hi'
+import { GoLaw } from 'react-icons/go'
+import { BiSupport } from 'react-icons/bi'
+
 export default function Account() {
     return (
         <>
@@ -7,7 +16,7 @@ export default function Account() {
                 <div className="auto-container">
                     <div className="sec-title pb_60">
                         <span className="sub-title mb_14">Why Us ?</span>
-                        <h2>Why Trade with AUT Investments LTD</h2>
+                        <h2>Why Trade with AUT Investments Limited</h2>
                         <p>We use cookines to understand how you use our website and to give you the best possible experience.</p>
                         <p>Start trading in minutes with low deposits and fast KYC.</p>
                     </div>
@@ -15,17 +24,17 @@ export default function Account() {
                         <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                             <div className="account-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
-                                    <div className="icon-box"><i className="fa fa-globe"></i></div>
+                                    <div className="icon-box"><HiOutlineGlobeAlt size={30} /></div>
                                     <h3>Global Market Access</h3>
                                     <p> Over 1000 instruments including forex,
-                                        stocks, crypto, and more</p>
+                                        stocks, and more</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                             <div className="account-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
-                                    <div className="icon-box"><i className="fa fa-compress-arrows-alt"></i></div>
+                                    <div className="icon-box"><BiExpandAlt size={30} /></div>
                                     <h3>Tight Spreads & Fast Execution</h3>
                                     <p>Institutional-grade trading conditions</p>
                                 </div>
@@ -34,25 +43,25 @@ export default function Account() {
                         <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                             <div className="account-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
-                                    <div className="icon-box"><i className="fa fa-chart-line"></i></div>
+                                    <div className="icon-box"><HiOutlineChartBar size={30} /></div>
                                     <h3>Powerful Platforms</h3>
-                                    <p>MetaTrader 4 and 5 supported on web, desktop, and mobile</p>
+                                    <p>MetaTrader 5 supported on web, desktop, and mobile</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                             <div className="account-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
-                                    <div className="icon-box"><i className="fa fa-shield-halved"></i></div>
-                                    <h3>Advanced Risk Management Tools</h3>
-                                    <p>Full control with negative balance protection</p>
+                                    <div className="icon-box"><HiOutlineCurrencyDollar size={30} /></div>
+                                    <h3>Low Spreads</h3>
+                                    <p>Our super low spreads start from 0.1 pips with no commissions and no hidden fees.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                             <div className="account-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
-                                    <div className="icon-box"><i className="fa fa-scale-balanced"></i></div>
+                                    <div className="icon-box"><GoLaw size={30} /></div>
                                     <h3>Regulated in Mauritius</h3>
                                     <p>Transparent operations from a trusted
                                         jurisdiction</p>
@@ -62,7 +71,7 @@ export default function Account() {
                         <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                             <div className="account-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
-                                    <div className="icon-box"><i className="fa fa-headset"></i></div>
+                                    <div className="icon-box"><BiSupport size={30} /></div>
                                     <h3>Dedicated Support</h3>
                                     <p>Real people. Real help. Available 24/5</p>
                                 </div>

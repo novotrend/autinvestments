@@ -170,7 +170,7 @@ export default function StockTrading() {
           <div className="auto-container">
             <div className="sec-title pb_70">
               <span className="sub-title mb_14">GROW</span>
-              <h2>Powerful Stock Trading with AUT Investments LTD</h2>
+              <h2>Powerful Stock Trading with AUT Investments Limited</h2>
             </div>
             <div className="tabs-box">
               <div className="row clearfix">
@@ -231,7 +231,7 @@ export default function StockTrading() {
                     <div className={activeIndex === 3 ? "tab active-tab" : "tab"} id="cpoy">
                       <div className="content-box">
                         <figure className="image-box"><img src="assets/images/resource/platform-1.png" alt="" /></figure>
-                        <h2>Why Trade Stocks with AUT Investments LTD?</h2>
+                        <h2>Why Trade Stocks with AUT Investments Limited?</h2>
                         <ul className="list-style-one clearfix">
                           <li>
                             <b>All‑In‑One Platform: </b>

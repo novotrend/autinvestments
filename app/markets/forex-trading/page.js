@@ -2,6 +2,7 @@
 import Link from "next/link"
 import { useState } from "react"
 import Layout from "@/components/layout/Layout"
+import { BiLineChart, BiShuffle, BiWorld } from 'react-icons/bi'
 
 export default function ForexTrading() {
 
@@ -20,7 +21,7 @@ export default function ForexTrading() {
                 <div className="sec-title pb_20 d-none d-lg-block">
                   <span className="sub-title mb_14">INFO</span>
                   <h2 className="mb-2">What is Forex?</h2>
-                  <p>Unlock the potential of currency markets with AUT Investments LTD’s advanced forex trading
+                  <p>Unlock the potential of currency markets with AUT Investments Limited’s advanced forex trading
                     platform.
                   </p>
                 </div>
@@ -48,7 +49,7 @@ export default function ForexTrading() {
                 <div className="sec-title pb_20 d-lg-none">
                   <span className="sub-title mb_14">INFO</span>
                   <h2 className="mb-2">What is Forex?</h2>
-                  <p>Unlock the potential of currency markets with AUT Investments LTD’s advanced forex trading
+                  <p>Unlock the potential of currency markets with AUT Investments Limited’s advanced forex trading
                     platform.
                   </p>
                 </div>
@@ -71,7 +72,7 @@ export default function ForexTrading() {
                     <div className="inner-box">
                       <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
                       <span className="count-text">1</span>
-                      <h3>Forex Trading Platforms (MT4 & MT5 Ready)</h3>
+                      <h3>Forex Trading Platforms (MT5 Ready)</h3>
                       <p>Seamless integration with MetaTrader 4 and MetaTrader 5—globally recognized platforms featuring expert advisors, automated tools, and one-click trading</p>
                     </div>
                   </div>
@@ -135,7 +136,7 @@ export default function ForexTrading() {
                   <div className="funfact-block-two mb-0 pb-0">
                     <div className="inner-box text-start shadow-sm">
                       <div className="count-outer mb-2">
-                        <i className="fa fa-line-chart"></i>
+                        <BiLineChart size={40} />
                         <p className="text-capitalize fs-3 mt-4">Major Pairs</p>
                       </div>
                       <p className="fs-6">EUR/USD, GBP/USD, USD/JPY – highest liquidity, lowest spreads.</p>
@@ -146,7 +147,7 @@ export default function ForexTrading() {
                   <div className="funfact-block-two mb-0 pb-0">
                     <div className="inner-box text-start shadow-sm">
                       <div className="count-outer mb-2">
-                        <i className="fa fa-random"></i>
+                        <BiShuffle size={40} />
                         <p className="text-capitalize fs-3 mt-4">Minor Pairs (Crosses)</p>
                       </div>
                       <p className="fs-6">EUR/GBP, AUD/NZD – ideal for diversified strategies.</p>
@@ -157,7 +158,7 @@ export default function ForexTrading() {
                   <div className="funfact-block-two mb-0 pb-0">
                     <div className="inner-box text-start shadow-sm">
                       <div className="count-outer mb-2">
-                        <i className="fa fa-globe"></i>
+                        <BiWorld size={40} />
                         <p className="text-capitalize fs-3 mt-4">Exotic Pairs</p>
                       </div>
                       <p className="fs-6">USD/TRY, USD/ZAR, EUR/SGD – higher volatility, higher opportunity.</p>
@@ -211,7 +212,7 @@ export default function ForexTrading() {
             </div>
           </div>
         </section>
-
+        s
         <section className="platform-section alternat-2 pt_90 pb_130">
           <div className="auto-container">
             <div className="sec-title pb_60">

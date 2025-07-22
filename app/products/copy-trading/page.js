@@ -1,8 +1,19 @@
 'use client'
 import Layout from "@/components/layout/Layout";
 import Link from "next/link"
-import VideoPopup from "@/components/elements/VideoPopup"
 import { useState } from "react"
+
+import {
+  FiUser,
+  FiZap,
+  FiMonitor,
+  FiUsers,
+  FiAward,
+  FiBarChart2,
+  FiSettings,
+  FiPieChart,
+  FiStar
+} from 'react-icons/fi';
 
 export default function CopyTrading() {
   const [activeIndex, setActiveIndex] = useState(1)
@@ -56,7 +67,7 @@ export default function CopyTrading() {
                         real-time — proportionally and transparently.
                       </p>
                       <p>
-                        At AUT Investments LTD, Copy Trading is designed for beginners, busy investors, and
+                        At AUT Investments Limited, Copy Trading is designed for beginners, busy investors, and
                         diversified portfolio builders who want exposure to global markets without the need for active
                         trading or technical analysis.
                       </p>
@@ -72,74 +83,74 @@ export default function CopyTrading() {
           <div className="auto-container">
             <div className="sec-title pb_50">
               <span className="sub-title mb_14">Accounts</span>
-              <h2>Why Choose Copy Trading with AUT Investments LTD?</h2>
+              <h2>Why Choose Copy Trading with AUT Investments Limited?</h2>
             </div>
             <div className="row clearfix row-deck">
+
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                 <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-user-graduate fw-lighter"></i></div>
+                    <div className="icon-box"><FiUser size={30} /></div>
                     <h3>Zero Trading Experience Needed</h3>
-                    <p>
-                      Start participating in the markets without deep knowledge or manual execution. Ideal for
-                      new traders or passive investors.
-                    </p>
-
+                    <p>Start participating in the markets without deep knowledge or manual execution. Ideal for new traders or passive investors.</p>
                   </div>
                 </div>
               </div>
+
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                 <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-bolt fw-lighter"></i></div>
+                    <div className="icon-box"><FiZap size={30} /></div>
                     <h3>Instant Execution</h3>
                     <p>All trades are copied automatically with real-time synchronization and minimal delay.</p>
-
                   </div>
                 </div>
               </div>
+
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                 <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-gamepad fw-lighter"></i></div>
+                    <div className="icon-box"><FiMonitor size={30} /></div>
                     <h3>Full Control Over Your Account</h3>
                     <p>You can pause, modify, or stop copying a trader at any time. Your funds always remain in your control.</p>
-
                   </div>
                 </div>
               </div>
+
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                 <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-users fw-lighter"></i></div>
+                    <div className="icon-box"><FiUsers size={30} /></div>
                     <h3>Diverse Trader Pool</h3>
                     <p>Browse and follow traders by performance, strategy, risk level, and historical results.</p>
-
                   </div>
                 </div>
               </div>
+
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                 <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="800ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-trophy fw-lighter"></i></div>
+                    <div className="icon-box"><FiAward size={30} /></div>
                     <h3>Performance-Based Selection</h3>
-                    <p>Choose from top-ranked strategy providers who trade in forex, indices, stocks, commodities, crypto, and more.</p>
-
+                    <p>Choose from top-ranked strategy providers who trade in forex, indices, stocks, commodities, and more.</p>
                   </div>
                 </div>
               </div>
+
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                 <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="1000ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-chart-bar fw-lighter"></i></div>
+                    <div className="icon-box"><FiBarChart2 size={30} /></div>
                     <h3>Transparent Reporting</h3>
                     <p>View real-time stats on ROI, drawdown, total trades, win rate, and active followers.</p>
                   </div>
                 </div>
               </div>
+
             </div>
           </div>
         </section>
+
 
         <section className="working-section apps-section alternat-2 pt_120 pb_120 pt_100 pb_100">
           <div className="auto-container">
@@ -163,7 +174,7 @@ export default function CopyTrading() {
                       <div className="single-item">
                         <span className="count-text bg-light text-dark">1</span>
                         <h3>Open a Live Trading Account</h3>
-                        <p>Register with AUT Investments LTD and verify your identity</p>
+                        <p>Register with AUT Investments Limited and verify your identity</p>
                       </div>
                       <div className="single-item">
                         <span className="count-text bg-light text-dark">2</span>
@@ -248,15 +259,15 @@ export default function CopyTrading() {
             <div className="tabs-box">
               <ul className="tab-btns tab-buttons clearfix border-bottom text-center">
                 <li onClick={() => handleOnClick(1)} className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>
-                  <div className="icon-box"><i className="fa fa-cogs"></i></div>
+                  <div className="icon-box"><FiSettings size={28} /></div>
                   <h4>Features & Tools</h4>
                 </li>
                 <li onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>
-                  <div className="icon-box"><i className="fa fa-pie-chart"></i></div>
+                  <div className="icon-box"><FiPieChart size={28} /></div>
                   <h4>For Strategy Providers</h4>
                 </li>
                 <li onClick={() => handleOnClick(3)} className={activeIndex === 3 ? "tab-btn active-btn" : "tab-btn"}>
-                  <div className="icon-box"><i className="fa fa-star"></i></div>
+                  <div className="icon-box"><FiStar size={28} /></div>
                   <h4>Benefits at a Glance</h4>
                 </li>
               </ul>
@@ -476,7 +487,7 @@ export default function CopyTrading() {
                   <div className="text-box">
                     <h2 className="fw-bold">Let Experts Trade. You Follow.</h2>
                     <p className="text-light fs-6 mt_30">
-                      With Copy Trading at AUT Investments LTD, you gain exposure to professional-level trading
+                      With Copy Trading at AUT Investments Limited, you gain exposure to professional-level trading
                       while maintaining full control and flexibility. Whether you want to grow passively or learn actively
                       — this is your smarter way to trade.
                     </p>

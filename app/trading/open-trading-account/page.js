@@ -2,7 +2,16 @@
 import Link from "next/link"
 import { useState } from "react"
 import Layout from "@/components/layout/Layout"
-import VideoPopup from "@/components/elements/VideoPopup"
+import {
+  RiSettingsLine,
+  RiLineChartLine,
+  RiFlashlightLine,
+  RiArrowUpDownLine,
+  RiFileList3Line,
+  RiWalletLine,
+  RiComputerLine,
+  RiLayoutGridLine
+} from 'react-icons/ri'
 
 export default function OpenTradingAccount() {
   const [activeIndex, setActiveIndex] = useState(1)
@@ -15,12 +24,9 @@ export default function OpenTradingAccount() {
       <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Open Trading Account">
         <section className="platform-section alternat-2 pt_90 pb_60">
           <div className="auto-container">
-            <div className="row align-items-center g-3">
-              <div className="col-lg-4">
-                <img src="/assets/images/resource/opentrading-1.jpg" alt="" className="rounded" />
-              </div>
+            <div className="row align-items-center g-3 flex-wrap-reverse">
               <div className="col-lg-8">
-                <div className="sec-title pb_20">
+                <div className="sec-title pb_20 d-none d-lg-block">
                   <span className="sub-title mb_14">INFO</span>
                   <h2 className="mb-2">What is Open Trading Account?</h2>
                   <p>Start your journey in global financial markets with a live trading account tailored to your goals.
@@ -31,10 +37,19 @@ export default function OpenTradingAccount() {
                     <div className="inner-container d-flex flex-column p-sm-5 p-4 aligh-items-start justify-content-start">
                       <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
                       <h4 className="text-dark fw-semibold mb-3">Your Gateway to Real-Time Global Trading</h4>
-                      <p>Opening a trading account with AUT Investments LTD gives you access to powerful tools, competitive pricing, and a seamless experience across forex, stocks, indices, metals, commodities, and cryptocurrencies. Designed for beginners, active traders, and professionals alike, our platform offers flexible conditions and a secure environment to help you trade confidently.</p>
+                      <p>Opening a trading account with AUT Investments Limited gives you access to powerful tools, competitive pricing, and a seamless experience across forex, stocks, indices, metals, commodities. Designed for beginners, active traders, and professionals alike, our platform offers flexible conditions and a secure environment to help you trade confidently.</p>
                     </div>
                   </div>
                 </section>
+              </div>
+              <div className="col-lg-4">
+                <div className="sec-title pb_20 d-lg-none">
+                  <span className="sub-title mb_14">INFO</span>
+                  <h2 className="mb-2">What is Open Trading Account?</h2>
+                  <p>Start your journey in global financial markets with a live trading account tailored to your goals.
+                  </p>
+                </div>
+                <img src="/assets/images/resource/opentrading-1.jpg" alt="" className="rounded" />
               </div>
             </div>
           </div>
@@ -42,34 +57,32 @@ export default function OpenTradingAccount() {
 
         <section className="markets-section mb-sm-5 pt_60 pb_70">
           <div className="auto-container">
-            <div className="row align-items-center g-3 flex-wrap-reverse">
-              <div className="col-lg-8">
-                <div className="sec-title pb_30 d-none d-lg-block">
+            <div className="row align-items-center g-3">
+              <div className="col-12">
+                <div className="sec-title pb_30">
                   <span className="sub-title mb_14">Features of AUT</span>
-                  <h2>Why Open a Live Trading Account with AUT Investments LTD?</h2>
+                  <h2>Why Open a Live Trading Account with AUT Investments Limited?</h2>
                 </div>
+              </div>
+              <div className="col-lg-4">
+                <img src="/assets/images/resource/opentrading-feature.jpg" alt="" className="rounded" />
+              </div>
+              <div className="col-lg-8">
                 <div className="row clearfix education-details-content shadow-sm g-3 py-5 px-sm-4 px-2 rounded-3" >
                   <div className="col-12 content-column ">
                     <div className="text-box">
                       <ul className="list-item clearfix">
-                        <li className="lh-lg"><b className="fs-6 text-dark">Access 1000+ Trading Instruments:</b> <br />Trade CFDs on currency pairs, global indices, blue-chip stocks, precious metals, energy commodities, and popular cryptocurrencies.</li>
+                        <li className="lh-lg"><b className="fs-6 text-dark">Access 1000+ Trading Instruments:</b> <br />Trade CFDs on currency pairs, global indices, blue-chip stocks, precious metals, energy commodities.</li>
                         <li className="lh-lg"><b className="fs-6 text-dark">Institutional-Grade Execution:</b> <br />Experience fast order processing, low latency, and minimal slippage, powered by deep liquidity and smart routing.</li>
                         <li className="lh-lg"><b className="fs-6 text-dark">Flexible Account Types:</b> <br />Choose from Standard, ECN, or Swap-Free accounts — each designed to suit different strategies and risk preferences.</li>
                         <li className="lh-lg"><b className="fs-6 text-dark">Regulated & Transparent:</b> <br />Trade with confidence through a secure and compliant trading environment backed by</li>
                         <li className="lh-lg"><b className="fs-6 text-dark">Advanced Trading Platforms:</b> <br />Access your account via MetaTrader 4 (MT4), MetaTrader 5 (MT5), or our proprietary Web Trader — all optimized for desktop and mobile.</li>
                         <li className="lh-lg"><b className="fs-6 text-dark">Risk Management Tools:</b> <br />Protect your capital using stop-loss, take-profit, margin alerts, and negative balance protection.</li>
-                        <li className="lh-lg"><b className="fs-6 text-dark">24/5 Market Access:</b> <br />Participate in global markets around the clock, Monday to Friday, and trade crypto 24/7.</li>
+                        <li className="lh-lg"><b className="fs-6 text-dark">24/5 Market Access:</b> <br />Participate in global markets around the clock, Monday to Friday 24/7.</li>
                       </ul>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="sec-title pb_30 d-lg-none d-block">
-                  <span className="sub-title mb_14">Features of AUT</span>
-                  <h2>Why Open a Live Trading Account with AUT Investments LTD?</h2>
-                </div>
-                <img src="/assets/images/resource/opentrading-feature.jpg" alt="" className="rounded" />
               </div>
             </div>
           </div>
@@ -86,16 +99,16 @@ export default function OpenTradingAccount() {
               <div className="col-lg-3 col-md-6 col-sm-12 account-block">
                 <div className="account-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-sliders fw-lighter"></i></div>
+                    <div className="icon-box"><RiSettingsLine size={30} /></div>
                     <h3>Spreads</h3>
-                    <p>From 0.0 pips on ECN accounts</p>
+                    <p>From 0.1 pips on ECN accounts</p>
                   </div>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-12 account-block">
                 <div className="account-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-chart-line fw-lighter"></i></div>
+                    <div className="icon-box"><RiLineChartLine size={30} /></div>
                     <h3>Leverage</h3>
                     <p>Up to 1:500 (as per regulation)</p>
                   </div>
@@ -104,7 +117,7 @@ export default function OpenTradingAccount() {
               <div className="col-lg-3 col-md-6 col-sm-12 account-block">
                 <div className="account-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-bolt fw-lighter"></i></div>
+                    <div className="icon-box"><RiFlashlightLine size={30} /></div>
                     <h3>Order Execution</h3>
                     <p>Market execution with fast processing</p>
                   </div>
@@ -113,7 +126,7 @@ export default function OpenTradingAccount() {
               <div className="col-lg-3 col-md-6 col-sm-12 account-block">
                 <div className="account-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-arrows-up-down fw-lighter"></i></div>
+                    <div className="icon-box"><RiArrowUpDownLine size={30} /></div>
                     <h3>Trade Size </h3>
                     <p>From 0.01 lot</p>
                   </div>
@@ -122,7 +135,7 @@ export default function OpenTradingAccount() {
               <div className="col-lg-3 col-md-6 col-sm-12 account-block">
                 <div className="account-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-receipt fw-lighter"></i></div>
+                    <div className="icon-box"><RiFileList3Line size={30} /></div>
                     <h3>Commissions</h3>
                     <p>Zero on standard; fixed on ECN</p>
                   </div>
@@ -131,7 +144,7 @@ export default function OpenTradingAccount() {
               <div className="col-lg-3 col-md-6 col-sm-12 account-block">
                 <div className="account-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-wallet  fw-lighter"></i></div>
+                    <div className="icon-box"><RiWalletLine size={30} /></div>
                     <h3>Minimum Deposit</h3>
                     <p>As low as $100 (varies by account type)</p>
                   </div>
@@ -140,7 +153,7 @@ export default function OpenTradingAccount() {
               <div className="col-lg-3 col-md-6 col-sm-12 account-block">
                 <div className="account-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-desktop fw-lighter"></i></div>
+                    <div className="icon-box"><RiComputerLine size={30} /></div>
                     <h3>Available Platforms</h3>
                     <p>MT4, MT5, Web, Android, iOS</p>
                   </div>
@@ -149,9 +162,9 @@ export default function OpenTradingAccount() {
               <div className="col-lg-3 col-md-6 col-sm-12 account-block">
                 <div className="account-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-layer-group fw-lighter"></i></div>
+                    <div className="icon-box"><RiLayoutGridLine size={30} /></div>
                     <h3>Instruments Offered</h3>
-                    <p>Forex, Stocks, Indices, Commodities, Crypto</p>
+                    <p>Forex, Stocks, Indices, Commodities</p>
                   </div>
                 </div>
               </div>
@@ -244,7 +257,7 @@ export default function OpenTradingAccount() {
                     </div>
                     <div className={activeIndex === 3 ? "tab active-tab" : "tab"} id="cpoy">
                       <div className="content-box">
-                        <h2>Benefits of Trading with AUT Investments LTD</h2>
+                        <h2>Benefits of Trading with AUT Investments Limited</h2>
                         <p></p>
                         <ul className="list-style-one clearfix">
                           <li>Global market access from a single account</li>

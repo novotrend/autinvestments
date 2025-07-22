@@ -65,7 +65,7 @@ export default function Banner() {
                             <div className="content-box">
                                 <h2>Empowering Every Trader, Everywhere.</h2>
                                 <p>Whether beginner or pro – trade Forex, Stocks, Indices, and more on
-                                    your terms.  1000+ Instruments. One Seamless Experience.</p>
+                                    your terms. 100+ Instruments. One Seamless Experience.</p>
                                 <div className="btn-box">
                                     <Link href="/open-account" className="theme-btn btn-one">Create Account</Link>
                                 </div>

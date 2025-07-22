@@ -3,6 +3,7 @@ import Link from "next/link"
 import Layout from "@/components/layout/Layout"
 import Testimonial from "@/components/sections/home3/Testimonial"
 import Subscribe from "@/components/sections/home1/Subscribe"
+import { FiLinkedin, FiTwitter, FiFacebook } from 'react-icons/fi'
 export default function Team() {
 
     return (
@@ -24,9 +25,9 @@ export default function Team() {
                                     <h3><Link href="/team-details">Olivia Quinn</Link></h3>
                                     <span className="designation">Forex Trader</span>
                                     <ul className="social-links">
-                                        <li><Link href="/team-details"><i className="icon-13"></i></Link></li>
-                                        <li><Link href="/team-details"><i className="icon-15"></i></Link></li>
-                                        <li><Link href="/team-details"><i className="icon-14"></i></Link></li>
+                                        <li><Link href="/team-details"><FiLinkedin className="react-icon react-icon-light" /></Link></li>
+                                        <li><Link href="/team-details"><FiTwitter className="react-icon react-icon-light" /></Link></li>
+                                        <li><Link href="/team-details"><FiFacebook className="react-icon react-icon-light" /></Link></li>
                                     </ul>
                                 </div>
                             </div>

@@ -20,10 +20,10 @@ export default function Apps() {
                                         <h2>Ready to start your trading journey?</h2>
                                         <p>Create your account in minutes and access global markets with a trusted and regulated broker.</p>
                                     </div>
-                                    <Link href="/trading/open-trading-account" className="theme-btn btn-one bg-dark me-3 mb-2">
+                                    <Link href="/open-account" className="theme-btn btn-one bg-dark me-3 mb-2">
                                         Open Trading Account
                                     </Link>
-                                    <Link href="/trading/open-demo-account" className="theme-btn btn-one bg-dark mb-2">
+                                    <Link href="/open-account" className="theme-btn btn-one bg-dark mb-2">
                                         Try Demo Account
                                     </Link>
                                 </div>

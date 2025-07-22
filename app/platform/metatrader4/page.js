@@ -23,7 +23,7 @@ export default function MetaTrader4Page() {
                                                 millions of traders around the world. Known for its speed, reliability, and robust feature set, MT4
                                                 is ideal for both beginner and advanced traders who want to execute strategies efficiently across
                                                 global markets.</p>
-                                            <p className="mt-3">At AUT Investments LTD, we offer seamless access to MT4 on <b>desktop, web,</b> and <b>mobile,</b>
+                                            <p className="mt-3">At AUT Investments Limited, we offer seamless access to MT4 on <b>desktop, web,</b> and <b>mobile,</b>
                                                 backed by low-latency execution, competitive spreads, and integrated risk management tools.</p>
                                         </div>
                                     </div>
@@ -46,7 +46,7 @@ export default function MetaTrader4Page() {
                         <div className="row align-items-center g-3">
                             <div className="sec-title pb_30">
                                 <span className="sub-title mb_14">Why MetaTrader 4 With AUT</span>
-                                <h2>Why Trade on MetaTrader 4 with AUT Investments LTD?</h2>
+                                <h2>Why Trade on MetaTrader 4 with AUT Investments Limited?</h2>
                             </div>
                             <div className="col-lg-4">
                                 <img src="/assets/images/resource/metatrader_4-why.jpg" alt="" className="rounded" />
@@ -180,7 +180,7 @@ export default function MetaTrader4Page() {
                                 <div className="col-md-12 col-sm-12 text-column">
                                     <div className="text-box">
                                         <h3 className="fw-semibold mb-3">Download MetaTrader 4 and Start Trading</h3>
-                                        <p className="text-light">Experience the full power of professional trading with MT4 on AUT Investments LTD. Whether
+                                        <p className="text-light">Experience the full power of professional trading with MT4 on AUT Investments Limited. Whether
                                             you're charting trends, automating strategies, or managing positions — MT4 gives you the tools
                                             and speed you need to succeed.</p>
                                     </div>

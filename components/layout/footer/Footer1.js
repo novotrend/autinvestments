@@ -25,7 +25,6 @@ export default function Footer1() {
                                                     <li><Link href="/markets/metals-trading">Metals Trading</Link></li>
                                                     <li><Link href="/markets/indices-trading">Indices Trading</Link></li>
                                                     <li><Link href="/markets/commodities-trading">Commodities Trading</Link></li>
-                                                    <li><Link href="/markets/crypto-trading">Crypto Trading</Link></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -37,7 +36,6 @@ export default function Footer1() {
                                             </div>
                                             <div className="widget-content">
                                                 <ul className="links-list clearfix">
-                                                    <li><Link href="/platform/metatrader4">MetaTrader 4 (MT4)</Link></li>
                                                     <li><Link href="/platform/metatrader5">MetaTrader 5 (MT5)</Link></li>
                                                     <li><Link href="/affiliate-program">Affiliate Program</Link></li>
                                                     <li><Link href="/promotions">Promotions</Link></li>
@@ -114,7 +112,6 @@ export default function Footer1() {
                                         <li><Link href="/"><img src="/assets/images/icons/card-3.png" alt="" /></Link></li>
                                         <li><Link href="/"><img src="/assets/images/icons/card-4.png" alt="" /></Link></li>
                                         <li><Link href="/"><img src="/assets/images/icons/card-5.png" alt="" /></Link></li>
-                                        <li><Link href="/"><img src="/assets/images/icons/card-6.png" alt="" /></Link></li>
                                     </ul>
                                 </div>
                             </div>

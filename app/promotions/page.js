@@ -11,14 +11,14 @@ export default function Promotions() {
                 <section className="platform-section alternat-2 pt_90 pb_60">
                     <div className="auto-container">
                         <div className="sec-title pb_20">
-                            <p>Partner with AUT Investments LTD and earn by referring traders — simple, scalable, and performance-driven.</p>
+                            <p>Partner with AUT Investments Limited and earn by referring traders — simple, scalable, and performance-driven.</p>
                         </div>
                         <section className="funfact-section">
                             <div className="auto-container px-0">
                                 <div className="inner-container d-flex flex-column p-sm-5 p-4 aligh-items-start justify-content-start">
                                     <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
                                     <h4 className="text-dark fw-semibold mb-3">Maximize Every Trade with Special Offers</h4>
-                                    <p>At AUT Investments LTD, we believe in rewarding our traders at every stage of their journey. Whether you're just starting out or already an active trader, our promotions are designed to give you more value, more flexibility, and more opportunities to grow your account. From generous welcome bonuses to trading contests and loyalty rewards, our promotional campaigns are tailored to enhance your trading experience — without hidden conditions.</p>
+                                    <p>At AUT Investments Limited, we believe in rewarding our traders at every stage of their journey. Whether you're just starting out or already an active trader, our promotions are designed to give you more value, more flexibility, and more opportunities to grow your account. From generous welcome bonuses to trading contests and loyalty rewards, our promotional campaigns are tailored to enhance your trading experience — without hidden conditions.</p>
                                 </div>
                             </div>
                         </section>
@@ -30,7 +30,7 @@ export default function Promotions() {
                         <div className="sec-title pb_20">
                             <span className="sub-title mb_14">Promotions</span>
                             <h2>Current Promotions</h2>
-                            <p>Partner with AUT Investments LTD and earn by referring traders — simple, scalable, and performance-driven.</p>
+                            <p>Partner with AUT Investments Limited and earn by referring traders — simple, scalable, and performance-driven.</p>
                         </div>
                         <div className="funfact-section">
                             <div className="auto-container px-0">
@@ -294,7 +294,7 @@ export default function Promotions() {
                                                 <li>Promotions are available only on live trading accounts</li>
                                                 <li>Bonus credits are not withdrawable, but profits earned from them are</li>
                                                 <li>Abuse of bonuses or trading manipulation will result in disqualification</li>
-                                                <li>AUT Investments LTD reserves the right to modify or cancel promotions at any time</li>
+                                                <li>AUT Investments Limited reserves the right to modify or cancel promotions at any time</li>
                                                 <li>Each promotion has its own detailed set of conditions — always review before participating</li>
                                             </ul>
                                         </div>
@@ -330,7 +330,7 @@ export default function Promotions() {
                                 <div className="col-md-12 col-sm-12 text-column">
                                     <div className="text-box">
                                         <h3 className="text-dark fw-semibold mb-3">Trade More. Earn More. Get Rewarded.</h3>
-                                        <p className="text-light">Explore our active promotions and take advantage of added benefits on your trades. Whether you're growing your capital or sharing your experience with others, AUT Investments LTD is here to support and reward your every step in the markets.</p>
+                                        <p className="text-light">Explore our active promotions and take advantage of added benefits on your trades. Whether you're growing your capital or sharing your experience with others, AUT Investments Limited is here to support and reward your every step in the markets.</p>
                                         <Link className="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Support</Link>
                                     </div>
                                 </div>

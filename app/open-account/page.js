@@ -1,10 +1,9 @@
 'use client'
 import Layout from "@/components/layout/Layout";
-import Link from "next/link"
 
 export default function openaccount() {
     return (
-        <div className="boxed_wrapper">
+        <div className="boxed_wrapper overflow-hidden">
             <Layout headerStyle={1} footerStyle={1}>
                 <section className="banner-style-three">
                     <div className="pattern-layer">
@@ -83,10 +82,6 @@ export default function openaccount() {
                                     <div className="content-box">
                                         <h2>Total Immersion in <span>Forex Trading</span></h2>
                                         <p>Our trading platforms offer you a world-className trading experience with numerous features and tools</p>
-                                        <div className="btn-box">
-                                            <Link href="/trading/open-trading-account" className="theme-btn btn-one mr_15">Start Trading Now</Link>
-                                            <Link href="/trading/open-demo-account" className="theme-btn btn-two">Try Demo Trading</Link>
-                                        </div>
                                     </div>
                                 </div>
                             </div>

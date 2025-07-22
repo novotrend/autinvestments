@@ -18,7 +18,7 @@ export default function SupportContact() {
                                             <b className="my-2 text-dark fs-5">1. General Support Overview</b>
                                             <p>We’re here to help you trade with confidence. </p>
                                             <p className="mt-2">
-                                                At AUT Investments LTD, client service is a priority. We understand that fast, reliable, and
+                                                At AUT Investments Limited, client service is a priority. We understand that fast, reliable, and
                                                 knowledgeable support is essential when trading global markets. That’s why our multilingual
                                                 support team is available to assist you across various communication channels, providing help
                                                 at every stage of your trading journey.
@@ -88,7 +88,7 @@ export default function SupportContact() {
                                         <li className="my-4">
                                             <b className="my-2 text-dark fs-5">4. Onboarding & Account Assistance</b>
                                             <p className="mt-2">
-                                                If you're new to AUT Investments LTD, our onboarding specialists will guide you through:
+                                                If you're new to AUT Investments Limited, our onboarding specialists will guide you through:
                                             </p>
                                             <div className="education-details-content ms-3">
                                                 <div className="text-box">
@@ -172,7 +172,7 @@ export default function SupportContact() {
                                             <div className="education-details-content ms-3">
                                                 <div className="text-box">
                                                     <ul className="list-item clearfix">
-                                                        <li className="lh-lg">Navigating market sections like Forex, Metals, Indices, Crypto, and Stocks</li>
+                                                        <li className="lh-lg">Navigating market sections like Forex, Metals, Indices, and Stocks</li>
                                                         <li className="lh-lg">Using Smart Tools: Copy Trading, Algo Trading, Economic Calendar</li>
                                                         <li className="lh-lg">Understanding promotions, bonuses, and account benefits</li>
                                                         <li className="lh-lg">Finding the right account type or switching between accounts</li>
@@ -207,7 +207,7 @@ export default function SupportContact() {
                                             <b className="my-2 text-dark fs-5">10. Office Information</b>
                                             <h6 className="ms-2 mt-2"> <b> Head Office: </b></h6>
                                             <p className="mt-2 ms-3">
-                                                AUT Investments LTD<br />
+                                                AUT Investments Limited<br />
                                                 6th Floor, Ken Lee Building,<br />
                                                 20 Edith Cavell Street,<br />
                                                 Port-Louis, 11302, Mauritius

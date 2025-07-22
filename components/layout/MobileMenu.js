@@ -54,14 +54,12 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                                         <li className={isActiveLink("/markets/metals-trading") ? "current" : ""}><Link href="/markets/metals-trading">Metals Trading</Link></li>
                                         <li className={isActiveLink("/markets/indices-trading") ? "current" : ""}><Link href="/markets/indices-trading">Indices Trading</Link></li>
                                         <li className={isActiveLink("/markets/commodities-trading") ? "current" : ""}><Link href="/markets/commodities-trading">Commodities Trading</Link></li>
-                                        <li className={isActiveLink("/markets/crypto-trading") ? "current" : ""}><Link href="/markets/crypto-trading">Crypto Trading</Link></li>
                                     </ul>
                                 </li>
                                 <li className={isGroupActive(["/platform/"]) ? "dropdown current" : "dropdown"}>
                                     <div className="dropdown-btn" onClick={() => handleToggle(3)}><span className="fa fa-angle-right" /></div>
-                                    <Link href="/platform/metatrader4">Platform</Link>
+                                    <Link href="/platform/metatrader5">Platform</Link>
                                     <ul style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
-                                        <li className={isActiveLink("/platform/metatrader4") ? "current" : ""}><Link href="/platform/metatrader4">MetaTrader 4 (MT4)</Link></li>
                                         <li className={isActiveLink("/platform/metatrader5") ? "current" : ""}><Link href="/platform/metatrader5">MetaTrader 5 (MT5)</Link></li>
                                     </ul>
                                 </li>
@@ -75,6 +73,7 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                                     </ul>
                                 </li>
                                 <li className={isActiveLink("/contact") ? "current" : ""}><Link href="/contact">Contact</Link></li>
+                                <li className={isActiveLink("/about") ? "current" : ""}><Link href="/about">About</Link></li>
                             </ul>
                         </div>
                     </div>

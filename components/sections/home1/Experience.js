@@ -16,33 +16,26 @@ export default function Experience() {
                                     </div>
                                     <div className="text-box">
                                         <p>Trade on the world’s most trusted platforms with seamless integration:</p>
-                                        <Link href="https://www.metatrader4.com/en" target="_blank" className="theme-btn btn-one me-3 mb-2">Download Platform</Link>
-                                        <Link href="/platform/metatrader5#compare-section" className="theme-btn btn-one mb-2">Compare MT4 vs MT5</Link>
+                                        <Link href="https://www.metatrader5.com/en/download" target="_blank" className="theme-btn btn-one me-3 mb-2">Download Platform</Link>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-md-12 col-sm-12 inner-column mt-4">
                                 <div className="inner-box">
                                     <div className="row clearfix g-5">
-                                        <div className="col-lg-6 col-md-12 col-sm-12 single-column">
-                                            <div className="single-item">
-                                                <h3>MetaTrader 4 (MT4)</h3>
-                                                <p>For classic forex and CFD traders</p>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-md-12 col-sm-12 single-column">
+                                        <div className="col-xxl-4 col-lg-6 col-md-12 col-sm-12 single-column">
                                             <div className="single-item">
                                                 <h3>MetaTrader 5 (MT5)</h3>
                                                 <p>For multi-asset and advanced trading</p>
                                             </div>
                                         </div>
-                                        <div className="col-lg-6 col-md-12 col-sm-12 single-column">
+                                        <div className="col-xxl-4 col-lg-6 col-md-12 col-sm-12 single-column">
                                             <div className="single-item">
                                                 <h3>WebTrader</h3>
                                                 <p>Instant access from any browser</p>
                                             </div>
                                         </div>
-                                        <div className="col-lg-6 col-md-12 col-sm-12 single-column">
+                                        <div className="col-xxl-4 col-lg-6 col-md-12 col-sm-12 single-column">
                                             <div className="single-item">
                                                 <h3>Mobile Apps</h3>
                                                 <p>Trade anytime from your smartphone</p>

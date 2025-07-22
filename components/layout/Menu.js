@@ -27,13 +27,11 @@ export default function Menu() {
                         <li className={isActive("/markets/metals-trading") ? "current" : ""}><Link href="/markets/metals-trading">Metals Trading</Link></li>
                         <li className={isActive("/markets/indices-trading") ? "current" : ""}><Link href="/markets/indices-trading">Indices Trading</Link></li>
                         <li className={isActive("/markets/commodities-trading") ? "current" : ""}><Link href="/markets/commodities-trading">Commodities Trading</Link></li>
-                        <li className={isActive("/markets/crypto-trading") ? "current" : ""}><Link href="/markets/crypto-trading">Crypto Trading</Link></li>
                     </ul>
                 </li>
                 <li className={`dropdown${isGroupActive(["/platform/"]) ? " current" : ""}`}>
-                    <Link href='/platform/metatrader4'>Platform</Link>
+                    <Link href='/platform/metatrader5'>Platform</Link>
                     <ul>
-                        <li className={isActive("/platform/metatrader4") ? "current" : ""}><Link href="/platform/metatrader4">MetaTrader 4 (MT4)</Link></li>
                         <li className={isActive("/platform/metatrader5") ? "current" : ""}><Link href="/platform/metatrader5">MetaTrader 5 (MT5) </Link></li>
                     </ul>
                 </li>
@@ -45,6 +43,7 @@ export default function Menu() {
                         <li className={isActive("/products/algo-trading") ? "current" : ""}><Link href="/products/algo-trading">Algo Trading</Link></li>
                     </ul>
                 </li>
+                <li className={isActive("/about") ? "current" : ""}><Link href="/about">About</Link></li>
                 <li className={isActive("/contact") ? "current" : ""}><Link href="/contact">Contact</Link></li>
             </ul>
         </>

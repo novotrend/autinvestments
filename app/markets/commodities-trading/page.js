@@ -1,7 +1,22 @@
 'use client'
 import Layout from "@/components/layout/Layout";
 import Link from "next/link"
-import { useState } from "react"
+import { useState } from "react";
+import {
+  FiDroplet,
+  FiRefreshCw,
+  FiTrendingUp,
+  FiCpu,
+  FiShield,
+  FiLayers,
+  FiSliders,
+  FiZap,
+  FiArrowDown,
+  FiScale,
+  FiMonitor,
+  FiClock,
+  FiBarChart2,
+} from 'react-icons/fi';
 
 export default function CommoditiesTrading() {
 
@@ -38,7 +53,7 @@ export default function CommoditiesTrading() {
                         movements, or diversify their asset exposure beyond traditional financial markets.
                       </p>
                       <p>
-                        At AUT Investments LTD, we provide access to a wide range of commodity CFDs, giving you
+                        At AUT Investments Limited, we provide access to a wide range of commodity CFDs, giving you
                         the ability to trade on price fluctuations without owning the physical assets. Our platform offers
                         real-time data, fast execution, and low spreads across major global commodities.
                       </p>
@@ -61,17 +76,19 @@ export default function CommoditiesTrading() {
           </div>
         </section>
 
-        <section className="account-style-two clear-bg  pt_80 pb_70">
+        <section className="account-style-two clear-bg pt_80 pb_70">
           <div className="auto-container">
             <div className="sec-title pb_50">
               <span className="sub-title mb_14">Access</span>
-              <h2>Why Trade Metals with AUT Investments LTD?</h2>
+              <h2>Why Trade Metals with AUT Investments Limited?</h2>
             </div>
             <div className="row clearfix">
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                 <div className="account-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa-solid fa-oil-can"></i></div>
+                    <div className="icon-box">
+                      <FiDroplet size={24} />
+                    </div>
                     <h3>Wide Range of Instruments</h3>
                     <p>
                       Trade energy products like Brent Crude, WTI, and Natural Gas; metals such as gold,
@@ -83,7 +100,9 @@ export default function CommoditiesTrading() {
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                 <div className="account-block-two wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa-solid fa-right-left"></i></div>
+                    <div className="icon-box">
+                      <FiRefreshCw size={24} />
+                    </div>
                     <h3>CFD-Based Flexibility</h3>
                     <p>
                       Speculate on both rising and falling prices with the ability to go long or short. No need to
@@ -95,7 +114,9 @@ export default function CommoditiesTrading() {
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                 <div className="account-block-two wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa-solid fa-stopwatch"></i></div>
+                    <div className="icon-box">
+                      <FiClock size={24} />
+                    </div>
                     <h3>Real-Time Pricing and Execution</h3>
                     <p>
                       Trade with institutional-grade pricing and execution speeds designed to minimize
@@ -107,7 +128,9 @@ export default function CommoditiesTrading() {
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                 <div className="account-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa-solid fa-scale-balanced"></i></div>
+                    <div className="icon-box">
+                      <FiTrendingUp size={24} />
+                    </div>
                     <h3>Low Margin Requirements and Adjustable Leverage</h3>
                     <p>
                       Use capital efficiently with leverage settings that adapt to your risk preference and
@@ -119,7 +142,9 @@ export default function CommoditiesTrading() {
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                 <div className="account-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa-solid fa-brain"></i></div>
+                    <div className="icon-box">
+                      <FiCpu size={24} />
+                    </div>
                     <h3>Advanced Trading Infrastructure</h3>
                     <p>
                       Access commodities markets across devices with integrated charting tools, technical
@@ -131,7 +156,9 @@ export default function CommoditiesTrading() {
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                 <div className="account-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa-solid fa-shield-halved"></i></div>
+                    <div className="icon-box">
+                      <FiShield size={24} />
+                    </div>
                     <h3>Transparent and Secure Trading Conditions</h3>
                     <p>
                       No hidden fees. Clear swap rates and reliable margin requirements are published for all
@@ -241,7 +268,9 @@ export default function CommoditiesTrading() {
               <div className="col-lg-3 col-md-6 col-sm-12 account-block">
                 <div className="account-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-layer-group fw-lighter"></i></div>
+                    <div className="icon-box">
+                      <FiLayers size={24} />
+                    </div>
                     <h3>Instruments Available</h3>
                     <p>Energy, Precious Metals, Agriculture</p>
                   </div>
@@ -250,7 +279,9 @@ export default function CommoditiesTrading() {
               <div className="col-lg-3 col-md-6 col-sm-12 account-block">
                 <div className="account-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-sliders fw-lighter"></i></div>
+                    <div className="icon-box">
+                      <FiSliders size={24} />
+                    </div>
                     <h3>Trading Type</h3>
                     <p>CFDs</p>
                   </div>
@@ -259,7 +290,9 @@ export default function CommoditiesTrading() {
               <div className="col-lg-3 col-md-6 col-sm-12 account-block">
                 <div className="account-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-chart-line fw-lighter"></i></div>
+                    <div className="icon-box">
+                      <FiTrendingUp size={24} />
+                    </div>
                     <h3>Minimum Lot Size</h3>
                     <p>0.01 lot</p>
                   </div>
@@ -268,7 +301,9 @@ export default function CommoditiesTrading() {
               <div className="col-lg-3 col-md-6 col-sm-12 account-block">
                 <div className="account-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-bolt fw-lighter"></i></div>
+                    <div className="icon-box">
+                      <FiZap size={24} />
+                    </div>
                     <h3>Execution Type</h3>
                     <p>Market Execution</p>
                   </div>
@@ -277,7 +312,9 @@ export default function CommoditiesTrading() {
               <div className="col-lg-3 col-md-6 col-sm-12 account-block">
                 <div className="account-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-arrow-down-1-9 fw-lighter"></i></div>
+                    <div className="icon-box">
+                      <FiArrowDown size={24} />
+                    </div>
                     <h3>Spreads</h3>
                     <p>From 0.3 pips</p>
                   </div>
@@ -286,7 +323,9 @@ export default function CommoditiesTrading() {
               <div className="col-lg-3 col-md-6 col-sm-12 account-block">
                 <div className="account-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-scale-balanced fw-lighter"></i></div>
+                    <div className="icon-box">
+                      <FiBarChart2 size={24} />
+                    </div>
                     <h3>Leverage</h3>
                     <p>Up to 1:200</p>
                   </div>
@@ -295,7 +334,9 @@ export default function CommoditiesTrading() {
               <div className="col-lg-3 col-md-6 col-sm-12 account-block">
                 <div className="account-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-laptop-code fw-lighter"></i></div>
+                    <div className="icon-box">
+                      <FiMonitor size={24} />
+                    </div>
                     <h3>Platforms</h3>
                     <p>Web, Mobile, Desktop</p>
                   </div>
@@ -304,7 +345,9 @@ export default function CommoditiesTrading() {
               <div className="col-lg-3 col-md-6 col-sm-12 account-block">
                 <div className="account-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-desktop fw-lighter"></i></div>
+                    <div className="icon-box">
+                      <FiClock size={24} />
+                    </div>
                     <h3>Trading Hours</h3>
                     <p>24/5 (Market Dependent)</p>
                   </div>
@@ -375,7 +418,7 @@ export default function CommoditiesTrading() {
           <div className="auto-container">
             <div className="sec-title pb-sm-5">
               <span className="sub-title mb_14">Depth</span>
-              <h2>Mastering Commodity Trading with AUT Investments LTD</h2>
+              <h2>Mastering Commodity Trading with AUT Investments Limited</h2>
             </div>
             <div className="tabs-box">
               <div className="row clearfix flex-wrap-reverse g-3">
@@ -442,7 +485,7 @@ export default function CommoditiesTrading() {
               <div className="row align-items-center">
                 <div className="col-12 text-column">
                   <div className="text-box">
-                    <h2 className="fw-bold">Trade Commodities with Confidence at AUT Investments LTD</h2>
+                    <h2 className="fw-bold">Trade Commodities with Confidence at AUT Investments Limited</h2>
                     <p className="text-light fs-6 mt_30">
                       Access diverse global markets with a platform designed for traders who value clarity, speed, and
                       control. Whether you're hedging risk, managing inflation exposure, or speculating on price

@@ -1,0 +1,42 @@
+/* React Icons Styles */
+.react-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    transition: all 300ms ease;
+}
+
+a:hover .react-icon {
+    transform: translateY(-5px);
+}
+
+/* Size variations */
+.react-icon-sm {
+    width: 16px;
+    height: 16px;
+}
+
+.react-icon-lg {
+    width: 24px;
+    height: 24px;
+}
+
+/* Color variations */
+.react-icon-primary {
+    color: var(--primary-color);
+}
+
+.react-icon-secondary {
+    color: var(--secondary-color);
+}
+
+.react-icon-light {
+    color: #ffffff;
+}
+
+/* Icon container styles */
+.icon-box .react-icon {
+    width: 40px;
+    height: 40px;
+    color: inherit;
+}

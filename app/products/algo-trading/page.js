@@ -2,6 +2,23 @@
 import Layout from "@/components/layout/Layout";
 import Link from "next/link"
 import { useState } from "react"
+import {
+    FiSend,
+    FiCpu,
+    FiClock,
+    FiRewind,
+    FiMonitor,
+    FiServer,
+    FiCode,
+    FiActivity,
+    FiTrendingUp,
+    FiShoppingCart,
+    FiSettings,
+    FiShield,
+    FiThumbsUp,
+    FiUsers
+} from 'react-icons/fi';
+
 
 export default function AlgoTrading() {
 
@@ -56,10 +73,9 @@ export default function AlgoTrading() {
                                                 continuously, monitoring the markets and placing trades without manual intervention.
                                             </p>
                                             <p>
-                                                At AUT Investments LTD, we offer a high-performance infrastructure for traders and
+                                                At AUT Investments Limited, we offer a high-performance infrastructure for traders and
                                                 developers to create, backtest, deploy, and manage automated trading systems across multiple
-                                                asset classes — including forex, indices, stocks, commodities, metals, and
-                                                cryptocurrencies.
+                                                asset classes — including forex, indices, stocks, commodities, metals.
                                             </p>
                                         </div>
                                     </div>
@@ -73,78 +89,73 @@ export default function AlgoTrading() {
                     <div className="auto-container">
                         <div className="sec-title pb_50">
                             <span className="sub-title mb_14">Automation</span>
-                            <h2>Why Choose Algo Trading with AUT Investments LTD?</h2>
+                            <h2>Why Choose Algo Trading with AUT Investments Limited?</h2>
                         </div>
+
                         <div className="row clearfix row-deck">
                             <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                                 <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
-                                        <div className="icon-box"><i className="fa fa-rocket fw-lighter"></i></div>
+                                        <div className="icon-box"><FiSend size={40} /></div>
                                         <h3>Ultra-Fast Execution</h3>
-                                        <p>
-                                            Trade at speeds no human can match, ideal for scalping, arbitrage, and high-frequency strategies.
-                                        </p>
+                                        <p>Trade at speeds no human can match, ideal for scalping, arbitrage, and high-frequency strategies.</p>
                                     </div>
                                 </div>
                             </div>
+
                             <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                                 <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
-                                        <div className="icon-box"><i className="fa fa-brain fw-lighter"></i></div>
+                                        <div className="icon-box"><FiCpu size={40} /></div>
                                         <h3>Emotion-Free Trading</h3>
-                                        <p>
-                                            Eliminate impulsive decisions. Algorithms follow logic, not fear or greed.
-                                        </p>
+                                        <p>Eliminate impulsive decisions. Algorithms follow logic, not fear or greed.</p>
                                     </div>
                                 </div>
                             </div>
+
                             <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                                 <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
-                                        <div className="icon-box"><i className="fa fa-clock fw-lighter"></i></div>
+                                        <div className="icon-box"><FiClock size={40} /></div>
                                         <h3>24/5 Market Monitoring</h3>
-                                        <p>
-                                            Never miss an opportunity. Let your algorithm run continuously through live market hours.
-                                        </p>
+                                        <p>Never miss an opportunity. Let your algorithm run continuously through live market hours.</p>
                                     </div>
                                 </div>
                             </div>
+
                             <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                                 <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
-                                        <div className="icon-box"><i className="fa fa-history fw-lighter"></i></div>
+                                        <div className="icon-box"><FiRewind size={40} /></div>
                                         <h3>Backtesting Environment</h3>
-                                        <p>
-                                            Test your strategy using historical data before deploying it in a live environment.
-                                        </p>
+                                        <p>Test your strategy using historical data before deploying it in a live environment.</p>
                                     </div>
                                 </div>
                             </div>
+
                             <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                                 <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="800ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
-                                        <div className="icon-box"><i className="fa fa-desktop fw-lighter"></i></div>
-                                        <h3>Full MT4 & MT5 Compatibility</h3>
-                                        <p>
-                                            Build and run Expert Advisors (EAs) using MQL4 or MQL5, with direct integration to MetaTrader platforms.
-                                        </p>
+                                        <div className="icon-box"><FiMonitor size={40} /></div>
+                                        <h3>Full MT5 Compatibility</h3>
+                                        <p>Build and run Expert Advisors (EAs) using MQL4 or MQL5, with direct integration to MetaTrader platforms.</p>
                                     </div>
                                 </div>
                             </div>
+
                             <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                                 <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="1000ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
-                                        <div className="icon-box"><i className="fa fa-server fw-lighter"></i></div>
+                                        <div className="icon-box"><FiServer size={40} /></div>
                                         <h3>Infrastructure Optimized for Speed & Stability</h3>
-                                        <p>
-                                            Enjoy low-latency execution, deep liquidity, and a server environment engineered for algorithmic trading.
-                                        </p>
+                                        <p>Enjoy low-latency execution, deep liquidity, and a server environment engineered for algorithmic trading.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
+
 
                 <section className="working-section apps-section alternat-2 pt_120 pb_120 pt_100 pb_100">
                     <div className="auto-container">
@@ -153,7 +164,7 @@ export default function AlgoTrading() {
                             <div className="col-lg-4 col-md-12 col-sm-12">
                                 <div className="sec-title light pb_35 d-lg-none">
                                     <span className="sub-title mb_10">Steps</span>
-                                    <h2>How to Get Started with Algo Trading at AUT Investments LTD</h2>
+                                    <h2>How to Get Started with Algo Trading at AUT Investments Limited</h2>
                                 </div>
                                 <img src="/assets/images/resource/socialtrading.jpg" alt="" className="rounded" />
                             </div>
@@ -162,7 +173,7 @@ export default function AlgoTrading() {
                                     <div className="content-box ml_70">
                                         <div className="sec-title light pb_35 d-none d-lg-block">
                                             <span className="sub-title mb_10">Steps</span>
-                                            <h2>How to Get Started with Algo Trading at AUT Investments LTD</h2>
+                                            <h2>How to Get Started with Algo Trading at AUT Investments Limited</h2>
                                         </div>
                                         <div className="inner-box">
                                             <div className="single-item">
@@ -214,51 +225,43 @@ export default function AlgoTrading() {
                             <span className="sub-title mb_14">Toolkit</span>
                             <h2>Algo Trading Tools & Resources</h2>
                         </div>
+
                         <div className="inner-container clearfix">
                             <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-35.png)" }}></div>
 
                             <div className="single-item">
-                                <div className="icon-box"><i className="fa-solid fw-normal fa-code"></i></div>
+                                <div className="icon-box"><FiCode size={40} /></div>
                                 <h4>MetaEditor (MT4/MT5)</h4>
-
                                 <p className="mt-3">Code and modify trading algorithms</p>
-
                             </div>
 
                             <div className="single-item">
-                                <div className="icon-box"><i className="fa-solid fw-normal fa-flask"></i></div>
+                                <div className="icon-box"><FiActivity size={40} /></div>
                                 <h4>Strategy Tester</h4>
-
                                 <p className="mt-3">Run backtests using historical data</p>
-
                             </div>
 
                             <div className="single-item">
-                                <div className="icon-box"><i className="fa-solid fw-normal fa-chart-line"></i></div>
+                                <div className="icon-box"><FiTrendingUp size={40} /></div>
                                 <h4>Tick Charts & Custom Feeds</h4>
-
                                 <p className="mt-3">Fine-tune high-frequency strategies</p>
-
                             </div>
 
                             <div className="single-item">
-                                <div className="icon-box"><i className="fa-solid fw-normal fa-store"></i></div>
+                                <div className="icon-box"><FiShoppingCart size={40} /></div>
                                 <h4>EA Marketplace</h4>
-
                                 <p className="mt-3">Access free and premium algorithmic bots</p>
-
                             </div>
 
                             <div className="single-item">
-                                <div className="icon-box"><i className="fa-solid fw-normal fa-server"></i></div>
+                                <div className="icon-box"><FiServer size={40} /></div>
                                 <h4>VPS Hosting</h4>
-
                                 <p className="mt-3">Run EAs 24/7 without platform downtime</p>
-
                             </div>
                         </div>
                     </div>
                 </section>
+
 
                 <section className="trading-style-four pt_100 pb_100">
                     <div className="auto-container">
@@ -269,22 +272,23 @@ export default function AlgoTrading() {
                         <div className="tabs-box">
                             <ul className="tab-btns tab-buttons clearfix border-bottom text-center">
                                 <li onClick={() => handleOnClick(1)} className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>
-                                    <div className="icon-box"><i className="icon-20"></i></div>
+                                    <div className="icon-box"><FiSettings size={28} /></div>
                                     <h4>Key Features</h4>
                                 </li>
                                 <li onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>
-                                    <div className="icon-box"><i className="icon-21"></i></div>
+                                    <div className="icon-box"><FiShield size={28} /></div>
                                     <h4>Security & Privacy</h4>
                                 </li>
                                 <li onClick={() => handleOnClick(3)} className={activeIndex === 3 ? "tab-btn active-btn" : "tab-btn"}>
-                                    <div className="icon-box"><i className="icon-21"></i></div>
+                                    <div className="icon-box"><FiThumbsUp size={28} /></div>
                                     <h4>Top Reasons</h4>
                                 </li>
                                 <li onClick={() => handleOnClick(4)} className={activeIndex === 4 ? "tab-btn active-btn" : "tab-btn"}>
-                                    <div className="icon-box"><i className="icon-21"></i></div>
+                                    <div className="icon-box"><FiUsers size={28} /></div>
                                     <h4>Social vs Copy Trading</h4>
                                 </li>
                             </ul>
+
                             <div className="tabs-content">
                                 <div className={activeIndex === 1 ? "tab active-tab" : "tab"}>
                                     <div className="row align-items-center">
@@ -445,7 +449,7 @@ export default function AlgoTrading() {
                                     <div className="text-box">
                                         <h2 className="fw-bold">Automate with Confidence. Trade with Intelligence.</h2>
                                         <p className="text-light fs-6 mt_30">
-                                            With AUT Investments LTD’s Algo Trading environment, you're not just keeping up with the
+                                            With AUT Investments Limited’s Algo Trading environment, you're not just keeping up with the
                                             market — you're staying ahead of it. Whether you're building from scratch or using a pre-built
                                             strategy, automate your edge and experience trading the smart way.
                                         </p>

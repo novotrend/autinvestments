@@ -14,7 +14,7 @@ export default function AffiliateProgram() {
                 <div className="sec-title pb_20 d-lg-none">
                   <span className="sub-title mb_14">INFO</span>
                   <h2 className="mb-2">What is Affiliate Program</h2>
-                  <p>Partner with AUT Investments LTD and earn by referring traders — simple, scalable, and performance-driven.</p>
+                  <p>Partner with AUT Investments Limited and earn by referring traders — simple, scalable, and performance-driven.</p>
                 </div>
                 <img src="/assets/images/resource/affiliateprogram-1.jpg" alt="" className="rounded" />
               </div>
@@ -22,14 +22,14 @@ export default function AffiliateProgram() {
                 <div className="sec-title pb_20 d-none d-lg-block">
                   <span className="sub-title mb_14">INFO</span>
                   <h2 className="mb-2">What is Affiliate Program</h2>
-                  <p>Partner with AUT Investments LTD and earn by referring traders — simple, scalable, and performance-driven.</p>
+                  <p>Partner with AUT Investments Limited and earn by referring traders — simple, scalable, and performance-driven.</p>
                 </div>
                 <section className="funfact-section">
                   <div className="auto-container px-0">
                     <div className="inner-container d-flex flex-column p-sm-5 p-4 aligh-items-start justify-content-start">
                       <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
                       <h4 className="text-dark fw-semibold mb-3">Grow with One of the Fastest-Rising Trading Brands</h4>
-                      <p>The AUT Investments LTD Affiliate Program is designed for individuals, influencers, financial educators, website owners, content creators, IBs (Introducing Brokers), and digital marketers who want to monetize their traffic or network by promoting a trusted forex and CFD trading brand.</p>
+                      <p>The AUT Investments Limited Affiliate Program is designed for individuals, influencers, financial educators, website owners, content creators, IBs (Introducing Brokers), and digital marketers who want to monetize their traffic or network by promoting a trusted forex and CFD trading brand.</p>
                       <p className="mt-3">Our affiliate model combines transparent commissions, real-time tracking, and dedicated partner support — enabling you to build a stable income stream by introducing new clients to our world-class trading platform.</p>
                     </div>
                   </div>
@@ -45,7 +45,7 @@ export default function AffiliateProgram() {
               <div className="col-lg-8">
                 <div className="sec-title pb_30 d-none d-lg-block">
                   <span className="sub-title mb_14">Features of AUT</span>
-                  <h2>Why Join the AUT Investments LTD Affiliate Program?</h2>
+                  <h2>Why Join the AUT Investments Limited Affiliate Program?</h2>
                 </div>
                 <div className="row clearfix education-details-content shadow-sm py-5 px-sm-4 px-2 rounded-4" >
                   <div className="col-12 content-column ">
@@ -66,7 +66,7 @@ export default function AffiliateProgram() {
               <div className="col-lg-4">
                 <div className="sec-title pb_30 d-lg-none">
                   <span className="sub-title mb_14">Features of AUT</span>
-                  <h2>Why Join the AUT Investments LTD Affiliate Program?</h2>
+                  <h2>Why Join the AUT Investments Limited Affiliate Program?</h2>
                 </div>
                 <img src="/assets/images/resource/affiliate-feature.jpg" alt="" className="rounded" />
               </div>
@@ -87,7 +87,7 @@ export default function AffiliateProgram() {
                     <h2>Who Can Join?</h2>
                     <p>Whether you’re an individual or a large affiliate network, our partnership structure can be customized to match your goals.</p>
                     <ul className="list-style-one mt_40 clearfix">
-                      <li>Forex and crypto bloggers</li>
+                      <li>Forex bloggers</li>
                       <li>Financial influencers and YouTubers</li>
                       <li>Digital marketers running ad campaigns</li>
                       <li>Website/app owners with finance traffic</li>
@@ -120,7 +120,6 @@ export default function AffiliateProgram() {
                     <ul className="list-style-one mt_40 clearfix">
                       <li>Bank Transfer</li>
                       <li>E-wallets (Skrill, Neteller, etc.)</li>
-                      <li>Crypto (USDT/BTC)</li>
                       <li>Monthly or biweekly payouts (based on plan)</li>
                       <li>Transparent withdrawal process with no hidden charges</li>
                     </ul>
@@ -180,7 +179,7 @@ export default function AffiliateProgram() {
                       </div>
                       <div className="single-item">
                         <span className="count-text bg-light text-dark">3</span>
-                        <h3>Start Promoting AUT Investments LTD</h3>
+                        <h3>Start Promoting AUT Investments Limited</h3>
                         <p>Share your links across your blog, social media, website, email list, or ad campaigns.</p>
                       </div>
                       <div className="single-item">
@@ -299,7 +298,7 @@ export default function AffiliateProgram() {
                 <div className="col-md-12 col-sm-12 text-column">
                   <div className="text-box">
                     <h3 className="text-dark fw-semibold mb-3">Start Earning Today</h3>
-                    <p className="text-light">Join the AUT Investments LTD Affiliate Program and turn your audience, content, or network into a revenue source. Whether you’re scaling or just starting out, we’ll provide the tools, support, and structure to help you grow.</p>
+                    <p className="text-light">Join the AUT Investments Limited Affiliate Program and turn your audience, content, or network into a revenue source. Whether you’re scaling or just starting out, we’ll provide the tools, support, and structure to help you grow.</p>
                     <Link href='/contact' className="theme-btn btn-one bg-dark me-3 mt-3">Contact Support</Link>
                   </div>
                 </div>

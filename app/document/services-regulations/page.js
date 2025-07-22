@@ -15,21 +15,21 @@ export default function ServicesRegulations() {
                                         <li className="my-4">
                                             <b className="my-2 text-dark fs-5">1. Overview</b>
                                             <p className="mt-2">
-                                                This Services Regulations document defines the rules, operational standards, and responsibilities associated with the use of trading services provided by AUT Investments LTD.
+                                                This Services Regulations document defines the rules, operational standards, and responsibilities associated with the use of trading services provided by AUT Investments Limited.
                                                 It complements the Client Agreement and other legal documents and is binding on all clients who engage in trading activities with the company.
-                                                AUT Investments LTD is incorporated in Mauritius and operates under applicable international financial and anti-money laundering regulations to offer services in forex, CFDs, indices, metals, commodities, stocks, and cryptocurrencies.
+                                                AUT Investments Limited is incorporated in Mauritius and operates under applicable international financial and anti-money laundering regulations to offer services in forex, CFDs, indices, metals, commodities, stocks.
                                             </p>
                                         </li>
 
                                         <li className="my-4">
                                             <b className="my-2 text-dark fs-5">2. Trading Services Scope</b>
                                             <p className="mt-2">
-                                                AUT Investments LTD offers the following core services:
+                                                AUT Investments Limited offers the following core services:
                                             </p>
                                             <div className="education-details-content ms-3">
                                                 <div className="text-box">
                                                     <ul className="list-item clearfix">
-                                                        <li className="lh-lg">Trading access to Forex, CFDs, Stocks, Commodities, Indices, Metals, Energies, and Cryptocurrencies</li>
+                                                        <li className="lh-lg">Trading access to Forex, CFDs, Stocks, Commodities, Indices, Metals, Energies.</li>
                                                         <li className="lh-lg">Platform access via MetaTrader 4 (MT4), MetaTrader 5 (MT5), and Webtrader</li>
                                                         <li className="lh-lg">Copy Trading, Social Trading, and Algo Trading functionalities</li>
                                                         <li className="lh-lg">Client education, analysis tools, and trader dashboard</li>
@@ -59,7 +59,7 @@ export default function ServicesRegulations() {
                                                 </div>
                                             </div>
                                             <p className="mt-2">
-                                                AUT Investments LTD reserves the right to reclassify clients based on profile updates, trading behavior, or compliance requirements.
+                                                AUT Investments Limited reserves the right to reclassify clients based on profile updates, trading behavior, or compliance requirements.
                                             </p>
                                         </li>
 
@@ -93,7 +93,7 @@ export default function ServicesRegulations() {
                                                     <ul className="list-item clearfix">
                                                         <li className="lh-lg">Proper log-in credentials and security measures</li>
                                                         <li className="lh-lg">Full responsibility of the client for any activity conducted under their login</li>
-                                                        <li className="lh-lg">Maintenance of platform uptime by AUT Investments LTD, with no guarantees during scheduled maintenance or unexpected outages</li>
+                                                        <li className="lh-lg">Maintenance of platform uptime by AUT Investments Limited, with no guarantees during scheduled maintenance or unexpected outages</li>
                                                         <li className="lh-lg">Monitoring of trading activity for fairness, stability, and rule compliance</li>
                                                     </ul>
                                                 </div>
@@ -106,7 +106,7 @@ export default function ServicesRegulations() {
                                         <li className="my-4">
                                             <b className="my-2 text-dark fs-5">6. Orders & Execution</b>
                                             <p className="mt-2">
-                                                AUT Investments LTD operates on a market execution model.
+                                                AUT Investments Limited operates on a market execution model.
                                             </p>
                                             <div className="education-details-content ms-3">
                                                 <div className="text-box">
@@ -133,7 +133,6 @@ export default function ServicesRegulations() {
                                                     <ul className="list-item clearfix">
                                                         <li className="lh-lg">Forex: 24/5 from Monday 00:00 to Friday 23:59 (server time)</li>
                                                         <li className="lh-lg">Commodities/Metals/Indices/Stocks: Available based on each market’s trading schedule</li>
-                                                        <li className="lh-lg">Cryptocurrencies: Typically available 24/7, subject to platform maintenance windows</li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -162,7 +161,7 @@ export default function ServicesRegulations() {
                                                 <div className="text-box">
                                                     <ul className="list-item clearfix">
                                                         <li className="lh-lg">All deposit and withdrawal methods listed in the client portal are processed securely</li>
-                                                        <li className="lh-lg">AUT Investments LTD may charge fees or pass on third-party charges (disclosed beforehand)</li>
+                                                        <li className="lh-lg">AUT Investments Limited may charge fees or pass on third-party charges (disclosed beforehand)</li>
                                                         <li className="lh-lg">Processing times are typically within 24–48 business hours, barring exceptional circumstances</li>
                                                         <li className="lh-lg">Internal transfers between accounts must follow compliance checks and approval steps</li>
                                                     </ul>
@@ -192,7 +191,7 @@ export default function ServicesRegulations() {
                                             <div className="education-details-content ms-3">
                                                 <div className="text-box">
                                                     <ul className="list-item clearfix">
-                                                        <li className="lh-lg">Official communication from AUT Investments LTD will be in English unless otherwise supported</li>
+                                                        <li className="lh-lg">Official communication from AUT Investments Limited will be in English unless otherwise supported</li>
                                                         <li className="lh-lg">Clients may contact the company via email, live chat, or call during business hours</li>
                                                         <li className="lh-lg">All trade confirmations, policy updates, and legal documents will be delivered via email or dashboard notifications</li>
                                                         <li className="lh-lg">Clients are responsible for keeping their contact details updated</li>
@@ -280,7 +279,7 @@ export default function ServicesRegulations() {
                                                 </div>
                                             </div>
                                             <p className="mt-2">
-                                                Upon termination, AUT Investments LTD will settle all open positions, process pending withdrawals, and close the account in compliance with applicable laws.
+                                                Upon termination, AUT Investments Limited will settle all open positions, process pending withdrawals, and close the account in compliance with applicable laws.
                                             </p>
                                         </li>
 
@@ -329,7 +328,7 @@ export default function ServicesRegulations() {
                                 <div className="col-12 text-column">
                                     <div className="text-box">
                                         <h2 className="fw-bold">Last Updated: July 2025</h2>
-                                        <p className="text-light fs-6 mt_30">This Services Regulations document is binding from the date above and applies to all clients using the <br></ br> services of AUT Investments LTD.</p>
+                                        <p className="text-light fs-6 mt_30">This Services Regulations document is binding from the date above and applies to all clients using the <br></ br> services of AUT Investments Limited.</p>
                                         <Link className="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Support</Link>
                                     </div>
                                 </div>

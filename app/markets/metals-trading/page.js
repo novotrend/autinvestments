@@ -1,7 +1,26 @@
 'use client'
 import Layout from "@/components/layout/Layout";
 import Link from "next/link"
-import { useState } from "react"
+import { useState } from "react";
+import {
+  BiLineChart,
+  BiCommentDetail,
+  BiUserCircle,
+  BiCheckShield,
+  BiRefresh,
+  BiBot
+} from "react-icons/bi";
+
+import {
+  FiLayers,
+  FiSliders,
+  FiBarChart2,
+  FiZap,
+  FiTrendingUp,
+  FiMonitor,
+  FiFileText,
+  FiCreditCard
+} from "react-icons/fi";
 
 export default function MetalsTrading() {
 
@@ -34,7 +53,7 @@ export default function MetalsTrading() {
                         Metals trading offers both stability and opportunity.**<br></br>
                         Whether you're hedging against inflation with gold or speculating on industrial growth with silver
                         and platinum, trading metals is a powerful way to diversify your portfolio and protect your capital
-                        in volatile times. At AUT Investments LTD, we enable you to trade CFDs on a range of metals —
+                        in volatile times. At AUT Investments Limited, we enable you to trade CFDs on a range of metals —
                         with institutional-grade execution, tight spreads, and 24/5 access.
                       </p>
 
@@ -59,16 +78,17 @@ export default function MetalsTrading() {
         <section className="account-style-two clear-bg pt_80 pb_70">
           <div className="auto-container">
             <div className="sec-title pb_50">
-              <span className="sub-title mb_14">Secure</span>
-              <h2>Why Trade Metals with AUT Investments LTD?</h2>
+              <span className="sub-title mb_14">Social Trading</span>
+              <h2>How Social Trading Works</h2>
             </div>
             <div className="row clearfix">
+
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                 <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fas fw-normal fa-coins"></i></div>
-                    <h3>Gold, Silver, Platinum, and More</h3>
-                    <p>Gain access to major precious metals like XAU/USD (Gold), XAG/USD (Silver), XPT/USD (Platinum), and other globally traded pairs.</p>
+                    <div className="icon-box"><BiLineChart size={30} /></div>
+                    <h3>Real Time Trades</h3>
+                    <p>View trades and strategies of other traders in real time to learn and make informed decisions.</p>
                   </div>
                 </div>
               </div>
@@ -76,9 +96,9 @@ export default function MetalsTrading() {
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                 <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fas fw-normal fa-shield-halved"></i></div>
-                    <h3>Safe Haven Assets</h3>
-                    <p>Metals like gold are considered safe-haven investments, typically holding value during market downturns and periods of economic uncertainty.</p>
+                    <div className="icon-box"><BiCommentDetail size={30} /></div>
+                    <h3>Engage with the Community</h3>
+                    <p>Connect with traders through comments, discussions, and reactions to build knowledge collaboratively.</p>
                   </div>
                 </div>
               </div>
@@ -86,9 +106,9 @@ export default function MetalsTrading() {
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                 <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fas fw-normal fa-chart-line"></i></div>
-                    <h3>Low Spreads, High Liquidity</h3>
-                    <p>Benefit from competitive pricing and institutional liquidity to ensure efficient trade execution, even in fas fw-normalt-moving markets.</p>
+                    <div className="icon-box"><BiUserCircle size={30} /></div>
+                    <h3>Follow Top Traders</h3>
+                    <p>Identify and follow successful traders to mirror their strategies and improve your own performance.</p>
                   </div>
                 </div>
               </div>
@@ -96,36 +116,37 @@ export default function MetalsTrading() {
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
                 <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fas fw-normal fa-chart-bar"></i></div>
-                    <h3>Trade with Leverage</h3>
-                    <p>Take larger market positions with controlled margin requirements, allowing flexible exposure to key commodities.</p>
+                    <div className="icon-box"><BiCheckShield size={30} /></div>
+                    <h3>Strategy Testing</h3>
+                    <p>Safely test strategies with demo accounts or low-risk trades before committing fully.</p>
                   </div>
                 </div>
               </div>
 
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
-                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="800ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fas fw-normal fa-scale-balanced"></i></div>
-                    <h3>Hedge Against Inflation and Currency Risk</h3>
-                    <p>Use metals as a strategic shield during inflationary cycles or periods of currency devaluation.</p>
+                    <div className="icon-box"><BiRefresh size={30} /></div>
+                    <h3>Smart Copy Trading</h3>
+                    <p>Automatically copy trades from proven traders using advanced copying algorithms.</p>
                   </div>
                 </div>
               </div>
 
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
-                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="1000ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="icon-box"><i className="fas fw-normal fa-chart-area"></i></div>
-                    <h3>Advanced Charting and Market Analysis</h3>
-                    <p>Spot trends and execute trades with confidence using professional-grade charting tools, technical indicators, and real-time data feeds.</p>
+                    <div className="icon-box"><BiBot size={30} /></div>
+                    <h3>AI Powered Bots</h3>
+                    <p>Leverage AI trading bots for efficient, automated strategies driven by data and behavior analytics.</p>
                   </div>
                 </div>
               </div>
+
             </div>
-
           </div>
         </section>
+
 
         <section className="funfact-section pt_120 pb_70">
           <div className="auto-container">
@@ -228,85 +249,77 @@ export default function MetalsTrading() {
         </section>
 
         <section className="account-section mt_60 pt_60 pb_70">
-          <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-1.png)" }}></div>
+          <div
+            className="pattern-layer"
+            style={{ backgroundImage: "url(/assets/images/shape/shape-1.png)" }}
+          ></div>
           <div className="auto-container">
             <div className="sec-title pb_60">
               <span className="sub-title mb_14">features</span>
               <h2>Trading Conditions Snapshot</h2>
             </div>
             <div className="row clearfix row-deck">
-              <div className="col-lg-3 col-md-6 col-sm-12 account-block">
-                <div className="account-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                  <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-layer-group fw-lighter"></i></div>
-                    <h3>Instruments Available</h3>
-                    <p>Gold, Silver, Platinum</p>
+              {[
+                {
+                  Icon: FiLayers,
+                  title: "Instruments Available",
+                  desc: "Gold, Silver, Platinum"
+                },
+                {
+                  Icon: FiSliders,
+                  title: "Trading Style",
+                  desc: "CFDs (Contract for Difference)"
+                },
+                {
+                  Icon: FiBarChart2,
+                  title: "Spreads",
+                  desc: "From 0.3 pips"
+                },
+                {
+                  Icon: FiZap,
+                  title: "Trade Size",
+                  desc: "From 0.01 lot"
+                },
+                {
+                  Icon: FiTrendingUp,
+                  title: "Leverage",
+                  desc: "Up to 1:200"
+                },
+                {
+                  Icon: FiMonitor,
+                  title: "Platforms",
+                  desc: "Web, Mobile, Desktop"
+                },
+                {
+                  Icon: FiCreditCard,
+                  title: "Execution",
+                  desc: "Market Execution, Ultra-Low Latency"
+                },
+                {
+                  Icon: FiFileText,
+                  title: "Trading Hours",
+                  desc: "24/5 (Based on Market Session)"
+                }
+              ].map(({ Icon, title, desc }, idx) => (
+                <div
+                  className="col-lg-3 col-md-6 col-sm-12 account-block"
+                  key={idx}
+                >
+                  <div
+                    className="account-block-one wow fadeInUp animated"
+                    data-wow-delay={`${(idx % 4) * 200}ms`}
+                    data-wow-duration="1500ms"
+                  >
+                    <div className="inner-box">
+                      <div className="icon-box">
+                        <Icon size={28} />
+                      </div>
+                      <h3>{title}</h3>
+                      <p>{desc}</p>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-12 account-block">
-                <div className="account-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                  <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-sliders fw-lighter"></i></div>
-                    <h3>Trading Style</h3>
-                    <p>CFDs (Contract for Difference)</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-12 account-block">
-                <div className="account-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                  <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-chart-line fw-lighter"></i></div>
-                    <h3>Spreads</h3>
-                    <p>From 0.3 pips</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-12 account-block">
-                <div className="account-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
-                  <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-bolt fw-lighter"></i></div>
-                    <h3>Trade Size</h3>
-                    <p>From 0.01 lot</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-12 account-block">
-                <div className="account-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                  <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-arrows-up-down fw-lighter"></i></div>
-                    <h3>Leverage</h3>
-                    <p>Up to 1:200</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-12 account-block">
-                <div className="account-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                  <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-receipt fw-lighter"></i></div>
-                    <h3>Platforms</h3>
-                    <p>Web, Mobile, Desktop</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-12 account-block">
-                <div className="account-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                  <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-wallet  fw-lighter"></i></div>
-                    <h3>Execution</h3>
-                    <p>Market Execution, Ultra-Low Latency</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-12 account-block">
-                <div className="account-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                  <div className="inner-box">
-                    <div className="icon-box"><i className="fa fa-desktop fw-lighter"></i></div>
-                    <h3>Trading Hours</h3>
-                    <p>24/5 (Based on Market Session)</p>
-                  </div>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </section>

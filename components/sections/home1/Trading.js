@@ -43,8 +43,9 @@ export default function Trading() {
                         <div className="trading-block-one">
                             <div className="inner-box">
                                 <figure className="image-box"><img src="/assets/images/resource/trading-4.png" alt="" /></figure>
-                                <h3>Economic Calendar</h3>
+                                <h3><Link href="/economic-calendar">Economic Calendar</Link></h3>
                                 <p>Stay updated on key global events</p>
+                                <div className="btn-box"><Link href="/economic-calendar" className="theme-btn btn-one">Stay Updated With</Link></div>
                             </div>
                         </div>
                         <div className="trading-block-one">
@@ -52,6 +53,7 @@ export default function Trading() {
                                 <figure className="image-box"><img src="/assets/images/resource/trading-5.png" alt="" /></figure>
                                 <h3>Daily Market Analysis</h3>
                                 <p>Get expert insights and technical commentary</p>
+                                <div className="btn-box"><Link href="/" className="theme-btn btn-one opacity-0">Stay Updated With</Link></div>
                             </div>
                         </div>
                         <div className="trading-block-one">
@@ -59,6 +61,7 @@ export default function Trading() {
                                 <figure className="image-box"><img src="/assets/images/resource/trading-6.png" alt="" /></figure>
                                 <h3>VPS Hosting</h3>
                                 <p>Run your trading strategies uninterrupted</p>
+                                <div className="btn-box"><Link href="/" className="theme-btn btn-one opacity-0">Stay Updated With</Link></div>
                             </div>
                         </div>
                     </div>

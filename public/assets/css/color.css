@@ -9,6 +9,7 @@
 .account-block-one .inner-box h3 a:hover,
 .video_block_one .video-box .video-content a,
 .funfact-block-one .inner-box .count-outer,
+.funfact-block-one .inner-box .count-outer>svg,
 .trading-block-one .inner-box h3 a:hover,
 .trading-block-two .inner-box .btn-box a,
 .award-section .award-table tr td h3 a:hover,
@@ -172,10 +173,10 @@ button.ltr,
 }
 
 .process-block-one .inner-box:hover li::before {
-  box-shadow: 0px 0px 3px 0px ;
+  box-shadow: 0px 0px 3px 0px;
 }
 
-.funfact-block-two .inner-box:hover .fa {
+.funfact-block-two .inner-box:hover svg {
   color: var(--theme-color);
 }
 

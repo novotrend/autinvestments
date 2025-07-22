@@ -39,7 +39,7 @@ export default function CryptoTrading() {
                         opportunities for speculation, long-term investing, and diversification.
                       </p>
                       <p>
-                        At AUT Investments LTD, we provide secure and real-time access to top-traded
+                        At AUT Investments Limited, we provide secure and real-time access to top-traded
                         cryptocurrencies through crypto CFDs — allowing traders to benefit from price movements
                         without needing wallets or direct ownership of the assets.
                       </p>
@@ -66,7 +66,7 @@ export default function CryptoTrading() {
           <div className="auto-container">
             <div className="sec-title pb_50">
               <span className="sub-title mb_14">Crypto</span>
-              <h2>Why Trade Cryptocurrencies with AUT Investments LTD?</h2>
+              <h2>Why Trade Cryptocurrencies with AUT Investments Limited?</h2>
             </div>
             <div className="row clearfix">
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
@@ -204,7 +204,7 @@ export default function CryptoTrading() {
               <div className="col-lg-4 col-md-12 col-sm-12 video-column">
                 <div className="sec-title light pb_35 d-lg-none">
                   <span className="sub-title mb_10">Onboard</span>
-                  <h2>How to Start Trading Crypto with AUT Investments LTD</h2>
+                  <h2>How to Start Trading Crypto with AUT Investments Limited</h2>
                 </div>
                 <img src="/assets/images/resource/how-to-start-crypto-trading.jpg" alt="" className="rounded" />
               </div>
@@ -213,7 +213,7 @@ export default function CryptoTrading() {
                   <div className="content-box ml_70">
                     <div className="sec-title light pb_35 d-none d-lg-block">
                       <span className="sub-title mb_10">Onboard</span>
-                      <h2>How to Start Trading Crypto with AUT Investments LTD</h2>
+                      <h2>How to Start Trading Crypto with AUT Investments Limited</h2>
                     </div>
                     <div className="inner-box">
                       <div className="single-item">
@@ -324,7 +324,7 @@ export default function CryptoTrading() {
           <div className="auto-container">
             <div className="sec-title pb_60">
               <span className="sub-title mb_14">Momentum</span>
-              <h2>Exploring Crypto CFD Trading with AUT Investments LTD</h2>
+              <h2>Exploring Crypto CFD Trading with AUT Investments Limited</h2>
             </div>
             <div className="tabs-box">
               <div className="row clearfix flex-wrap-reverse g-3 momentum">
@@ -408,7 +408,7 @@ export default function CryptoTrading() {
                     <h2 className="fw-bold">Seize Opportunities in the Crypto Market</h2>
                     <p className="text-light fs-6 mt_30">
                       With round-the-clock access, high volatility, and institutional-grade tools, cryptocurrency trading
-                      at AUT Investments LTD opens new dimensions for active traders and long-term investors.
+                      at AUT Investments Limited opens new dimensions for active traders and long-term investors.
                     </p>
                     <Link href="/contact" className="theme-btn btn-one bg-dark mt-4">
                       Contact Support

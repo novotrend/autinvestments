@@ -11,7 +11,7 @@ export default function Award() {
                         <p>Choose an account that matches your trading style</p>
                         <div className="d-flex flex-sm-nowrap flex-wrap align-items-center gap-3 mt-3">
                             <Link href="/open-account" className="theme-btn btn-one">Open Live Account</Link>
-                            <Link href="/trading/open-demo-account" className="theme-btn btn-one">Try Demo Account</Link>
+                            <Link href="/open-demo-account" className="theme-btn btn-one">Try Demo Account</Link>
                         </div>
                     </div>
                     <div className="table-outer">
@@ -28,21 +28,21 @@ export default function Award() {
                             <tbody>
                                 <tr>
                                     <td>Standard</td>
-                                    <td>$100</td>
+                                    <td>$1000</td>
                                     <td><span>Up to 1:500</span></td>
                                     <td>Variable Spreads</td>
                                     <td>New and active traders</td>
                                 </tr>
                                 <tr>
                                     <td>Pro</td>
-                                    <td>$500</td>
+                                    <td>$5000</td>
                                     <td><span>Up to 1:300</span></td>
                                     <td>Raw Spreads</td>
                                     <td>Frequent traders</td>
                                 </tr>
                                 <tr>
                                     <td>ECN</td>
-                                    <td>$1000</td>
+                                    <td>$10,000</td>
                                     <td><span>Up to 1:200</span></td>
                                     <td>Market Execution</td>
                                     <td>Professionals</td>

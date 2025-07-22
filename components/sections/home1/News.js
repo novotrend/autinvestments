@@ -16,7 +16,6 @@ export default function News() {
                                     <h2>Fund Security and Regulation</h2>
                                     <ul className="list-style-one mt_40 clearfix">
                                         <li>Client funds held in segregated bank accounts</li>
-                                        <li>Negative balance protection provided on all accounts</li>
                                         <li>Regulated under the Mauritius Financial Services Framework</li>
                                         <li>Full AML and KYC compliance</li>
                                         <li>All transactions secured with 256-bit SSL encryption</li>

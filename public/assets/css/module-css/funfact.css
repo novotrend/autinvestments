@@ -91,7 +91,7 @@
 }
 
 .funfact-block-two .inner-box,
-.funfact-block-two .inner-box .fa {
+.funfact-block-two .inner-box svg {
   transition: all 500ms ease;
 }
 

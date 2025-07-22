@@ -1,6 +1,7 @@
 "use client";
 import Layout from "@/components/layout/Layout";
 import { useEffect } from "react";
+import Link from "next/link";
 
 export default function MetaTrader5Page() {
     useEffect(() => {
@@ -32,10 +33,10 @@ export default function MetaTrader5Page() {
                                             <p>
                                                 MetaTrader 5 (MT5) is the upgraded, multi-asset trading platform designed for traders who
                                                 demand speed, flexibility, and analytical depth. Whether you're trading forex, stocks,
-                                                commodities, indices, or cryptocurrencies, MT5 delivers a seamless trading experience
+                                                commodities, indices, MT5 delivers a seamless trading experience
                                                 backed by superior execution and institutional-grade infrastructure</p>
                                             <p className="mt-3">
-                                                At AUT Investments LTD, we empower you to trade on MT5 across desktop, web, and mobile,
+                                                At AUT Investments Limited, we empower you to trade on MT5 across desktop, web, and mobile,
                                                 supported by real-time data, advanced charting tools, and integrated algorithmic trading features.
                                             </p>
                                         </div>
@@ -59,7 +60,7 @@ export default function MetaTrader5Page() {
                         <div className="row align-items-center g-3">
                             <div className="sec-title pb_30">
                                 <span className="sub-title mb_14">Why MetaTrader 5 With AUT</span>
-                                <h2>Why Trade on MetaTrader 5 with AUT Investments LTD?</h2>
+                                <h2>Why Trade on MetaTrader 5 with AUT Investments Limited?</h2>
                             </div>
                             <div className="col-lg-4">
                                 <img src="/assets/images/resource/metatrader_5-why.jpg" alt="" className="rounded" />
@@ -70,7 +71,7 @@ export default function MetaTrader5Page() {
                                     <div className="col-12 content-column">
                                         <div className="text-box">
                                             <ul className="list-item clearfix">
-                                                <li className="lh-lg"><b className="fs-6 text-dark">Multi-Asset Trading:</b> <br />Trade multiple asset classes - forex, CFDs on stocks, indices, commodities, and crypto - from a single platform</li>
+                                                <li className="lh-lg"><b className="fs-6 text-dark">Multi-Asset Trading:</b> <br />Trade multiple asset classes - forex, CFDs on stocks, indices, commodities - from a single platform</li>
                                                 <li className="lh-lg"><b className="fs-6 text-dark">Faster Execution Engine:</b> <br />Enhanced order-matching technology and multi-threaded processing deliver lightning-fast trade execution with minimal latency.</li>
                                                 <li className="lh-lg"><b className="fs-6 text-dark">38+ Built-In Indicators & 21 Timeframes:</b> <br />MT5 gives you more analytical options with higher precision for technical analysis and trend tracking.</li>
                                                 <li className="lh-lg"><b className="fs-6 text-dark">Integrated Economic Calendar:</b> <br />Stay informed with real-time macroeconomic events and market-moving data directly inside your terminal.</li>
@@ -102,7 +103,7 @@ export default function MetaTrader5Page() {
                                 <tbody>
                                     <tr>
                                         <th>Asset Coverage</th>
-                                        <td>Forex, Indices, Stocks, Crypto, Commodities</td>
+                                        <td>Forex, Indices, Stocks, Commodities</td>
                                     </tr>
                                     <tr>
                                         <th>Charting & Indicators</th>
@@ -164,7 +165,7 @@ export default function MetaTrader5Page() {
                                         <ul className="list-style-one mt_40 clearfix">
                                             <li className="mb-3"><b className="fs-6 text-dark">Open a Live or Demo Account:</b> <br />Register online and select MetaTrader 5 as your preferred platform.</li>
                                             <li className="mb-3"><b className="fs-6 text-dark">Download MT5 Terminal or Use WebTrader:</b> <br />Access MT5 on desktop or directly in your browser — fast and secure.</li>
-                                            <li className="mb-3"><b className="fs-6 text-dark">Log In with Your AUT Credentials:</b> <br />Connect to the AUT Investments LTD trading server using your unique login.</li>
+                                            <li className="mb-3"><b className="fs-6 text-dark">Log In with Your AUT Credentials:</b> <br />Connect to the AUT Investments Limited trading server using your unique login.</li>
                                             <li className="mb-3"><b className="fs-6 text-dark">Customize Your Workspace:</b> <br />Add charts, tools, and indicators tailored to your trading strategy.</li>
                                             <li className="mb-3"><b className="fs-6 text-dark">Begin Trading:</b> <br />Analyze markets, place orders, monitor performance, and manage risk in real-time.</li>
                                         </ul>
@@ -262,10 +263,13 @@ export default function MetaTrader5Page() {
                                     <div className="text-box">
                                         <h3 className="fw-semibold mb-3">Unlock Next-Level Trading with MetaTrader 5</h3>
                                         <p className="text-light">
-                                            Join AUT Investments LTD on MetaTrader 5 and take full control of your trading with superior
+                                            Join AUT Investments Limited on MetaTrader 5 and take full control of your trading with superior
                                             technology, greater market access, and deeper insight. Whether you're scaling up or starting
                                             out, MT5 is your platform for intelligent, professional-grade trading.
                                         </p>
+                                        <Link href="/contact" className="theme-btn btn-one bg-dark mt-4">
+                                            Contact Support
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -276,4 +280,4 @@ export default function MetaTrader5Page() {
             </Layout>
         </div>
     );
-} 
+}

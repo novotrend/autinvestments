@@ -1,11 +1,15 @@
 'use client'
-import Layout from "@/components/layout/Layout";
-import Link from "next/link"
+import { useRouter } from 'next/navigation';
 
 export default function login() {
+    const router = useRouter();
+    const handelrOnSubmit = (e) => {
+        e.preventDefault();
+        router.push('/');
+    }
     return (
-        <div className="boxed_wrapper">
-            <section className="banner-style-three pt_100 pb_150">
+        <div className="boxed_wrapper overflow-hidden">
+            <section className="banner-style-three pt_100 pb_150 vh-100 d-flex align-items-center">
                 <div className="pattern-layer">
                     <div className="pattern-1 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-13.png)" }}></div>
                     <div className="pattern-2 float-bob-x" style={{ backgroundImage: "url(/assets/images/shape/shape-14.png)" }}></div>
@@ -20,14 +24,14 @@ export default function login() {
                                     <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-11.png)" }}></div>
                                     <h3>Login</h3>
                                     <div className="form-inner">
-                                        <form method="post" action="">
+                                        <form method="post" action="" onSubmit={handelrOnSubmit}>
                                             <div className="form-group">
                                                 <label>Email</label>
-                                                <input type="email" name="email" placeholder="contact@jonas.me" required/>
+                                                <input type="email" name="email" placeholder="contact@jonas.me" required />
                                             </div>
                                             <div className="form-group">
                                                 <label>Password</label>
-                                                <input type="password" name="password"  required/>
+                                                <input type="password" name="password" required />
                                             </div>
                                             <div className="message-btn mb-5">
                                                 <button type="submit" className="theme-btn btn-one">Sign Up</button>
@@ -42,10 +46,6 @@ export default function login() {
                                 <div className="content-box">
                                     <h2>Total Immersion in <span>Forex Trading</span></h2>
                                     <p>Our trading platforms offer you a world-className trading experience with numerous features and tools</p>
-                                    <div className="btn-box">
-                                        <Link href="/" className="theme-btn btn-one mr_15">Start Trading Now</Link>
-                                        <Link href="/" className="theme-btn btn-two">Try Demo Trading</Link>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -54,6 +54,5 @@ export default function login() {
             </section>
         </div>
     );
-} 
+}
 
- 

@@ -2,6 +2,7 @@
 import Layout from "@/components/layout/Layout";
 import Link from "next/link"
 import { useState } from "react"
+import { FiSliders, FiShield, FiThumbsUp, FiUsers } from 'react-icons/fi';
 
 export default function SocialTrading() {
   const [activeIndex, setActiveIndex] = useState(1)
@@ -54,7 +55,7 @@ export default function SocialTrading() {
                         proven strategies, and share your own trading ideas.
                       </p>
                       <p>
-                        At AUT Investments LTD, our Social Trading platform brings together the best of fintech and
+                        At AUT Investments Limited, our Social Trading platform brings together the best of fintech and
                         social networking to help traders make smarter decisions through community-driven insights.
                       </p>
                     </div>
@@ -194,7 +195,7 @@ export default function SocialTrading() {
                         <span className="count-text bg-light text-dark">1</span>
                         <h5 className="text-dark fw-semibold">Open a Live Account</h5>
                         <p className="text-dark text-start">
-                          Sign up with AUT Investments LTD and access the social trading dashboard.
+                          Sign up with AUT Investments Limited and access the social trading dashboard.
                         </p>
                       </div>
                       <div className="single-item">
@@ -244,27 +245,31 @@ export default function SocialTrading() {
           <div className="auto-container">
             <div className="sec-title pb_60">
               <span className="sub-title mb_14">Community</span>
-              <h2>Unlock the Power of Social Trading with AUT Investments LTD</h2>
+              <h2>Unlock the Power of Social Trading with AUT Investments Limited</h2>
             </div>
             <div className="tabs-box">
               <ul className="tab-btns tab-buttons clearfix border-bottom text-center">
                 <li onClick={() => handleOnClick(1)} className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>
-                  <div className="icon-box"><i className="fa fa-sliders"></i></div>
+                  <div className="icon-box"><FiSliders size={28} /></div>
                   <h4>Key Features</h4>
                 </li>
+
                 <li onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>
-                  <div className="icon-box"><i className="fa fa-shield"></i></div>
+                  <div className="icon-box"><FiShield size={28} /></div>
                   <h4>Security & Privacy</h4>
                 </li>
+
                 <li onClick={() => handleOnClick(3)} className={activeIndex === 3 ? "tab-btn active-btn" : "tab-btn"}>
-                  <div className="icon-box"><i className="fa fa-thumbs-up"></i></div>
+                  <div className="icon-box"><FiThumbsUp size={28} /></div>
                   <h4>Top Reasons</h4>
                 </li>
+
                 <li onClick={() => handleOnClick(4)} className={activeIndex === 4 ? "tab-btn active-btn" : "tab-btn"}>
-                  <div className="icon-box"><i className="icon-21"></i></div>
+                  <div className="icon-box"><FiUsers size={28} /></div>
                   <h4>Social vs Copy Trading</h4>
                 </li>
               </ul>
+
               <div className="tabs-content">
                 <div className={activeIndex === 1 ? "tab active-tab" : "tab"}>
                   <div className="row align-items-center">
@@ -274,7 +279,7 @@ export default function SocialTrading() {
                           <div className="award-section pt_60 pb_100">
                             <div className="auto-container">
                               <div className="sec-title pb_60">
-                                <h2>Key Features of AUT Investments LTD Social Trading</h2>
+                                <h2>Key Features of AUT Investments Limited Social Trading</h2>
                               </div>
                               <div className="table-outer">
                                 <table className="award-table">
@@ -353,7 +358,7 @@ export default function SocialTrading() {
                           <div className="award-section pt_60 pb_100">
                             <div className="auto-container">
                               <div className="sec-title pb_60">
-                                <h2>Top Reasons to Use Social Trading at AUT Investments LTD</h2>
+                                <h2>Top Reasons to Use Social Trading at AUT Investments Limited</h2>
                               </div>
                               <ul className="list-style-one clearfix">
                                 <li>Collaborative learning environment</li>
@@ -444,7 +449,7 @@ export default function SocialTrading() {
                   <div className="text-box">
                     <h2 className="fw-bold">Trade Smarter Together</h2>
                     <p className="text-light fs-6 mt_30">
-                      Social Trading at AUT Investments LTD isn’t just about trades — it’s about community,
+                      Social Trading at AUT Investments Limited isn’t just about trades — it’s about community,
                       transparency, and growth. Whether you're here to learn, teach, follow, or lead — connect with a
                       global network of traders and make informed decisions together.
                     </p>

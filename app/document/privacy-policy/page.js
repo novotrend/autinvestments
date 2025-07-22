@@ -23,11 +23,11 @@ export default function PrivacyPolicy() {
                                     <span className="sub-title mb_14">INFO</span>
                                     <h2 className="mb-2">Privacy Policy</h2>
                                     <p>
-                                        Your privacy matters. Here’s how AUT Investments LTD protects your data.
+                                        Your privacy matters. Here’s how AUT Investments Limited protects your data.
                                     </p>
                                     <h4 className="mb-3 mt-4">Introduction</h4>
                                     <p className="mb-2">
-                                        This Privacy Policy outlines how AUT Investments LTD collects, uses, stores, shares, and
+                                        This Privacy Policy outlines how AUT Investments Limited collects, uses, stores, shares, and
                                         safeguards your personal information. We are committed to ensuring that your data is handled
                                         securely and in compliance with all applicable data protection laws and regulations.
                                     </p>
@@ -46,7 +46,7 @@ export default function PrivacyPolicy() {
                             <div className="sec-title pb_30">
                                 <h2 className="mb-2">Who We Are</h2>
                                 <p>
-                                    AUT Investments LTD
+                                    AUT Investments Limited
                                 </p>
                             </div>
                             <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
@@ -284,7 +284,7 @@ export default function PrivacyPolicy() {
                                             <b className="my-2 text-dark fs-5">International Transfers</b>
                                             <p className="mt-2">
                                                 Your data may be processed and stored outside your country of residence, including in
-                                                jurisdictions with different data protection standards. AUT Investments LTD ensures such
+                                                jurisdictions with different data protection standards. AUT Investments Limited ensures such
                                                 transfers are secured and compliant with applicable cross-border data laws.
                                             </p>
                                         </li>
@@ -352,7 +352,7 @@ export default function PrivacyPolicy() {
                                                     <li className="lh-lg"><strong>Phone:</strong>+230-XXXX-XXXX (example)</li>
                                                     <li className="lh-lg">
                                                         Mailing Address:<br />
-                                                        AUT Investments LTD,<br />
+                                                        AUT Investments Limited,<br />
                                                         6th Floor, Ken Lee Building,<br />
                                                         20 Edith Cavell Street, Port-Louis, 11302, Mauritius
                                                     </li>
@@ -375,7 +375,7 @@ export default function PrivacyPolicy() {
                                 <div className="col-12 text-column">
                                     <div className="text-box">
                                         <h2 className="fw-bold">Last Revised: July 2025</h2>
-                                        <p className="text-light fs-6 mt_30">AUT Investments LTD — Your trust. Our priority.</p>
+                                        <p className="text-light fs-6 mt_30">AUT Investments Limited — Your trust. Our priority.</p>
                                         <Link className="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Support</Link>
                                     </div>
                                 </div>

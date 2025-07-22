@@ -2,7 +2,15 @@
 import Layout from "@/components/layout/Layout";
 import Link from "next/link"
 import { useState } from "react"
-import VideoPopup from "@/components/elements/VideoPopup"
+
+import {
+    FiDollarSign,
+    FiTrendingUp,
+    FiBarChart2,
+    FiCpu,
+    FiBook,
+    FiUserCheck
+} from 'react-icons/fi';
 
 export default function RiskDisclosure() {
     const [activeIndex, setActiveIndex] = useState(1)
@@ -37,10 +45,10 @@ export default function RiskDisclosure() {
                                         <div className="inner-container d-flex flex-column p-sm-5 p-4 aligh-items-start justify-content-start">
                                             <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-16.png)" }}></div>
                                             <h4 className="text-dark fw-semibold mb-3">Purpose of This Risk Disclosure</h4>
-                                            <p>AUT Investments LTD is committed to providing full transparency about the potential risks
+                                            <p>AUT Investments Limited is committed to providing full transparency about the potential risks
                                                 involved in trading financial instruments. This document is intended to help clients make
                                                 informed decisions by outlining the nature of the risks associated with <b> Forex, CFDs, Indices,
-                                                    Metals, Stocks, Cryptocurrencies, and Commodities.</b>
+                                                    Metals, Stocks, and Commodities.</b>
                                             </p>
                                             <p className="mt-3">By opening an account or using our services, you acknowledge that you understand and accept these risks.</p>
                                         </div>
@@ -148,11 +156,14 @@ export default function RiskDisclosure() {
                             <span className="sub-title mb_14">Variability</span>
                             <h2>Product-Specific Risks</h2>
                         </div>
-                        <div className="row clearfix row-deck">
+
+                        <div className="row clearfix row-deck justify-content-center">
+
+                            {/* Forex and CFDs */}
                             <div className="col-md-6 col-sm-12 account-block">
                                 <div className="account-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
-                                        <div className="icon-box"><i className="fa fa-money-bill fw-lighter"></i></div>
+                                        <div className="icon-box"><FiDollarSign size={30} /></div>
                                         <h3>Forex and CFDs</h3>
                                         <div className="education-details-content">
                                             <div className="text-box">
@@ -166,10 +177,12 @@ export default function RiskDisclosure() {
                                     </div>
                                 </div>
                             </div>
+
+                            {/* Stocks & Indices */}
                             <div className="col-md-6 col-sm-12 account-block">
                                 <div className="account-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
-                                        <div className="icon-box"><i className="fa fa-chart-line fw-lighter"></i></div>
+                                        <div className="icon-box"><FiTrendingUp size={30} /></div>
                                         <h3>Stocks & Indices</h3>
                                         <div className="education-details-content">
                                             <div className="text-box">
@@ -182,10 +195,12 @@ export default function RiskDisclosure() {
                                     </div>
                                 </div>
                             </div>
+
+                            {/* Commodities & Metals */}
                             <div className="col-md-6 col-sm-12 account-block">
                                 <div className="account-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
-                                        <div className="icon-box"><i className="fa fa-scale-unbalanced fw-lighter"></i></div>
+                                        <div className="icon-box"><FiBarChart2 size={30} /></div>
                                         <h3>Commodities & Metals</h3>
                                         <div className="education-details-content">
                                             <div className="text-box">
@@ -198,22 +213,7 @@ export default function RiskDisclosure() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-6 col-sm-12 account-block">
-                                <div className="account-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <div className="icon-box"><i className="fa fa-brands fa-bitcoin fw-lighter"></i></div>
-                                        <h3>Cryptocurrencies</h3>
-                                        <div className="education-details-content">
-                                            <div className="text-box">
-                                                <ul className="list-item clearfix">
-                                                    <li className="lh-md">Extremely volatile and affected by speculative trading, regulatory developments, security breaches, and technological shifts.</li>
-                                                    <li className="lh-md">Market prices can fluctuate significantly even within minutes.</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </section>
@@ -227,15 +227,17 @@ export default function RiskDisclosure() {
                         <div className="tabs-box">
                             <ul className="tab-btns tab-buttons clearfix">
                                 <li onClick={() => handleOnClick(1)} className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>
-                                    <div className="icon-box"><i className="fa fa-microchip fw-lighter"></i></div>
+                                    <div className="icon-box"><FiCpu size={24} /></div>
                                     <h4>Technical & System Risks</h4>
                                 </li>
+
                                 <li onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>
-                                    <div className="icon-box"><i className="fa fa-scale-balanced fw-lighter"></i></div>
+                                    <div className="icon-box"><FiBook size={24} /></div>
                                     <h4>Legal & Regulatory Risks</h4>
                                 </li>
+
                                 <li onClick={() => handleOnClick(3)} className={activeIndex === 3 ? "tab-btn active-btn" : "tab-btn"}>
-                                    <div className="icon-box"><i className="fa fa-user-shield fw-lighter"></i></div>
+                                    <div className="icon-box"><FiUserCheck size={24} /></div>
                                     <h4>Client Responsibility</h4>
                                 </li>
                             </ul>
@@ -254,7 +256,7 @@ export default function RiskDisclosure() {
                                                                 </li>
                                                                 <li className="lh-md">
                                                                     <b className="fs-6 text-dark">Third-Party Risks:</b> <br></br>
-                                                                    AUT Investments LTD is not responsible for any delays or failures caused by third-party providers such as internet services, data vendors, payment processors, or VPS hosts.
+                                                                    AUT Investments Limited is not responsible for any delays or failures caused by third-party providers such as internet services, data vendors, payment processors, or VPS hosts.
                                                                 </li>
                                                                 <li className="lh-md">
                                                                     <b className="fs-6 text-dark">Execution Delays:</b> <br></br>
@@ -398,7 +400,7 @@ export default function RiskDisclosure() {
                                                 needed, seek independent financial advice.
 
                                             </p>
-                                            <p className="mt-3">By opening an account or using our services, you acknowledge that you understand and accept these risks.AUT Investments LTD provides tools and educational resources to support risk-aware trading, but <b> ultimate responsibility lies with the client.</b></p>
+                                            <p className="mt-3">By opening an account or using our services, you acknowledge that you understand and accept these risks.AUT Investments Limited provides tools and educational resources to support risk-aware trading, but <b> ultimate responsibility lies with the client.</b></p>
                                         </div>
                                     </div>
                                 </section>
@@ -416,7 +418,7 @@ export default function RiskDisclosure() {
                                 <div className="col-12 text-column">
                                     <div className="text-box">
                                         <h2 className="fw-bold">Trade Responsibly. Stay Informed.</h2>
-                                        <p className="text-light fs-6 mt_30">Understanding risk is the first step toward successful trading. At AUT Investments LTD, we’re committed to transparency, control, and equipping you with everything you need to navigate the markets responsibly.</p>
+                                        <p className="text-light fs-6 mt_30">Understanding risk is the first step toward successful trading. At AUT Investments Limited, we’re committed to transparency, control, and equipping you with everything you need to navigate the markets responsibly.</p>
                                         <Link className="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Support</Link>
                                     </div>
                                 </div>

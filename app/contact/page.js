@@ -25,7 +25,7 @@ export default function Contact() {
                                     <div className="single-info mb-0">
                                         <div className="icon-box"><i className="icon-46"></i></div>
                                         <h4>Email Address</h4>
-                                        <p><Link href="mailto:privacy@autinvestments.com">privacy@autinvestments.com</Link> <br /> <Link href="mailto:support@autinvestments.com">support@autinvestments.com</Link></p>
+                                        <p><Link href="mailto:support@autinvestments.com">support@autinvestments.com</Link></p>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 col-sm-12 info-column p-2">

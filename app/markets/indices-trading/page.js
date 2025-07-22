@@ -1,7 +1,8 @@
 'use client'
 import Layout from "@/components/layout/Layout";
 import Link from "next/link"
-import { useState } from "react"
+import { useState } from "react";
+import { FiTrendingUp, FiColumns } from "react-icons/fi";
 
 export default function IndicesTrading() {
 
@@ -17,34 +18,46 @@ export default function IndicesTrading() {
 
         <section className="platform-section alternat-2 pt_90 pb_60">
           <div className="auto-container">
-            <div className="sec-title pb_20">
-              <span className="sub-title mb_14">INFO</span>
-              <h2 className="mb-2">Indices Trading</h2>
-              <p>
-                Track the performance of global markets with index CFDs — trade the momentum of
-                economies, sectors, and sentiment.
-              </p>
-            </div>
-            <section className="funfact-section">
-              <div className="auto-container px-0">
-                <div className="inner-container d-flex flex-column p-5 aligh-items-start justify-content-start">
-                  <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
-                  <h4 className="mb-3">What is Indices Trading?</h4>
-                  <ul className="list-style-one clearfix">
-                    <li>
-                      Indices represent the performance of a group of selected stocks from a particular market or
-                      sector. Trading index CFDs allows you to speculate on the movement of entire markets like the
-                      US 30 (Dow Jones), GER 40 (DAX), or UK 100 (FTSE) without owning the underlying assets.
-                    </li>
-                    <li>
-                      At AUT Investments LTD, we offer real-time access to leading global indices through a powerful,
-                      flexible trading platform — enabling retail and institutional traders to capitalize on market-wide
-                      trends, volatility, and economic cycles.
-                    </li>
-                  </ul>
+            <div className="row align-items-center g-3 flex-wrap-reverse">
+              <div className="col-lg-8">
+                <div className="sec-title pb_20 d-none d-lg-block">
+                  <span className="sub-title mb_14">INFO</span>
+                  <h2 className="mb-2">Indices Trading</h2>
+                  <p>Track the performance of global markets with index CFDs — trade the momentum of
+                    economies, sectors, and sentiment.
+                  </p>
                 </div>
+                <section className="funfact-section">
+                  <div className="auto-container px-0">
+                    <div className="inner-container d-flex flex-column p-sm-5 p-4 aligh-items-start justify-content-start">
+                      <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
+                      <h4 className="mb-3">What is Indices Trading?</h4>
+                      <p className="mb-3">
+                        Indices represent the performance of a group of selected stocks from a particular market or
+                        sector. Trading index CFDs allows you to speculate on the movement of entire markets like the
+                        US 30 (Dow Jones), GER 40 (DAX), or UK 100 (FTSE) without owning the underlying assets.
+                      </p>
+                      <p>
+                        At AUT Investments Limited, we offer real-time access to leading global indices through a powerful,
+                        flexible trading platform — enabling retail and institutional traders to capitalize on market-wide
+                        trends, volatility, and economic cycles.
+                      </p>
+
+                    </div>
+                  </div>
+                </section>
               </div>
-            </section>
+              <div className="col-lg-4">
+                <div className="sec-title pb_20 d-lg-none">
+                  <span className="sub-title mb_14">INFO</span>
+                  <h2 className="mb-2">Indices Trading</h2>
+                  <p>Track the performance of global markets with index CFDs — trade the momentum of
+                    economies, sectors, and sentiment.
+                  </p>
+                </div>
+                <img src="/assets/images/resource/indices-trading.png" alt="" className="rounded" />
+              </div>
+            </div>
           </div>
         </section>
 
@@ -52,7 +65,7 @@ export default function IndicesTrading() {
           <div className="auto-container">
             <div className="sec-title pb_60">
               <span className="sub-title mb_14">Edge</span>
-              <h2>Why Trade Indices with AUT Investments LTD?</h2>
+              <h2>Why Trade Indices with AUT Investments Limited?</h2>
             </div>
             <div className="row clearfix row-deck">
               <div className="col-lg-4 col-md-6 col-sm-12 markets-block">
@@ -171,12 +184,22 @@ export default function IndicesTrading() {
             </div>
             <div className="tabs-box">
               <ul className="tab-btns tab-buttons clearfix">
-                <li onClick={() => handleOnClick(1)} className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>
-                  <div className="icon-box"><i className="icon-20"></i></div>
+                <li
+                  onClick={() => handleOnClick(1)}
+                  className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}
+                >
+                  <div className="icon-box">
+                    <FiTrendingUp size={24} />
+                  </div>
                   <h4>Popular Indices</h4>
                 </li>
-                <li onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>
-                  <div className="icon-box"><i className="icon-21"></i></div>
+                <li
+                  onClick={() => handleOnClick(2)}
+                  className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}
+                >
+                  <div className="icon-box">
+                    <FiColumns size={24} />
+                  </div>
                   <h4>CFDs vs. Stocks</h4>
                 </li>
               </ul>
@@ -420,7 +443,7 @@ export default function IndicesTrading() {
               <div className="row align-items-center">
                 <div className="col-12 text-column">
                   <div className="text-box">
-                    <h2 className="fw-bold">Explore the Power of Indices with AUT Investments LTD</h2>
+                    <h2 className="fw-bold">Explore the Power of Indices with AUT Investments Limited</h2>
                     <p className="text-light fs-6 mt_30">
                       Broaden your trading scope with one of the most efficient ways to capture global momentum.
                       Trade the world’s top indices with technology, transparency, and trust.
