@@ -3,6 +3,11 @@ import Layout from "@/components/layout/Layout";
 import Link from "next/link"
 import { useState } from "react";
 import { FiTrendingUp, FiColumns } from "react-icons/fi";
+import { GiWorld } from "react-icons/gi";
+import { FaExchangeAlt } from "react-icons/fa";
+import { MdDonutLarge, MdSpeed, MdNightsStay } from "react-icons/md";
+import { IoIosPulse } from "react-icons/io";
+
 
 export default function IndicesTrading() {
 
@@ -61,120 +66,77 @@ export default function IndicesTrading() {
           </div>
         </section>
 
-        <section className="markets-section  pt_130 pb_70">
+        <section className="account-style-two clear-bg pt_80 pb_70">
           <div className="auto-container">
-            <div className="sec-title pb_60">
+            <div className="sec-title pb_50">
               <span className="sub-title mb_14">Edge</span>
               <h2>Why Trade Indices with AUT Investments Limited?</h2>
             </div>
-            <div className="row clearfix row-deck">
-              <div className="col-lg-4 col-md-6 col-sm-12 markets-block">
-                <div className="markets-block-one">
+            <div className="row clearfix">
+
+              <div className="col-lg-4 col-md-6 col-sm-12 account-block">
+                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="image-box">
-                      <figure className="image"><img src="/assets/images/resource/markets-1.jpg" alt="" /></figure>
-                      <figure className="overlay-image"><img src="/assets/images/resource/markets-1.jpg" alt="" /></figure>
-                    </div>
-                    <div className="lower-content">
-                      <h3>Access to Major Global Indices</h3>
-                      <p>
-                        Trade top-performing indices including S&P 500, NASDAQ 100, Dow Jones (US 30),
-                        DAX 40, FTSE 100, CAC 40, and Nikkei 225 across American, European, and Asian
-                        markets.
-                      </p>
-                    </div>
+                    <div className="icon-box"><GiWorld size={30} /></div>
+                    <h3>Access to Major Global Indices</h3>
+                    <p>Trade top-performing indices including S&P 500, NASDAQ 100, Dow Jones (US 30), DAX 40, FTSE 100, CAC 40, and Nikkei 225 across American, European, and Asian markets.</p>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-sm-12 markets-block">
-                <div className="markets-block-one">
+
+              <div className="col-lg-4 col-md-6 col-sm-12 account-block">
+                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="image-box">
-                      <figure className="image"><img src="/assets/images/resource/markets-2.jpg" alt="" /></figure>
-                      <figure className="overlay-image"><img src="/assets/images/resource/markets-2.jpg" alt="" /></figure>
-                    </div>
-                    <div className="lower-content">
-                      <h3>Diversified Exposure</h3>
-                      <p>
-                        With a single trade, gain exposure to a broad range of companies across sectors —
-                        from tech and finance to energy and consumer goods.
-                      </p>
-                    </div>
+                    <div className="icon-box"><MdDonutLarge size={30} /></div>
+                    <h3>Diversified Exposure</h3>
+                    <p>With a single trade, gain exposure to a broad range of companies across sectors — from tech and finance to energy and consumer goods.</p>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-sm-12 markets-block">
-                <div className="markets-block-one">
+
+              <div className="col-lg-4 col-md-6 col-sm-12 account-block">
+                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="image-box">
-                      <figure className="image"><img src="/assets/images/resource/markets-3.jpg" alt="" /></figure>
-                      <figure className="overlay-image"><img src="/assets/images/resource/markets-3.jpg" alt="" /></figure>
-                    </div>
-                    <div className="lower-content">
-                      <h3>Tight Spreads and Fast Execution</h3>
-                      <p>
-                        Benefit from low spreads, high liquidity, and rapid execution even during peak market
-                        hours.
-                      </p>
-                    </div>
+                    <div className="icon-box"><MdSpeed size={30} /></div>
+                    <h3>Tight Spreads and Fast Execution</h3>
+                    <p>Benefit from low spreads, high liquidity, and rapid execution even during peak market hours.</p>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-sm-12 markets-block">
-                <div className="markets-block-one">
+
+              <div className="col-lg-4 col-md-6 col-sm-12 account-block">
+                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="image-box">
-                      <figure className="image"><img src="/assets/images/resource/markets-4.jpg" alt="" /></figure>
-                      <figure className="overlay-image"><img src="/assets/images/resource/markets-4.jpg" alt="" /></figure>
-                    </div>
-                    <div className="lower-content">
-                      <h3>Trade Both Rising and Falling Markets</h3>
-                      <p>
-                        Go long or short with ease using index CFDs, taking advantage of bullish or bearish
-                        trends.
-                      </p>
-                    </div>
+                    <div className="icon-box"><FaExchangeAlt size={30} /></div>
+                    <h3>Trade Both Rising and Falling Markets</h3>
+                    <p>Go long or short with ease using index CFDs, taking advantage of bullish or bearish trends.</p>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-sm-12 markets-block">
-                <div className="markets-block-one">
+
+              <div className="col-lg-4 col-md-6 col-sm-12 account-block">
+                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="800ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="image-box">
-                      <figure className="image"><img src="/assets/images/resource/markets-5.jpg" alt="" /></figure>
-                      <figure className="overlay-image"><img src="/assets/images/resource/markets-5.jpg" alt="" /></figure>
-                    </div>
-                    <div className="lower-content">
-                      <h3>High Volatility = More Opportunities</h3>
-                      <p>
-                        Indices often respond sharply to economic data, earnings seasons, and geopolitical
-                        events, creating opportunities for short-term and swing trading.
-                      </p>
-                    </div>
+                    <div className="icon-box"><IoIosPulse size={30} /></div>
+                    <h3>High Volatility = More Opportunities</h3>
+                    <p>Indices often respond sharply to economic data, earnings seasons, and geopolitical events, creating opportunities for short-term and swing trading.</p>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-sm-12 markets-block">
-                <div className="markets-block-one">
+
+              <div className="col-lg-4 col-md-6 col-sm-12 account-block">
+                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="1000ms" data-wow-duration="1500ms">
                   <div className="inner-box">
-                    <div className="image-box">
-                      <figure className="image"><img src="/assets/images/resource/markets-6.jpg" alt="" /></figure>
-                      <figure className="overlay-image"><img src="/assets/images/resource/markets-6.jpg" alt="" /></figure>
-                    </div>
-                    <div className="lower-content">
-                      <h3>No Overnight Swap on Select Accounts</h3>
-                      <p>
-                        Hold positions overnight without paying fees on eligible accounts, helping manage
-                        long-term strategies more efficiently.
-                      </p>
-                    </div>
+                    <div className="icon-box"><MdNightsStay size={30} /></div>
+                    <h3>No Overnight Swap on Select Accounts</h3>
+                    <p>Hold positions overnight without paying fees on eligible accounts, helping manage long-term strategies more efficiently.</p>
                   </div>
                 </div>
               </div>
+
             </div>
           </div>
         </section>
-
 
         <section className="trading-style-four pt_100 pb_100">
           <div className="auto-container">
@@ -329,7 +291,62 @@ export default function IndicesTrading() {
           </div>
         </section>
 
-
+        <section className="working-section apps-section alternat-2 pt_120 pb_120 pt_100 pb_100">
+          <div className="auto-container">
+            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-4.png)" }}></div>
+            <div className="row align-items-center">
+              <div className="col-lg-4 col-md-12 col-sm-12">
+                <div className="sec-title light pb_35 d-lg-none">
+                  <span className="sub-title mb_10">Setup</span>
+                  <h2>Getting Started with Indices Trading</h2>
+                </div>
+                <img src="/assets/images/resource/how-to-start-indices-trading.png" alt="" className="rounded" />
+              </div>
+              <div className="col-lg-8 col-md-12 col-sm-12 content-column">
+                <div className="content_block_nine">
+                  <div className="content-box ml_70">
+                    <div className="sec-title light pb_35 d-none d-lg-block">
+                      <span className="sub-title mb_10">Setup</span>
+                      <h2>Getting Started with Indices Trading</h2>
+                    </div>
+                    <div className="inner-box">
+                      <div className="single-item">
+                        <span className="count-text bg-light text-dark">1</span>
+                        <h3>Open Your Trading Account</h3>
+                        <p>Choose between demo and live setups.</p>
+                      </div>
+                      <div className="single-item">
+                        <span className="count-text bg-light text-dark">2</span>
+                        <h3>Verify & Fund</h3>
+                        <p>Secure onboarding with global payment options.</p>
+                      </div>
+                      <div className="single-item">
+                        <span className="count-text bg-light text-dark">3</span>
+                        <h3>Select Your Index</h3>
+                        <p>Browse our global list of indices.</p>
+                      </div>
+                      <div className="single-item">
+                        <span className="count-text bg-light text-dark">4</span>
+                        <h3>Analyze Market Trends</h3>
+                        <p>Use integrated tools to time your entry.</p>
+                      </div>
+                      <div className="single-item">
+                        <span className="count-text bg-light text-dark">5</span>
+                        <h3>Place Your Trade</h3>
+                        <p>Define your position, risk, and target.</p>
+                      </div>
+                      <div className="single-item">
+                        <span className="count-text bg-light text-dark">6</span>
+                        <h3>Manage & Monitor</h3>
+                        <p>Track performance across your portfolio in real time</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
         <section className="platform-section alternat-2 pt_90 pb_130">
           <div className="auto-container">
@@ -400,34 +417,6 @@ export default function IndicesTrading() {
                     <li onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>Benefits of Index Trading</li>
                     <li onClick={() => handleOnClick(3)} className={activeIndex === 3 ? "tab-btn active-btn" : "tab-btn"}>Advanced Trading Features</li>
                     <li onClick={() => handleOnClick(4)} className={activeIndex === 4 ? "tab-btn active-btn" : "tab-btn"}>Who Trades Indices?</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="markets-section pt_60 pb_70">
-          <div className="auto-container">
-            <div className="sec-title pb_30">
-              <span className="sub-title mb_14">Setup</span>
-              <h2>Getting Started with Indices Trading</h2>
-            </div>
-            <div className="row clearfix education-details-content shadow-sm py-5 px-sm-4 px-2 rounded-4" >
-              <div className="col-12 content-column ">
-                <div className="text-box">
-                  <ul className="list-item clearfix">
-                    <li className="lh-lg"><b className="fs-6 text-dark">Open Your Trading Account:</b> <br /> Choose between demo and live setups</li>
-
-                    <li className="lh-lg"><b className="fs-6 text-dark">Verify & Fund:</b> <br />Secure onboarding with global payment options</li>
-
-                    <li className="lh-lg"><b className="fs-6 text-dark">Select Your Index:</b> <br />Browse our global list of indices</li>
-
-                    <li className="lh-lg"><b className="fs-6 text-dark">Analyze Market Trends:</b> <br />Use integrated tools to time your entry</li>
-
-                    <li className="lh-lg"><b className="fs-6 text-dark">Place Your Trade:</b> <br />Define your position, risk, and target</li>
-
-                    <li className="lh-lg"><b className="fs-6 text-dark">Manage & Monitor:</b> <br />Track performance across your portfolio in real time</li>
                   </ul>
                 </div>
               </div>

@@ -147,7 +147,6 @@ export default function MetalsTrading() {
           </div>
         </section>
 
-
         <section className="funfact-section pt_120 pb_70">
           <div className="auto-container">
             <div className="row">
