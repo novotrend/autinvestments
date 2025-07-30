@@ -26,12 +26,14 @@
   line-height: 40px;
   font-weight: 700;
   margin-bottom: 20px;
+  color: #000000;
 }
 
 .platform-section .content-box p {
   font-size: 18px;
   line-height: 28px;
   margin-bottom: 55px;
+  color: #646464;
 }
 
 .platform-section .content-box .image-box {
@@ -41,11 +43,11 @@
 }
 
 .platform-section .tab-btns {
-  position: relative;
+  /* position: relative;
   display: block;
   transform: rotate(-90deg);
   top: 56px;
-  z-index: 1;
+  z-index: 1; */
 }
 
 .platform-section .three.tab-btns {
@@ -55,19 +57,18 @@
 .platform-section .tab-btns li {
   position: relative;
   display: block;
-  font-size: 19px;
+  font-size: 24px;
   line-height: 4px;
   font-family: var(--title-font);
   font-weight: 500;
-  color: var(--title-color);
+  color: #646464;
   background: #fff;
   border-radius: 10px;
-  text-align: center;
+  text-align: start;
   margin-bottom: 20px;
   cursor: pointer;
   padding: 43.5px 30px;
   min-width: 477px;
-  text-transform: uppercase;
 }
 
 .platform-section .momentum .tab-btns {

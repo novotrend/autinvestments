@@ -75,7 +75,7 @@ export default function Banner() {
                             <div className="bg-layer" style={{ backgroundImage: "url(/assets/images/banner/banner-2.png)" }}></div>
                             <div className="content-box">
                                 <h2>Smarter Trading. Simpler Access.</h2>
-                                <p>Trade over 1000 Instruments. Forex, CFDs on Stock Indices, Commodities, Stocks, Metals and Energies.</p>
+                                <p>Trade over 100+ Instruments. Forex, CFDs on Stock Indices, Commodities, Stocks, Metals and Energies.</p>
                                 <div className="btn-box">
                                     <Link href="/open-account" className="theme-btn btn-one">Create Account</Link>
                                 </div>
@@ -97,7 +97,7 @@ export default function Banner() {
                             <div className="bg-layer" style={{ backgroundImage: "url(/assets/images/banner/banner-4.png)" }}></div>
                             <div className="content-box">
                                 <h2>All Markets. <br /> One Platform.</h2>
-                                <p>From Forex to Energies – trade over 1000 global instruments with
+                                <p>From Forex to Energies – trade over 100+ global instruments with
                                     confidence.
                                     Accessible. Secure. Instant.
                                 </p>
@@ -110,7 +110,7 @@ export default function Banner() {
                             <div className="bg-layer" style={{ backgroundImage: "url(/assets/images/banner/banner-5.png)" }}></div>
                             <div className="content-box">
                                 <h2>Trade the World with Confidence</h2>
-                                <p>Access 1000+ instruments — Forex, Stocks, Indices, Commodities &
+                                <p>Access 100+ instruments — Forex, Stocks, Indices, Commodities &
                                     more.
                                     Any device. Any time. Your journey starts here.
                                 </p>

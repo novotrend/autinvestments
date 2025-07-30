@@ -9,7 +9,7 @@ export default function Working() {
                 <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-28.png)" }}></div>
                 <div className="auto-container">
                     <div className="row align-items-center">
-                        <div className="col-lg-6 col-md-12 col-sm-12 video-column">
+                        <div className="col-lg-5 col-md-12 col-sm-12">
                             <div className="video_block_one">
                                 <div className="video-box z_1 p_relative pl_50 pb_50 centred">
                                     <div className="video-inner">

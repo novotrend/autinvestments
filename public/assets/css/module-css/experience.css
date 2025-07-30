@@ -7,7 +7,7 @@
 
 .experience-section .inner-container{
   position: relative;
-  background: #101215;
+  background: var(--secondary-color);
   border-radius: 10px;
   padding: 80px 80px;
   overflow: hidden;
@@ -105,6 +105,10 @@
   display: block;
 }
 
+.experience-style-two .inner-container h2{
+  color: #000000;
+}
+
 .experience-style-two .text-box p{
   font-size: 18px;
   line-height: 30px;
@@ -143,6 +147,7 @@
   font-size: 18px;
   line-height: 33px;
   font-weight: 500;
+  color: #646464;
 }
 
 .experience-style-two .shape{

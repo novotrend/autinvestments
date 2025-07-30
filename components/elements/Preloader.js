@@ -1,9 +1,11 @@
+import { MdClose } from 'react-icons/md'
+
 export default function Preloader() {
     return (
         <>
             <div className="loader-wrap">
                 <div className="preloader">
-                    <div className="preloader-close"><i className="fal fa-times"></i></div>
+                    <div className="preloader-close"><MdClose size={28} /></div>
                     <div id="handle-preloader" className="handle-preloader">
                         <div className="animation-preloader">
                             <div className="spinner"></div>

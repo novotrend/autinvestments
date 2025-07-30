@@ -11,10 +11,11 @@
     "sass": "sass --watch public/assets/scss/main.scss:public/assets/css/main.css"
   },
   "dependencies": {
+    "@next/swc-wasm-nodejs": "^15.4.5",
     "bootstrap-touchspin": "^4.7.3",
     "isotope-layout": "^3.0.6",
     "lightgallery": "^2.7.2",
-    "next": "13.4.19",
+    "next": "^13.5.11",
     "owl.carousel": "^2.3.4",
     "react": "18.2.0",
     "react-curved-text": "^2.0.2",

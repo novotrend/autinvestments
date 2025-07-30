@@ -45,21 +45,21 @@ export default function CopyTrading() {
 
         <section className="platform-section alternat-2 pt_90 pb_60">
           <div className="auto-container">
-            <div className="row align-items-center">
-              <div className="col-md-12">
-                <div className="sec-title pb_20">
-                  <span className="sub-title mb_14">INFO</span>
+            <div className="row align-items-center g-3 flex-wrap-reverse justify-content-between">
+              <div className="col-lg-5">
+                <div className="sec-title pb_20 d-none d-lg-block">
+                  <span className="sub-title mb_14">Info</span>
                   <h2 className="mb-2">Copy Trading</h2>
                   <p>
                     Trade like the pros — automatically. Let top traders lead the way while you grow your portfolio.
                   </p>
                 </div>
+
                 <section className="funfact-section">
                   <div className="auto-container px-0">
-                    <div className="inner-container d-flex flex-column p-sm-5 p-4 aligh-items-start justify-content-start">
+                    <div className="d-flex flex-column align-items-start justify-content-start">
                       <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
                       <h4 className="mb-3">What is Copy Trading?</h4>
-
                       <p className="mb-3">
                         Copy Trading allows you to automatically mirror the trades of experienced and successful
                         traders directly into your own account. Instead of executing trades manually, you choose a
@@ -67,7 +67,7 @@ export default function CopyTrading() {
                         real-time — proportionally and transparently.
                       </p>
                       <p>
-                        At AUT Investments Limited, Copy Trading is designed for beginners, busy investors, and
+                        At AUT INVESTMENTS LIMITED, Copy Trading is designed for beginners, busy investors, and
                         diversified portfolio builders who want exposure to global markets without the need for active
                         trading or technical analysis.
                       </p>
@@ -75,20 +75,30 @@ export default function CopyTrading() {
                   </div>
                 </section>
               </div>
+              <div className="col-lg-5 text-lg-end">
+                <div className="sec-title pb_20 d-lg-none">
+                  <span className="sub-title mb_14">Info</span>
+                  <h2 className="mb-2">Copy Trading</h2>
+                  <p>
+                    Trade like the pros — automatically. Let top traders lead the way while you grow your portfolio.
+                  </p>
+                </div>
+                <img src="/assets/images/resource/copy-trading.jpg" alt="Copy Trading Platform" className="rounded" />
+              </div>
             </div>
           </div>
         </section>
 
-        <section className="account-style-two clear-bg pt_80 pb_70">
+        <section className="account-section pt_60 pb_70">
           <div className="auto-container">
-            <div className="sec-title pb_50">
+            <div className="sec-title pb_60">
               <span className="sub-title mb_14">Accounts</span>
-              <h2>Why Choose Copy Trading with AUT Investments Limited?</h2>
+              <h2>Why Choose Copy Trading with AUT INVESTMENTS LIMITED?</h2>
             </div>
             <div className="row clearfix row-deck">
 
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
-                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                <div className="account-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                   <div className="inner-box">
                     <div className="icon-box"><FiUser size={30} /></div>
                     <h3>Zero Trading Experience Needed</h3>
@@ -98,7 +108,7 @@ export default function CopyTrading() {
               </div>
 
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
-                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <div className="account-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                   <div className="inner-box">
                     <div className="icon-box"><FiZap size={30} /></div>
                     <h3>Instant Execution</h3>
@@ -108,7 +118,7 @@ export default function CopyTrading() {
               </div>
 
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
-                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
+                <div className="account-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                   <div className="inner-box">
                     <div className="icon-box"><FiMonitor size={30} /></div>
                     <h3>Full Control Over Your Account</h3>
@@ -118,7 +128,7 @@ export default function CopyTrading() {
               </div>
 
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
-                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                <div className="account-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                   <div className="inner-box">
                     <div className="icon-box"><FiUsers size={30} /></div>
                     <h3>Diverse Trader Pool</h3>
@@ -128,7 +138,7 @@ export default function CopyTrading() {
               </div>
 
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
-                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="800ms" data-wow-duration="1500ms">
+                <div className="account-block-one wow fadeInUp animated" data-wow-delay="800ms" data-wow-duration="1500ms">
                   <div className="inner-box">
                     <div className="icon-box"><FiAward size={30} /></div>
                     <h3>Performance-Based Selection</h3>
@@ -138,7 +148,7 @@ export default function CopyTrading() {
               </div>
 
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
-                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="1000ms" data-wow-duration="1500ms">
+                <div className="account-block-one wow fadeInUp animated" data-wow-delay="1000ms" data-wow-duration="1500ms">
                   <div className="inner-box">
                     <div className="icon-box"><FiBarChart2 size={30} /></div>
                     <h3>Transparent Reporting</h3>
@@ -152,18 +162,18 @@ export default function CopyTrading() {
         </section>
 
 
+
         <section className="working-section apps-section alternat-2 pt_120 pb_120 pt_100 pb_100">
           <div className="auto-container">
-            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-4.png)" }}></div>
             <div className="row align-items-center g-3">
-              <div className="col-lg-6 col-md-12 col-sm-12">
+              <div className="col-lg-5 col-md-12 col-sm-12">
                 <div className="sec-title light pb_35 d-lg-none">
                   <span className="sub-title mb_10">Guidance</span>
                   <h2>How Copy Trading Works</h2>
                 </div>
-                <img src="/assets/images/resource/copytrading.jpg" alt="" className="rounded" />
+                <img src="/assets/images/resource/how-to-work-copy-trading.jpg" alt="" className="rounded" />
               </div>
-              <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+              <div className="col-lg-7 col-md-12 col-sm-12 content-column">
                 <div className="content_block_nine">
                   <div className="content-box ml_70">
                     <div className="sec-title light pb_35 d-lg-block d-none">
@@ -174,7 +184,7 @@ export default function CopyTrading() {
                       <div className="single-item">
                         <span className="count-text bg-light text-dark">1</span>
                         <h3>Open a Live Trading Account</h3>
-                        <p>Register with AUT Investments Limited and verify your identity</p>
+                        <p>Register with AUT INVESTMENTS LIMITED and verify your identity</p>
                       </div>
                       <div className="single-item">
                         <span className="count-text bg-light text-dark">2</span>
@@ -409,14 +419,16 @@ export default function CopyTrading() {
 
         <section className="about-section pt_100 pb_100">
           <div className="auto-container">
-            <div className="row align-items-center g-5 flex-wrap-reverse">
-              <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+            <div className="row align-items-center g-5">
+              <div className="col-12">
+                <div className="sec-title pb_30">
+                  <span className="sub-title mb_14">Help</span>
+                  <h2>Frequently Asked Questions (FAQ)</h2>
+                </div>
+              </div>
+              <div className="col-lg-8 col-md-12 col-sm-12">
                 <div className="content_block_one">
                   <div className="content-box mr_80">
-                    <div className="sec-title pb_30 d-none d-lg-block">
-                      <span className="sub-title mb_14">Resolve</span>
-                      <h2>Frequently Asked Questions</h2>
-                    </div>
                     <ul className="accordion-box">
                       <li className="accordion block active-block">
                         <div className={isActive.key == 1 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(1)}>
@@ -466,12 +478,8 @@ export default function CopyTrading() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6 col-md-12 col-sm-12">
-                <div className="sec-title pb_30 d-lg-none">
-                  <span className="sub-title mb_14">Resolve</span>
-                  <h2>Frequently Asked Questions</h2>
-                </div>
-                <img src="/assets/images/resource/copytrading-faq.jpg" alt="" className="rounded" />
+              <div className="col-lg-4 col-md-12 col-sm-12 d-lg-block d-none">
+                <img src="/assets/images/resource/faq.jpg" alt="" className="rounded" />
               </div>
             </div>
           </div>
@@ -483,23 +491,26 @@ export default function CopyTrading() {
             <div className="inner-container">
               <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
               <div className="row align-items-center">
-                <div className="col-12 text-column">
+                <div className="col-xl-9 col-lg-8 text-column mb-3">
                   <div className="text-box">
                     <h2 className="fw-bold">Let Experts Trade. You Follow.</h2>
                     <p className="text-light fs-6 mt_30">
-                      With Copy Trading at AUT Investments Limited, you gain exposure to professional-level trading
+                      With Copy Trading at AUT INVESTMENTS LIMITED, you gain exposure to professional-level trading
                       while maintaining full control and flexibility. Whether you want to grow passively or learn actively
                       — this is your smarter way to trade.
                     </p>
-                    <Link href="/contact" className="theme-btn btn-one bg-dark mt-4">
-                      Contact Support
-                    </Link>
                   </div>
+                </div>
+                <div className="col-xl-3 col-lg-4">
+                  <Link className="theme-btn btn-one bg-dark me-3" href="/contact">
+                    Contact Support
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
         </section>
+
 
 
       </Layout>

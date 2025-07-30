@@ -38,7 +38,7 @@ export default function Trading_two() {
                                 <div className="tabs-content">
                                     <div className={activeIndex === 1 ? "tab active-tab" : "tab"}>
                                         <div className="content-box">
-                                            <h2>Forex</h2>
+                                            <h2 className="text-dark">Forex</h2>
                                             <p>60+ major, minor, and exotic currency pairs
                                                 <br />
                                                 High liquidity, 24/5 access
@@ -48,7 +48,7 @@ export default function Trading_two() {
                                     </div>
                                     <div className={activeIndex === 2 ? "tab active-tab" : "tab"} id="trader">
                                         <div className="content-box">
-                                            <h2>Indices</h2>
+                                            <h2 className="text-dark">Indices</h2>
                                             <p>
                                                 Global stock indices (US30, GER40, etc.)
                                                 <br />
@@ -59,7 +59,7 @@ export default function Trading_two() {
                                     </div>
                                     <div className={activeIndex === 3 ? "tab active-tab" : "tab"} id="personal">
                                         <div className="content-box">
-                                            <h2>Stocks</h2>
+                                            <h2 className="text-dark">Stocks</h2>
                                             <p>
                                                 Top US, UK, and EU company shares
                                                 <br />
@@ -70,7 +70,7 @@ export default function Trading_two() {
                                     </div>
                                     <div className={activeIndex === 4 ? "tab active-tab" : "tab"} id="meta">
                                         <div className="content-box">
-                                            <h2>Commodities</h2>
+                                            <h2 className="text-dark">Commodities</h2>
                                             <p>
                                                 Oil, natural gas, and agricultural goods
                                                 <br />
@@ -81,7 +81,7 @@ export default function Trading_two() {
                                     </div>
                                     <div className={activeIndex === 5 ? "tab active-tab" : "tab"} id="meta">
                                         <div className="content-box">
-                                            <h2>Metals</h2>
+                                            <h2 className="text-dark">Metals</h2>
                                             <p>
                                                 Gold, silver, platinum
                                                 <br />

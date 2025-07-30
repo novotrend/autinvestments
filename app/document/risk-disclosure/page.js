@@ -26,7 +26,7 @@ export default function RiskDisclosure() {
                         <div className="row align-items-center g-3">
                             <div className="col-lg-4">
                                 <div className="sec-title pb_20 d-lg-none">
-                                    <span className="sub-title mb_14">INFO</span>
+                                    <span className="sub-title mb_14">Info</span>
                                     <h2 className="mb-2">Risk Disclosure</h2>
                                     <p>Trading involves risk. Understand it before you begin.
                                     </p>
@@ -35,17 +35,17 @@ export default function RiskDisclosure() {
                             </div>
                             <div className="col-lg-8">
                                 <div className="sec-title pb_20 d-none d-lg-block">
-                                    <span className="sub-title mb_14">INFO</span>
+                                    <span className="sub-title mb_14">Info</span>
                                     <h2 className="mb-2">Risk Disclosure</h2>
                                     <p>Trading involves risk. Understand it before you begin.
                                     </p>
                                 </div>
                                 <section className="funfact-section">
                                     <div className="auto-container px-0">
-                                        <div className="inner-container d-flex flex-column p-sm-5 p-4 aligh-items-start justify-content-start">
+                                        <div className="inner-container d-flex flex-column align-items-start justify-content-start">
                                             <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-16.png)" }}></div>
-                                            <h4 className="text-dark fw-semibold mb-3">Purpose of This Risk Disclosure</h4>
-                                            <p>AUT Investments Limited is committed to providing full transparency about the potential risks
+                                            <h4 className="fw-semibold mb-3">Purpose of This Risk Disclosure</h4>
+                                            <p>AUT INVESTMENTS LIMITED is committed to providing full transparency about the potential risks
                                                 involved in trading financial instruments. This document is intended to help clients make
                                                 informed decisions by outlining the nature of the risks associated with <b> Forex, CFDs, Indices,
                                                     Metals, Stocks, and Commodities.</b>
@@ -150,7 +150,6 @@ export default function RiskDisclosure() {
                 </section>
 
                 <section className="account-section mt_60 pt_60 pb_70">
-                    <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-1.png)" }}></div>
                     <div className="auto-container">
                         <div className="sec-title pb_60">
                             <span className="sub-title mb_14">Variability</span>
@@ -252,14 +251,14 @@ export default function RiskDisclosure() {
                                                         <div className="text-box">
                                                             <ul className="list-item clearfix">
                                                                 <li className="lh-md">
-                                                                    <b className="fs-6 text-dark">Platform Downtime:</b> <br></br>Technology failures, internet disruptions, or server outages can limit access to the platform and prevent order placement or execution.
+                                                                    <b className="fs-6">Platform Downtime:</b> <br></br>Technology failures, internet disruptions, or server outages can limit access to the platform and prevent order placement or execution.
                                                                 </li>
                                                                 <li className="lh-md">
-                                                                    <b className="fs-6 text-dark">Third-Party Risks:</b> <br></br>
-                                                                    AUT Investments Limited is not responsible for any delays or failures caused by third-party providers such as internet services, data vendors, payment processors, or VPS hosts.
+                                                                    <b className="fs-6">Third-Party Risks:</b> <br></br>
+                                                                    AUT INVESTMENTS LIMITED is not responsible for any delays or failures caused by third-party providers such as internet services, data vendors, payment processors, or VPS hosts.
                                                                 </li>
                                                                 <li className="lh-md">
-                                                                    <b className="fs-6 text-dark">Execution Delays:</b> <br></br>
+                                                                    <b className="fs-6">Execution Delays:</b> <br></br>
                                                                     During high volatility, orders may experience slippage or partial fills. Automated systems (including EAs) are not immune to these delays.
                                                                 </li>
                                                             </ul>
@@ -280,15 +279,15 @@ export default function RiskDisclosure() {
                                                         <div className="text-box">
                                                             <ul className="list-item clearfix">
                                                                 <li className="lh-md">
-                                                                    <b className="fs-6 text-dark">Regulatory Changes:</b><br />
+                                                                    <b className="fs-6">Regulatory Changes:</b><br />
                                                                     Trading conditions, leverage limits, and market access may change based on regulatory decisions in your jurisdiction. Such changes may affect open or future trades.
                                                                 </li>
                                                                 <li className="lh-md">
-                                                                    <b className="fs-6 text-dark">Jurisdictional Restrictions:</b><br />
+                                                                    <b className="fs-6">Jurisdictional Restrictions:</b><br />
                                                                     Some financial instruments or trading features may not be available to residents in certain countries due to legal restrictions.
                                                                 </li>
                                                                 <li className="lh-md">
-                                                                    <b className="fs-6 text-dark">Tax Implications:</b><br />
+                                                                    <b className="fs-6">Tax Implications:</b><br />
                                                                     Clients are solely responsible for understanding and complying with any tax obligations related to their trading activities.
                                                                 </li>
                                                             </ul>
@@ -328,9 +327,9 @@ export default function RiskDisclosure() {
 
                 <section className="working-section apps-section alternat-2 pt_120 pb_120 pt_100 pb_100">
                     <div className="auto-container">
-                        <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-4.png)" }}></div>
+
                         <div className="row align-items-center">
-                            <div className="col-lg-4 col-md-12 col-sm-12 video-column">
+                            <div className="col-lg-5 col-md-12 col-sm-12">
                                 <div className="video_block_one">
                                     <div className="video-box z_1 p_relative pt_50 pb_30 centred">
                                         <div className="video-inner">
@@ -339,7 +338,7 @@ export default function RiskDisclosure() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-8 col-md-12 col-sm-12 content-column">
+                            <div className="col-lg-7 col-md-12 col-sm-12 content-column">
                                 <div className="content_block_nine">
                                     <div className="content-box ml_70">
                                         <div className="sec-title light pb_35">
@@ -393,14 +392,14 @@ export default function RiskDisclosure() {
                                 </div>
                                 <section className="funfact-section">
                                     <div className="auto-container px-0">
-                                        <div className="inner-container d-flex flex-column p-sm-5 p-4 aligh-items-start justify-content-start">
+                                        <div className="inner-container d-flex flex-column align-items-start justify-content-start">
                                             <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-16.png)" }}></div>
                                             <p>Trading involves <b>substantial risk </b> and may not be suitable for all investors. Before trading, you
                                                 should carefully consider your financial objectives, experience level, and risk tolerance. If
                                                 needed, seek independent financial advice.
 
                                             </p>
-                                            <p className="mt-3">By opening an account or using our services, you acknowledge that you understand and accept these risks.AUT Investments Limited provides tools and educational resources to support risk-aware trading, but <b> ultimate responsibility lies with the client.</b></p>
+                                            <p className="mt-3">By opening an account or using our services, you acknowledge that you understand and accept these risks.AUT INVESTMENTS LIMITED provides tools and educational resources to support risk-aware trading, but <b> ultimate responsibility lies with the client.</b></p>
                                         </div>
                                     </div>
                                 </section>
@@ -413,14 +412,20 @@ export default function RiskDisclosure() {
                     <div className="bg-color"></div>
                     <div className="auto-container">
                         <div className="inner-container">
-                            <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-5.png)" }}></div>
+                            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
                             <div className="row align-items-center">
-                                <div className="col-12 text-column">
+                                <div className="col-xl-9 col-lg-8 text-column mb-3">
                                     <div className="text-box">
                                         <h2 className="fw-bold">Trade Responsibly. Stay Informed.</h2>
-                                        <p className="text-light fs-6 mt_30">Understanding risk is the first step toward successful trading. At AUT Investments Limited, we’re committed to transparency, control, and equipping you with everything you need to navigate the markets responsibly.</p>
-                                        <Link className="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Support</Link>
+                                        <p className="text-light fs-6 mt_30">
+                                            Understanding risk is the first step toward successful trading. At AUT INVESTMENTS LIMITED, we’re committed to transparency, control, and equipping you with everything you need to navigate the markets responsibly.
+                                        </p>
                                     </div>
+                                </div>
+                                <div className="col-xl-3 col-lg-4">
+                                    <Link className="theme-btn btn-one bg-dark me-3" href="/contact">
+                                        Contact Support
+                                    </Link>
                                 </div>
                             </div>
                         </div>

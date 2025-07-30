@@ -13,7 +13,7 @@
 .content_block_nine .content-box .inner-box .single-item{
   position: relative;
   display: block;
-  padding-bottom: 45px;
+  padding-bottom: 28px;
   padding-left: 48px;
   z-index: 1;
 }
@@ -83,7 +83,7 @@
   line-height: 32px;
   font-weight: 500;
   margin-bottom: 9px;
-  color: var(--theme-color);
+  color: #fff;
 }
 
 .content_block_nine .content-box .inner-box .single-item h3 a{

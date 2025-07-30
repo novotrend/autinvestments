@@ -15,7 +15,7 @@
 
 .header-top{
   position: relative;
-  background: #131615;
+  background: #000000;
   padding: 9px 0px;
 }
 
@@ -169,7 +169,7 @@
   position: relative;
   display: inline-block;
   font-size: 20px;
-  color: var(--secondary-color);
+  color: #fff;
   cursor: pointer;
   transition: all 500ms ease;
 }
@@ -264,7 +264,7 @@
   padding: 15px 30px;
   z-index:100;
   display:none;
-  background: #fff;
+  background: #000;
   opacity: 0;
   border-bottom: solid;
   border-width: 3px;

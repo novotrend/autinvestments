@@ -25,6 +25,15 @@
   padding: 32px 40px 35px 40px;
 }
 
+.news-block-one .inner-box h2 {
+  color: #000000;
+}
+
+.news-block-one .inner-box ul li,
+.news-block-one .inner-box p {
+  color: #646464;
+}
+
 .news-block-one .inner-box .post-date {
   position: relative;
   display: block;
@@ -74,7 +83,7 @@
   display: flex;
   align-items: center;
   padding: 15px 40px;
-    border-top: 1px solid #E5E5E5;
+  border-top: 1px solid #E5E5E5;
 }
 
 .news-block-one .author-box .author-thumb {
@@ -180,6 +189,9 @@
   margin-bottom: 15px;
 }
 
+.news-section .inner-box h2{
+  color: #000000;
+}
 .news-block-two .inner-box .lower-content h3 a {
   display: inline-block;
   color: var(--title-color);

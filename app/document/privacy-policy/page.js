@@ -20,14 +20,14 @@ export default function PrivacyPolicy() {
                         <div className="row align-items-center">
                             <div className="col-md-12">
                                 <div className="sec-title pb_20">
-                                    <span className="sub-title mb_14">INFO</span>
+                                    <span className="sub-title mb_14">Info</span>
                                     <h2 className="mb-2">Privacy Policy</h2>
                                     <p>
-                                        Your privacy matters. Here’s how AUT Investments Limited protects your data.
+                                        Your privacy matters. Here’s how AUT INVESTMENTS LIMITED protects your data.
                                     </p>
                                     <h4 className="mb-3 mt-4">Introduction</h4>
                                     <p className="mb-2">
-                                        This Privacy Policy outlines how AUT Investments Limited collects, uses, stores, shares, and
+                                        This Privacy Policy outlines how AUT INVESTMENTS LIMITED collects, uses, stores, shares, and
                                         safeguards your personal information. We are committed to ensuring that your data is handled
                                         securely and in compliance with all applicable data protection laws and regulations.
                                     </p>
@@ -41,12 +41,12 @@ export default function PrivacyPolicy() {
                 </section>
 
                 <section className="funfact-section">
-                    <div className="auto-container px-0">
-                        <div className="inner-container d-flex flex-column p-5 aligh-items-start justify-content-start">
+                    <div className="auto-container">
+                        <div className="inner-container d-flex flex-column aligh-items-start justify-content-start">
                             <div className="sec-title pb_30">
                                 <h2 className="mb-2">Who We Are</h2>
                                 <p>
-                                    AUT Investments Limited
+                                    AUT INVESTMENTS LIMITED
                                 </p>
                             </div>
                             <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
@@ -170,13 +170,13 @@ export default function PrivacyPolicy() {
                     </div>
                 </section>
 
-                <section className="history-section pt_60 pb_60">
+                <section className="history-section private pt_60 pb_60">
                     <div className="auto-container">
                         <div className="row clearfix g-3 flex-wrap-reverse">
                             <div className="col-xl-8 col-sm-12">
                                 <div className="inner-box clearfix">
                                     <ul>
-                                        <li className="my-4"><b className="my-2 text-dark fs-5">How We Use Your Information</b>
+                                        <li className="my-4"><b className="my-2 text-light fs-5">How We Use Your Information</b>
                                             <p className="mt-2">Your data is used strictly for legitimate business and regulatory purposes, including:</p>
                                             <div className="education-details-content ms-3">
                                                 <div className="text-box">
@@ -196,7 +196,7 @@ export default function PrivacyPolicy() {
                                         </li>
 
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">Data Sharing & Disclosure</b>
+                                            <b className="my-2 text-light fs-5">Data Sharing & Disclosure</b>
                                             <p className="mt-2">
                                                 We do not sell your personal information. However, we may share your data with the following trusted entities:
                                             </p>
@@ -216,7 +216,7 @@ export default function PrivacyPolicy() {
                                         </li>
 
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">Your Rights Under Data Protection Laws</b>
+                                            <b className="my-2 text-light fs-5">Your Rights Under Data Protection Laws</b>
                                             <p className="mt-2">
                                                 Depending on your location and applicable law, you may have the right to:
                                             </p>
@@ -240,7 +240,7 @@ export default function PrivacyPolicy() {
                                         </li>
 
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">Data Security</b>
+                                            <b className="my-2 text-light fs-5">Data Security</b>
                                             <p className="mt-2">
                                                 We apply a combination of technical, administrative, and physical security measures to safeguard your data, including:
                                             </p>
@@ -261,7 +261,7 @@ export default function PrivacyPolicy() {
                                         </li>
 
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">Data Retention</b>
+                                            <b className="my-2 text-light fs-5">Data Retention</b>
                                             <p className="mt-2">
                                                 We retain personal data for as long as:
                                             </p>
@@ -281,16 +281,16 @@ export default function PrivacyPolicy() {
                                         </li>
 
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">International Transfers</b>
+                                            <b className="my-2 text-light fs-5">International Transfers</b>
                                             <p className="mt-2">
                                                 Your data may be processed and stored outside your country of residence, including in
-                                                jurisdictions with different data protection standards. AUT Investments Limited ensures such
+                                                jurisdictions with different data protection standards. AUT INVESTMENTS LIMITED ensures such
                                                 transfers are secured and compliant with applicable cross-border data laws.
                                             </p>
                                         </li>
 
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">Cookies & Web Tracking</b>
+                                            <b className="my-2 text-light fs-5">Cookies & Web Tracking</b>
                                             <p className="mt-2">
                                                 Our website uses cookies to:
                                             </p>
@@ -310,7 +310,7 @@ export default function PrivacyPolicy() {
                                         </li>
 
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">Marketing Communications</b>
+                                            <b className="my-2 text-light fs-5">Marketing Communications</b>
                                             <p className="mt-2">
                                                 If you opt-in, we may send you newsletters, promotional offers, or market insights via email,
                                                 SMS, or push notifications. You can opt out at any time by clicking "unsubscribe" in emails or by
@@ -319,7 +319,7 @@ export default function PrivacyPolicy() {
                                         </li>
 
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">Third-Party Links</b>
+                                            <b className="my-2 text-light fs-5">Third-Party Links</b>
                                             <p className="mt-2">
                                                 Our website may include links to third-party websites. We are not responsible for the privacy
                                                 practices of these sites and recommend reviewing their individual privacy policies.
@@ -327,7 +327,7 @@ export default function PrivacyPolicy() {
                                         </li>
 
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">Policy Updates</b>
+                                            <b className="my-2 text-light fs-5">Policy Updates</b>
                                             <p className="mt-2">
                                                 We may revise this Privacy Policy from time to time. All changes will be posted on this page with
                                                 an updated "Last Revised" date. Continued use of our services after changes implies
@@ -352,7 +352,7 @@ export default function PrivacyPolicy() {
                                                     <li className="lh-lg"><strong>Phone:</strong>+230-XXXX-XXXX (example)</li>
                                                     <li className="lh-lg">
                                                         Mailing Address:<br />
-                                                        AUT Investments Limited,<br />
+                                                        AUT INVESTMENTS LIMITED,<br />
                                                         6th Floor, Ken Lee Building,<br />
                                                         20 Edith Cavell Street, Port-Louis, 11302, Mauritius
                                                     </li>
@@ -372,17 +372,22 @@ export default function PrivacyPolicy() {
                         <div className="inner-container">
                             <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
                             <div className="row align-items-center">
-                                <div className="col-12 text-column">
+                                <div className="col-xl-9 col-lg-8 text-column mb-3">
                                     <div className="text-box">
                                         <h2 className="fw-bold">Last Revised: July 2025</h2>
-                                        <p className="text-light fs-6 mt_30">AUT Investments Limited — Your trust. Our priority.</p>
-                                        <Link className="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Support</Link>
+                                        <p className="text-light fs-6 mt_30">AUT INVESTMENTS LIMITED — Your trust. Our priority.</p>
                                     </div>
+                                </div>
+                                <div className="col-xl-3 col-lg-4">
+                                    <Link className="theme-btn btn-one bg-dark me-3" href="/contact">
+                                        Contact Support
+                                    </Link>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
+
 
             </Layout>
         </div>

@@ -10,20 +10,20 @@ export default function MetaTrader4Page() {
                         <div className="row align-items-center g-3 flex-wrap-reverse">
                             <div className="col-lg-8">
                                 <div className="sec-title pb_20 d-none d-lg-block">
-                                    <span className="sub-title mb_14">INFO</span>
+                                    <span className="sub-title mb_14">Info</span>
                                     <h2 className="mb-2">Trade with Confidence Using MetaTrader 4</h2>
                                     <p>The world’s most trusted trading platform - optimized for speed, precision, and control.</p>
                                 </div>
                                 <section className="funfact-section">
                                     <div className="auto-container px-0">
-                                        <div className="inner-container d-flex flex-column p-sm-5 p-4 aligh-items-start justify-content-start">
+                                        <div className="inner-container d-flex flex-column align-items-start justify-content-start">
                                             <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
-                                            <h4 className="text-dark fw-semibold mb-3">Powerful, user-friendly, and built for serious traders</h4>
+                                            <h4 className="fw-semibold mb-3">Powerful, user-friendly, and built for serious traders</h4>
                                             <p>MetaTrader 4 (MT4) is the industry-standard platform for forex and CFD trading, trusted by
                                                 millions of traders around the world. Known for its speed, reliability, and robust feature set, MT4
                                                 is ideal for both beginner and advanced traders who want to execute strategies efficiently across
                                                 global markets.</p>
-                                            <p className="mt-3">At AUT Investments Limited, we offer seamless access to MT4 on <b>desktop, web,</b> and <b>mobile,</b>
+                                            <p className="mt-3">At AUT INVESTMENTS LIMITED, we offer seamless access to MT4 on <b>desktop, web,</b> and <b>mobile,</b>
                                                 backed by low-latency execution, competitive spreads, and integrated risk management tools.</p>
                                         </div>
                                     </div>
@@ -31,7 +31,7 @@ export default function MetaTrader4Page() {
                             </div>
                             <div className="col-lg-4">
                                 <div className="sec-title pb_20 d-lg-none">
-                                    <span className="sub-title mb_14">INFO</span>
+                                    <span className="sub-title mb_14">Info</span>
                                     <h2 className="mb-2">Trade with Confidence Using MetaTrader 4</h2>
                                     <p>The world’s most trusted trading platform - optimized for speed, precision, and control.</p>
                                 </div>
@@ -46,7 +46,7 @@ export default function MetaTrader4Page() {
                         <div className="row align-items-center g-3">
                             <div className="sec-title pb_30">
                                 <span className="sub-title mb_14">Why MetaTrader 4 With AUT</span>
-                                <h2>Why Trade on MetaTrader 4 with AUT Investments Limited?</h2>
+                                <h2>Why Trade on MetaTrader 4 with AUT INVESTMENTS LIMITED?</h2>
                             </div>
                             <div className="col-lg-4">
                                 <img src="/assets/images/resource/metatrader_4-why.jpg" alt="" className="rounded" />
@@ -56,13 +56,13 @@ export default function MetaTrader4Page() {
                                     <div className="col-12 content-column ">
                                         <div className="text-box">
                                             <ul className="list-item clearfix">
-                                                <li className="lh-lg"><b className="fs-6 text-dark">Fast Execution and Deep Liquidity:</b> <br />Enjoy low-latency order execution on a stable infrastructure designed for precision and
+                                                <li className="lh-lg"><b className="fs-6">Fast Execution and Deep Liquidity:</b> <br />Enjoy low-latency order execution on a stable infrastructure designed for precision and
                                                     performance.</li>
-                                                <li className="lh-lg"><b className="fs-6 text-dark">Customizable Interface:</b> <br />Arrange charts, trading tools, and indicators to match your personal trading workflow.</li>
-                                                <li className="lh-lg"><b className="fs-6 text-dark">Advanced Technical Analysis:</b> <br />Access 30+ built-in indicators, 9 timeframes, and multiple chart types for complete market insight.</li>
-                                                <li className="lh-lg"><b className="fs-6 text-dark">Expert Advisor (EA) Support:</b> <br />Automate your trading with custom or third-party EAs — fully supported with no restrictions.</li>
-                                                <li className="lh-lg"><b className="fs-6 text-dark">Secure and Encrypted:</b> <br />All data transfers are protected with 128-bit encryption, ensuring secure trading at all times.</li>
-                                                <li className="lh-lg"><b className="fs-6 text-dark">Multi-Asset Access:</b> <br />Trade forex, indices, metals, commodities, and cryptocurrencies from a single MT4 interface.</li>
+                                                <li className="lh-lg"><b className="fs-6">Customizable Interface:</b> <br />Arrange charts, trading tools, and indicators to match your personal trading workflow.</li>
+                                                <li className="lh-lg"><b className="fs-6">Advanced Technical Analysis:</b> <br />Access 30+ built-in indicators, 9 timeframes, and multiple chart types for complete market insight.</li>
+                                                <li className="lh-lg"><b className="fs-6">Expert Advisor (EA) Support:</b> <br />Automate your trading with custom or third-party EAs — fully supported with no restrictions.</li>
+                                                <li className="lh-lg"><b className="fs-6">Secure and Encrypted:</b> <br />All data transfers are protected with 128-bit encryption, ensuring secure trading at all times.</li>
+                                                <li className="lh-lg"><b className="fs-6">Multi-Asset Access:</b> <br />Trade forex, indices, metals, commodities, and cryptocurrencies from a single MT4 interface.</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -133,9 +133,9 @@ export default function MetaTrader4Page() {
                                     <div className="inner-box">
                                         <h2>Platform Compatibility</h2>
                                         <ul className="list-style-one mt_40 clearfix">
-                                            <li className="mb-3"><b className="fs-6 text-dark">Desktop (Windows):</b> <br />Full-featured version with maximum performance and customization.</li>
-                                            <li className="mb-3"><b className="fs-6 text-dark">WebTrader:</b> <br />Browser-based access — no installation required. Secure and responsive.</li>
-                                            <li className="mb-3"><b className="fs-6 text-dark">Mobile (iOS & Android):</b> <br />Trade on the go with full access to charts, order types, and account monitoring.</li>
+                                            <li className="mb-3"><b className="fs-6">Desktop (Windows):</b> <br />Full-featured version with maximum performance and customization.</li>
+                                            <li className="mb-3"><b className="fs-6">WebTrader:</b> <br />Browser-based access — no installation required. Secure and responsive.</li>
+                                            <li className="mb-3"><b className="fs-6">Mobile (iOS & Android):</b> <br />Trade on the go with full access to charts, order types, and account monitoring.</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -145,10 +145,10 @@ export default function MetaTrader4Page() {
                                     <div className="inner-box">
                                         <h2>Why MT4 Remains the Platform of Choice</h2>
                                         <ul className="list-style-one mt_40 clearfix">
-                                            <li className="mb-3"><b className="fs-6 text-dark">Stability & Speed:</b> <br />Proven architecture for consistent performance in live market conditions.</li>
-                                            <li className="mb-3"><b className="fs-6 text-dark">Community & Resources:</b> <br />Thousands of free indicators, strategies, and tutorials available globally.</li>
-                                            <li className="mb-3"><b className="fs-6 text-dark">Low System Requirements:</b> <br />Runs efficiently on most devices, making it accessible for all traders.</li>
-                                            <li className="mb-3"><b className="fs-6 text-dark">Multi-Language Support:</b> <br />Available in dozens of languages to cater to international users.</li>
+                                            <li className="mb-3"><b className="fs-6">Stability & Speed:</b> <br />Proven architecture for consistent performance in live market conditions.</li>
+                                            <li className="mb-3"><b className="fs-6">Community & Resources:</b> <br />Thousands of free indicators, strategies, and tutorials available globally.</li>
+                                            <li className="mb-3"><b className="fs-6">Low System Requirements:</b> <br />Runs efficiently on most devices, making it accessible for all traders.</li>
+                                            <li className="mb-3"><b className="fs-6">Multi-Language Support:</b> <br />Available in dozens of languages to cater to international users.</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -158,11 +158,11 @@ export default function MetaTrader4Page() {
                                     <div className="inner-box">
                                         <h2>How to Get Started with MT4</h2>
                                         <ul className="list-style-one mt_40 clearfix">
-                                            <li className="mb-3"><b className="fs-6 text-dark">Open a Live or Demo Account:</b> <br />Choose an account type and complete the quick signup process.</li>
-                                            <li className="mb-3"><b className="fs-6 text-dark">Download MT4:</b> <br />Access MT4 for Windows or use WebTrader for instant access via browser.</li>
-                                            <li className="mb-3"><b className="fs-6 text-dark">Log In with AUT Credentials:</b> <br />Use the login details sent via email to connect to our trading server.</li>
-                                            <li className="mb-3"><b className="fs-6 text-dark">Configure Platform Settings:</b> <br />Set up charts, indicators, and your preferred layout.</li>
-                                            <li className="mb-3"><b className="fs-6 text-dark">Start Trading:</b> <br />Analyze the markets, place trades, and manage positions in real time.</li>
+                                            <li className="mb-3"><b className="fs-6">Open a Live or Demo Account:</b> <br />Choose an account type and complete the quick signup process.</li>
+                                            <li className="mb-3"><b className="fs-6">Download MT4:</b> <br />Access MT4 for Windows or use WebTrader for instant access via browser.</li>
+                                            <li className="mb-3"><b className="fs-6">Log In with AUT Credentials:</b> <br />Use the login details sent via email to connect to our trading server.</li>
+                                            <li className="mb-3"><b className="fs-6">Configure Platform Settings:</b> <br />Set up charts, indicators, and your preferred layout.</li>
+                                            <li className="mb-3"><b className="fs-6">Start Trading:</b> <br />Analyze the markets, place trades, and manage positions in real time.</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -180,7 +180,7 @@ export default function MetaTrader4Page() {
                                 <div className="col-md-12 col-sm-12 text-column">
                                     <div className="text-box">
                                         <h3 className="fw-semibold mb-3">Download MetaTrader 4 and Start Trading</h3>
-                                        <p className="text-light">Experience the full power of professional trading with MT4 on AUT Investments Limited. Whether
+                                        <p className="text-light">Experience the full power of professional trading with MT4 on AUT INVESTMENTS LIMITED. Whether
                                             you're charting trends, automating strategies, or managing positions — MT4 gives you the tools
                                             and speed you need to succeed.</p>
                                     </div>

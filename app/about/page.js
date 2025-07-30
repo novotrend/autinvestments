@@ -69,7 +69,6 @@ export default function about() {
                 </section>
 
                 <section className="account-section pt_100 pb_70">
-                    <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-1.png)" }}></div>
                     <div className="auto-container">
                         <div className="sec-title pb_60">
                             <span className="sub-title mb_14">Offer</span>
@@ -103,7 +102,7 @@ export default function about() {
                                     <div className="inner-box">
                                         <div className="icon-box"><FiGlobe size={28} /></div>
                                         <h3>Wide Market Coverage</h3>
-                                        <p>Choose from 1,000+ instruments across Forex, Crypto, Stocks, Commodities, and more.</p>
+                                        <p>Choose from 100+ instruments across Forex, Crypto, Stocks, Commodities, and more.</p>
                                     </div>
                                 </div>
                             </div>
@@ -366,7 +365,7 @@ export default function about() {
                                         <li>Mauritius</li>
                                     </ul>
                                     <p className="mb-1"><b>Support Hours:</b> Monday to Friday – 09:00 to 18:00 (GMT+4)</p>
-                                    <div class="inner-container p-4 mt-3"><div class="row align-items-center"><div class="col-12 text-column"><div class="text-box"><h2 class="fw-bold">Join Us</h2><p class="text-dark fs-6 mt_30">Whether you want to trade, invest, partner, or learn—AUT Investments LTD gives you the access, guidance, and resources to achieve your financial goals.</p><a class="theme-btn btn-two bg-dark mt-4" href="/contact">Contact Support</a></div></div></div></div>
+                                    <div class="inner-container mt-3"><div class="row align-items-center"><div class="col-12 text-column"><div class="text-box"><h2 class="fw-bold">Join Us</h2><p class="fs-6 mt_30">Whether you want to trade, invest, partner, or learn—AUT Investments LTD gives you the access, guidance, and resources to achieve your financial goals.</p><a class="theme-btn btn-two bg-dark mt-4" href="/contact">Contact Support</a></div></div></div></div>
                                 </div>
                             </div>
                             <div className="col-lg-7 col-md-6 d-md-block d-none">

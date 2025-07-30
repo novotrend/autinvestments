@@ -1,8 +1,15 @@
 'use client'
 import Layout from "@/components/layout/Layout";
-import VideoPopup from "@/components/elements/VideoPopup"
 import Link from "next/link"
 import { useState } from "react"
+import {
+  RiGlobalLine,
+  RiMoneyDollarCircleLine,
+  RiBarChartBoxLine,
+  RiPieChartLine,
+  RiTimeLine,
+  RiBookOpenLine,
+} from "react-icons/ri"
 
 export default function StockTrading() {
 
@@ -35,20 +42,20 @@ export default function StockTrading() {
 
         <section className="platform-section alternat-2 pt_90 pb_60">
           <div className="auto-container">
-            <div className="row align-items-center g-3 flex-wrap-reverse">
-              <div className="col-lg-8">
+            <div className="row align-items-center g-3 flex-wrap-reverse justify-content-between">
+              <div className="col-lg-5">
                 <div className="sec-title pb_20 d-none d-lg-block">
-                  <span className="sub-title mb_14">INFO</span>
-                  <h2 className="mb-2">What is Stock Trading?</h2>
+                  <span className="sub-title mb_14">Info</span>
+                  <h2 className="mb-3">What is Stock Trading?</h2>
                   <p>
-                    Explore global equity markets with precision, performance, and powerful tools
+                    Explore global equity markets with precision, performance, and powerful tools.
                   </p>
                 </div>
-                <section className="funfact-section">
+                <section className="funfact-section my-2">
                   <div className="auto-container px-0">
-                    <div className="inner-container d-flex flex-column p-sm-5 p-4 aligh-items-start justify-content-start">
+                    <div className="inner-container d-flex flex-column align-items-start justify-content-start rounded-0">
                       <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
-                      <h4 className="mb-3">Overview of Stock Trading</h4>
+                      <h4 className="fw-semibold mb-3">Overview of Stock Trading</h4>
                       <p className="mb-3">
                         Stock trading involves buying and selling shares of publicly listed companies across global
                         exchanges such as NYSE, NASDAQ, LSE, and more. Whether you're interested in growth
@@ -61,104 +68,94 @@ export default function StockTrading() {
                         earnings, market sentiment, and macroeconomic indicators, stock trading presents both
                         short‑term and long‑term potential.
                       </p>
-
                     </div>
                   </div>
                 </section>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-5 text-lg-end">
                 <div className="sec-title pb_20 d-lg-none">
-                  <span className="sub-title mb_14">INFO</span>
+                  <span className="sub-title mb_14">Info</span>
                   <h2 className="mb-2">What is Stock Trading?</h2>
                   <p>
-                    Explore global equity markets with precision, performance, and powerful tools
+                    Explore global equity markets with precision, performance, and powerful tools.
                   </p>
                 </div>
-                <img src="/assets/images/resource/stocktrading-1.jpg" alt="" className="rounded" />
+                <img src="/assets/images/resource/stocktrading-1.jpg" alt="" className="img-fluid" />
               </div>
             </div>
           </div>
         </section>
 
-        <section className="process-section">
+        <section className="account-section pt_100 pb_70">
           <div className="auto-container">
-            <div className="inner-container pt_100 pb_70">
-              <div className="sec-title pb_20">
-                <span className="sub-title mb_14">COMPLETE</span>
-                <h2>Everything You Need to Trade Smarter</h2>
+            <div className="sec-title pb_20">
+              <span className="sub-title mb_14">COMPLETE</span>
+              <h2>Everything You Need to Trade Smarter</h2>
+            </div>
+            <div className="row clearfix row-deck">
+              <div className="col-lg-4 col-md-6 col-sm-12 account-block">
+                <div className="account-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                  <div className="inner-box">
+                    <div className="icon-box"><RiGlobalLine size={30} /></div>
+                    <h3>Global Market Access</h3>
+                    <p>
+                      Trade US, European, and Asian equities on a single platform. Access major indices like the Dow Jones and S&P 500 alongside trending sector leaders such as Tesla, Apple, and Microsoft.
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div className="row clearfix">
-                <div className="col-12 content-column">
-                  <div className="content-box row row-deck">
-                    <div className="process-block-one col-md-6">
-                      <div className="inner-box">
-                        <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
-                        <span className="count-text">1</span>
-                        <h3>Global Market Access</h3>
-                        <p>
-                          Trade US, European, and Asian equities on a single platform. Access major indices like
-                          the Dow Jones and S&P 500 alongside trending sector leaders such as Tesla, Apple,
-                          and Microsoft .
-
-                        </p>
-                      </div>
-                    </div>
-                    <div className="process-block-one col-md-6">
-                      <div className="inner-box">
-                        <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
-                        <span className="count-text">2</span>
-                        <h3>Commission‑Free Trading</h3>
-                        <p>
-                          Execute trades without commission on qualifying accounts. Our transparent fee
-                          structure ensures no unexpected costs and competitive spreads.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="process-block-one col-md-6">
-                      <div className="inner-box">
-                        <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
-                        <span className="count-text">3</span>
-                        <h3>Advanced Trading Software</h3>
-                        <p>
-                          Benefit from robust charting, technical analysis, real‑time quotes, order flow, and
-                          customizable watchlists. Integrates seamlessly with desktop, web, and mobile.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="process-block-one col-md-6">
-                      <div className="inner-box">
-                        <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
-                        <span className="count-text">4</span>
-                        <h3>Fractional & Micro‑Lot Shares</h3>
-                        <p>
-                          Invest in high‑price stocks by buying fractional shares. Ideal for diversification even with
-                          limited capital.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="process-block-one col-md-6">
-                      <div className="inner-box">
-                        <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
-                        <span className="count-text">5</span>
-                        <h3>Pre‑Market & After‑Hours Trading</h3>
-                        <p>
-                          Respond to breaking news and earnings announcements outside standard exchanges.
-                          Reflecting industry trends like Robinhood’s 24/7 access.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="process-block-one col-md-6">
-                      <div className="inner-box">
-                        <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
-                        <span className="count-text">6</span>
-                        <h3>Educational & Research Tools</h3>
-                        <p>
-                          Access equity research, trade ideas, market analysis, and company fundamentals.
-                          Suitable for both beginners and seasoned traders; we support your journey with guides,
-                          glossaries, and webinars.
-                        </p>
-                      </div>
-                    </div>
+              <div className="col-lg-4 col-md-6 col-sm-12 account-block">
+                <div className="account-block-one wow fadeInUp animated" data-wow-delay="100ms" data-wow-duration="1500ms">
+                  <div className="inner-box">
+                    <div className="icon-box"><RiMoneyDollarCircleLine size={30} /></div>
+                    <h3>Commission‑Free Trading</h3>
+                    <p>
+                      Execute trades without commission on qualifying accounts. Our transparent fee structure ensures no unexpected costs and competitive spreads.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-12 account-block">
+                <div className="account-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
+                  <div className="inner-box">
+                    <div className="icon-box"><RiBarChartBoxLine size={30} /></div>
+                    <h3>Advanced Trading Software</h3>
+                    <p>
+                      Benefit from robust charting, technical analysis, real‑time quotes, order flow, and customizable watchlists. Integrates seamlessly with desktop, web, and mobile.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-12 account-block">
+                <div className="account-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                  <div className="inner-box">
+                    <div className="icon-box"><RiPieChartLine size={30} /></div>
+                    <h3>Fractional & Micro‑Lot Shares</h3>
+                    <p>
+                      Invest in high‑price stocks by buying fractional shares. Ideal for diversification even with limited capital.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-12 account-block">
+                <div className="account-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
+                  <div className="inner-box">
+                    <div className="icon-box"><RiTimeLine size={30} /></div>
+                    <h3>Pre‑Market & After‑Hours Trading</h3>
+                    <p>
+                      Respond to breaking news and earnings announcements outside standard exchanges. Reflecting industry trends like Robinhood’s 24/7 access.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-12 account-block">
+                <div className="account-block-one wow fadeInUp animated" data-wow-delay="500ms" data-wow-duration="1500ms">
+                  <div className="inner-box">
+                    <div className="icon-box"><RiBookOpenLine size={30} /></div>
+                    <h3>Educational & Research Tools</h3>
+                    <p>
+                      Access equity research, trade ideas, market analysis, and company fundamentals. Suitable for both beginners and seasoned traders; we support your journey with guides, glossaries, and webinars.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -170,102 +167,79 @@ export default function StockTrading() {
           <div className="auto-container">
             <div className="sec-title pb_70">
               <span className="sub-title mb_14">GROW</span>
-              <h2>Powerful Stock Trading with AUT Investments Limited</h2>
+              <h2>Powerful Stock Trading with AUT INVESTMENTS LIMITED</h2>
             </div>
             <div className="tabs-box">
-              <div className="row clearfix">
-                <div className="col-xl-8 col-lg-12 col-md-12 content-column">
+              <div className="row clearfix flex-wrap-reverse g-3">
+                <div className="col-xxl-8 col-xl-6 col-lg-12 col-md-12 content-column">
                   <div className="tabs-content">
                     <div className={activeIndex === 1 ? "tab active-tab" : "tab"}>
                       <div className="content-box">
-                        <figure className="image-box"><img src="assets/images/resource/platform-1.png" alt="" /></figure>
+                        <figure className="image-box">
+                          <img src="assets/images/resource/platform-1.png" alt="" />
+                        </figure>
                         <h2>Key Stock Trading Features</h2>
                         <ul className="list-style-one clearfix">
-                          <li>
-                            <b>Order Types: </b>
-                            Market, limit, stop‑loss, stop‑limit, bracket orders, trailing stop
-                          </li>
-                          <li>
-                            <b>Margin & Leverage: </b>
-                            Use margin responsibly per local regulation
-                          </li>
-                          <li>
-                            <b>Watchlists & Alerts: </b>
-                            Monitor price triggers, dividend dates, earnings announcements
-                          </li>
-                          <li>
-                            <b>Trade Execution Speed: </b>
-                            Low latency, direct market routing
-                          </li>
-                          <li>
-                            <b>Risk Controls: </b>
-                            Negative balance protection, position limits, real‑time margin checks
-                          </li>
+                          <li><b>Order Types: </b>Market, limit, stop‑loss, stop‑limit, bracket orders, trailing stop</li>
+                          <li><b>Margin & Leverage: </b>Use margin responsibly per local regulation</li>
+                          <li><b>Watchlists & Alerts: </b>Monitor price triggers, dividend dates, earnings announcements</li>
+                          <li><b>Trade Execution Speed: </b>Low latency, direct market routing</li>
+                          <li><b>Risk Controls: </b>Negative balance protection, position limits, real‑time margin checks</li>
                         </ul>
                       </div>
                     </div>
-                    <div className={activeIndex === 2 ? "tab active-tab" : "tab"} id="forex">
+                    <div className={activeIndex === 2 ? "tab active-tab" : "tab"}>
                       <div className="content-box">
-                        <figure className="image-box"><img src="assets/images/resource/platform-1.png" alt="" /></figure>
+                        <figure className="image-box">
+                          <img src="assets/images/resource/platform-1.png" alt="" />
+                        </figure>
                         <h2>Popular Stock Market Strategies</h2>
                         <ul className="list-style-one clearfix">
-                          <li>
-                            <b>Growth Investing: </b>
-                            Focus on fast‑growing companies like tech and biotech
-                          </li>
-                          <li>
-                            <b>Dividend Investing: </b>
-                            Focus on yield‑generating, stable companies—often blue‑chip stocks
-                          </li>
-                          <li>
-                            <b>Day Trading & Swing Trading: </b>
-                            Short‑term strategies using technical indicators and chart patterns
-                          </li>
-                          <li>
-                            <b>Value Investing: </b>
-                            Long‑term positions based on undervalued fundamentals
-                          </li>
+                          <li><b>Growth Investing: </b>Focus on fast‑growing companies like tech and biotech</li>
+                          <li><b>Dividend Investing: </b>Focus on yield‑generating, stable companies—often blue‑chip stocks</li>
+                          <li><b>Day Trading & Swing Trading: </b>Short‑term strategies using technical indicators and chart patterns</li>
+                          <li><b>Value Investing: </b>Long‑term positions based on undervalued fundamentals</li>
                         </ul>
                       </div>
                     </div>
-                    <div className={activeIndex === 3 ? "tab active-tab" : "tab"} id="cpoy">
+                    <div className={activeIndex === 3 ? "tab active-tab" : "tab"}>
                       <div className="content-box">
-                        <figure className="image-box"><img src="assets/images/resource/platform-1.png" alt="" /></figure>
-                        <h2>Why Trade Stocks with AUT Investments Limited?</h2>
+                        <figure className="image-box">
+                          <img src="assets/images/resource/platform-1.png" alt="" />
+                        </figure>
+                        <h2>Why Trade Stocks with AUT INVESTMENTS LIMITED?</h2>
                         <ul className="list-style-one clearfix">
-                          <li>
-                            <b>All‑In‑One Platform: </b>
-                            Stocks, ETFs, indices, and more
-                          </li>
-                          <li>
-                            <b>High Liquidity & Tight Spreads: </b>
-                            Efficient execution across global exchanges
-                          </li>
-                          <li>
-                            <b>Fractional & Micro‑Lot Flexibility: </b>
-                            Build portfolios with any budget
-                          </li>
-                          <li>
-                            <b>Commission‑Free Trades: </b>
-                            Transparent and affordable pricing
-                          </li>
-                          <li>
-                            <b>Pre‑Market & After‑Hours Access</b>
-                          </li>
-                          <li>
-                            <b>Professional Tools & Education: </b>
-                            Research, analytics, and glossaries supporting informed decisions
-                          </li>
+                          <li><b>All‑In‑One Platform: </b>Stocks, ETFs, indices, and more</li>
+                          <li><b>High Liquidity & Tight Spreads: </b>Efficient execution across global exchanges</li>
+                          <li><b>Fractional & Micro‑Lot Flexibility: </b>Build portfolios with any budget</li>
+                          <li><b>Commission‑Free Trades: </b>Transparent and affordable pricing</li>
+                          <li><b>Pre‑Market & After‑Hours Access</b></li>
+                          <li><b>Professional Tools & Education: </b>Research, analytics, and glossaries supporting informed decisions</li>
                         </ul>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-4 col-lg-12 col-md-12 btn-column">
+                <div className="col-xxl-4 col-xl-6 col-lg-12 col-md-12 btn-column">
                   <ul className="three tab-btns tab-buttons shop-tab-btn clearfix">
-                    <li onClick={() => handleOnClick(1)} className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>Key Stock Trading Features</li>
-                    <li onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>Popular Stock Market Strategies</li>
-                    <li onClick={() => handleOnClick(3)} className={activeIndex === 3 ? "tab-btn active-btn" : "tab-btn"}>Why Trade Stocks...</li>
+                    <li
+                      onClick={() => handleOnClick(1)}
+                      className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}
+                    >
+                      Key Stock Trading Features
+                    </li>
+                    <li
+                      onClick={() => handleOnClick(2)}
+                      className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}
+                    >
+                      Popular Stock Market Strategies
+                    </li>
+                    <li
+                      onClick={() => handleOnClick(3)}
+                      className={activeIndex === 3 ? "tab-btn active-btn" : "tab-btn"}
+                    >
+                      Why Trade Stocks...
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -275,12 +249,12 @@ export default function StockTrading() {
 
         <section className="working-section apps-section alternat-2 pt_120 pb_120 pt_100 pb_100">
           <div className="auto-container">
-            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-4.png)" }}></div>
+
             <div className="row align-items-center">
-              <div className="col-lg-4 col-md-12 col-sm-12">
+              <div className="col-lg-5 col-md-12 col-sm-12">
                 <img src="/assets/images/resource/how-to-start-stock-trading.jpg" alt="" className="rounded" />
               </div>
-              <div className="col-lg-8 col-md-12 col-sm-12 content-column">
+              <div className="col-lg-7 col-md-12 col-sm-12 content-column">
                 <div className="content_block_nine">
                   <div className="content-box ml_70">
                     <div className="sec-title light pb_35">
@@ -328,14 +302,16 @@ export default function StockTrading() {
 
         <section className="about-section pt_100 pb_100">
           <div className="auto-container">
-            <div className="row align-items-center g-5 flex-wrap-reverse">
-              <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+            <div className="row align-items-center g-5">
+              <div className="col-12">
+                <div className="sec-title pb_30">
+                  <span className="sub-title mb_14">Help</span>
+                  <h2>Frequently Asked Questions (FAQ)</h2>
+                </div>
+              </div>
+              <div className="col-lg-8 col-md-12 col-sm-12">
                 <div className="content_block_one">
                   <div className="content-box mr_80">
-                    <div className="sec-title pb_30 d-none d-lg-block">
-                      <span className="sub-title mb_14">Help</span>
-                      <h2>Frequently Asked Questions (FAQ)</h2>
-                    </div>
                     <ul className="accordion-box">
                       <li className="accordion block active-block">
                         <div className={isActive.key == 1 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(1)}>
@@ -379,11 +355,11 @@ export default function StockTrading() {
                         </div>
                       </li>
                       <li className="accordion block">
-                        <div className={isActive.key == 3 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(3)}>
+                        <div className={isActive.key == 4 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(4)}>
                           <div className="icon-box"><i className="icon-29"></i></div>
                           <h3>Is stock trading risky?</h3>
                         </div>
-                        <div className={isActive.key == 3 ? "acc-content current" : "acc-content"}>
+                        <div className={isActive.key == 4 ? "acc-content current" : "acc-content"}>
                           <div className="content">
                             <p>
                               All trading involves risk. Use stop-loss orders, diversify your holdings, and monitor your
@@ -396,11 +372,7 @@ export default function StockTrading() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6 col-md-12 col-sm-12 video-column">
-                <div className="sec-title pb_30 d-lg-none">
-                  <span className="sub-title mb_14">Help</span>
-                  <h2>Frequently Asked Questions (FAQ)</h2>
-                </div>
+              <div className="col-lg-4 col-md-12 col-sm-12 d-lg-block d-none">
                 <img src="/assets/images/resource/faq.jpg" alt="" className="rounded" />
               </div>
             </div>

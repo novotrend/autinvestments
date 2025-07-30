@@ -13,23 +13,20 @@ export default function ForexTrading() {
   return (
     <div className="boxed_wrapper">
       <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Forex Trading">
-
         <section className="platform-section alternat-2 pt_90 pb_60">
           <div className="auto-container">
-            <div className="row align-items-center g-3 flex-wrap-reverse">
-              <div className="col-lg-8">
+            <div className="row align-items-center g-3 flex-wrap-reverse justify-content-between">
+              <div className="col-lg-5">
                 <div className="sec-title pb_20 d-none d-lg-block">
-                  <span className="sub-title mb_14">INFO</span>
-                  <h2 className="mb-2">What is Forex?</h2>
-                  <p>Unlock the potential of currency markets with AUT Investments Limited’s advanced forex trading
-                    platform.
-                  </p>
+                  <span className="sub-title mb_14">Info</span>
+                  <h2 className="mb-3">What is Forex?</h2>
+                  <p>Unlock the potential of currency markets with AUT INVESTMENTS LIMITED’s advanced forex trading platform.</p>
                 </div>
-                <section className="funfact-section">
+                <section className="funfact-section my-2">
                   <div className="auto-container px-0">
-                    <div className="inner-container d-flex flex-column p-sm-5 p-4 aligh-items-start justify-content-start">
+                    <div className="inner-container d-flex flex-column align-items-start justify-content-start rounded-0">
                       <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
-                      <h4 className="mb-3">Overview of Forex Trading</h4>
+                      <h4 className="fw-semibold mb-3">Overview of Forex Trading</h4>
                       <p className="mb-3">
                         Forex (foreign exchange) is the world’s largest and most liquid financial market, enabling the
                         exchange of national currencies 24/5. With daily volumes exceeding $6 trillion, forex offers
@@ -37,27 +34,25 @@ export default function ForexTrading() {
                       </p>
                       <p>
                         AUT Investments empowers you with access to <b>60+ currency pairs,</b> including majors, minors,
-                        and exotics, through a robust <b>MT4/MT5-compatible trading platform,</b> ensuring seamless
+                        and exotics, through a robust <b>MT5-compatible trading platform,</b> ensuring seamless
                         execution and advanced charting tools.
                       </p>
-
                     </div>
                   </div>
                 </section>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-5 text-lg-end">
                 <div className="sec-title pb_20 d-lg-none">
-                  <span className="sub-title mb_14">INFO</span>
+                  <span className="sub-title mb_14">Info</span>
                   <h2 className="mb-2">What is Forex?</h2>
-                  <p>Unlock the potential of currency markets with AUT Investments Limited’s advanced forex trading
-                    platform.
-                  </p>
+                  <p>Unlock the potential of currency markets with AUT INVESTMENTS LIMITED’s advanced forex trading platform.</p>
                 </div>
-                <img src="/assets/images/resource/forextrading-1.jpg" alt="" className="rounded" />
+                <img src="/assets/images/resource/forextrading-1.jpg" alt="" className="img-fluid" />
               </div>
             </div>
           </div>
         </section>
+
 
         <section className="markets-section pt_60 pb_70">
           <div className="auto-container">
@@ -73,7 +68,7 @@ export default function ForexTrading() {
                       <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
                       <span className="count-text">1</span>
                       <h3>Forex Trading Platforms (MT5 Ready)</h3>
-                      <p>Seamless integration with MetaTrader 4 and MetaTrader 5—globally recognized platforms featuring expert advisors, automated tools, and one-click trading</p>
+                      <p>Seamless integration with MetaTrader 5—globally recognized platforms featuring expert advisors, automated tools, and one-click trading</p>
                     </div>
                   </div>
                   <div className="process-block-one col-md-6">
@@ -81,7 +76,7 @@ export default function ForexTrading() {
                       <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
                       <span className="count-text">2</span>
                       <h3>Competitive Forex Spreads</h3>
-                      <p>Enjoy tight spreads starting at <b>0.0 pips on ECN accounts,</b> ideal for scalping and cost-sensitive strategies</p>
+                      <p>Enjoy tight spreads starting at <b>0.1 pips on ECN accounts,</b> ideal for scalping and cost-sensitive strategies</p>
                     </div>
                   </div>
                   <div className="process-block-one col-md-6">
@@ -137,7 +132,7 @@ export default function ForexTrading() {
                     <div className="inner-box text-start shadow-sm">
                       <div className="count-outer mb-2">
                         <BiLineChart size={40} />
-                        <p className="text-capitalize fs-3 mt-4">Major Pairs</p>
+                        <h3 className="text-capitalize fs-3 mt-4">Major Pairs</h3>
                       </div>
                       <p className="fs-6">EUR/USD, GBP/USD, USD/JPY – highest liquidity, lowest spreads.</p>
                     </div>
@@ -148,7 +143,7 @@ export default function ForexTrading() {
                     <div className="inner-box text-start shadow-sm">
                       <div className="count-outer mb-2">
                         <BiShuffle size={40} />
-                        <p className="text-capitalize fs-3 mt-4">Minor Pairs (Crosses)</p>
+                        <h3 className="text-capitalize fs-3 mt-4">Minor Pairs (Crosses)</h3>
                       </div>
                       <p className="fs-6">EUR/GBP, AUD/NZD – ideal for diversified strategies.</p>
                     </div>
@@ -159,7 +154,7 @@ export default function ForexTrading() {
                     <div className="inner-box text-start shadow-sm">
                       <div className="count-outer mb-2">
                         <BiWorld size={40} />
-                        <p className="text-capitalize fs-3 mt-4">Exotic Pairs</p>
+                        <h3 className="text-capitalize fs-3 mt-4">Exotic Pairs</h3>
                       </div>
                       <p className="fs-6">USD/TRY, USD/ZAR, EUR/SGD – higher volatility, higher opportunity.</p>
                     </div>
@@ -172,12 +167,11 @@ export default function ForexTrading() {
 
         <section className="working-section apps-section alternat-2 pt_120 pb_120 pt_100 pb_100">
           <div className="auto-container">
-            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-4.png)" }}></div>
             <div className="row align-items-center">
-              <div className="col-lg-4 col-md-12 col-sm-12 video-column">
+              <div className="col-lg-5 col-md-12 col-sm-12">
                 <img src="/assets/images/resource/how-to-start.jpg" alt="" className="rounded" />
               </div>
-              <div className="col-lg-8 col-md-12 col-sm-12 content-column">
+              <div className="col-lg-7 col-md-12 col-sm-12 content-column">
                 <div className="content_block_nine">
                   <div className="content-box ml_70">
                     <div className="sec-title light pb_35">
@@ -203,7 +197,7 @@ export default function ForexTrading() {
                       <div className="single-item">
                         <span className="count-text bg-light text-dark">4</span>
                         <h3>Get you profit back</h3>
-                        <p>Download MT4/MT5 or Use Web Trader, and begin trading.</p>
+                        <p>Download MT5 or Use Web Trader, and begin trading.</p>
                       </div>
                     </div>
                   </div>
@@ -212,7 +206,7 @@ export default function ForexTrading() {
             </div>
           </div>
         </section>
-        s
+
         <section className="platform-section alternat-2 pt_90 pb_130">
           <div className="auto-container">
             <div className="sec-title pb_60">
@@ -221,7 +215,7 @@ export default function ForexTrading() {
             </div>
             <div className="tabs-box">
               <div className="row clearfix flex-wrap-reverse g-3">
-                <div className="col-xl-8 col-lg-12 col-md-12 content-column">
+                <div className="col-xxl-8 col-xl-6 col-lg-12 col-md-12 content-column">
                   <div className="tabs-content">
                     <div className={activeIndex === 1 ? "tab active-tab" : "tab"}>
                       <div className="content-box">
@@ -258,7 +252,7 @@ export default function ForexTrading() {
                             supportive educational content.</li>
                           <li><b>Experienced Traders</b> Gain from ultra-tight spreads, high leverage, lightning-fast
                             execution, and advanced order types</li>
-                          <li><b>Algo/Automated Traders</b> Can deploy expert advisor (EA) scripts on MT4/MT5
+                          <li><b>Algo/Automated Traders</b> Can deploy expert advisor (EA) scripts on MT5
                             platforms.</li>
                         </ul>
                       </div>
@@ -270,7 +264,7 @@ export default function ForexTrading() {
                         <ul className="list-style-one clearfix">
                           <li><b>High Liquidity</b> Easy entry and exit, low slippage</li>
                           <li><b>Round-the-Clock Trading </b> Trade across all time zones</li>
-                          <li><b>Cost Efficiency</b> Can deploy expert advisor (EA) scripts on MT4/MT5
+                          <li><b>Cost Efficiency</b> Can deploy expert advisor (EA) scripts on MT5
                             platforms.</li>
                           <li><b>Strategic Flexibility</b> Suitable for scalping, day trading, swing trading</li>
                           <li><b>Risk Management</b> Full negative balance protection, stop/limit orders</li>
@@ -279,7 +273,7 @@ export default function ForexTrading() {
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-4 col-lg-12 col-md-12 btn-column">
+                <div className="col-xxl-4 col-xl-6 col-lg-12 col-md-12 btn-column content-column">
                   <ul className="tab-btns tab-buttons shop-tab-btn clearfix">
                     <li onClick={() => handleOnClick(1)} className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>Essential Forex Trading Features</li>
                     <li onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>Forex Terminology & Tools</li>

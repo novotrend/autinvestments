@@ -42,7 +42,7 @@ export default function Markets() {
                                         <div className={activeIndex === 2 ? "tab active-tab" : "tab"} id="forex">
                                             <div className="content-box">
                                                 <figure className="image-box"><img src="/assets/images/resource/platform-1.png" alt="" /></figure>
-                                                <h2>MT4/MT</h2>
+                                                <h2>MT5</h2>
                                                 <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionality with user-friendly design, enabling traders of all levels to seize market opportunities anytime, anywhere.</p>
                                                 <ul className="list-style-one clearfix">
                                                     <li>Trade with one tap, anywhere, anytime</li>
@@ -70,7 +70,7 @@ export default function Markets() {
                                 <div className="col-xl-4 col-lg-12 col-md-12 btn-column">
                                     <ul className="tab-btns tab-buttons shop-tab-btn clearfix">
                                         <li onClick={() => handleOnClick(1)} className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>FXT Webtrader</li>
-                                        <li onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>MT4/MT</li>
+                                        <li onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>MT5</li>
                                         <li onClick={() => handleOnClick(3)} className={activeIndex === 3 ? "tab-btn active-btn" : "tab-btn"}>FXT Cpoy</li>
                                     </ul>
                                 </div>

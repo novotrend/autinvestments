@@ -32,7 +32,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                         <div className="outer-box">
                             <figure className="logo-box">
                                 <Link href="/">
-                                    <img src="/assets/images/logo.svg" alt="" />
+                                    <img src="/assets/images/logo-header.svg" alt="" />
                                 </Link></figure>
                             <div className="menu-area clearfix">
                                 {/* mobile navigation toggler */}
@@ -56,7 +56,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                 <div className={`sticky-header ${scroll ? "animated slideInDown" : ""}`}>
                     <div className="large-container">
                         <div className="outer-box">
-                            <figure className="logo-box"><Link href="/"><img src="/assets/images/logo.svg" alt="" /></Link></figure>
+                            <figure className="logo-box"><Link href="/"><img src="/assets/images/logo-header.svg" alt="" /></Link></figure>
                             <div className="menu-area clearfix">
                                 <nav className="main-menu clearfix">
                                     <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">

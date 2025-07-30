@@ -11,7 +11,7 @@ export default function EconomicCalendarPage() {
                     <section className="economic-calendar-section mb_100 pt_60">
                         <div className="auto-container">
                             <div className="sec-title pb_20 d-none d-lg-block">
-                                <span className="sub-title mb_14">INFO</span>
+                                <span className="sub-title mb_14">Info</span>
                                 <h2 className="mb-2">Economic Calendar</h2>
                             </div>
                             <EconomicCalendarWidget />

@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function Award() {
     return (
         <>
-            <section className="award-section pt_60 pb_100">
+            <section className="award-section mt5 pt_60 pb_100">
                 <div className="auto-container">
                     <div className="sec-title pb_60">
                         <span className="sub-title mb_14">Accounts</span>
@@ -28,7 +28,7 @@ export default function Award() {
                             <tbody>
                                 <tr>
                                     <td>Standard</td>
-                                    <td>$1000</td>
+                                    <td>100$ To 1000$</td>
                                     <td><span>Up to 1:500</span></td>
                                     <td>Variable Spreads</td>
                                     <td>New and active traders</td>

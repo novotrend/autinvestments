@@ -33,27 +33,19 @@ export default function DepositWithdraw() {
       <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Deposit & Withdraw">
         <section className="platform-section alternat-2 pt_90 pb_60">
           <div className="auto-container">
-            <div className="row align-items-center g-3">
-              <div className="col-lg-4">
-                <div className="sec-title pb_20 d-lg-none">
-                  <span className="sub-title mb_14">INFO</span>
-                  <h2 className="mb-2">What is Open Deposit & Withdraw?</h2>
-                  <p>Fund your trading journey with fast, secure, and transparent payment methods.</p>
-                </div>
-                <img src="/assets/images/resource/depositwithdraw-1.jpg" alt="" className="rounded" />
-              </div>
-              <div className="col-lg-8">
+            <div className="row align-items-center g-3 flex-wrap-reverse justify-content-between">
+              <div className="col-lg-5">
                 <div className="sec-title pb_20 d-lg-block d-none">
-                  <span className="sub-title mb_14">INFO</span>
-                  <h2 className="mb-2">What is Open Deposit & Withdraw?</h2>
+                  <span className="sub-title mb_14">Info</span>
+                  <h2 className="mb-3">What is Open Deposit & Withdraw?</h2>
                   <p>Fund your trading journey with fast, secure, and transparent payment methods.</p>
                 </div>
                 <section className="funfact-section">
                   <div className="auto-container px-0">
-                    <div className="inner-container d-flex flex-column p-sm-5 p-4 aligh-items-start justify-content-start">
+                    <div className="inner-container d-flex flex-column align-items-start justify-content-start">
                       <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
-                      <h4 className="text-dark fw-semibold mb-3">Seamless Transactions for Traders Worldwide</h4>
-                      <p>At AUT Investments Limited, we understand that easy deposits and reliable withdrawals are
+                      <h4 className="fw-semibold mb-3">Seamless Transactions for Traders Worldwide</h4>
+                      <p>At AUT INVESTMENTS LIMITED, we understand that easy deposits and reliable withdrawals are
                         essential for your trading experience. That’s why we offer a streamlined funding process
                         designed for speed, flexibility, and global accessibility. Whether you’re starting your first trade or
                         managing active profits, our platform ensures that your money moves safely — in and out.</p>
@@ -61,45 +53,51 @@ export default function DepositWithdraw() {
                   </div>
                 </section>
               </div>
+              <div className="col-lg-5 text-lg-end">
+                <div className="sec-title pb_20 d-lg-none">
+                  <span className="sub-title mb_14">Info</span>
+                  <h2 className="mb-3">What is Open Deposit & Withdraw?</h2>
+                  <p>Fund your trading journey with fast, secure, and transparent payment methods.</p>
+                </div>
+                <img src="/assets/images/resource/depositwithdraw-1.jpg" alt="" className="img-fluid" />
+              </div>
             </div>
           </div>
         </section>
 
         <section className="markets-section pt_70 pb_70">
           <div className="auto-container">
-            <div className="row align-items-center g-3 flex-wrap-reverse">
-              <div className="col-lg-8">
-                <div className="sec-title d-lg-block d-none">
+            <div className="row align-items-center justify-content-between row-deck">
+              <div className="col-12">
+                <div className="sec-title pb_30">
                   <span className="sub-title mb_14">Features of AUT</span>
-                  <h2>Why Deposit & Withdraw with AUT <span className="d-block text-dark"> Investments Limited?</span></h2>
+                  <h2>Why Deposit & Withdraw with AUT <span className="d-block text-light"> Investments Limited?</span></h2>
                 </div>
-                <div className="row clearfix education-details-content shadow-sm py-5 px-sm-4 px-2 rounded-4" >
-                  <div className="col-12 content-column ">
+              </div>
+              <div className="col-lg-5">
+                <img src="/assets/images/resource/deposit-feature.jpg" alt="" className="img-fluid h-100" />
+              </div>
+              <div className="col-lg-7">
+                <div className="row clearfix education-details-content">
+                  <div className="col-12 content-column">
                     <div className="text-box">
                       <ul className="list-item clearfix">
-                        <li className="lh-lg"><b className="fs-6 text-dark">Multiple Funding Options:</b> <br />Choose from a variety of trusted methods including <b>bank transfers, credit/debit cards, e-wallets</b> — tailored for traders around the world.</li>
-                        <li className="lh-lg"><b className="fs-6 text-dark">Fast Processing Times:</b> <br />Most deposits are processed instantly or within a few hours. Withdrawals are generally completed within <b>24 business hours</b> depending on the method.</li>
-                        <li className="lh-lg"><b className="fs-6 text-dark">No Hidden Fees:</b> <br />We maintain complete transparency. Most payment methods have <b>zero deposit fees.</b> Withdrawal fees, if applicable, are clearly displayed before confirmation.</li>
-                        <li className="lh-lg"><b className="fs-6 text-dark">Secure Transactions:</b> <br />All financial operations are protected by <b>256-bit SSL encryption, two-factor authentication (2FA)</b> and comply with international AML/KYC regulations.</li>
-                        <li className="lh-lg"><b className="fs-6 text-dark">Multi-Currency Support:</b> <br />Fund your account in <b>USD, EUR, GBP,</b> or local currency (as available), and enjoy automatic conversion at competitive forex rates.</li>
-                        <li className="lh-lg"><b className="fs-6 text-dark">24/5 Support:</b> <br />Our support team is available throughout the trading week to assist with any deposit or withdrawal-related queries.</li>
+                        <li className="lh-lg"><b className="fs-6">Multiple Funding Options:</b> <br />Choose from a variety of trusted methods including <b>bank transfers, credit/debit cards, e-wallets</b> — tailored for traders around the world.</li>
+                        <li className="lh-lg"><b className="fs-6">Fast Processing Times:</b> <br />Most deposits are processed instantly or within a few hours. Withdrawals are generally completed within <b>24 business hours</b> depending on the method.</li>
+                        <li className="lh-lg"><b className="fs-6">No Hidden Fees:</b> <br />We maintain complete transparency. Most payment methods have <b>zero deposit fees.</b> Withdrawal fees, if applicable, are clearly displayed before confirmation.</li>
+                        <li className="lh-lg"><b className="fs-6">Secure Transactions:</b> <br />All financial operations are protected by <b>256-bit SSL encryption, two-factor authentication (2FA)</b> and comply with international AML/KYC regulations.</li>
+                        <li className="lh-lg"><b className="fs-6">Multi-Currency Support:</b> <br />Fund your account in <b>USD, EUR, GBP,</b> or local currency (as available), and enjoy automatic conversion at competitive forex rates.</li>
+                        <li className="lh-lg"><b className="fs-6">24/5 Support:</b> <br />Our support team is available throughout the trading week to assist with any deposit or withdrawal-related queries.</li>
                       </ul>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4">
-                <div className="sec-title d-lg-none pb_30">
-                  <span className="sub-title mb_14">Features of AUT</span>
-                  <h2>Why Deposit & Withdraw with AUT <span className="d-block text-dark"> Investments Limited?</span></h2>
-                </div>
-                <img src="/assets/images/resource/deposit-feature.jpg" alt="" className="rounded" />
-              </div>
             </div>
           </div>
         </section>
 
-        <section className="award-section pt_60 pb_70">
+        <section className="award-section mt5 pt_60 pb_70">
           <div className="auto-container">
             <div className="sec-title pb_60">
               <span className="sub-title mb_14">Deposit</span>
@@ -141,7 +139,7 @@ export default function DepositWithdraw() {
           </div>
         </section>
 
-        <section className="award-section pt_60 pb_70">
+        <section className="award-section mt5 pt_60 pb_70">
           <div className="auto-container">
             <div className="sec-title pb_60">
               <span className="sub-title mb_14">Withdrawal</span>
@@ -191,7 +189,7 @@ export default function DepositWithdraw() {
             </div>
             <div className="tabs-box">
               <div className="row clearfix flex-wrap-reverse g-3">
-                <div className="col-xl-8 col-lg-12 col-md-12 content-column">
+                <div className="col-xxl-8 col-xl-6 col-lg-12 col-md-12 content-column">
                   <div className="tabs-content">
                     <div className={activeIndex === 1 ? "tab active-tab" : "tab"}>
                       <div className="content-box">
@@ -227,15 +225,15 @@ export default function DepositWithdraw() {
                           <li>Withdrawals must be made to the same source used for depositing, as per anti-money laundering policies.</li>
                           <li>In some cases, identity verification may be requested before processing withdrawals.</li>
                           <li>Processing times can vary on weekends or public holidays.</li>
-                          <li>AUT Investments Limited does not charge fees on most methods, but external payment
+                          <li>AUT INVESTMENTS LIMITED does not charge fees on most methods, but external payment
                             providers may apply nominal charges.</li>
                         </ul>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-4 col-lg-12 col-md-12 btn-column">
-                  <ul className="three tab-btns tab-buttons shop-tab-btn clearfix">
+                <div className="col-xxl-4 col-xl-6 col-lg-12 col-md-12 btn-column content-column">
+                  <ul className="tab-btns tab-buttons shop-tab-btn clearfix">
                     <li onClick={() => handleOnClick(1)} className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>How to Deposit Funds</li>
                     <li onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>How to Withdraw Funds</li>
                     <li onClick={() => handleOnClick(3)} className={activeIndex === 3 ? "tab-btn active-btn" : "tab-btn"}>Important Notes</li>
@@ -248,14 +246,16 @@ export default function DepositWithdraw() {
 
         <section className="about-section pt_60 pb_70">
           <div className="auto-container">
-            <div className="row align-items-center g-5 flex-wrap-reverse">
+            <div className="row align-items-center g-5">
+              <div className="col-12">
+                <div className="sec-title pb_30">
+                  <span className="sub-title mb_14">Help</span>
+                  <h2>Frequently Asked Questions (FAQ)</h2>
+                </div>
+              </div>
               <div className="col-lg-8 col-md-12 col-sm-12">
                 <div className="content_block_one">
                   <div className="content-box mr_80">
-                    <div className="sec-title pb_30 d-none d-lg-block">
-                      <span className="sub-title mb_14">Help</span>
-                      <h2>Frequently Asked Questions (FAQ)</h2>
-                    </div>
                     <ul className="accordion-box">
                       <li className="accordion block active-block">
                         <div className={isActive.key == 1 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(1)}>
@@ -265,7 +265,7 @@ export default function DepositWithdraw() {
                         <div className={isActive.key == 1 ? "acc-content current" : "acc-content"}>
                           <div className="content">
                             <p>
-                              Yes. Minimum deposits start from $100, depending on the account type.
+                              Yes. Minimum deposits start from 100$ To 1000$, depending on the account type.
                             </p>
                           </div>
                         </div>
@@ -313,12 +313,8 @@ export default function DepositWithdraw() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-12 col-sm-12">
-                <div className="sec-title pb_30 d-lg-none">
-                  <span className="sub-title mb_14">Help</span>
-                  <h2>Frequently Asked Questions (FAQ)</h2>
-                </div>
-                <img src="/assets/images/resource/faq.jpg" alt="" className="rounded" />
+              <div className="col-lg-4 col-md-12 col-sm-12 d-lg-block d-none">
+                <img src="/assets/images/resource/faq.jpg" alt="" className="img-fluid" />
               </div>
             </div>
           </div>
@@ -330,12 +326,14 @@ export default function DepositWithdraw() {
             <div className="inner-container">
               <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
               <div className="row align-items-center">
-                <div className="col-12 text-column">
+                <div className="col-xl-9 col-lg-8 text-column mb-3">
                   <div className="text-box">
                     <h2 className="fw-bold">Begin Your Trading Journey Risk-Free</h2>
-                    <p className="text-light fs-6 mt_30">Open your free demo account with AUT Investments Limited and discover the tools, speed, and reliability of our trading environment. Practice. Learn. Grow — all without financial pressure.</p>
-                    <Link className="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Support</Link>
+                    <p className="text-light fs-6 mt_30">Open your free demo account with AUT INVESTMENTS LIMITED and discover the tools, speed, and reliability of our trading environment. Practice. Learn. Grow — all without financial pressure.</p>
                   </div>
+                </div>
+                <div className="col-xl-3 col-lg-4">
+                  <Link className="theme-btn btn-one bg-dark me-3" href="/contact">Contact Support</Link>
                 </div>
               </div>
             </div>

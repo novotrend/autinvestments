@@ -7,6 +7,7 @@ import { GiWorld } from "react-icons/gi";
 import { FaExchangeAlt } from "react-icons/fa";
 import { MdDonutLarge, MdSpeed, MdNightsStay } from "react-icons/md";
 import { IoIosPulse } from "react-icons/io";
+import { FaChartPie, FaBolt, FaArrowsAltH, FaChartLine, FaRegClock } from "react-icons/fa";
 
 
 export default function IndicesTrading() {
@@ -20,62 +21,62 @@ export default function IndicesTrading() {
   return (
     <div className="boxed_wrapper">
       <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Indices Trading">
-
         <section className="platform-section alternat-2 pt_90 pb_60">
           <div className="auto-container">
-            <div className="row align-items-center g-3 flex-wrap-reverse">
-              <div className="col-lg-8">
+            <div className="row align-items-center g-3 flex-wrap-reverse justify-content-between">
+              <div className="col-lg-5">
                 <div className="sec-title pb_20 d-none d-lg-block">
-                  <span className="sub-title mb_14">INFO</span>
-                  <h2 className="mb-2">Indices Trading</h2>
-                  <p>Track the performance of global markets with index CFDs — trade the momentum of
+                  <span className="sub-title mb_14">Info</span>
+                  <h2 className="mb-3">Indices Trading</h2>
+                  <p>
+                    Track the performance of global markets with index CFDs — trade the momentum of
                     economies, sectors, and sentiment.
                   </p>
                 </div>
-                <section className="funfact-section">
+                <section className="funfact-section my-2">
                   <div className="auto-container px-0">
-                    <div className="inner-container d-flex flex-column p-sm-5 p-4 aligh-items-start justify-content-start">
+                    <div className="inner-container d-flex flex-column align-items-start justify-content-start rounded-0">
                       <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
-                      <h4 className="mb-3">What is Indices Trading?</h4>
+                      <h4 className="fw-semibold mb-3">What is Indices Trading?</h4>
                       <p className="mb-3">
                         Indices represent the performance of a group of selected stocks from a particular market or
                         sector. Trading index CFDs allows you to speculate on the movement of entire markets like the
                         US 30 (Dow Jones), GER 40 (DAX), or UK 100 (FTSE) without owning the underlying assets.
                       </p>
                       <p>
-                        At AUT Investments Limited, we offer real-time access to leading global indices through a powerful,
+                        At AUT INVESTMENTS LIMITED, we offer real-time access to leading global indices through a powerful,
                         flexible trading platform — enabling retail and institutional traders to capitalize on market-wide
                         trends, volatility, and economic cycles.
                       </p>
-
                     </div>
                   </div>
                 </section>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-5 text-lg-end">
                 <div className="sec-title pb_20 d-lg-none">
-                  <span className="sub-title mb_14">INFO</span>
+                  <span className="sub-title mb_14">Info</span>
                   <h2 className="mb-2">Indices Trading</h2>
-                  <p>Track the performance of global markets with index CFDs — trade the momentum of
+                  <p>
+                    Track the performance of global markets with index CFDs — trade the momentum of
                     economies, sectors, and sentiment.
                   </p>
                 </div>
-                <img src="/assets/images/resource/indices-trading.png" alt="" className="rounded" />
+                <img src="/assets/images/resource/indices-trading.png" alt="" className="img-fluid" />
               </div>
             </div>
           </div>
         </section>
 
-        <section className="account-style-two clear-bg pt_80 pb_70">
+        <section className="account-section pt_60 pb_70">
           <div className="auto-container">
-            <div className="sec-title pb_50">
+            <div className="sec-title pb_60">
               <span className="sub-title mb_14">Edge</span>
-              <h2>Why Trade Indices with AUT Investments Limited?</h2>
+              <h2>Why Trade Indices with AUT INVESTMENTS LIMITED?</h2>
             </div>
-            <div className="row clearfix">
+            <div className="row clearfix row-deck">
 
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
-                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                <div className="account-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                   <div className="inner-box">
                     <div className="icon-box"><GiWorld size={30} /></div>
                     <h3>Access to Major Global Indices</h3>
@@ -85,7 +86,7 @@ export default function IndicesTrading() {
               </div>
 
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
-                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <div className="account-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                   <div className="inner-box">
                     <div className="icon-box"><MdDonutLarge size={30} /></div>
                     <h3>Diversified Exposure</h3>
@@ -95,7 +96,7 @@ export default function IndicesTrading() {
               </div>
 
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
-                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
+                <div className="account-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                   <div className="inner-box">
                     <div className="icon-box"><MdSpeed size={30} /></div>
                     <h3>Tight Spreads and Fast Execution</h3>
@@ -105,7 +106,7 @@ export default function IndicesTrading() {
               </div>
 
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
-                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                <div className="account-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                   <div className="inner-box">
                     <div className="icon-box"><FaExchangeAlt size={30} /></div>
                     <h3>Trade Both Rising and Falling Markets</h3>
@@ -115,7 +116,7 @@ export default function IndicesTrading() {
               </div>
 
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
-                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="800ms" data-wow-duration="1500ms">
+                <div className="account-block-one wow fadeInUp animated" data-wow-delay="800ms" data-wow-duration="1500ms">
                   <div className="inner-box">
                     <div className="icon-box"><IoIosPulse size={30} /></div>
                     <h3>High Volatility = More Opportunities</h3>
@@ -125,7 +126,7 @@ export default function IndicesTrading() {
               </div>
 
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
-                <div className="account-block-two text-start wow fadeInUp animated" data-wow-delay="1000ms" data-wow-duration="1500ms">
+                <div className="account-block-one wow fadeInUp animated" data-wow-delay="1000ms" data-wow-duration="1500ms">
                   <div className="inner-box">
                     <div className="icon-box"><MdNightsStay size={30} /></div>
                     <h3>No Overnight Swap on Select Accounts</h3>
@@ -293,16 +294,15 @@ export default function IndicesTrading() {
 
         <section className="working-section apps-section alternat-2 pt_120 pb_120 pt_100 pb_100">
           <div className="auto-container">
-            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-4.png)" }}></div>
             <div className="row align-items-center">
-              <div className="col-lg-4 col-md-12 col-sm-12">
+              <div className="col-lg-5 col-md-12 col-sm-12">
                 <div className="sec-title light pb_35 d-lg-none">
                   <span className="sub-title mb_10">Setup</span>
                   <h2>Getting Started with Indices Trading</h2>
                 </div>
                 <img src="/assets/images/resource/how-to-start-indices-trading.png" alt="" className="rounded" />
               </div>
-              <div className="col-lg-8 col-md-12 col-sm-12 content-column">
+              <div className="col-lg-7 col-md-12 col-sm-12 content-column">
                 <div className="content_block_nine">
                   <div className="content-box ml_70">
                     <div className="sec-title light pb_35 d-none d-lg-block">
@@ -356,7 +356,7 @@ export default function IndicesTrading() {
             </div>
             <div className="tabs-box">
               <div className="row clearfix flex-wrap-reverse g-3">
-                <div className="col-xl-8 col-lg-12 col-md-12 content-column">
+                <div className="col-xxl-8 col-xl-6 col-lg-12 col-md-12 content-column">
                   <div className="tabs-content">
                     <div className={activeIndex === 1 ? "tab active-tab" : "tab"}>
                       <div className="content-box">
@@ -411,7 +411,7 @@ export default function IndicesTrading() {
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-4 col-lg-12 col-md-12 btn-column">
+                <div className="col-xxl-4 col-xl-6 col-lg-12 col-md-12 btn-column">
                   <ul className="tab-btns tab-buttons shop-tab-btn clearfix">
                     <li onClick={() => handleOnClick(1)} className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>What Drives Index Movements?</li>
                     <li onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>Benefits of Index Trading</li>
@@ -430,23 +430,24 @@ export default function IndicesTrading() {
             <div className="inner-container">
               <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
               <div className="row align-items-center">
-                <div className="col-12 text-column">
+                <div className="col-xl-9 col-lg-8 text-column mb-3">
                   <div className="text-box">
-                    <h2 className="fw-bold">Explore the Power of Indices with AUT Investments Limited</h2>
+                    <h2 className="fw-bold">Explore the Power of Indices with AUT INVESTMENTS LIMITED</h2>
                     <p className="text-light fs-6 mt_30">
                       Broaden your trading scope with one of the most efficient ways to capture global momentum.
                       Trade the world’s top indices with technology, transparency, and trust.
                     </p>
-                    <Link href="/contact" className="theme-btn btn-one bg-dark mt-4">
-                      Contact Support
-                    </Link>
                   </div>
+                </div>
+                <div className="col-xl-3 col-lg-4">
+                  <Link className="theme-btn btn-one bg-dark me-3" href="/contact">
+                    Contact Support
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
         </section>
-
 
       </Layout>
     </div>

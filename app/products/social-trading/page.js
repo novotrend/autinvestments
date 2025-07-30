@@ -33,20 +33,21 @@ export default function SocialTrading() {
 
         <section className="platform-section alternat-2 pt_90 pb_60">
           <div className="auto-container">
-            <div className="row align-items-center">
-              <div className="col-md-12">
+            <div className="row align-items-center justify-content-between">
+              <div className="col-lg-5 col-md-12">
                 <div className="sec-title pb_20">
-                  <span className="sub-title mb_14">INFO</span>
-                  <h2 className="mb-2">Social Trading </h2>
+                  <span className="sub-title mb_14">Info</span>
+                  <h2 className="mb-2 d-none d-md-block">Social Trading</h2>
                   <p>
                     Join a community of traders. Share insights, follow strategies, and grow together.
                   </p>
                 </div>
                 <section className="funfact-section">
                   <div className="auto-container px-0">
-                    <div className="inner-container d-flex flex-column p-sm-5 p-4 aligh-items-start justify-content-start">
+                    <div className="d-flex flex-column align-items-start justify-content-start">
                       <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
-                      <h4 className="mb-3">What is Social Trading ?</h4>
+                      <h2 className="mb-3 d-block d-md-none">Social Trading</h2>
+                      <h4 className="mb-3">What is Social Trading?</h4>
 
                       <p className="mb-3">
                         Social Trading is a collaborative approach to trading that allows users to connect, observe, and
@@ -55,29 +56,32 @@ export default function SocialTrading() {
                         proven strategies, and share your own trading ideas.
                       </p>
                       <p>
-                        At AUT Investments Limited, our Social Trading platform brings together the best of fintech and
+                        At AUT INVESTMENTS LIMITED, our Social Trading platform brings together the best of fintech and
                         social networking to help traders make smarter decisions through community-driven insights.
                       </p>
                     </div>
                   </div>
                 </section>
               </div>
+              <div className="col-lg-5 col-md-12">
+                <img src="/assets/images/resource/social-trading.jpg" alt="Social Trading" className="img-fluid" />
+              </div>
             </div>
           </div>
         </section>
 
+
         <section className="working-section apps-section alternat-2 pt_120 pb_120 pt_100 pb_100">
           <div className="auto-container">
-            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-4.png)" }}></div>
             <div className="row align-items-center g-3">
-              <div className="col-lg-4 col-md-12 col-sm-12">
+              <div className="col-lg-5 col-md-12 col-sm-12">
                 <div className="sec-title light pb_35 d-lg-none">
                   <span className="sub-title mb_10">Guidance</span>
                   <h2>How Social Trading Works</h2>
                 </div>
-                <img src="/assets/images/resource/socialtrading.jpg" alt="" className="rounded" />
+                <img src="/assets/images/resource/how-work-social-trading.jpg" alt="" className="rounded" />
               </div>
-              <div className="col-lg-8 col-md-12 col-sm-12 content-column">
+              <div className="col-lg-7 col-md-12 col-sm-12 content-column">
                 <div className="content_block_nine">
                   <div className="content-box ml_70">
                     <div className="sec-title light pb_35 d-none d-lg-block ">
@@ -114,7 +118,7 @@ export default function SocialTrading() {
           </div>
         </section>
 
-        <section className="funfact-section pt_120 pb_70">
+        <section className="funfact-section all-markets pt_120 pb_70">
           <div className="auto-container">
             <div className="row align-items-center">
               <div className="col-md-12">
@@ -180,9 +184,15 @@ export default function SocialTrading() {
         </section>
 
         <section className="account-section mt_60 pt_60 pb_70">
-          <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-1.png)" }}></div>
           <div className="auto-container">
-            <div className="row align-items-center g-3 flex-wrap-reverse">
+            <div className="row align-items-center g-3">
+              <div className="col-lg-4 col-md-12 col-sm-12">
+                <div className="sec-title light pb_35 d-lg-none">
+                  <span className="sub-title mb_10">Guidance</span>
+                  <h2 className="text-dark">How to Start Social Trading</h2>
+                </div>
+                <img src="/assets/images/resource/how-to-start-social-trading.jpg" alt="" className="rounded" />
+              </div>
               <div className="col-lg-8 col-md-12 col-sm-12 content-column">
                 <div className="content_block_nine">
                   <div className="content-box ml_70">
@@ -192,35 +202,35 @@ export default function SocialTrading() {
                     </div>
                     <div className="inner-box">
                       <div className="single-item">
-                        <span className="count-text bg-light text-dark">1</span>
+                        <span className="count-text bg-dark text-light">1</span>
                         <h5 className="text-dark fw-semibold">Open a Live Account</h5>
                         <p className="text-dark text-start">
-                          Sign up with AUT Investments Limited and access the social trading dashboard.
+                          Sign up with AUT INVESTMENTS LIMITED and access the social trading dashboard.
                         </p>
                       </div>
                       <div className="single-item">
-                        <span className="count-text bg-light text-dark">2</span>
+                        <span className="count-text bg-dark text-light">2</span>
                         <h5 className="text-dark fw-semibold">Set Up Your Profile</h5>
                         <p className="text-dark text-start">
                           Add a photo, trading bio, risk level, and favorite instruments to make your profile discoverable.
                         </p>
                       </div>
                       <div className="single-item">
-                        <span className="count-text bg-light text-dark">3</span>
+                        <span className="count-text bg-dark text-light">3</span>
                         <h5 className="text-dark fw-semibold">Explore the Community</h5>
                         <p className="text-dark text-start">
                           Use filters to find traders by ROI, asset class, strategy, or popularity.
                         </p>
                       </div>
                       <div className="single-item">
-                        <span className="count-text bg-light text-dark">4</span>
+                        <span className="count-text bg-dark text-light">4</span>
                         <h5 className="text-dark fw-semibold">Engage and Observe</h5>
                         <p className="text-dark text-start">
                           Comment on trades, ask questions, follow traders, and build your network.
                         </p>
                       </div>
                       <div className="single-item">
-                        <span className="count-text bg-light text-dark">5</span>
+                        <span className="count-text bg-dark text-light">5</span>
                         <h5 className="text-dark fw-semibold">Trade, Share & Grow</h5>
                         <p className="text-dark text-start">
                           Place your own trades and optionally share them with the community to build your reputation.
@@ -230,13 +240,6 @@ export default function SocialTrading() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-12 col-sm-12">
-                <div className="sec-title light pb_35 d-lg-none">
-                  <span className="sub-title mb_10">Guidance</span>
-                  <h2 className="text-dark">How to Start Social Trading</h2>
-                </div>
-                <img src="/assets/images/resource/socialtrading-step.jpg" alt="" className="rounded" />
-              </div>
             </div>
           </div>
         </section>
@@ -245,7 +248,7 @@ export default function SocialTrading() {
           <div className="auto-container">
             <div className="sec-title pb_60">
               <span className="sub-title mb_14">Community</span>
-              <h2>Unlock the Power of Social Trading with AUT Investments Limited</h2>
+              <h2>Unlock the Power of Social Trading with AUT INVESTMENTS LIMITED</h2>
             </div>
             <div className="tabs-box">
               <ul className="tab-btns tab-buttons clearfix border-bottom text-center">
@@ -279,7 +282,7 @@ export default function SocialTrading() {
                           <div className="award-section pt_60 pb_100">
                             <div className="auto-container">
                               <div className="sec-title pb_60">
-                                <h2>Key Features of AUT Investments Limited Social Trading</h2>
+                                <h2>Key Features of AUT INVESTMENTS LIMITED Social Trading</h2>
                               </div>
                               <div className="table-outer">
                                 <table className="award-table">
@@ -358,7 +361,7 @@ export default function SocialTrading() {
                           <div className="award-section pt_60 pb_100">
                             <div className="auto-container">
                               <div className="sec-title pb_60">
-                                <h2>Top Reasons to Use Social Trading at AUT Investments Limited</h2>
+                                <h2>Top Reasons to Use Social Trading at AUT INVESTMENTS LIMITED</h2>
                               </div>
                               <ul className="list-style-one clearfix">
                                 <li>Collaborative learning environment</li>
@@ -445,23 +448,26 @@ export default function SocialTrading() {
             <div className="inner-container">
               <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
               <div className="row align-items-center">
-                <div className="col-12 text-column">
+                <div className="col-xl-9 col-lg-8 text-column mb-3">
                   <div className="text-box">
                     <h2 className="fw-bold">Trade Smarter Together</h2>
                     <p className="text-light fs-6 mt_30">
-                      Social Trading at AUT Investments Limited isn’t just about trades — it’s about community,
+                      Social Trading at AUT INVESTMENTS LIMITED isn’t just about trades — it’s about community,
                       transparency, and growth. Whether you're here to learn, teach, follow, or lead — connect with a
                       global network of traders and make informed decisions together.
                     </p>
-                    <Link href="/contact" className="theme-btn btn-one bg-dark mt-4">
-                      Contact Support
-                    </Link>
                   </div>
+                </div>
+                <div className="col-xl-3 col-lg-4">
+                  <Link className="theme-btn btn-one bg-dark me-3" href="/contact">
+                    Contact Support
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
         </section>
+
 
 
 

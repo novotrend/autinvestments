@@ -104,7 +104,6 @@ button.ltr,
 .trading-style-six .tab-btns li:hover,
 .account-details .account-info .list-item li:before,
 .pricing-section .tab-btns,
-.education-details-content .text-box .list-item li:before,
 .team-block-one .inner-box .content-box .social-links li a:hover,
 .team-details .progress-box .bar-inner,
 .team-details .image-box .info-list,
@@ -123,7 +122,9 @@ button.ltr,
   background: var(--theme-color);
 }
 
-
+.education-details-content .text-box .list-item li:before {
+  background: var(--theme-color);
+}
 
 
 /** border-color **/
@@ -165,7 +166,11 @@ button.ltr,
 }
 
 .complete .process-block-one .inner-box li {
-  color: rgb(0, 0, 0) !important;
+  color: rgb(0, 0, 0);
+}
+
+.process-section .process-block-one .inner-box li {
+  color: #fff;
 }
 
 .complete .process-block-one .inner-box:hover li {
@@ -187,7 +192,9 @@ button.ltr,
   color: white;
 }
 
-
+.account-section .sec-title h2 {
+  color: #000000;
+}
 
 
 /************ theme-color-2 ************/

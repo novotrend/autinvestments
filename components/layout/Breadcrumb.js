@@ -4,9 +4,9 @@ export default function Breadcrumb({ breadcrumbTitle }) {
     return (
         <>
 
-            <section className="page-title centred pt_90 pb_0">
-                <div className="pattern-layer rotate-me" style={{ backgroundImage: 'url(/assets/images/shape/shape-13.png)' }}></div>
-                <div className="auto-container">
+            <section className="page-title centred pt_0 pb_0 funfact-section subscribe-section">
+                <div className="inner-container rounded-0 border-0">
+                    <div className="shape" style={{ backgroundImage: 'url(/assets/images/shape/shape-5e.png)' }}></div>
                     <div className="content-box">
                         <h1>{breadcrumbTitle}</h1>
                         <ul className="bread-crumb clearfix">

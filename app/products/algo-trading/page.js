@@ -51,45 +51,54 @@ export default function AlgoTrading() {
 
                 <section className="platform-section alternat-2 pt_90 pb_60">
                     <div className="auto-container">
-                        <div className="row align-items-center">
-                            <div className="col-md-12">
-                                <div className="sec-title pb_20">
-                                    <span className="sub-title mb_14">INFO</span>
-                                    <h2 className="mb-2">Algo Trading </h2>
+                        <div className="row align-items-center g-3 flex-wrap-reverse justify-content-between">
+                            <div className="col-lg-5">
+                                <div className="sec-title pb_20 d-none d-lg-block">
+                                    <span className="sub-title mb_14">Info</span>
+                                    <h2 className="mb-2">What is Algo Trading?</h2>
                                     <p>
-                                        Automate your strategy. Execute trades with speed, precision, and zero emotion.
+                                        Automate your strategies with precision, performance, and powerful trading technology.
                                     </p>
                                 </div>
                                 <section className="funfact-section">
                                     <div className="auto-container px-0">
-                                        <div className="inner-container d-flex flex-column p-sm-5 p-4 aligh-items-start justify-content-start">
+                                        <div className="inner-container d-flex flex-column align-items-start justify-content-start">
                                             <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
-                                            <h4 className="mb-3">What is Algo Trading ?</h4>
-
+                                            <h4 className="mb-3">Overview of Algo Trading</h4>
                                             <p className="mb-3">
-                                                Algo Trading, short for Algorithmic Trading, is the use of computer-coded strategies to execute
-                                                trades automatically based on pre-defined rules. These rules can include price, volume, timing,
-                                                technical indicators, and even complex mathematical models. Once set up, the algorithm runs
-                                                continuously, monitoring the markets and placing trades without manual intervention.
+                                                Algorithmic trading, or Algo Trading, enables automated execution of trades using pre-programmed
+                                                instructions based on market data, technical indicators, or statistical models. These algorithms monitor
+                                                market conditions in real time and execute trades instantly, minimizing emotional decisions and delays.
                                             </p>
                                             <p>
-                                                At AUT Investments Limited, we offer a high-performance infrastructure for traders and
-                                                developers to create, backtest, deploy, and manage automated trading systems across multiple
-                                                asset classes — including forex, indices, stocks, commodities, metals.
+                                                At AUT Investments, traders and developers can access robust infrastructure to build, test, and deploy
+                                                automated strategies across multiple markets—forex, indices, stocks, commodities, and more—ensuring
+                                                consistent execution and scalable performance.
                                             </p>
                                         </div>
                                     </div>
                                 </section>
                             </div>
+                            <div className="col-lg-5 text-lg-end">
+                                <div className="sec-title pb_20 d-lg-none">
+                                    <span className="sub-title mb_14">Info</span>
+                                    <h2 className="mb-2">What is Algo Trading?</h2>
+                                    <p>
+                                        Automate your strategies with precision, performance, and powerful trading technology.
+                                    </p>
+                                </div>
+                                <img src="/assets/images/resource/algo-trading.jpg" alt="" className="img-fluid" />
+                            </div>
                         </div>
                     </div>
                 </section>
+
 
                 <section className="account-style-two clear-bg pt_80 pb_70">
                     <div className="auto-container">
                         <div className="sec-title pb_50">
                             <span className="sub-title mb_14">Automation</span>
-                            <h2>Why Choose Algo Trading with AUT Investments Limited?</h2>
+                            <h2>Why Choose Algo Trading with AUT INVESTMENTS LIMITED?</h2>
                         </div>
 
                         <div className="row clearfix row-deck">
@@ -138,7 +147,7 @@ export default function AlgoTrading() {
                                     <div className="inner-box">
                                         <div className="icon-box"><FiMonitor size={40} /></div>
                                         <h3>Full MT5 Compatibility</h3>
-                                        <p>Build and run Expert Advisors (EAs) using MQL4 or MQL5, with direct integration to MetaTrader platforms.</p>
+                                        <p>Build and run Expert Advisors (EAs) using MQL5, with direct integration to MetaTrader platforms.</p>
                                     </div>
                                 </div>
                             </div>
@@ -156,24 +165,22 @@ export default function AlgoTrading() {
                     </div>
                 </section>
 
-
                 <section className="working-section apps-section alternat-2 pt_120 pb_120 pt_100 pb_100">
                     <div className="auto-container">
-                        <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-4.png)" }}></div>
                         <div className="row align-items-center">
-                            <div className="col-lg-4 col-md-12 col-sm-12">
+                            <div className="col-lg-5 col-md-12 col-sm-12">
                                 <div className="sec-title light pb_35 d-lg-none">
                                     <span className="sub-title mb_10">Steps</span>
-                                    <h2>How to Get Started with Algo Trading at AUT Investments Limited</h2>
+                                    <h2>How to Get Started with Algo Trading at AUT INVESTMENTS LIMITED</h2>
                                 </div>
-                                <img src="/assets/images/resource/socialtrading.jpg" alt="" className="rounded" />
+                                <img src="/assets/images/resource/how-to-start-algo-trading.jpg" alt="" className="rounded" />
                             </div>
-                            <div className="col-lg-8 col-md-12 col-sm-12 content-column">
+                            <div className="col-lg-7 col-md-12 col-sm-12 content-column">
                                 <div className="content_block_nine">
                                     <div className="content-box ml_70">
                                         <div className="sec-title light pb_35 d-none d-lg-block">
                                             <span className="sub-title mb_10">Steps</span>
-                                            <h2>How to Get Started with Algo Trading at AUT Investments Limited</h2>
+                                            <h2>How to Get Started with Algo Trading at AUT INVESTMENTS LIMITED</h2>
                                         </div>
                                         <div className="inner-box">
                                             <div className="single-item">
@@ -181,14 +188,14 @@ export default function AlgoTrading() {
                                                 <h3>
                                                     Open a Trading Account</h3>
                                                 <p>
-                                                    Choose MT4 or MT5 as your preferred platform during signup.</p>
+                                                    Choose MT5 as your preferred platform during signup.</p>
                                             </div>
                                             <div className="single-item">
                                                 <span className="count-text bg-light text-dark">2</span>
                                                 <h3>
                                                     Develop or Upload Your Algorithm</h3>
                                                 <p>
-                                                    Use MQL4 or MQL5 to code your strategy, or choose from pre-built EAs.</p>
+                                                    Use MQL5 to code your strategy, or choose from pre-built EAs.</p>
                                             </div>
                                             <div className="single-item">
                                                 <span className="count-text bg-light text-dark">3</span>
@@ -231,7 +238,7 @@ export default function AlgoTrading() {
 
                             <div className="single-item">
                                 <div className="icon-box"><FiCode size={40} /></div>
-                                <h4>MetaEditor (MT4/MT5)</h4>
+                                <h4>MetaEditor (MT5)</h4>
                                 <p className="mt-3">Code and modify trading algorithms</p>
                             </div>
 
@@ -295,7 +302,7 @@ export default function AlgoTrading() {
                                         <div className="col-md-12 col-sm-12 content-column">
                                             <div className="content_block_three">
                                                 <div className="content-box mr_30">
-                                                    <div className="award-section pt_60 pb_100">
+                                                    <div className="award-section pb_100">
                                                         <div className="auto-container">
                                                             <div className="sec-title pb_60">
                                                                 <h2>What You Can Automate</h2>
@@ -445,23 +452,26 @@ export default function AlgoTrading() {
                         <div className="inner-container">
                             <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
                             <div className="row align-items-center">
-                                <div className="col-12 text-column">
+                                <div className="col-xl-9 col-lg-8 text-column mb-3">
                                     <div className="text-box">
                                         <h2 className="fw-bold">Automate with Confidence. Trade with Intelligence.</h2>
                                         <p className="text-light fs-6 mt_30">
-                                            With AUT Investments Limited’s Algo Trading environment, you're not just keeping up with the
+                                            With AUT INVESTMENTS LIMITED’s Algo Trading environment, you're not just keeping up with the
                                             market — you're staying ahead of it. Whether you're building from scratch or using a pre-built
                                             strategy, automate your edge and experience trading the smart way.
                                         </p>
-                                        <Link href="/contact" className="theme-btn btn-one bg-dark mt-4">
-                                            Contact Support
-                                        </Link>
                                     </div>
+                                </div>
+                                <div className="col-xl-3 col-lg-4">
+                                    <Link className="theme-btn btn-one bg-dark me-3" href="/contact">
+                                        Contact Support
+                                    </Link>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
+
 
             </Layout>
         </div>

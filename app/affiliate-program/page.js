@@ -9,31 +9,31 @@ export default function AffiliateProgram() {
       <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Affiliate Program">
         <section className="platform-section alternat-2 pt_90 pb_60">
           <div className="auto-container">
-            <div className="row align-items-center g-3">
-              <div className="col-lg-4">
-                <div className="sec-title pb_20 d-lg-none">
-                  <span className="sub-title mb_14">INFO</span>
-                  <h2 className="mb-2">What is Affiliate Program</h2>
-                  <p>Partner with AUT Investments Limited and earn by referring traders — simple, scalable, and performance-driven.</p>
-                </div>
-                <img src="/assets/images/resource/affiliateprogram-1.jpg" alt="" className="rounded" />
-              </div>
-              <div className="col-lg-8">
+            <div className="row align-items-center g-3 justify-content-between">
+              <div className="col-lg-5">
                 <div className="sec-title pb_20 d-none d-lg-block">
-                  <span className="sub-title mb_14">INFO</span>
+                  <span className="sub-title mb_14">Info</span>
                   <h2 className="mb-2">What is Affiliate Program</h2>
-                  <p>Partner with AUT Investments Limited and earn by referring traders — simple, scalable, and performance-driven.</p>
+                  <p>Partner with AUT INVESTMENTS LIMITED and earn by referring traders — simple, scalable, and performance-driven.</p>
                 </div>
                 <section className="funfact-section">
                   <div className="auto-container px-0">
-                    <div className="inner-container d-flex flex-column p-sm-5 p-4 aligh-items-start justify-content-start">
+                    <div className="inner-container d-flex flex-column align-items-start justify-content-start">
                       <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
-                      <h4 className="text-dark fw-semibold mb-3">Grow with One of the Fastest-Rising Trading Brands</h4>
-                      <p>The AUT Investments Limited Affiliate Program is designed for individuals, influencers, financial educators, website owners, content creators, IBs (Introducing Brokers), and digital marketers who want to monetize their traffic or network by promoting a trusted forex and CFD trading brand.</p>
+                      <h4 className="fw-semibold mb-3">Grow with One of the Fastest-Rising Trading Brands</h4>
+                      <p>The AUT INVESTMENTS LIMITED Affiliate Program is designed for individuals, influencers, financial educators, website owners, content creators, IBs (Introducing Brokers), and digital marketers who want to monetize their traffic or network by promoting a trusted forex and CFD trading brand.</p>
                       <p className="mt-3">Our affiliate model combines transparent commissions, real-time tracking, and dedicated partner support — enabling you to build a stable income stream by introducing new clients to our world-class trading platform.</p>
                     </div>
                   </div>
                 </section>
+              </div>
+              <div className="col-lg-5">
+                <div className="sec-title pb_20 d-lg-none">
+                  <span className="sub-title mb_14">Info</span>
+                  <h2 className="mb-2">What is Affiliate Program</h2>
+                  <p>Partner with AUT INVESTMENTS LIMITED and earn by referring traders — simple, scalable, and performance-driven.</p>
+                </div>
+                <img src="/assets/images/resource/affiliateprogram-1.jpg" alt="" className="rounded" />
               </div>
             </div>
           </div>
@@ -41,34 +41,32 @@ export default function AffiliateProgram() {
 
         <section className="markets-section pt_60 pb_70">
           <div className="auto-container">
-            <div className="row align-items-center g-3 flex-wrap-reverse">
-              <div className="col-lg-8">
-                <div className="sec-title pb_30 d-none d-lg-block">
+            <div className="row align-items-center g-3">
+              <div className="col-12">
+                <div className="sec-title">
                   <span className="sub-title mb_14">Features of AUT</span>
-                  <h2>Why Join the AUT Investments Limited Affiliate Program?</h2>
+                  <h2>Why Join the AUT INVESTMENTS LIMITED Affiliate Program?</h2>
                 </div>
+              </div>
+              <div className="col-lg-4">
+                <img src="/assets/images/resource/affiliate-feature.jpg" alt="" className="rounded" />
+              </div>
+              <div className="col-lg-7">
                 <div className="row clearfix education-details-content shadow-sm py-5 px-sm-4 px-2 rounded-4" >
                   <div className="col-12 content-column ">
                     <div className="text-box">
                       <ul className="list-item clearfix">
-                        <li className="lh-lg"><b className="fs-6 text-dark"> Attractive CPA & Revenue Share Models:</b> <br />Choose between high one-time payouts per qualified client (CPA) or earn ongoing commissions based on client activity (Revenue Share).</li>
-                        <li className="lh-lg"><b className="fs-6 text-dark">No Setup or Joining Fee:</b> <br />It’s completely free to join and start earning — no hidden fees, no long-term lock-ins.</li>
-                        <li className="lh-lg"><b className="fs-6 text-dark">Real-Time Dashboard & Analytics:</b> <br />Track referrals, commissions, and conversions live with a dedicated partner dashboard.</li>
-                        <li className="lh-lg"><b className="fs-6 text-dark">High Conversion Funnel:</b> <br />Promote a platform backed by strong brand trust, multilingual support, and high client retention.</li>
-                        <li className="lh-lg"><b className="fs-6 text-dark">Global Reach:</b> <br />Our platform supports traders from multiple regions with multilingual capabilities and local payment methods.</li>
-                        <li className="lh-lg"><b className="fs-6 text-dark">Marketing Support Provided:</b> <br />Get access to banners, landing pages, promo videos, content templates, and branded creatives.</li>
-                        <li className="lh-lg"><b className="fs-6 text-dark">Dedicated Affiliate Manager:</b> <br />Get personalized support to help you scale your performance and increase your earnings.</li>
+                        <li className="lh-lg"><b className="fs-6"> Attractive CPA & Revenue Share Models:</b> <br />Choose between high one-time payouts per qualified client (CPA) or earn ongoing commissions based on client activity (Revenue Share).</li>
+                        <li className="lh-lg"><b className="fs-6">No Setup or Joining Fee:</b> <br />It’s completely free to join and start earning — no hidden fees, no long-term lock-ins.</li>
+                        <li className="lh-lg"><b className="fs-6">Real-Time Dashboard & Analytics:</b> <br />Track referrals, commissions, and conversions live with a dedicated partner dashboard.</li>
+                        <li className="lh-lg"><b className="fs-6">High Conversion Funnel:</b> <br />Promote a platform backed by strong brand trust, multilingual support, and high client retention.</li>
+                        <li className="lh-lg"><b className="fs-6">Global Reach:</b> <br />Our platform supports traders from multiple regions with multilingual capabilities and local payment methods.</li>
+                        <li className="lh-lg"><b className="fs-6">Marketing Support Provided:</b> <br />Get access to banners, landing pages, promo videos, content templates, and branded creatives.</li>
+                        <li className="lh-lg"><b className="fs-6">Dedicated Affiliate Manager:</b> <br />Get personalized support to help you scale your performance and increase your earnings.</li>
                       </ul>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="sec-title pb_30 d-lg-none">
-                  <span className="sub-title mb_14">Features of AUT</span>
-                  <h2>Why Join the AUT Investments Limited Affiliate Program?</h2>
-                </div>
-                <img src="/assets/images/resource/affiliate-feature.jpg" alt="" className="rounded" />
               </div>
             </div>
           </div>
@@ -146,20 +144,12 @@ export default function AffiliateProgram() {
 
         <section className="working-section apps-section alternat-2 pt_120 pb_120 pt_100 pb_100">
           <div className="auto-container">
-            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-4.png)" }}></div>
+
             <div className="row align-items-center">
-              <div className="col-lg-6 col-md-12 col-sm-12 video-column">
-                <div className="video_block_one">
-                  <div className="video-box z_1 p_relative pt_50 pb_30 centred">
-                    <div className="video-inner">
-                      <div className="bg-layer" style={{ backgroundImage: "url(/assets/images/resource/video-2.jpg)" }}></div>
-                      <div className="video-content">
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div className="col-lg-5 col-md-12 col-sm-12">
+                <img src="/assets/images/resource/how-to-start.jpg" alt="" className="rounded" />
               </div>
-              <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+              <div className="col-lg-7 col-md-12 col-sm-12 content-column">
                 <div className="content_block_nine">
                   <div className="content-box ml_70">
                     <div className="sec-title light pb_35">
@@ -179,7 +169,7 @@ export default function AffiliateProgram() {
                       </div>
                       <div className="single-item">
                         <span className="count-text bg-light text-dark">3</span>
-                        <h3>Start Promoting AUT Investments Limited</h3>
+                        <h3>Start Promoting AUT INVESTMENTS LIMITED</h3>
                         <p>Share your links across your blog, social media, website, email list, or ad campaigns.</p>
                       </div>
                       <div className="single-item">
@@ -244,7 +234,7 @@ export default function AffiliateProgram() {
           </div>
         </section>
 
-        <section className="award-section pt_60 pb_70">
+        <section className="award-section mt5 pt_60 pb_70">
           <div className="auto-container">
             <div className="sec-title pb_60">
               <span className="sub-title mb_14">Support </span>
@@ -294,18 +284,25 @@ export default function AffiliateProgram() {
           <div className="auto-container">
             <div className="inner-container">
               <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
-              <div className="row">
-                <div className="col-md-12 col-sm-12 text-column">
+              <div className="row align-items-center">
+                <div className="col-xl-9 col-lg-8 text-column mb-3">
                   <div className="text-box">
-                    <h3 className="text-dark fw-semibold mb-3">Start Earning Today</h3>
-                    <p className="text-light">Join the AUT Investments Limited Affiliate Program and turn your audience, content, or network into a revenue source. Whether you’re scaling or just starting out, we’ll provide the tools, support, and structure to help you grow.</p>
-                    <Link href='/contact' className="theme-btn btn-one bg-dark me-3 mt-3">Contact Support</Link>
+                    <h2 className="fw-bold">Start Earning Today</h2>
+                    <p className="text-light fs-6 mt_30">
+                      Join the AUT INVESTMENTS LIMITED Affiliate Program and turn your audience, content, or network into a revenue source. Whether you’re scaling or just starting out, we’ll provide the tools, support, and structure to help you grow.
+                    </p>
                   </div>
+                </div>
+                <div className="col-xl-3 col-lg-4">
+                  <Link className="theme-btn btn-one bg-dark me-3" href="/contact">
+                    Contact Support
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
         </section>
+
 
       </Layout>
     </div>

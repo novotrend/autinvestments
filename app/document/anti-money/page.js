@@ -6,22 +6,22 @@ export default function AMLPolicy() {
         <div className="boxed_wrapper">
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Anti-Money Laundering (AML) Policy">
 
-                <section className="history-section pt_100 pb_60">
+                <section className="history-section private pt_100 pb_60">
                     <div className="auto-container">
                         <div className="row clearfix g-3 flex-wrap-reverse">
                             <div className="col-xl-8 col-sm-12">
                                 <div className="inner-box clearfix">
                                     <ol className="p-0">
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">1. Purpose of This Policy</b>
+                                            <b className="my-2 text-light fs-5">1. Purpose of This Policy</b>
                                             <p className="mt-2">Ensuring secure, transparent, and compliant trading for all clients.</p>
                                             <p className="mt-2">
-                                                The Anti-Money Laundering (AML) Policy of AUT Investments Limited outlines the company’s commitment to prevent money laundering, terrorist financing, and other financial crimes.
+                                                The Anti-Money Laundering (AML) Policy of AUT INVESTMENTS LIMITED outlines the company’s commitment to prevent money laundering, terrorist financing, and other financial crimes.
                                                 This policy ensures that our operations are in line with international AML standards and regulations applicable in Mauritius and other relevant jurisdictions.
                                             </p>
                                         </li>
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">2. What Is Money Laundering?</b>
+                                            <b className="my-2 text-light fs-5">2. What Is Money Laundering?</b>
                                             <p className="mt-2">
                                                 Money laundering is the process of concealing the origins of illegally obtained money, typically by transferring it through a complex sequence of banking or commercial transactions to make it appear legitimate.
                                             </p>
@@ -36,11 +36,11 @@ export default function AMLPolicy() {
                                                 </div>
                                             </div>
                                             <p>
-                                                AUT Investments Limited actively works to identify and block such activities at every stage.
+                                                AUT INVESTMENTS LIMITED actively works to identify and block such activities at every stage.
                                             </p>
                                         </li>
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">3. Regulatory Commitment</b>
+                                            <b className="my-2 text-light fs-5">3. Regulatory Commitment</b>
                                             <p className="mt-2">
                                                 We comply with all applicable AML laws, including but not limited to:
                                             </p>
@@ -59,9 +59,9 @@ export default function AMLPolicy() {
                                             </p>
                                         </li>
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">4. Know Your Customer (KYC) Policy</b>
+                                            <b className="my-2 text-light fs-5">4. Know Your Customer (KYC) Policy</b>
                                             <p className="mt-2">
-                                                Before onboarding any client, AUT Investments Limited follows a strict KYC verification process:
+                                                Before onboarding any client, AUT INVESTMENTS LIMITED follows a strict KYC verification process:
                                             </p>
                                             <div className="education-details-content ms-3">
                                                 <div className="text-box">
@@ -77,7 +77,7 @@ export default function AMLPolicy() {
                                             </p>
                                         </li>
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">5. Ongoing Monitoring & Risk-Based Approach</b>
+                                            <b className="my-2 text-light fs-5">5. Ongoing Monitoring & Risk-Based Approach</b>
                                             <p className="mt-2">
                                                 We adopt a risk-based approach by assigning risk profiles to all clients and transactions:
                                             </p>
@@ -95,7 +95,7 @@ export default function AMLPolicy() {
                                             </p>
                                         </li>
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">6. Prohibited Activities & Jurisdictions</b>
+                                            <b className="my-2 text-light fs-5">6. Prohibited Activities & Jurisdictions</b>
                                             <p className="mt-2">
                                                 To protect the integrity of our services:
                                             </p>
@@ -103,7 +103,7 @@ export default function AMLPolicy() {
                                                 <div className="text-box">
                                                     <ul className="list-item clearfix">
                                                         <li className="lh-lg">We do not accept clients from sanctioned countries or jurisdictions identified as high risk by FATF or similar authorities</li>
-                                                        <li className="lh-lg">We prohibit the use of AUT Investments Limited services for:
+                                                        <li className="lh-lg">We prohibit the use of AUT INVESTMENTS LIMITED services for:
                                                             <ul className="list-style-one clearfix ms-2">
                                                                 <li className="lh-lg">Laundering criminal proceeds</li>
                                                                 <li className="lh-lg">Financing terrorism</li>
@@ -117,7 +117,7 @@ export default function AMLPolicy() {
                                             </div>
                                         </li>
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">7. Payment Policies</b>
+                                            <b className="my-2 text-light fs-5">7. Payment Policies</b>
                                             <p className="mt-2">
                                                 All deposits and withdrawals must comply with AML procedures:
                                             </p>
@@ -133,9 +133,9 @@ export default function AMLPolicy() {
                                             </div>
                                         </li>
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">8. Reporting Suspicious Activity</b>
+                                            <b className="my-2 text-light fs-5">8. Reporting Suspicious Activity</b>
                                             <p className="mt-2">
-                                                AUT Investments Limited is obligated to report any suspicious activity or transactions to the appropriate financial intelligence authority in Mauritius, even without prior notice to the client.
+                                                AUT INVESTMENTS LIMITED is obligated to report any suspicious activity or transactions to the appropriate financial intelligence authority in Mauritius, even without prior notice to the client.
                                             </p>
                                             <p>Examples of suspicious activity include:</p>
                                             <div className="education-details-content ms-3">
@@ -154,7 +154,7 @@ export default function AMLPolicy() {
                                             </p>
                                         </li>
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">9. Employee Training & Internal Controls</b>
+                                            <b className="my-2 text-light fs-5">9. Employee Training & Internal Controls</b>
                                             <p className="mt-2">
                                                 All staff undergo regular AML training, including:
                                             </p>
@@ -173,7 +173,7 @@ export default function AMLPolicy() {
                                             </p>
                                         </li>
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">10. Client Responsibilities</b>
+                                            <b className="my-2 text-light fs-5">10. Client Responsibilities</b>
                                             <p className="mt-2">
                                                 As part of our AML Policy, clients are required to:
                                             </p>
@@ -193,7 +193,7 @@ export default function AMLPolicy() {
                                             </p>
                                         </li>
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">11. Data Protection & Record Retention</b>
+                                            <b className="my-2 text-light fs-5">11. Data Protection & Record Retention</b>
                                             <p className="mt-2">
                                                 All KYC and transaction data is stored securely in line with data protection laws. We retain these records for a minimum of five (5) years or longer if legally required.
                                             </p>
@@ -202,7 +202,7 @@ export default function AMLPolicy() {
                                             </p>
                                         </li>
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">12. Enforcement & Policy Review</b>
+                                            <b className="my-2 text-light fs-5">12. Enforcement & Policy Review</b>
                                             <p className="mt-2">
                                                 This policy is enforced by our Compliance Department. It is reviewed annually or more frequently if required by regulatory updates or operational changes.
                                                 We reserve the right to revise this policy and will publish the latest version on our website.
@@ -244,17 +244,24 @@ export default function AMLPolicy() {
                         <div className="inner-container">
                             <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
                             <div className="row align-items-center">
-                                <div className="col-12 text-column">
+                                <div className="col-xl-9 col-lg-8 text-column mb-3">
                                     <div className="text-box">
                                         <h2 className="fw-bold">Last Updated: July 2025</h2>
-                                        <p className="text-light fs-6 mt_30">AUT Investments Limited is committed to creating a secure, transparent, and compliant trading environment for all users.</p>
-                                        <Link className="theme-btn btn-one bg-dark me-3 mt-3" href="/contact">Contact Support</Link>
+                                        <p className="text-light fs-6 mt_30">
+                                            AUT INVESTMENTS LIMITED is committed to creating a secure, transparent, and compliant trading environment for all users.
+                                        </p>
                                     </div>
+                                </div>
+                                <div className="col-xl-3 col-lg-4">
+                                    <Link className="theme-btn btn-one bg-dark me-3" href="/contact">
+                                        Contact Support
+                                    </Link>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
+
 
             </Layout>
         </div>

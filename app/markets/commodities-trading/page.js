@@ -31,21 +31,21 @@ export default function CommoditiesTrading() {
 
         <section className="platform-section alternat-2 pt_90 pb_60">
           <div className="auto-container">
-            <div className="row align-items-center g-3 flex-wrap-reverse">
-              <div className="col-lg-8">
+            <div className="row align-items-center g-3 flex-wrap-reverse justify-content-between">
+              <div className="col-lg-5">
                 <div className="sec-title pb_20 d-none d-lg-block">
-                  <span className="sub-title mb_14">INFO</span>
-                  <h2 className="mb-2">Commodities Trading</h2>
+                  <span className="sub-title mb_14">Info</span>
+                  <h2 className="mb-3">Commodities Trading</h2>
                   <p>
                     Diversify your portfolio by trading some of the world's most essential resources — from energy
                     to agriculture.
                   </p>
                 </div>
-                <section className="funfact-section">
+                <section className="funfact-section my-2">
                   <div className="auto-container px-0">
-                    <div className="inner-container d-flex flex-column p-sm-5 p-4 aligh-items-start justify-content-start">
+                    <div className="inner-container d-flex flex-column align-items-start justify-content-start rounded-0">
                       <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
-                      <h4 className="mb-3">Overview of Commodities Trading</h4>
+                      <h4 className="fw-semibold mb-3">Overview of Commodities Trading</h4>
                       <p className="mb-3">
                         Commodities are raw materials or primary agricultural products that are traded globally. These
                         include physical goods like crude oil, natural gas, gold, silver, and wheat. Commodities
@@ -53,7 +53,7 @@ export default function CommoditiesTrading() {
                         movements, or diversify their asset exposure beyond traditional financial markets.
                       </p>
                       <p>
-                        At AUT Investments Limited, we provide access to a wide range of commodity CFDs, giving you
+                        At AUT INVESTMENTS LIMITED, we provide access to a wide range of commodity CFDs, giving you
                         the ability to trade on price fluctuations without owning the physical assets. Our platform offers
                         real-time data, fast execution, and low spreads across major global commodities.
                       </p>
@@ -61,30 +61,31 @@ export default function CommoditiesTrading() {
                   </div>
                 </section>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-5 text-lg-end">
                 <div className="sec-title pb_20 d-lg-none">
-                  <span className="sub-title mb_14">INFO</span>
+                  <span className="sub-title mb_14">Info</span>
                   <h2 className="mb-2">Commodities Trading</h2>
                   <p>
                     Diversify your portfolio by trading some of the world's most essential resources — from energy
                     to agriculture.
                   </p>
                 </div>
-                <img src="/assets/images/resource/commodities-1.jpg" alt="" className="rounded" />
+                <img src="/assets/images/resource/commodities-1.jpg" alt="" className="img-fluid" />
               </div>
             </div>
           </div>
         </section>
 
-        <section className="account-style-two clear-bg pt_80 pb_70">
+        <section className="account-section pt_60 pb_70">
           <div className="auto-container">
-            <div className="sec-title pb_50">
+            <div className="sec-title pb_60">
               <span className="sub-title mb_14">Access</span>
-              <h2>Why Trade Metals with AUT Investments Limited?</h2>
+              <h2>Why Trade Metals with AUT INVESTMENTS LIMITED?</h2>
             </div>
-            <div className="row clearfix">
+            <div className="row clearfix row-deck">
+
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
-                <div className="account-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                <div className="account-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                   <div className="inner-box">
                     <div className="icon-box">
                       <FiDroplet size={24} />
@@ -97,8 +98,9 @@ export default function CommoditiesTrading() {
                   </div>
                 </div>
               </div>
+
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
-                <div className="account-block-two wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <div className="account-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                   <div className="inner-box">
                     <div className="icon-box">
                       <FiRefreshCw size={24} />
@@ -111,8 +113,9 @@ export default function CommoditiesTrading() {
                   </div>
                 </div>
               </div>
+
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
-                <div className="account-block-two wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
+                <div className="account-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                   <div className="inner-box">
                     <div className="icon-box">
                       <FiClock size={24} />
@@ -125,8 +128,9 @@ export default function CommoditiesTrading() {
                   </div>
                 </div>
               </div>
+
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
-                <div className="account-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                <div className="account-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                   <div className="inner-box">
                     <div className="icon-box">
                       <FiTrendingUp size={24} />
@@ -139,8 +143,9 @@ export default function CommoditiesTrading() {
                   </div>
                 </div>
               </div>
+
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
-                <div className="account-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                <div className="account-block-one wow fadeInUp animated" data-wow-delay="800ms" data-wow-duration="1500ms">
                   <div className="inner-box">
                     <div className="icon-box">
                       <FiCpu size={24} />
@@ -153,8 +158,9 @@ export default function CommoditiesTrading() {
                   </div>
                 </div>
               </div>
+
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
-                <div className="account-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                <div className="account-block-one wow fadeInUp animated" data-wow-delay="1000ms" data-wow-duration="1500ms">
                   <div className="inner-box">
                     <div className="icon-box">
                       <FiShield size={24} />
@@ -167,11 +173,12 @@ export default function CommoditiesTrading() {
                   </div>
                 </div>
               </div>
+
             </div>
           </div>
         </section>
 
-        <section className="funfact-section pt_120 pb_70">
+        <section className="funfact-section all-markets pt_120 pb_70">
           <div className="auto-container">
             <div className="row">
               <div className="col-md-12">
@@ -258,7 +265,6 @@ export default function CommoditiesTrading() {
         </section>
 
         <section className="account-section mt_60 pt_60 pb_70">
-          <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-1.png)" }}></div>
           <div className="auto-container">
             <div className="sec-title pb_60">
               <span className="sub-title mb_14">features</span>
@@ -316,7 +322,7 @@ export default function CommoditiesTrading() {
                       <FiArrowDown size={24} />
                     </div>
                     <h3>Spreads</h3>
-                    <p>From 0.3 pips</p>
+                    <p>From 0.1 pips</p>
                   </div>
                 </div>
               </div>
@@ -359,16 +365,16 @@ export default function CommoditiesTrading() {
 
         <section className="working-section apps-section alternat-2 pt_120 pb_120 pt_100 pb_100">
           <div className="auto-container">
-            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-4.png)" }}></div>
+
             <div className="row align-items-center g-3">
-              <div className="col-lg-4 col-md-12 col-sm-12">
+              <div className="col-lg-5 col-md-12 col-sm-12">
                 <div className="sec-title light pb_35 d-lg-none">
                   <span className="sub-title mb_10">Onboard</span>
                   <h2>How to Start Trading Commodities</h2>
                 </div>
                 <img src="/assets/images/resource/how-to-start-commodities-trading.jpg" alt="" className="rounded" />
               </div>
-              <div className="col-lg-8 col-md-12 col-sm-12 content-column">
+              <div className="col-lg-7 col-md-12 col-sm-12 content-column">
                 <div className="content_block_nine">
                   <div className="content-box ml_70">
                     <div className="sec-title light pb_35 d-none d-lg-block">
@@ -418,11 +424,11 @@ export default function CommoditiesTrading() {
           <div className="auto-container">
             <div className="sec-title pb-sm-5">
               <span className="sub-title mb_14">Depth</span>
-              <h2>Mastering Commodity Trading with AUT Investments Limited</h2>
+              <h2>Mastering Commodity Trading with AUT INVESTMENTS LIMITED</h2>
             </div>
             <div className="tabs-box">
               <div className="row clearfix flex-wrap-reverse g-3">
-                <div className="col-xl-8 col-lg-12 col-md-12 content-column">
+                <div className="col-xxl-8 col-xl-6 col-lg-12 col-md-12 content-column">
                   <div className="tabs-content">
                     <div className={activeIndex === 1 ? "tab active-tab" : "tab"}>
                       <div className="content-box">
@@ -465,7 +471,7 @@ export default function CommoditiesTrading() {
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-4 col-lg-12 col-md-12 btn-column">
+                <div className="col-xxl-4 col-xl-6 col-lg-12 col-md-12 btn-column">
                   <ul className="three tab-btns tab-buttons shop-tab-btn clearfix">
                     <li onClick={() => handleOnClick(1)} className={activeIndex === 1 ? "tab-btn active-btn" : "tab-btn"}>Commodity Market Drivers</li>
                     <li onClick={() => handleOnClick(2)} className={activeIndex === 2 ? "tab-btn active-btn" : "tab-btn"}>Benefits of Commodity Trading</li>
@@ -483,18 +489,20 @@ export default function CommoditiesTrading() {
             <div className="inner-container">
               <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
               <div className="row align-items-center">
-                <div className="col-12 text-column">
+                <div className="col-xl-9 col-lg-8 text-column mb-3">
                   <div className="text-box">
-                    <h2 className="fw-bold">Trade Commodities with Confidence at AUT Investments Limited</h2>
+                    <h2 className="fw-bold">Trade Commodities with Confidence at AUT INVESTMENTS LIMITED</h2>
                     <p className="text-light fs-6 mt_30">
                       Access diverse global markets with a platform designed for traders who value clarity, speed, and
                       control. Whether you're hedging risk, managing inflation exposure, or speculating on price
                       action, commodity trading opens the door to new possibilities.
                     </p>
-                    <Link href="/contact" className="theme-btn btn-one bg-dark mt-4">
-                      Contact Support
-                    </Link>
                   </div>
+                </div>
+                <div className="col-xl-3 col-lg-4">
+                  <Link className="theme-btn btn-one bg-dark me-3" href="/contact">
+                    Contact Support
+                  </Link>
                 </div>
               </div>
             </div>

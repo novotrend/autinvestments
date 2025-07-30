@@ -8,10 +8,12 @@
   position: relative;
   display: block;
   overflow: hidden;
+  border-radius: 10px;
+}
+
+.funfact-section.all-markets .inner-container {
   background: #fff3dd;
   border: 1px solid #d1a05e;
-  border-radius: 10px;
-  overflow: hidden;
 }
 
 .funfact-block-one .inner-box {
@@ -57,6 +59,14 @@
   line-height: 30px;
 }
 
+.funfact-block-one .inner-box h3 {
+  color: #000000;
+}
+
+.funfact-block-one .list-item li {
+  color: #646464;
+  ;
+}
 
 /** funfact-style-two **/
 
@@ -101,7 +111,7 @@
   font-size: 48px;
   line-height: 52px;
   font-family: var(--title-font);
-  color: var(--title-color);
+  color: #000000;
   margin-bottom: 0px;
   font-weight: 500;
   text-transform: uppercase;
@@ -110,7 +120,6 @@
 .funfact-block-two .inner-box p {
   font-size: 20px;
   line-height: 30px;
-  color: var(--title-color);
 }
 
 .dark_home .funfact-block-two {
@@ -185,3 +194,20 @@
   border-radius: 10px;
   overflow: hidden;
 }
+
+.funfact-section1 h5 {
+  color: #000000;
+}
+
+.funfact-section1 p{
+  color: #424242 !important;
+}
+
+.private .funfact-section1 .list-item li {
+  color: #000000 !important;
+}
+
+.private .history-block-one h3 {
+  color: #000000;
+}
+ 

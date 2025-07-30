@@ -12,11 +12,10 @@ export default function Account() {
     return (
         <>
             <section className="account-section pt_100 pb_70">
-                <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-1.png)" }}></div>
                 <div className="auto-container">
                     <div className="sec-title pb_60">
                         <span className="sub-title mb_14">Why Us ?</span>
-                        <h2>Why Trade with AUT Investments Limited</h2>
+                        <h2>Why Trade with AUT INVESTMENTS LIMITED</h2>
                         <p>We use cookines to understand how you use our website and to give you the best possible experience.</p>
                         <p>Start trading in minutes with low deposits and fast KYC.</p>
                     </div>
@@ -26,7 +25,7 @@ export default function Account() {
                                 <div className="inner-box">
                                     <div className="icon-box"><HiOutlineGlobeAlt size={30} /></div>
                                     <h3>Global Market Access</h3>
-                                    <p> Over 1000 instruments including forex,
+                                    <p> Over 100+ instruments including forex,
                                         stocks, and more</p>
                                 </div>
                             </div>

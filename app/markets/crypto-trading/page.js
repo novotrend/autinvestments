@@ -19,7 +19,7 @@ export default function CryptoTrading() {
             <div className="row align-items-center g-3 flex-wrap-reverse">
               <div className="col-lg-8">
                 <div className="sec-title pb_20 d-none d-lg-block">
-                  <span className="sub-title mb_14">INFO</span>
+                  <span className="sub-title mb_14">Info</span>
                   <h2 className="mb-2">Crypto Trading</h2>
                   <p>
                     Step into the future of finance — trade the world’s most popular cryptocurrencies with advanced
@@ -28,7 +28,7 @@ export default function CryptoTrading() {
                 </div>
                 <section className="funfact-section">
                   <div className="auto-container px-0">
-                    <div className="inner-container d-flex flex-column p-sm-5 p-4 aligh-items-start justify-content-start">
+                    <div className="inner-container d-flex flex-column align-items-start justify-content-start">
                       <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
                       <h4 className="mb-3">Overview of Crypto Trading</h4>
 
@@ -39,7 +39,7 @@ export default function CryptoTrading() {
                         opportunities for speculation, long-term investing, and diversification.
                       </p>
                       <p>
-                        At AUT Investments Limited, we provide secure and real-time access to top-traded
+                        At AUT INVESTMENTS LIMITED, we provide secure and real-time access to top-traded
                         cryptocurrencies through crypto CFDs — allowing traders to benefit from price movements
                         without needing wallets or direct ownership of the assets.
                       </p>
@@ -49,7 +49,7 @@ export default function CryptoTrading() {
               </div>
               <div className="col-lg-4">
                 <div className="sec-title pb_20 d-lg-none">
-                  <span className="sub-title mb_14">INFO</span>
+                  <span className="sub-title mb_14">Info</span>
                   <h2 className="mb-2">Crypto Trading</h2>
                   <p>
                     Step into the future of finance — trade the world’s most popular cryptocurrencies with advanced
@@ -66,7 +66,7 @@ export default function CryptoTrading() {
           <div className="auto-container">
             <div className="sec-title pb_50">
               <span className="sub-title mb_14">Crypto</span>
-              <h2>Why Trade Cryptocurrencies with AUT Investments Limited?</h2>
+              <h2>Why Trade Cryptocurrencies with AUT INVESTMENTS LIMITED?</h2>
             </div>
             <div className="row clearfix">
               <div className="col-lg-4 col-md-6 col-sm-12 account-block">
@@ -199,21 +199,21 @@ export default function CryptoTrading() {
 
         <section className="working-section apps-section alternat-2 pt_120 pb_120 pt_100 pb_100">
           <div className="auto-container">
-            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-4.png)" }}></div>
+
             <div className="row align-items-center g-3">
-              <div className="col-lg-4 col-md-12 col-sm-12 video-column">
+              <div className="col-lg-5 col-md-12 col-sm-12">
                 <div className="sec-title light pb_35 d-lg-none">
                   <span className="sub-title mb_10">Onboard</span>
-                  <h2>How to Start Trading Crypto with AUT Investments Limited</h2>
+                  <h2>How to Start Trading Crypto with AUT INVESTMENTS LIMITED</h2>
                 </div>
                 <img src="/assets/images/resource/how-to-start-crypto-trading.jpg" alt="" className="rounded" />
               </div>
-              <div className="col-lg-8 col-md-12 col-sm-12 content-column">
+              <div className="col-lg-7 col-md-12 col-sm-12 content-column">
                 <div className="content_block_nine">
                   <div className="content-box ml_70">
                     <div className="sec-title light pb_35 d-none d-lg-block">
                       <span className="sub-title mb_10">Onboard</span>
-                      <h2>How to Start Trading Crypto with AUT Investments Limited</h2>
+                      <h2>How to Start Trading Crypto with AUT INVESTMENTS LIMITED</h2>
                     </div>
                     <div className="inner-box">
                       <div className="single-item">
@@ -324,7 +324,7 @@ export default function CryptoTrading() {
           <div className="auto-container">
             <div className="sec-title pb_60">
               <span className="sub-title mb_14">Momentum</span>
-              <h2>Exploring Crypto CFD Trading with AUT Investments Limited</h2>
+              <h2>Exploring Crypto CFD Trading with AUT INVESTMENTS LIMITED</h2>
             </div>
             <div className="tabs-box">
               <div className="row clearfix flex-wrap-reverse g-3 momentum">
@@ -408,7 +408,7 @@ export default function CryptoTrading() {
                     <h2 className="fw-bold">Seize Opportunities in the Crypto Market</h2>
                     <p className="text-light fs-6 mt_30">
                       With round-the-clock access, high volatility, and institutional-grade tools, cryptocurrency trading
-                      at AUT Investments Limited opens new dimensions for active traders and long-term investors.
+                      at AUT INVESTMENTS LIMITED opens new dimensions for active traders and long-term investors.
                     </p>
                     <Link href="/contact" className="theme-btn btn-one bg-dark mt-4">
                       Contact Support

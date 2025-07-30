@@ -8,17 +8,17 @@ export default function SupportContact() {
         <div className="boxed_wrapper">
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Support and Contact">
 
-                <section className="history-section pt_60 pb_60">
+                <section className="history-section private pt_60 pb_60">
                     <div className="auto-container">
                         <div className="row clearfix g-3">
                             <div className="col-md-10 col-sm-12">
                                 <div className="inner-box clearfix">
                                     <ol className="p-0">
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">1. General Support Overview</b>
+                                            <b className="my-2 text-light fs-5">1. General Support Overview</b>
                                             <p>We’re here to help you trade with confidence. </p>
                                             <p className="mt-2">
-                                                At AUT Investments Limited, client service is a priority. We understand that fast, reliable, and
+                                                At AUT INVESTMENTS LIMITED, client service is a priority. We understand that fast, reliable, and
                                                 knowledgeable support is essential when trading global markets. That’s why our multilingual
                                                 support team is available to assist you across various communication channels, providing help
                                                 at every stage of your trading journey.
@@ -30,7 +30,7 @@ export default function SupportContact() {
                                         </li>
 
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">2. Contact Channels</b>
+                                            <b className="my-2 text-light fs-5">2. Contact Channels</b>
                                             <p className="mt-2">
                                                 You can reach our dedicated support team through the following options:
                                             </p>
@@ -66,7 +66,7 @@ export default function SupportContact() {
                                         </li>
 
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">3. Client Dashboard Support Center</b>
+                                            <b className="my-2 text-light fs-5">3. Client Dashboard Support Center</b>
                                             <p className="mt-2">
                                                 Log in to your secure client area to:
                                             </p>
@@ -86,9 +86,9 @@ export default function SupportContact() {
                                         </li>
 
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">4. Onboarding & Account Assistance</b>
+                                            <b className="my-2 text-light fs-5">4. Onboarding & Account Assistance</b>
                                             <p className="mt-2">
-                                                If you're new to AUT Investments Limited, our onboarding specialists will guide you through:
+                                                If you're new to AUT INVESTMENTS LIMITED, our onboarding specialists will guide you through:
                                             </p>
                                             <div className="education-details-content ms-3">
                                                 <div className="text-box">
@@ -107,8 +107,8 @@ export default function SupportContact() {
                                         </li>
 
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">5. Technical & Platform Support</b>
-                                            <p className="mt-2">Facing an issue with MT4, MT5, or WebTrader? We help with:</p>
+                                            <b className="my-2 text-light fs-5">5. Technical & Platform Support</b>
+                                            <p className="mt-2">Facing an issue withMT5, or WebTrader? We help with:</p>
                                             <div className="education-details-content ms-3">
                                                 <div className="text-box">
                                                     <ul className="list-item clearfix">
@@ -126,7 +126,7 @@ export default function SupportContact() {
                                         </li>
 
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">6. Compliance and Verification Help</b>
+                                            <b className="my-2 text-light fs-5">6. Compliance and Verification Help</b>
                                             <p className="mt-2">Need help verifying your identity or updating documents?</p>
                                             <div className="education-details-content ms-3">
                                                 <div className="text-box">
@@ -144,7 +144,7 @@ export default function SupportContact() {
                                         </li>
 
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">7. Feedback and Complaints</b>
+                                            <b className="my-2 text-light fs-5">7. Feedback and Complaints</b>
                                             <p className="mt-2">
                                                 Your experience matters. If you have a complaint or feedback:
                                             </p>
@@ -165,7 +165,7 @@ export default function SupportContact() {
                                         </li>
 
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">8. Educational and Product Support</b>
+                                            <b className="my-2 text-light fs-5">8. Educational and Product Support</b>
                                             <p className="mt-2">
                                                 Need help understanding how to use our tools or trading products? Our team can help with:
                                             </p>
@@ -183,7 +183,7 @@ export default function SupportContact() {
                                         </li>
 
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">9. Help Documents & Guides</b>
+                                            <b className="my-2 text-light fs-5">9. Help Documents & Guides</b>
                                             <p className="mt-2">
                                                 You can also refer to our online documentation, including:
                                             </p>
@@ -191,7 +191,7 @@ export default function SupportContact() {
                                                 <div className="text-box">
                                                     <ul className="list-item clearfix">
                                                         <li className="lh-lg">Getting Started Guides</li>
-                                                        <li className="lh-lg">Platform Tutorials (MT4/MT5/Web)</li>
+                                                        <li className="lh-lg">Platform Tutorials (MT5/Web)</li>
                                                         <li className="lh-lg">Deposit & Withdrawal Instructions</li>
                                                         <li className="lh-lg">Legal Policies (Client Agreement, AML, Risk Disclosure)</li>
                                                         <li className="lh-lg">Market FAQs and Troubleshooting Guides</li>
@@ -204,10 +204,10 @@ export default function SupportContact() {
                                         </li>
 
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">10. Office Information</b>
+                                            <b className="my-2 text-light fs-5">10. Office Information</b>
                                             <h6 className="ms-2 mt-2"> <b> Head Office: </b></h6>
                                             <p className="mt-2 ms-3">
-                                                AUT Investments Limited<br />
+                                                AUT INVESTMENTS LIMITED<br />
                                                 6th Floor, Ken Lee Building,<br />
                                                 20 Edith Cavell Street,<br />
                                                 Port-Louis, 11302, Mauritius
@@ -223,7 +223,7 @@ export default function SupportContact() {
                                         </li>
 
                                         <li className="my-4">
-                                            <b className="my-2 text-dark fs-5">11. Support Ethics and Confidentiality</b>
+                                            <b className="my-2 text-light fs-5">11. Support Ethics and Confidentiality</b>
                                             <p className="mt-2">
                                                 All client interactions are confidential, recorded for training and quality purposes, and protected
                                                 under our privacy and data protection policies. Our team is trained to uphold professionalism,

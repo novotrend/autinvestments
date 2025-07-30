@@ -71,7 +71,7 @@ export default function About() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-12 col-sm-12 video-column">
+                        <div className="col-lg-5 col-md-12 col-sm-12">
                             <div className="video_block_one">
                                 <div className="video-box z_1 p_relative ml_70 centred">
                                     <div className="video-inner">
