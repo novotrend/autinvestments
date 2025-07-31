@@ -32,7 +32,7 @@ export default function Contact() {
                                     <div className="single-info mb-0">
                                         <div className="icon-box"><i className="icon-47"></i></div>
                                         <h4>Phone Number</h4>
-                                        <p><Link href="tel:++230-XXXX-XXXX">+230-XXXX-XXXX</Link></p>
+                                        <p><Link href="tel:+230 2143937">+230 2143937</Link></p>
                                     </div>
                                 </div>
                             </div>

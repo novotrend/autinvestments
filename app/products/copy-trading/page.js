@@ -307,7 +307,7 @@ export default function CopyTrading() {
                                     </tr>
                                     <tr>
                                       <td>Flexible Allocation</td>
-                                      <td>Invest any amount, starting from $100</td>
+                                      <td>Invest any amount, starting from $1000</td>
                                     </tr>
                                     <tr>
                                       <td>Risk Management Settings</td>

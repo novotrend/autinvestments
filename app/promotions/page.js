@@ -55,8 +55,8 @@ export default function Promotions() {
                                                         </div>
                                                         <h5 className="fw-semibold mb-3 mt-4">Key Points</h5>
                                                         <ul className="list-style-one mb-0">
-                                                            <li>Minimum deposit: 100$ To 1000$</li>
-                                                            <li>Maximum bonus: 500$</li>
+                                                            <li>Minimum deposit: $100 To $1000</li>
+                                                            <li>Maximum bonus: $500</li>
                                                             <li>Bonus cannot be withdrawn but profits earned can be</li>
                                                             <li>Available to new clients only</li>
                                                         </ul>

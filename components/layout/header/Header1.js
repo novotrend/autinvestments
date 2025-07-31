@@ -15,7 +15,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                         <div className="top-inner">
                             <div className="support-box">
                                 <div className="icon-box"><i className="icon-07"></i></div>
-                                <Link href="tel:+230-XXXX-XXXX">+230-XXXX-XXXX</Link>
+                                <Link href="tel:+230-XXXX-XXXX">+230 2143937</Link>
                             </div>
                             <div className="option-block">
                                 <Link href="/open-account" className="theme-btn btn-one mr_10">Open Account</Link>

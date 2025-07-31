@@ -144,7 +144,7 @@ export default function OpenTradingAccount() {
                   <div className="inner-box">
                     <div className="icon-box"><RiWalletLine size={30} /></div>
                     <h3>Minimum Deposit</h3>
-                    <p>As low as 100$ To 1000$ (varies by account type)</p>
+                    <p>As low as $100 To $1000 (varies by account type)</p>
                   </div>
                 </div>
               </div>

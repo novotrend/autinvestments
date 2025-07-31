@@ -16,7 +16,7 @@ export default function Account() {
                     <div className="sec-title pb_60">
                         <span className="sub-title mb_14">Why Us ?</span>
                         <h2>Why Trade with AUT INVESTMENTS LIMITED</h2>
-                        <p>We use cookines to understand how you use our website and to give you the best possible experience.</p>
+                        <p>We use cookies to understand how you use our website and to give you the best possible experience.</p>
                         <p>Start trading in minutes with low deposits and fast KYC.</p>
                     </div>
                     <div className="row clearfix row-deck">

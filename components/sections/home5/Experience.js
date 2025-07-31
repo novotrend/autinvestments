@@ -17,7 +17,7 @@ export default function Experience() {
                             </div>
                             <div className="col-lg-6 col-md-12 col-sm-12 text-column">
                                 <div className="text-box">
-                                    <p>We use cookines to understand how you use our website and to give you the best possible</p>
+                                    <p>We use cookies to understand how you use our website and to give you the best possible</p>
                                     <Link href="/account-details" className="theme-btn btn-one">Start Trading Now</Link>
                                 </div>
                             </div>

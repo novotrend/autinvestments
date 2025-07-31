@@ -14,7 +14,7 @@ export default function Apps() {
                             <div className="sec-title light pb_40">
                                 <span className="sub-title mb_14">Download App</span>
                                 <h2>Download Trading App</h2>
-                                <p>We use cookines to understand how you use our website and to give you the best possible experience.</p>
+                                <p>We use cookies to understand how you use our website and to give you the best possible experience.</p>
                             </div>
                             <ul className="download-list clearfix">
                                 <li><Link href="/"><i className="fab fa-apple"></i></Link></li>

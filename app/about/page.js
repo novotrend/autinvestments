@@ -48,7 +48,7 @@ export default function about() {
                                             </p>
                                             <h3 className="mt-4 mb-2">Who We Are</h3>
                                             <p>
-                                                AUT Investments LTD is a multi-asset financial services provider offering seamless access to
+                                                AUT Investments Limited is a multi-asset financial services provider offering seamless access to
                                                 global markets including Forex, Commodities, Indices, Metals, Crypto, and Stocks. Built on a
                                                 foundation of innovation, regulation, and technology, we empower traders of all levels with
                                                 intuitive platforms, advanced tools, and unwavering support.
@@ -210,7 +210,7 @@ export default function about() {
                     <div className="auto-container">
                         <div className="sec-title pb_60">
                             <span className="sub-title mb_14">Why Choose Us</span>
-                            <h2>Why Choose AUT Investments LTD?</h2>
+                            <h2>Why Choose AUT Investments Limited?</h2>
                         </div>
 
                         <div className="inner-container clearfix">
@@ -260,7 +260,7 @@ export default function about() {
                                         <div className="sec-title light pb_30">
                                             <span className="sub-title mb_14">Commitment</span>
                                             <h2>Regulatory Commitment</h2>
-                                            <p className="mb-3">AUT Investments LTD is committed to compliance with global regulatory standards. We adhere
+                                            <p className="mb-3">AUT Investments Limited is committed to compliance with global regulatory standards. We adhere
                                                 to anti-money laundering (AML) protocols, Know Your Customer (KYC) regulations, and data
                                                 protection policies to ensure a safe and responsible trading environment.</p>
                                             <p>All operations and transactions are monitored in accordance with regional and international
@@ -357,7 +357,7 @@ export default function about() {
                         <div className="row justify-content-center g-3">
                             <div className="col-lg-5 col-md-6">
                                 <div className="office-block funfact-section">
-                                    <h5 className="mb-3 fw-bold">AUT Investments LTD</h5>
+                                    <h5 className="mb-3 fw-bold">AUT Investments Limited</h5>
                                     <ul className="list-unstyled mb-3">
                                         <li>6th Floor, Ken Lee Building</li>
                                         <li>20 Edith Cavell Street</li>
@@ -365,7 +365,7 @@ export default function about() {
                                         <li>Mauritius</li>
                                     </ul>
                                     <p className="mb-1"><b>Support Hours:</b> Monday to Friday – 09:00 to 18:00 (GMT+4)</p>
-                                    <div class="inner-container mt-3"><div class="row align-items-center"><div class="col-12 text-column"><div class="text-box"><h2 class="fw-bold">Join Us</h2><p class="fs-6 mt_30">Whether you want to trade, invest, partner, or learn—AUT Investments LTD gives you the access, guidance, and resources to achieve your financial goals.</p><a class="theme-btn btn-two bg-dark mt-4" href="/contact">Contact Support</a></div></div></div></div>
+                                    <div class="inner-container mt-3"><div class="row align-items-center"><div class="col-12 text-column"><div class="text-box"><h2 class="fw-bold">Join Us</h2><p class="fs-6 mt_30">Whether you want to trade, invest, partner, or learn—AUT Investments Limited gives you the access, guidance, and resources to achieve your financial goals.</p><a class="theme-btn btn-two bg-dark mt-4" href="/contact">Contact Support</a></div></div></div></div>
                                 </div>
                             </div>
                             <div className="col-lg-7 col-md-6 d-md-block d-none">

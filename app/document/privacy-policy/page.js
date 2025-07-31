@@ -349,7 +349,7 @@ export default function PrivacyPolicy() {
                                             <div className="text-box">
                                                 <ul className="list-item clearfix">
                                                     <li className="lh-lg"><strong>Email:</strong>privacy@autinvestments.com</li>
-                                                    <li className="lh-lg"><strong>Phone:</strong>+230-XXXX-XXXX (example)</li>
+                                                    <li className="lh-lg"><strong>Phone:</strong>+230 2143937</li>
                                                     <li className="lh-lg">
                                                         Mailing Address:<br />
                                                         AUT INVESTMENTS LIMITED,<br />
