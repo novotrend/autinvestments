@@ -265,7 +265,7 @@ export default function DepositWithdraw() {
                         <div className={isActive.key == 1 ? "acc-content current" : "acc-content"}>
                           <div className="content">
                             <p>
-                              Yes. Minimum deposits start from $100 To $1000, depending on the account type.
+                              Yes. Minimum deposits start from $1000, depending on the account type.
                             </p>
                           </div>
                         </div>

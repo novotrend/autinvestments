@@ -208,7 +208,7 @@ export default function SupportContact() {
                                             <h6 className="ms-2 mt-2"> <b> Head Office: </b></h6>
                                             <p className="mt-2 ms-3">
                                                 AUT INVESTMENTS LIMITED<br />
-                                                6th Floor, Ken Lee Building,<br />
+                                                Level 6, Ken Lee Building,<br />
                                                 20 Edith Cavell Street,<br />
                                                 Port-Louis, 11302, Mauritius
                                             </p>

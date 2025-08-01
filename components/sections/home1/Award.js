@@ -28,7 +28,7 @@ export default function Award() {
                             <tbody>
                                 <tr>
                                     <td>Standard</td>
-                                    <td>$100 To $1000</td>
+                                    <td>$1000</td>
                                     <td><span>Up to 1:500</span></td>
                                     <td>Variable Spreads</td>
                                     <td>New and active traders</td>

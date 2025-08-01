@@ -259,7 +259,7 @@ export default function AffiliateProgram() {
                   </tr>
                   <tr>
                     <td>Minimum Payout Threshold</td>
-                    <td>$100 (varies by method)</td>
+                    <td>$1000 (varies by method)</td>
                   </tr>
                   <tr>
                     <td>Access to Creatives</td>

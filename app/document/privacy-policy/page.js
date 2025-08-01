@@ -52,7 +52,7 @@ export default function PrivacyPolicy() {
                             <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}></div>
                             <h5 className="mb-3">Registered Address:</h5>
                             <p className="mb-2">
-                                6th Floor, Ken Lee Building, 20 Edith Cavell Street,<br></br>
+                                Level 6, Ken Lee Building, 20 Edith Cavell Street,<br></br>
                                 Port-Louis, 11302, Mauritius
                             </p>
                             <p>
@@ -353,7 +353,7 @@ export default function PrivacyPolicy() {
                                                     <li className="lh-lg">
                                                         Mailing Address:<br />
                                                         AUT INVESTMENTS LIMITED,<br />
-                                                        6th Floor, Ken Lee Building,<br />
+                                                        Level 6, Ken Lee Building,<br />
                                                         20 Edith Cavell Street, Port-Louis, 11302, Mauritius
                                                     </li>
                                                 </ul>

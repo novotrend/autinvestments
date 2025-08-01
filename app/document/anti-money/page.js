@@ -224,7 +224,7 @@ export default function AMLPolicy() {
                                                     <li className="lh-lg"><strong>Compliance:</strong></li>
                                                     <li className="lh-lg">
                                                         <strong>Mailing Address:</strong><br />
-                                                        6th Floor, Ken Lee Building,<br />
+                                                        Level 6, Ken Lee Building,<br />
                                                         20 Edith Cavell Street,<br />
                                                         Port-Louis, 11302, Mauritius
                                                     </li>

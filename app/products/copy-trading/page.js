@@ -399,7 +399,7 @@ export default function CopyTrading() {
                                       <td>Professional exposure</td>
                                     </tr>
                                     <tr>
-                                      <td>Start from $100</td>
+                                      <td>Start from $1000</td>
                                       <td>Incentives for consistent results</td>
                                     </tr>
                                   </tbody>

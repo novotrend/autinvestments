@@ -359,13 +359,13 @@ export default function about() {
                                 <div className="office-block funfact-section">
                                     <h5 className="mb-3 fw-bold">AUT Investments Limited</h5>
                                     <ul className="list-unstyled mb-3">
-                                        <li>6th Floor, Ken Lee Building</li>
+                                        <li>Level 6, Ken Lee Building</li>
                                         <li>20 Edith Cavell Street</li>
                                         <li>Port-Louis, 11302</li>
                                         <li>Mauritius</li>
                                     </ul>
                                     <p className="mb-1"><b>Support Hours:</b> Monday to Friday – 09:00 to 18:00 (GMT+4)</p>
-                                    <div class="inner-container mt-3"><div class="row align-items-center"><div class="col-12 text-column"><div class="text-box"><h2 class="fw-bold">Join Us</h2><p class="fs-6 mt_30">Whether you want to trade, invest, partner, or learn—AUT Investments Limited gives you the access, guidance, and resources to achieve your financial goals.</p><a class="theme-btn btn-two bg-dark mt-4" href="/contact">Contact Support</a></div></div></div></div>
+                                    <div className="inner-container mt-3"><div className="row align-items-center"><div className="col-12 text-column"><div className="text-box"><h2 className="fw-bold">Join Us</h2><p className="fs-6 mt_30">Whether you want to trade, invest, partner, or learn—AUT Investments Limited gives you the access, guidance, and resources to achieve your financial goals.</p><a className="theme-btn btn-two bg-dark mt-4" href="/contact">Contact Support</a></div></div></div></div>
                                 </div>
                             </div>
                             <div className="col-lg-7 col-md-6 d-md-block d-none">

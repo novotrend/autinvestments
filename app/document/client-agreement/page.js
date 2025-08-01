@@ -19,7 +19,7 @@ export default function ClientAgreement() {
                         acknowledge that you have read, understood, and agreed to the terms of this Agreement.
                       </p>
                       <p className="mt-3"><b className="text-light">Registered Address:</b><br />
-                        6th Floor, Ken Lee Building,<br />
+                        Level 6, Ken Lee Building<br />
                         20 Edith Cavell Street,<br />
                         Port-Louis, 11302, Mauritius</p>
                     </li>
@@ -233,7 +233,7 @@ export default function ClientAgreement() {
                           <li className="lh-lg"><strong>Compliance:</strong></li>
                           <li className="lh-lg">
                             <strong>Mailing Address:</strong><br />
-                            6th Floor, Ken Lee Building,<br />
+                            Level 6, Ken Lee Building<br />
                             20 Edith Cavell Street,<br />
                             Port-Louis, 11302, Mauritius
                           </li>

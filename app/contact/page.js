@@ -16,7 +16,7 @@ export default function Contact() {
                                     <div className="single-info mb-0">
                                         <div className="icon-box"><i className="icon-45"></i></div>
                                         <h4>Corporate Office</h4>
-                                        <p>6th Floor, Ken Lee Building,
+                                        <p>Level 6, Ken Lee Building
                                             20 Edith Cavell Street,
                                             Port-Louis, 11302, Mauritius</p>
                                     </div>

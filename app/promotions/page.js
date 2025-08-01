@@ -47,7 +47,7 @@ export default function Promotions() {
                                                         <div className="education-details-content">
                                                             <div className="text-box">
                                                                 <ul className="list-item clearfix">
-                                                                    <li className="lh-lg">Deposit $100 or more and receive an equal amount as bonus trading credit.</li>
+                                                                    <li className="lh-lg">Deposit $1000 or more and receive an equal amount as bonus trading credit.</li>
                                                                     <li className="lh-lg">Boost your margin and increase your exposure to more trading opportunities.</li>
                                                                     <li className="lh-lg">Bonus is available for use on all instruments including forex, indices, stocks, and metals.</li>
                                                                 </ul>
@@ -55,7 +55,7 @@ export default function Promotions() {
                                                         </div>
                                                         <h5 className="fw-semibold mb-3 mt-4">Key Points</h5>
                                                         <ul className="list-style-one mb-0">
-                                                            <li>Minimum deposit: $100 To $1000</li>
+                                                            <li>Minimum deposit:$1000</li>
                                                             <li>Maximum bonus: $500</li>
                                                             <li>Bonus cannot be withdrawn but profits earned can be</li>
                                                             <li>Available to new clients only</li>

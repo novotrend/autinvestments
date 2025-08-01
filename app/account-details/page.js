@@ -58,7 +58,7 @@ export default function Account_details() {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a lobortis tortor, sit amet congue purus. Maecenas pharetra lacus quis nisi porta facilisis. Morbi fermentum bibendum arcu, a porttitor eros volutpat et. Praesent nec magna tincidunt, placerat justo non, egestas quam.</p>
                             <div className="info-inner">
                                 <ul className="info-list clearfix">
-                                    <li><span>Initial Deposit</span><span>$100</span></li>
+                                    <li><span>Initial Deposit</span><span>$1000</span></li>
                                     <li><span>Leverage</span><span>Upto 1:3000</span></li>
                                     <li><span>Spread</span><span>Fixed from 5 pis</span></li>
                                     <li><span>Multi Language CC</span><span>Yes</span></li>
