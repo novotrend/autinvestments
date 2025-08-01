@@ -125,7 +125,7 @@
    color: var(--text-color);
    line-height: 26px;
    font-weight: 400;
-   background: #000000;
+   background: #000000 !important;
    font-family: var(--text-font);
    background-size: cover;
    background-repeat: no-repeat;
