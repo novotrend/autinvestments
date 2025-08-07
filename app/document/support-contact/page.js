@@ -217,8 +217,9 @@ export default function SupportContact() {
                                                 Monday to Friday
                                             </p>
                                             <p className="mt-2 ms-2">
-                                                <b>Company Registration Number:</b> 9988776655<br />
-                                                <b>Regulatory Body:</b> abc1234
+                                                <b>Company Registration Number:</b> 216255 GBC<br />
+                                                <b>License Number:</b> GB24203171<br />
+                                                <b>Regulatory Body:</b> Financial Services Commission, Mauritius (FSC)
                                             </p>
                                         </li>
 
